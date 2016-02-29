@@ -5,42 +5,27 @@
 }
 .name{
     font-weight: bold;
-    text-align: center;
-    
+    text-align: center;  
 }
 .face{
     text-align: center;
 }
-
-.univer {
-    width: 400px;
-    margin: 10px 30px;
-    
-}
-.student{
-    width: 400px;
-    margin: 10px 30px;
-}
+.univer,
+.student,
 .list{
     width: 400px;
-    margin: 10px 30px;
+    margin: 10px 30px;    
 }
-.number{
-    width: 400px;
-    margin: 25px  30px;
-    line-height: 0.1px;
-   
-}
+.number,
 .number1{
     width: 400px;
-    margin: 25px 30px;
-    line-height: 0.1px
+    margin: 25px  30px;
+    line-height: 0.1px;  
 }
 .number2{
     width: 400px;
     margin: 10px 30px;
 }
-
 .line{
     border-top: 1px solid;
     width: 500px; 
