@@ -1,33 +1,17 @@
 .main{
-    border: solid;
+	margin: 0 auto;
     width: 595px;
     height: 842px;
 }
-.name{
-    font-weight: bold;
-    text-align: center;  
+.box1{
+	text-align: center;
 }
-.face{
-    text-align: center;
+#univer{
+	text-align: left;
+	margin-left: 20px;
 }
-.univer,
-.student,
-.list{
-    width: 400px;
-    margin: 10px 30px;    
-}
-.number,
-.number1{
-    width: 400px;
-    margin: 25px  30px;
-    line-height: 0.1px;  
-}
-.number2{
-    width: 400px;
-    margin: 10px 30px;
-}
-.line{
-    border-top: 1px solid;
-    width: 500px; 
-    margin-left: 40px;
+.box2,
+.box3,
+.box4{
+	margin-left: 20px;
 }
