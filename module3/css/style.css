@@ -70,8 +70,8 @@ body{
 	text-decoration: none;
 }
 .leftmenu a:hover{
-  background-color: #f9f9f9;
-  padding: 0 20px 0 40px;
+    background-color: #f9f9f9;
+    padding: 0 20px 0 40px;
 }	
 .bike {
 	float: left;
@@ -83,14 +83,14 @@ body{
 	padding: 40px 50px 40px 96px;
 }
 .text{
-  font-size: 14px;
-  font-family: "MyrsiadPro";
-  color: rgb(44, 44, 44);
-  display: inline-block;
-  line-height: 1.5;
-  margin: 40px 110px 0 358px;
-  float: right;
-  text-align: justify;
+    font-size: 14px;
+    font-family: "MyrsiadPro";
+    color: rgb(44, 44, 44);
+    display: inline-block;
+    line-height: 1.5;
+    margin: 40px 110px 0 358px;
+    float: right;
+    text-align: justify;
 }
 .centre:after{
 	content: "";
