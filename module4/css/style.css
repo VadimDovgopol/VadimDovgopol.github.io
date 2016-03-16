@@ -1,8 +1,8 @@
 body{
 	background-image: url(../img/background.png);
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 	height: 1021px;
-	width: 1920px;
+	width: 1280px;
 
 }
 .main{
@@ -71,7 +71,7 @@ body{
 .menu {
 	background-image: url(../img/panel.png);
 	width: 1000px;
-	height: 34px;
+	height: 30px;
     list-style: none;
 	font-size: 14px;
     font-family: "Tahoma";
@@ -94,7 +94,7 @@ ul.menu > li {
     background-color: none;
 }
 .submenu {
-	margin-top: 20px;
+	margin-top: 22px;
 	border-top: 1px solid;
     display: none;
     position: absolute;
