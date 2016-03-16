@@ -12,7 +12,7 @@ body{
 	background-color: #fff;
 	background-position: center;
 	width: 1060px;
-	padding: 0 0 150px 0;
+	padding: 0 0 50px 0;
 }
 .logo {
 	padding: 50px 0 0 46px;
@@ -47,10 +47,18 @@ body{
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
 }
-.leftmenu{
+.main:after{
+	content: "";
+	display: table;
+    clear: both;
+}
+.clear{
 	float: left;
 	width: 240px;
-	margin:40px 0 0 46px;
+	margin: 40px 0 0 46px;
+	
+}
+.leftmenu{
 	border: 1px solid  #c8c8c8;
 }
 
@@ -70,10 +78,19 @@ body{
 .leftmenu a:hover{
     background-color: #f9f9f9;
     padding: 0 20px 0 40px;
-}		
+}	
+.centre{
+	float: right;
+	width: 648px;
+	margin: 40px 42px 0 0;
+}
+.centre:after{
+	content: "";
+	display: table;
+    clear: both;
+}
 .bike {
 	display: inline-block;
-	margin: 40px 0 0 70px;
     border: 1px solid;
     border-color: rgb(200, 200, 200);
     background-color: rgb(255, 255, 255);
@@ -86,24 +103,18 @@ body{
     color: rgb(44, 44, 44);
     display: inline-block;
     line-height: 20px;
-    margin: 40px 70px 0 370px;
+    margin: 40px 0 0 0px;
     text-align: left;
 }
-.centre:after{
-	content: "";
-	display: table;
-    clear: both;
+
+.class{
+	margin:0 48px 0 46px;
+    margin-top: 80px; 
+	height: 40px;
+	background-color: #e1e1e1;
+	clear: both;
 }
 .menu2{
-	float: left;
-	display: inline-block;
-	margin: 80px 0 0 46px;
-	font-size:0; 
-	line-height:0; 
-	letter-spacing:-1px;
-	background-color: #e1e1e1;
-}
-.class{
 	float: left;
 }
 .menu2 li{
@@ -124,12 +135,10 @@ body{
 	text-decoration: underline;
 }
 .copyright{
+	padding-right: 48px;
 	float: right;
 	line-height: 43px;
 	font-size: 14px;
-	background-color: #e1e1e1;
-	margin: 80px 48px 0 0;
-	padding: 0 38px 0 347px;
 }
 .menu2:after{
 	content: "";
