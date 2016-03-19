@@ -1,0 +1,113 @@
+body{
+	background-position: center;
+	margin: 0 auto;
+	background-image: url(../img/backgroung.jpg);
+	height: 970px;
+	background-repeat: no-repeat;
+}
+.mainmenu{
+	background-image: url(../img/backgroung2.jpg);
+	line-height: 36px;
+	background-repeat: repeat-x;
+}
+.ola ul{
+	float: right;
+}
+.ola li{
+	padding: 0 15px;
+	float: left;
+}
+.topmenu ul{
+	float: right;
+}
+.topmenu li{
+	padding: 0 12px;
+	display: block;	
+	float: left;
+}
+.topmenu a{
+	padding: 0 12px;
+	color: rgb(96, 181, 237);
+	font-family: "Tahoma";
+	font-size: 14px;
+	display: block;
+	letter-spacing: normal;
+	text-decoration: none;
+	text-align: center;	
+}
+.topmenu a:hover{
+	margin: 0;
+	background-color: #4eabda;
+	color: white;
+	font-family: "Tahoma";
+}
+.mainmenu:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.center{
+	margin: 0 auto;
+	width: 560px;
+	height: 613px;
+	z-index: 100;
+}
+.center{
+	margin-top: 200px;
+}
+.center{
+	background-color: rgba(0, 0, 0, 0.5)
+}
+.top{
+	line-height: 60px;
+	font-size: 24px;
+    font-family: "Tahoma";
+    color: rgb(255, 255, 255);
+	text-align: center;
+	border-bottom: 2px solid;
+}
+.btnFacebook{
+    margin: 38px 0 0 160px;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #28539B, #193F7B);
+    background: -moz-linear-gradient(top, #28539B, #193F7B); 
+    background: -o-linear-gradient(top, #28539B, #193F7B);
+    background: -ms-linear-gradient(top, #28539B, #193F7B); 
+    background: linear-gradient(to bottom, #28539B, #193F7B);
+    border-radius: 5px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnFacebook p{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 30px;
+}
+
+.btnFacebook:before{
+    content: "F";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weightL bold;
+    border-right: 2px groove #ccc;
+    padding: 5px 10px;
+}
+
+.btnFacebook:after{
+    content: "";
+    display: block;
+    background: url("../img/strelka.jpg") no-repeat;
+    width: 10px;
+    height: 15px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.btn:after{
+	content: "";
+	display: table;
+	clear: both;
+}
