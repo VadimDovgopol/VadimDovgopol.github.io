@@ -1,31 +1,66 @@
-body{
+body {
 	background-position: center;
 	margin: 0 auto;
 	background-image: url(../img/backgroung.jpg);
 	height: 970px;
 	background-repeat: no-repeat;
 }
-.mainmenu{
+
+.mainmenu {
 	background-image: url(../img/backgroung2.jpg);
-	line-height: 36px;
+	line-height: 35px;
 	background-repeat: repeat-x;
 }
-.ola ul{
+.back{
+	line-height: 33px;
+	background: rgba(16,123,173,1);
+    background: -moz-linear-gradient(top, rgba(16,123,173,1) 0%, rgba(0,173,253,1) 98%, rgba(0,174,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(16,123,173,1)), color-stop(98%, rgba(0,173,253,1)), color-stop(100%, rgba(0,174,255,1)));
+    background: -webkit-linear-gradient(top, rgba(16,123,173,1) 0%, rgba(0,173,253,1) 98%, rgba(0,174,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(16,123,173,1) 0%, rgba(0,173,253,1) 98%, rgba(0,174,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(16,123,173,1) 0%, rgba(0,173,253,1) 98%, rgba(0,174,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(16,123,173,1) 0%, rgba(0,173,253,1) 98%, rgba(0,174,255,1) 100%);
+	border: 1px solid #469bd4;
+}
+.ola ul {
 	float: right;
 }
-.ola li{
-	padding: 0 15px;
+.ola ul:before{
+	content: " ";
+	display: block;
+	background-image: url(../img/flag.jpg);
+	background-repeat: no-repeat;
+	width: 21px;
+	height: 27px;
 	float: left;
+	margin: 7px 0 0 20px;
 }
-.topmenu ul{
+.ola li {
+	padding: 0 10px;
+	float: left;
+	font-family: "Tahoma";
+	font-size: 14px;
+	color: white;
+}
+.ola b{
+	text-decoration: underline;
+}
+.topmenu ul {
 	float: right;
 }
-.topmenu li{
+.topmenu ul:after{
+	content: " ";
+	border-right: 1px solid #56a2dc;
+	height: 10pxl
+	
+}
+.topmenu li {
 	padding: 0 12px;
-	display: block;	
+	display: block;
 	float: left;
 }
-.topmenu a{
+
+.topmenu a {
 	padding: 0 12px;
 	color: rgb(96, 181, 237);
 	font-family: "Tahoma";
@@ -33,81 +68,160 @@ body{
 	display: block;
 	letter-spacing: normal;
 	text-decoration: none;
-	text-align: center;	
+	text-align: center;
 }
-.topmenu a:hover{
+
+.topmenu a:hover {
 	margin: 0;
 	background-color: #4eabda;
 	color: white;
 	font-family: "Tahoma";
 }
-.mainmenu:after{
+
+.mainmenu:after {
 	content: "";
 	display: table;
 	clear: both;
 }
-.center{
+
+.center {
 	margin: 0 auto;
 	width: 560px;
 	height: 613px;
 	z-index: 100;
 }
-.center{
+
+.center {
 	margin-top: 200px;
 }
-.center{
+
+.center {
 	background-color: rgba(0, 0, 0, 0.5)
 }
-.top{
+
+.top {
 	line-height: 60px;
 	font-size: 24px;
-    font-family: "Tahoma";
-    color: rgb(255, 255, 255);
+	font-family: "Tahoma";
+	color: rgb(255, 255, 255);
 	text-align: center;
 	border-bottom: 2px solid;
 }
-.btnFacebook{
-    margin: 38px 0 0 160px;
-    display: inline-block;
-    background: -webkit-linear-gradient(top, #28539B, #193F7B);
-    background: -moz-linear-gradient(top, #28539B, #193F7B); 
-    background: -o-linear-gradient(top, #28539B, #193F7B);
-    background: -ms-linear-gradient(top, #28539B, #193F7B); 
-    background: linear-gradient(to bottom, #28539B, #193F7B);
-    border-radius: 5px;
-    position: relative;
-    color: #fff;
-    text-decoration: none;
+
+.btnFacebook {
+	margin: 38px 0 0 160px;
+	display: inline-block;
+	background: -webkit-linear-gradient(top, #28539B, #193F7B);
+	background: -moz-linear-gradient(top, #28539B, #193F7B);
+	background: -o-linear-gradient(top, #28539B, #193F7B);
+	background: -ms-linear-gradient(top, #28539B, #193F7B);
+	background: linear-gradient(to bottom, #28539B, #193F7B);
+	border-radius: 5px;
+	position: relative;
+	color: #fff;
+	text-decoration: none;
 }
 
-.btnFacebook p{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 30px;
+.btnFacebook p {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 30px;
 }
 
-.btnFacebook:before{
-    content: "F";
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 20px;
-    font-weightL bold;
-    border-right: 2px groove #ccc;
-    padding: 5px 10px;
+.btnFacebook:before {
+	content: "f";
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	font-weight: 400;
+	border-right: 2px groove #ccc;
+	padding: 5px 10px;
+}
+.btnFacebook b{
+	font-weight: bold;
+}
+.btnFacebook:after {
+	content: "";
+	display: block;
+	background: url("../img/strelka.jpg") no-repeat;
+	width: 10px;
+	height: 15px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
 }
 
-.btnFacebook:after{
-    content: "";
-    display: block;
-    background: url("../img/strelka.jpg") no-repeat;
-    width: 10px;
-    height: 15px;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-}
-.btn:after{
+.btn:after {
 	content: "";
 	display: table;
 	clear: both;
 }
+
+.log {
+	-webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
+	margin: 20px 0 0 150px;
+	display: block;
+	width: 260px;
+}
+.log {
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(75,75,75,1);
+    -moz-box-shadow: 0px 1x 0px 0px rgba(75,75,75,1);
+    box-shadow: 0px 1px 0px 0px rgba(75,75,75,1);
+}
+.sign {
+	line-height: 40px;
+	width: 250px;
+	color: white;
+	background: black;
+	font-family: "Tahoma";
+	font-size: 14px;
+	border: none;
+	padding-left: 10px;
+}
+.checkbox {
+	margin-right: 50px;
+	display: block;
+	width: 240px;
+	margin: 20px 0 0 140px;
+}
+.send{
+	margin-left: 10px;
+}
+.checktext {
+	opacity: 0.7;
+	color: white;
+	font-family: "Tohoma";
+	font-size: 14px;
+}
+.but {
+	margin: 20px 0 0 190px;
+	width: 150px;
+}
+.button {
+	background: rgba(73, 155, 234, 1);
+	background: -moz-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(73, 155, 234, 1) 26%, rgba(32, 124, 229, 1) 61%, rgba(32, 124, 229, 1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73, 155, 234, 1)), color-stop(26%, rgba(73, 155, 234, 1)), color-stop(61%, rgba(32, 124, 229, 1)), color-stop(100%, rgba(32, 124, 229, 1)));
+	background: -webkit-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(73, 155, 234, 1) 26%, rgba(32, 124, 229, 1) 61%, rgba(32, 124, 229, 1) 100%);
+	background: -o-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(73, 155, 234, 1) 26%, rgba(32, 124, 229, 1) 61%, rgba(32, 124, 229, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(73, 155, 234, 1) 26%, rgba(32, 124, 229, 1) 61%, rgba(32, 124, 229, 1) 100%);
+	background: linear-gradient(to bottom, rgba(73, 155, 234, 1) 0%, rgba(73, 155, 234, 1) 26%, rgba(32, 124, 229, 1) 61%, rgba(32, 124, 229, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0);
+	width: 150px;
+	height: 35px;
+	border: 1px solid #4eabda;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+}
+.bottext{
+	text-align: center;
+	color: white;
+	font-family: "Tahoma";
+	font-size: 11px;
+	width: 310px;
+	margin: 20px 0 0 100px;
+	opacity: 0.7;
+	line-height: 15px;
+}
+
