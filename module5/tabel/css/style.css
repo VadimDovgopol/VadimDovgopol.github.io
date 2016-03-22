@@ -1,0 +1,33 @@
+body{
+	background: white;
+}
+.table{
+	border: 10px solid white;
+	width: 500px;
+	height: 500px;
+	border-collapse: collapse;
+}
+tr td{
+	border: 7px solid rgb(0, 0, 0);
+}
+.line1{
+	height: 30px;
+}
+.yellow{
+	background: yellow;
+}
+.red{
+	line-height: 150px;
+	background: tomato;
+}
+.white{
+	background: white;
+}
+.black{
+	line-height: 50px;
+	background: rgba(0, 0, 0, 0.9);
+}
+.blue{
+	background: blue;
+
+}
