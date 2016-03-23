@@ -2,10 +2,8 @@ body {
 	background-position: center;
 	margin: 0 auto;
 	background-image: url(../img/backgroung.jpg);
-	height: 970px;
 	background-repeat: no-repeat;
 }
-
 .mainmenu {
 	background-image: url(../img/backgroung2.jpg);
 	line-height: 35px;
@@ -42,8 +40,14 @@ body {
 	font-size: 14px;
 	color: white;
 }
-.ola b{
-	text-decoration: underline;
+.ola a{
+	display: inline-block;
+	font-family: "Tahoma";
+	font-size: 14px;
+	color: white;
+}
+.ola a:hover{
+	text-decoration: none;
 }
 .topmenu ul {
 	float: right;
@@ -51,15 +55,13 @@ body {
 .topmenu ul:after{
 	content: " ";
 	border-right: 1px solid #56a2dc;
-	height: 10pxl
-	
+	height: 10pxl	
 }
 .topmenu li {
 	padding: 0 12px;
 	display: block;
 	float: left;
 }
-
 .topmenu a {
 	padding: 0 12px;
 	color: rgb(96, 181, 237);
@@ -70,35 +72,26 @@ body {
 	text-decoration: none;
 	text-align: center;
 }
-
 .topmenu a:hover {
 	margin: 0;
 	background-color: #4eabda;
 	color: white;
 	font-family: "Tahoma";
 }
-
 .mainmenu:after {
 	content: "";
 	display: table;
 	clear: both;
 }
-
 .center {
-	margin: 0 auto;
+	margin: 200px auto;
 	width: 560px;
-	height: 613px;
 	z-index: 100;
 }
-
 .center {
-	margin-top: 200px;
-}
-
-.center {
+	position: relative;
 	background-color: rgba(0, 0, 0, 0.5)
 }
-
 .top {
 	line-height: 60px;
 	font-size: 24px;
@@ -107,9 +100,11 @@ body {
 	text-align: center;
 	border-bottom: 2px solid;
 }
-
+.btn{
+	text-align: center;
+	margin: 30px 0 0 0;
+}
 .btnFacebook {
-	margin: 38px 0 0 160px;
 	display: inline-block;
 	background: -webkit-linear-gradient(top, #28539B, #193F7B);
 	background: -moz-linear-gradient(top, #28539B, #193F7B);
@@ -121,13 +116,11 @@ body {
 	color: #fff;
 	text-decoration: none;
 }
-
 .btnFacebook p {
 	display: inline-block;
 	vertical-align: middle;
 	padding: 0 30px;
 }
-
 .btnFacebook:before {
 	content: "f";
 	display: inline-block;
@@ -150,18 +143,42 @@ body {
 	right: 15px;
 	top: 15px;
 }
-
 .btn:after {
 	content: "";
 	display: table;
 	clear: both;
 }
-
+.ou{
+    text-align: center;
+	margin: 25px 0 0 0;
+}
+.ou span{
+	font-family: "Tahoma";
+	font-size: 14px;
+	opacity: 0.6;
+	color: white;
+	line-height: 30px;
+	width: 260px;
+}
+.ou span:before{
+	height: 2px;
+	width: 115px;
+	content: " ";
+	position: absolute;
+	left: 150px;
+	margin: 14px 0 0 0;
+	background-image: url(../img/line.png);	
+}
+.ou span:after{
+	height: 2px;
+	width: 115px;
+	content: " ";
+	position: absolute;
+	margin: 14px 0 0 5px;
+	background-image: url(../img/line.png);	
+}
 .log {
-	-webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
-	margin: 20px 0 0 150px;
+	margin: 20px auto 0 auto;
 	display: block;
 	width: 260px;
 }
@@ -170,7 +187,15 @@ body {
     -moz-box-shadow: 0px 1x 0px 0px rgba(75,75,75,1);
     box-shadow: 0px 1px 0px 0px rgba(75,75,75,1);
 }
+.log input:focus{
+	margin: 0;
+    -webkit-box-shadow: 0px 0px 25px 5px rgba(47,122,197,0.77);
+    -moz-box-shadow: 0px 0px 25px 5px rgba(47,122,197,0.77);
+    box-shadow: 0px 0px 25px 5px rgba(47,122,197,0.77);
+	background-color: #1b5288;
+}
 .sign {
+	outline: none;
 	line-height: 40px;
 	width: 250px;
 	color: white;
@@ -200,6 +225,7 @@ body {
 	width: 150px;
 }
 .button {
+	cursor: pointer;
 	background: rgba(73, 155, 234, 1);
 	background: -moz-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(73, 155, 234, 1) 26%, rgba(32, 124, 229, 1) 61%, rgba(32, 124, 229, 1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73, 155, 234, 1)), color-stop(26%, rgba(73, 155, 234, 1)), color-stop(61%, rgba(32, 124, 229, 1)), color-stop(100%, rgba(32, 124, 229, 1)));
@@ -215,6 +241,8 @@ body {
 	color: white;
 }
 .bottext{
+	margin: 0 auto;
+	padding: 20px 0;
 	text-align: center;
 	color: white;
 	font-family: "Tahoma";
