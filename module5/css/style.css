@@ -9,6 +9,10 @@ body {
 	line-height: 35px;
 	background-repeat: repeat-x;
 }
+.menu{
+	width: 1000px;
+	margin: 0 auto;
+}
 .back{
 	line-height: 33px;
 	background: rgba(16,123,173,1);
@@ -58,7 +62,6 @@ body {
 	height: 10pxl	
 }
 .topmenu li {
-	padding: 0 12px;
 	display: block;
 	float: left;
 }
