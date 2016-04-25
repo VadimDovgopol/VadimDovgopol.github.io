@@ -8,16 +8,19 @@ var label = [];
 var h1Task = [];
 var form = [];
 
+
 var main = document.createElement('div');
 var h1Test = document.createElement('h1');
 var button = document.createElement('div');
 var inputForButton = document.createElement('button');
+
 
 document.body.appendChild(main);
 main.className = 'main';
 main.appendChild(h1Test);
 h1Test.innerHTML = 'Тест по программированию';
 h1Test.className = 'centerSet';
+
 
 for (var i = 0; i < CYCLES_NUMBER; i++) {
     divTask[i] = document.createElement('div');
@@ -43,6 +46,7 @@ for (var i = 0; i < CYCLES_NUMBER; i++) {
         label[j].innerHTML = 'Вариант ответа №' + (j + 1);
     }
 }
+
 main.appendChild(button);
 button.appendChild(inputForButton);
 button.className = 'button';
