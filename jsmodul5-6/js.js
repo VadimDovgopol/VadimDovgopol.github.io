@@ -58,7 +58,4 @@ function clear() {
     hour = 0;
     hours.innerHTML = 0;
 }
-function full(){
-
-}
 
