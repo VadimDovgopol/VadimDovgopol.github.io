@@ -1,61 +1,72 @@
-var mills = document.getElementById("mills");
-var seconds = document.getElementById("seconds");
-var minuts = document.getElementById("minuts");
-var hours = document.getElementById("hours");
-var buttonStart = document.getElementById("buttonStart");
-var buttonClear = document.getElementById("buttonClear");
-var millsec = 0;
-var sec = 0;
-var min = 0;
-var hour = 0;
 
-var interval = null;
+function Stopwatch(elem){
+    var time = 0;
+    var interval;
+    var offset;
 
-buttonClear.addEventListener('click', clear);
-buttonStart.addEventListener('click', start);
 
-function start() {
-    buttonStart.innerHTML = 'Pause';
+    function update(){
+        time += delta();
+        var formattedTime = timeFormatter(time);
+        elem.textContent = formattedTime;
+        console.log(formattedTime);
 
-    interval = setInterval(millChanger, 1);
+    };
 
-    function millChanger() {
 
-        if (millsec === 999) {
-            millsec = 0;
-            seconds.innerHTML = ++sec;
+
+    function delta(){
+        var now = Date.now();
+        var timePassed = now - offset;
+        offset = now;
+        return timePassed;
+    };
+
+
+    function timeFormatter(timeInMilliseconds){
+        var time = new Date(timeInMilliseconds);
+        var minutes = time.getMinutes().toString();
+        var seconds = time.getSeconds().toString();
+        var milliseconds = time.getMilliseconds().toString();
+
+        if (minutes.length < 2){
+            minutes = '0' + minutes;
         }
-        if (sec === 59) {
-            sec = 0;
-            minuts.innerHTML = ++min;
+        if (seconds.length < 2){
+            seconds = '0' + seconds;
         }
-        if (min === 59) {
-            min = 0;
-            hours.innerHTML = ++hour;
+        while (milliseconds.length < 3) {
+            milliseconds = '0' + milliseconds;
+        }
+        return minutes + ' : ' + seconds + ' . ' +milliseconds;
+    };
 
+
+
+    this.isOn = false;
+
+
+
+    this.start = function() {
+        if (!this.isOn) {
+            interval = setInterval(update, 10);
+            offset = Date.now();
+            this.isOn = true;
         }
-        if (hour === 23) {
+    };
+
+
+
+    this.stop = function() {
+        if(this.isOn) {
             clearInterval(interval);
+            interval = null;
+            this.isOn = false;
         }
-        mills.innerHTML = millsec++;
+    };
+    this.clear = function(){
+        time = 0;
+    };
 
-    }
-}
-
-//function pause() {
- //   buttonStart.innerHTML = 'Start';
-   // clearInterval(interval);
-//}
-
-function clear() {
-    clearInterval(interval);
-    millsec = 0;
-    mills.innerHTML = 0;
-    sec = 0;
-    seconds.innerHTML = 0;
-    min = 0;
-    minuts.innerHTML = 0;
-    hour = 0;
-    hours.innerHTML = 0;
-}
+};
 
