@@ -1,0 +1,29 @@
+.main{
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+.main h1{
+    font-size: 100px;
+    font-family: sans-serif;
+    color: tomato;
+}
+#buttonStart{
+    margin: 0 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #b82cc4;
+    border: 2px solid #b82cc4;
+    border-radius: 5px;
+    color: yellow
+}
+#buttonClear{
+    margin: 0 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #b82cc4;
+    border: 2px solid #b82cc4;
+    border-radius: 5px;
+    color: yellow
+}
