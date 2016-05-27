@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstname,
+.lastname,
+.password{
+    margin: 20px;
+}
+label{
+    display: inline-block;
+}
+.title{
+    display: none;
+}
