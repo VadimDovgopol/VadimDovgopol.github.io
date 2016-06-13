@@ -1,25 +1,92 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>doc</title>
+
+<head>
+    <meta charset="utf-8">
+    <title>doc</title>
 
 
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.3.js"></script>
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel-autoscroll.min.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel-control.min.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel-core.min.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel-pagination.min.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel-scrollintoview.min.js"></script>
-<script type="text/javascript" src="js/jcarousel.basic.js"></script>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    </head>
-    <body>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.3.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="js/checkbox.js"></script>
+    <script type="text/javascript" src="js/scriptSelect.js"></script>
+    <script type="text/javascript" src="js/jquery.customSelect.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-autoscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-control.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-core.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-pagination.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel-scrollintoview.min.js"></script>
+    <script type="text/javascript" src="js/jcarousel.basic.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="topmenu">
+            <ul class="menu">
+                <li class="dropdown">
+                    <a class="level" href="">some text <img src="img/strelka.png" alt=""></a>
+                    <ul class="submenu">
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="level" href="">some text <img src="img/strelka.png" alt=""> </a>
+                    <ul class="submenu">
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="level" href="">some text <img src="img/strelka.png" alt=""></a>
+                    <ul class="submenu" id="submenu">
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li class="dropdown">
+                            <a class="toLevel1" href="">some submenu</a>
+                            <ul class="submenu level1">
+                                <li><a href="">some submenu text</a></li>
+                                <li><a href="">some submenu text</a></li>
+                                <li><a href="">some submenu text</a></li>
+                                <li class="dropdown">
+                                    <a class="toLevel2" href="">some submenu </a>
+                                    <ul class="submenu level2">
+                                        <li><a href="">some submenu text</a></li>
+                                        <li><a href="">some submenu text</a></li>
+                                        <li><a href="">some submenu text</a></li>
+                                        <li><a href="">some submenu text</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="level" href="">some text <img src="img/strelka.png" alt=""></a>
+                    <ul class="submenu">
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                        <li><a href="">some submenu text</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
         <div class="wrapper">
+
             <div class="jcarousel-wrapper">
                 <div class="jcarousel">
                     <ul>
@@ -37,12 +104,42 @@
 
                 <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
                 <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-                
+
                 <p class="jcarousel-pagination">
-                    
+
                 </p>
             </div>
         </div>
+        <div class="select">
 
-    </body>
+            <select class="styled">
+                <option value="">choose preset...</option>
+                <option value="one">two</option>
+                <option value="two">something</option>
+                <option value="three">4</option>
+                <option value="four">5</option>
+            </select>
+
+        </div>
+
+
+        <div class="checkbox1">
+            <input type="checkbox" id="test-check1" />
+            <label for="test-check1">Чекбокс 1:</label>
+        </div>
+        <div class="checkbox1">
+            <input type="checkbox" id="test-check2" />
+            <label for="test-check2">Чекбокс 2:</label>
+        </div>
+        <div class="checkbox">
+            <span class="niceCheck">
+    <label class="label" for="ch1">Lorem</label>
+    <input type="checkbox" name="ch1">
+    </span>
+
+        </div>
+
+    </div>
+</body>
+
 </html>

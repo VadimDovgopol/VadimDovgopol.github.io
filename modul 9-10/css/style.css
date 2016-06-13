@@ -1,3 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* меню начало*/
+
+.topmenu {
+    width: 100%;
+    margin: 0 34% 14% 34%;
+}
+
+.level {
+    background: #bc3a3a;
+    text-align: center;
+    display: block;
+    width: 150px;
+    line-height: 50px
+}
+
+.menu .level {
+    color: #410808;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #a0162b;
+    background: #45bfac;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    position: relative;
+    color: #410808;
+}
+
+.submenu {
+    border: 1px solid black;
+    display: none;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.submenu a {
+    line-height: 25px;
+    display: inline-block;
+    width: 150px;
+    background: #bc3a3a;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#submenu li {
+    display: inline-block;
+}
+
+.level img {
+    position: absolute;
+    top: 18px;
+    left: 115px;
+}
+
+.toLevel1:after {
+    content: '';
+    background: url(../img/strelka1.png);
+    background-repeat: no-repeat;
+    padding: 0 14px;
+}
+
+.toLevel2:after {
+    content: ' ';
+    background: url(../img/strelka1.png);
+    background-repeat: no-repeat;
+    padding: 0 14px;
+}
+
+.submenu .level1 {
+    display: inline-block;
+    top: 0;
+    left: 150px;
+}
+
+.submenu .level2 {
+    top: 0;
+    left: 150px;
+}
+
+.topmenu:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* меню нонец*/
+
+
+/** Carousel **/
+
 .jcarousel-wrapper {
     margin: 20px auto;
     position: relative;
@@ -5,13 +109,12 @@
     width: 600px;
     height: 400px;
     -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     -webkit-box-shadow: 0 0 2px #999;
-       -moz-box-shadow: 0 0 2px #999;
-            box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
 }
-
 
 .jcarousel-wrapper .photo-credits {
     position: absolute;
@@ -26,8 +129,6 @@
 .jcarousel-wrapper .photo-credits a {
     color: #fff;
 }
-
-/** Carousel **/
 
 .jcarousel {
     position: relative;
@@ -46,8 +147,6 @@
     float: left;
 }
 
-/** Carousel Controls **/
-
 .jcarousel-control-prev,
 .jcarousel-control-next {
     position: absolute;
@@ -61,11 +160,11 @@
     text-shadow: 0 0 1px #000;
     font: 24px/27px Arial, sans-serif;
     -webkit-border-radius: 30px;
-       -moz-border-radius: 30px;
-            border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
     -webkit-box-shadow: 0 0 2px #999;
-       -moz-box-shadow: 0 0 2px #999;
-            box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
 }
 
 .jcarousel-control-prev {
@@ -87,8 +186,6 @@
     cursor: default;
 }
 
-/** Carousel Pagination **/
-
 .jcarousel-pagination {
     position: absolute;
     bottom: 0;
@@ -98,19 +195,15 @@
 .jcarousel-pagination a {
     text-decoration: none;
     display: inline-block;
-    
     font-size: 11px;
     line-height: 14px;
     min-width: 14px;
-    
     background: #fff;
     color: #4E443C;
     border-radius: 14px;
     padding: 3px;
     text-align: center;
-    
     margin-right: 2px;
-    
     opacity: .75;
 }
 
@@ -120,3 +213,159 @@
     opacity: 1;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 }
+
+
+/* карусель конец*/
+
+
+/*select*/
+
+.select {
+    text-align: center;
+}
+
+span.customSelect {
+    font: 12px sans-serif;
+    background: #fff url(http://i48.tinypic.com/2u7rpec.png) right center no-repeat;
+    border: 1px solid #ddd;
+    color: #555;
+    padding: 7px 9px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px 2px;
+    width: 175px;
+}
+
+.customSelect.customSelectHover {
+    border-color: #c7c7c7;
+    background-color: #f5f5f5;
+}
+
+.customSelect.customSelectFocus {
+    border-color: Orange;
+}
+
+.customSelect.customSelectOpen {
+    border-color: OliveDrab;
+}
+
+.customSelect.customSelectChanged {
+    -webkit-animation: changed 0.5s;
+    -moz-animation: changed 0.5s;
+    -ms-animation: changed 0.5s;
+    animation: changed 0.5s;
+}
+
+@-webkit-keyframes changed {
+    0%,
+    100% {
+        -webkit-box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+    }
+    50% {
+        -webkit-box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0.5);
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0.5);
+    }
+}
+
+@-moz-keyframes changed {
+    0%,
+    100% {
+        -moz-box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+    }
+    50% {
+        -moz-box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0.5);
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0.5);
+    }
+}
+
+@keyframes changed {
+    0%,
+    100% {
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+    }
+    50% {
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0.5);
+    }
+}
+
+@-ms-keyframes changed {
+    0%,
+    100% {
+        -ms-box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+    }
+    50% {
+        -ms-box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0);
+        box-shadow: 0px 0px 14px 5px rgba(151, 67, 159, 0.5);
+    }
+}
+
+
+/*select*/
+
+
+/*checkbox*/
+
+.checkbox {
+    margin: 20px;
+    text-align: center;
+}
+
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../img/checkbox-sprite.png);
+}
+
+.niceCheck input {
+    display: none;
+}
+
+.checkbox label {
+    position: absolute;
+    left: 900px;
+}
+
+
+/*checkbox*/
+
+.checkbox1 {
+    text-align: center;
+}
+
+.checkbox1 input[type=checkbox] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.checkbox1 label {
+    cursor: pointer;
+}
+
+.checkbox1 label:after {
+    content: ' ';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../img/checkbox-2.png);
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+
+input[type=checkbox]:checked + label:after {
+    background-position: 0 -17px;
+}
+
+label:hover:after {
+    background-position: 0 -34px;
+}
+
+input[type=checkbox]:checked + label:hover:after {
+    background-position: 0 -51px;
+}
+
