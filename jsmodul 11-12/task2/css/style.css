@@ -1,0 +1,24 @@
+body{
+    background: black;
+}
+.main{
+    height: 700px;
+	margin: 0 auto;
+    width: 30%;
+    padding: 30px;
+	background: tomato;
+}
+
+.box1{
+	text-align: center;
+}
+ 
+.box2,
+.box3,
+.box4{
+	margin-left: 20px;
+	border-top: 1px solid;
+}
+.box3 span{
+	display: block;
+}
