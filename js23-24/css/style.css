@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+};
+body{
+    margin: 0 auto;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 350px;
+};
+.item-list {
+
+}
+
+.item-list li{
+    background: #9affff;
+    line-height: 36px;
+    list-style: none;
+
+}
+
+.item-list span{
+    font-size: 14px;
+    font: "Arial Black";
+    color: black;
+    background: #aaaaaa;
+    float: right;
+    width: 45px;
+    text-align: center;
+
+}
+
+.item-list span:hover{
+    background: #e04747;
+}
+.controlls{
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.item-value{
+    border: 2px tomato solid ;
+    width: 200px;
+
+}
+.item-add{
+    background: tomato;
+    width: 50px;
+}
