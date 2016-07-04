@@ -1,35 +1,155 @@
-/*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 198 of styles/style.scss
+@font-face {
+  font-family: "Ubuntu Medium";
+  src: url("../font/Ubuntu-M.ttf"); }
+@font-face {
+  font-family: "Ubuntu Light";
+  src: url("../font/Ubuntu-L.ttf"); }
+@font-face {
+  font-family: "Ubuntu Condensed";
+  src: url("../font/Ubuntu-C.ttf"); }
+* {
+  margin: 0;
+  padding: 0; }
 
-193:         }
-194:     }
-195:
-196: }
+body {
+  background: white; }
 
-Backtrace:
-styles/style.scss:198
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:658:in `block'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-C:/Ruby23-x64/bin/sass:23:in `load'
-C:/Ruby23-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 198 of styles/style.scss\A \A 193:         }\A 194:     }\A 195: \A 196: }"; }
+.wrapper {
+  height: 900px;
+  width: 1160px;
+  margin: 0 auto; }
+
+.logo {
+  margin: 36px 5px 30px 5px; }
+
+header {
+  background-color: #2a2d32;
+  width: 1160px;
+  height: 56px; }
+  header li {
+    border-right: 1px solid #181a1d;
+    border-left: 1px solid #181a1d;
+    float: left;
+    list-style: none;
+    width: 114px;
+    text-align: center;
+    line-height: 56px; }
+  header .home {
+    background-color: #248cec;
+    border: #248cec; }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+    font: 400 14px / 20px "Ubuntu Condensed"; }
+  header a:hover {
+    color: #f4b60d; }
+  header input {
+    border: 1px solid #181a1d;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.15);
+    font: 400 12px / 20px 'Arial';
+    float: right;
+    width: 226px;
+    line-height: 40px;
+    margin: 5px 5px;
+    padding-left: 15px; }
+  header header:after {
+    content: '';
+    clear: both; }
+
+.carousel {
+  width: 1160px;
+  height: 470px;
+  background: blue;
+  margin-top: 30px; }
+
+.info {
+  width: 1160px;
+  height: 200px; }
+  .info .icon {
+    margin: 35px 0 0 20px; }
+  .info h1 {
+    float: left;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    color: rgba(42, 43, 46, 0.1);
+    font: 500 90px "Ubuntu Medium"; }
+  .info .info-first,
+  .info .info-second,
+  .info .info-third {
+    margin: 0 10px;
+    width: 360px;
+    float: left; }
+  .info .info-first_title, .info .info-third_title {
+    color: #2a2b2e;
+    font: 500 20px / 20px 'Ubuntu Light';
+    width: 117px;
+    margin-left: 100px; }
+  .info .info-second_title {
+    color: #2a2b2e;
+    font: 500 20px / 20px 'Ubuntu Light';
+    margin-left: 100px;
+    width: 167px; }
+  .info .info-first_text,
+  .info .info-second_text,
+  .info .info-third_text {
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 237px;
+    line-height: 20px;
+    color: #8a8a8a;
+    font: 400 13px / 20px 'Arial'; }
+  .info a {
+    color: #2a2b2e;
+    font: 500 13px / 20px 'Ubuntu Light';
+    margin: 0 0 0 100px;
+    text-decoration: none; }
+    .info a img {
+      margin-top: 10px;
+      margin-left: 5px; }
+  .info a:hover {
+    color: #248cec; }
+  .info info:after {
+    content: '';
+    clear: both; }
+
+.service {
+  width: 100%;
+  height: 500px;
+  background-color: #2a2d32; }
+  .service .service-box {
+    width: 1160px;
+    margin: 0 auto; }
+  .service h1 {
+    padding: 43px 0 0 0;
+    color: #ffffff;
+    font: 500 24px / 20px 'Ubuntu Condensed'; }
+  .service .service-box-list li {
+    margin: 53px 0 0 0;
+    list-style: none;
+    float: left;
+    width: 260px;
+    height: 260px; }
+  .service .service-box-list .service-list-1,
+  .service .service-box-list .service-list-2,
+  .service .service-box-list .service-list-3 {
+    margin-right: 40px; }
+  .service .service-box-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font: 500 16px / 20px 'Ubuntu'; }
+  .service .service-box-list a:hover {
+    color: #f4b60d; }
+  .service .service-box-list figure:hover {
+    z-index: 50;
+    background-color: rgba(36, 140, 236, 0.9); }
+  .service .service-box-list figcaption {
+    margin-top: 20px;
+    text-align: center; }
+  .service .service-box-list service-box-list:after {
+    content: '';
+    clear: both; }
+
+/*# sourceMappingURL=style.css.map */
