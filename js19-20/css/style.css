@@ -34,9 +34,6 @@ header {
     width: 114px;
     text-align: center;
     line-height: 56px; }
-  header .home {
-    background-color: #248cec;
-    border: #248cec; }
   header a {
     color: #ffffff;
     text-decoration: none;
@@ -54,21 +51,17 @@ header {
     line-height: 40px;
     margin: 5px 5px;
     padding-left: 15px; }
-  header header:after {
-    content: '';
-    clear: both; }
+  header .home {
+    background-color: #248cec;
+    border: #248cec; }
 
-.carousel {
-  width: 1160px;
-  height: 470px;
-  background: blue;
-  margin-top: 30px; }
+header:after {
+  content: '';
+  clear: both; }
 
 .info {
   width: 1160px;
   height: 200px; }
-  .info .icon {
-    margin: 35px 0 0 20px; }
   .info h1 {
     float: left;
     text-align: center;
@@ -76,31 +69,6 @@ header {
     width: 80px;
     color: rgba(42, 43, 46, 0.1);
     font: 500 90px "Ubuntu Medium"; }
-  .info .info-first,
-  .info .info-second,
-  .info .info-third {
-    margin: 0 10px;
-    width: 360px;
-    float: left; }
-  .info .info-first_title, .info .info-third_title {
-    color: #2a2b2e;
-    font: 500 20px / 20px 'Ubuntu Light';
-    width: 117px;
-    margin-left: 100px; }
-  .info .info-second_title {
-    color: #2a2b2e;
-    font: 500 20px / 20px 'Ubuntu Light';
-    margin-left: 100px;
-    width: 167px; }
-  .info .info-first_text,
-  .info .info-second_text,
-  .info .info-third_text {
-    margin-top: 15px;
-    margin-left: 100px;
-    width: 237px;
-    line-height: 20px;
-    color: #8a8a8a;
-    font: 400 13px / 20px 'Arial'; }
   .info a {
     color: #2a2b2e;
     font: 500 13px / 20px 'Ubuntu Light';
@@ -111,17 +79,47 @@ header {
       margin-left: 5px; }
   .info a:hover {
     color: #248cec; }
-  .info info:after {
-    content: '';
-    clear: both; }
+
+.info-first_text,
+.info-second_text,
+.info-third_text {
+  margin-top: 15px;
+  margin-left: 100px;
+  width: 237px;
+  line-height: 20px;
+  color: #8a8a8a;
+  font: 400 13px / 20px 'Arial'; }
+
+.icon {
+  margin: 35px 0 0 20px; }
+
+.info-first,
+.info-second,
+.info-third {
+  margin: 0 10px;
+  width: 360px;
+  float: left; }
+
+.info-first_title, .info-third_title {
+  color: #2a2b2e;
+  font: 500 20px / 20px 'Ubuntu Light';
+  width: 117px;
+  margin-left: 100px; }
+
+.info-second_title {
+  color: #2a2b2e;
+  font: 500 20px / 20px 'Ubuntu Light';
+  margin-left: 100px;
+  width: 167px; }
+
+.info:after {
+  content: '';
+  clear: both; }
 
 .service {
   width: 100%;
   height: 500px;
   background-color: #2a2d32; }
-  .service .service-box {
-    width: 1160px;
-    margin: 0 auto; }
   .service h1 {
     padding: 43px 0 0 0;
     color: #ffffff;
@@ -148,8 +146,13 @@ header {
   .service .service-box-list figcaption {
     margin-top: 20px;
     text-align: center; }
-  .service .service-box-list service-box-list:after {
-    content: '';
-    clear: both; }
+
+.service-box-list:after {
+  content: '';
+  clear: both; }
+
+.service-box {
+  width: 1160px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
