@@ -32,4 +32,4 @@ C:/Ruby23-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 198 of styles/style.scss\A \A 193:         }\A 194:     }\A 195:     \A 196: }"; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 198 of styles/style.scss\A \A 193:         }\A 194:     }\A 195: \A 196: }"; }
