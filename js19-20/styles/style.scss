@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Ubuntu Medium";
+  src: url("../font/Ubuntu-M.ttf"); }
+@font-face {
+  font-family: "Ubuntu Light";
+  src: url("../font/Ubuntu-L.ttf"); }
+@font-face {
+  font-family: "Ubuntu Condensed";
+  src: url("../font/Ubuntu-C.ttf"); }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+.wrapper {
+    height: 900px;
+    width: 1160px;
+    margin: 0 auto;
+}
+.logo{
+    margin: 36px 5px 30px 5px;
+}
+
+
+header {
+    background-color: #2a2d32;
+    width: 1160px;
+    height: 56px;
+    li {
+        border-right: 1px solid #181a1d;
+        border-left: 1px solid #181a1d;
+        float: left;
+        list-style: none;
+        width: 114px;
+        text-align: center;
+        line-height: 56px;
+    }
+    .home {
+        background-color: #248cec;
+        border: #248cec;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        color: #ffffff;
+        font: 400 14px / 20px "Ubuntu Condensed";
+    }
+    a:hover {
+        color: #f4b60d;
+    }
+    input {
+        border: 1px solid #181a1d;
+        background-color: rgba(255, 255, 255, 0.05);
+        color: rgba(255, 255, 255, 0.15);
+        font: 400 12px / 20px 'Arial';
+        float: right;
+        width: 226px;
+        line-height: 40px;
+        margin: 5px 5px;
+        padding-left: 15px;
+    }
+    header:after {
+        content: '';
+        clear: both;
+    }
+}
+.carousel{
+    width: 1160px;
+    height: 470px;
+    background: blue;
+    margin-top: 30px;
+}
+.info{
+    width: 1160px;
+    height: 200px;
+    .icon{
+     margin: 35px 0 0 20px;
+    }
+    h1{
+        float: left;
+        text-align: center;
+        height: 80px;
+        width: 80px;
+        color: rgba(42, 43, 46, 0.1);
+        font: 500 90px "Ubuntu Medium";
+    }
+    .info-first,
+    .info-second,
+    .info-third{
+        margin: 0 10px;
+        width: 360px;
+        float: left;
+
+    }
+    .info-first_title{
+        color: #2a2b2e;
+        font: 500 20px / 20px 'Ubuntu Light';
+
+        width: 117px;
+        margin-left: 100px;
+
+    }
+    .info-third_title{
+         @extend .info-first_title;
+    }
+    .info-second_title{
+        color: #2a2b2e;
+        font: 500 20px / 20px 'Ubuntu Light';
+        margin-left: 100px;
+        width: 167px;
+    }
+    .info-first_text,
+    .info-second_text,
+    .info-third_text{
+        margin-top: 15px;
+        margin-left: 100px;
+        width: 237px;
+        line-height: 20px;
+        color: #8a8a8a;
+        font: 400 13px / 20px 'Arial';
+    }
+    a{
+        color: #2a2b2e;
+        font: 500 13px / 20px 'Ubuntu Light';
+        margin: 0 0 0 100px;
+        text-decoration: none;
+        img{
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+    }
+    a:hover{
+        color: #248cec;
+    }
+    info:after{
+        content: '';
+        clear: both;
+
+    }
+}
+.service{
+    width: 100%;
+    height: 500px;
+    background-color: #2a2d32;
+    .service-box{
+        width: 1160px;
+        margin: 0 auto;
+    }
+    h1{
+    h1{
+        padding: 43px 0 0 0 ;
+        color: #ffffff;
+        font: 500 24px / 20px 'Ubuntu Condensed';
+    }
+    .service-box-list{
+
+    li{
+        margin: 53px 0 0 0;
+        list-style: none;
+        float: left;
+        width: 260px;
+        height: 260px;
+    }
+        .service-list-1,
+        .service-list-2,
+        .service-list-3{
+            margin-right: 40px;
+        }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font: 500 16px / 20px 'Ubuntu';
+        }
+        a:hover{
+
+            color: #f4b60d;
+        }
+          figure:hover{
+            z-index: 50;
+            background-color: rgba(36, 140, 236, 0.9);
+        }
+        figcaption{
+            margin-top: 20px;
+            text-align: center;
+        }
+        service-box-list:after{
+            content: '';
+            clear: both;
+        }
+    }
+
+}
+
