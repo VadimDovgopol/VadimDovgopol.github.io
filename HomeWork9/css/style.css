@@ -1,0 +1,20 @@
+@import url(../css/fonts.css);
+@import url(../css/reset.css);
+@import url(../css/media-queries.css);
+
+
+.clearfix:after {
+  content: ' ';
+  clear: both;
+  display: block;
+  font-size: 0;
+}
+
+
+body {
+  font-family: 'league_gothicregular', Arial, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto
+}
