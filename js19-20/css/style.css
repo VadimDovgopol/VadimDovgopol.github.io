@@ -26,6 +26,7 @@ body {
 
 .header-icons:after {
   content: '';
+  display: table;
   clear: both; }
 
 .wrapper {
@@ -34,12 +35,18 @@ body {
 
 .logo {
   display: inline-block;
-  margin: 5px 5px 30px 5px; }
+  margin: 20px 5px 30px 5px; }
+
+.logo-icon:after {
+  content: '';
+  display: table;
+  clear: both; }
 
 header {
+  line-height: 56px;
+  display: block;
   background-color: #2a2d32;
-  width: 1160px;
-  height: 56px; }
+  width: 1160px; }
   header li {
     border-right: 1px solid #181a1d;
     border-left: 1px solid #181a1d;
@@ -69,6 +76,11 @@ header {
     background-color: #248cec;
     border: #248cec; }
 
+header:after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .genericon-search {
   cursor: pointer;
   position: relative;
@@ -81,6 +93,7 @@ header {
 
 header:after {
   content: '';
+  display: table;
   clear: both; }
 
 .info {
@@ -139,6 +152,7 @@ header:after {
 
 .info:after {
   content: '';
+  display: table;
   clear: both; }
 
 .service {
@@ -177,6 +191,11 @@ header:after {
     cursor: pointer;
     color: #f4b60d; }
 
+.service-box-list:after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .service-list-1:hover span, .service-list-2:hover span, .service-list-3:hover span, .service-list-4:hover span {
   opacity: 1;
   cursor: pointer; }
@@ -211,6 +230,7 @@ header:after {
 
 .service-box-list:after {
   content: '';
+  display: table;
   clear: both; }
 
 .news h2,
@@ -318,10 +338,8 @@ div.panel {
 
 .news:after {
   content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden; }
+  display: table;
+  clear: both; }
 
 section {
   background-color: #f7f7f7;
@@ -334,6 +352,7 @@ section {
     padding: 30px; }
 
 footer {
+  padding-top: 50px;
   width: 100%;
   background-color: #2a2d32; }
 
