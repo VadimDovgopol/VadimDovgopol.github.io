@@ -29,6 +29,9 @@ body {
   display: table;
   clear: both; }
 
+.main {
+  width: 1920px; }
+
 .wrapper {
   width: 1160px;
   margin: 0 auto; }
@@ -156,7 +159,7 @@ header:after {
   clear: both; }
 
 .service {
-  width: 100%;
+  width: 1920px;
   height: 500px;
   background-color: #2a2d32; }
   .service h1 {
@@ -234,7 +237,7 @@ header:after {
   clear: both; }
 
 section {
-  width: 100%;
+  width: 1920px;
   background-color: #f7f7f7;
   padding-bottom: 50px; }
 
@@ -358,7 +361,17 @@ div.panel {
     padding: 12px 6px;
     margin-bottom: 12px; }
 
+.news-first:after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .news:after {
+  content: ".";
+  display: table;
+  clear: both; }
+
+.crutch:after {
   content: ".";
   display: table;
   clear: both; }
@@ -371,7 +384,7 @@ div.panel {
 
 footer {
   padding-top: 50px;
-  width: 100%;
+  width: 1920px;
   background-color: #2a2d32; }
 
 .menu-socials,

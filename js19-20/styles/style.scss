@@ -40,7 +40,9 @@ body {
     display: table;
     clear: both;
 }
-
+.main{
+    width: 1920px;
+}
 .wrapper {
     width: 1160px;
     margin: 0 auto;
@@ -196,7 +198,7 @@ header:after {
 }
 
 .service {
-    width: 100%;
+    width: 1920px;
     height: 500px;
     background-color: #2a2d32;
     h1 {
@@ -292,7 +294,7 @@ header:after {
 }
 
 section {
-    width: 100%;
+    width: 1920px;
     background-color: #f7f7f7;
     padding-bottom: 50px;
 }
@@ -350,7 +352,7 @@ section {
     margin-left: -205px;
     margin-top: 12px;
 }
-.crutch {
+.crutch{
     float: left;
 }
 .news-second {
@@ -385,7 +387,7 @@ section {
     width: 550px;
 
  h3{
-     margin-right: 300px;
+    margin-right: 300px;
     display: inline-block;
     font-family: "Ubuntu Medium";
     font-size: 24px;
@@ -437,18 +439,21 @@ div.panel {
         margin-bottom: 12px;
     }
 }
-//.news-first:hover{
-//    content: '';
-//    display: table;
-//    clear: both;
-//}
-//.news-second
+.news-first:after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .news:after {
     content: ".";
     display: table;
     clear: both;
 }
-
+.crutch:after{
+     content: ".";
+    display: table;
+    clear: both;
+}
 
 .logos {
     width: 1180px;
@@ -460,7 +465,7 @@ div.panel {
 
 footer {
     padding-top: 50px;
-    width: 100%;
+    width: 1920px;
     background-color: #2a2d32;
 }
 
