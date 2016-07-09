@@ -233,8 +233,30 @@ header:after {
   display: table;
   clear: both; }
 
-.news h2,
-.banners h2 {
+section {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding-bottom: 50px; }
+
+.news {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px; }
+  .news ul {
+    list-style: none; }
+  .news span {
+    color: #248cec; }
+  .news img {
+    float: left;
+    margin-right: 35px; }
+
+.news-first,
+.news-second {
+  width: 560px;
+  height: 150px; }
+
+.news h2 {
+  display: inline-block;
   font-family: "Ubuntu Medium";
   font-size: 24px;
   color: #2a2d32;
@@ -242,6 +264,7 @@ header:after {
 
 .news-first__title,
 .news-second__title {
+  display: inline-block;
   font-family: "Ubuntu Medium";
   font-size: 16px;
   color: #2a2d32;
@@ -253,21 +276,14 @@ header:after {
   color: #248cec;
   cursor: pointer; }
 
-.news {
-  padding-top: 25px;
-  width: 1160px;
-  margin: 0 auto; }
-  .news span {
-    color: #248cec; }
-  .news img {
-    float: left;
-    margin-right: 35px; }
-
 .news-first .top {
   z-index: 1;
   position: relative;
   margin-left: -205px;
   margin-top: 12px; }
+
+.crutch {
+  float: left; }
 
 .news-second {
   margin-top: 40px; }
@@ -292,10 +308,16 @@ header:after {
   margin-left: 150px; }
 
 .banners {
-  width: 550px;
+  margin: 40px;
   float: left;
-  margin-left: 990px;
-  margin-top: -380px; }
+  width: 550px; }
+  .banners h3 {
+    margin-right: 300px;
+    display: inline-block;
+    font-family: "Ubuntu Medium";
+    font-size: 24px;
+    color: #2a2d32;
+    letter-spacing: 1px; }
 
 button.accordion {
   background-color: white;
@@ -340,10 +362,6 @@ div.panel {
   content: ".";
   display: table;
   clear: both; }
-
-section {
-  background-color: #f7f7f7;
-  padding-bottom: 50px; }
 
 .logos {
   width: 1180px;
