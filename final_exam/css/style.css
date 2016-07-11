@@ -1,0 +1,10 @@
+.clearfix:after {
+  content: ' ';
+  clear: both;
+  display: block;
+  font-size: 0; }
+
+.head_wrapper {
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,260 @@
+        @media (max-width: 320px) {
+            header {
+                background: url(../img/promo.jpg) no-repeat top center;
+                height: 540px;
+            }
+            .log {
+                margin: 0 auto;
+                width: 190px;
+                span {
+                    margin: 20px 0 0 0;
+                    text-align: center;
+                    display: inline-block;
+                    width: 90px;
+                    line-height: 32px;
+                    a {
+                        color: #ffffff;
+                        font: 14px Montserrat;
+                    }
+                }
+            }
+            .span {
+                border: 2px solid white;
+                border-radius: 20px;
+            }
+            .topic {
+                margin: 0 auto;
+                margin-top: 114px;
+                text-align: center;
+                h1 {
+                    margin-top: 26px;
+                    margin-left: 0px;
+                    color: #ffffff;
+                    font: 700 30px Montserrat;
+                    ;
+                }
+                h2 {
+                    margin-left: 0px;
+                    letter-spacing: 1px;
+                    color: #ffffff;
+                    font: 20px Montserrat;
+                }
+                h3 {
+                    margin: 9px 0 0 0px;
+                    color: #ffffff;
+                    font: 300 18px Roboto;
+                }
+                button {
+                    padding: 0 50px;
+                    letter-spacing: 1px;
+                    border: 1px solid #ff4e50;
+                    margin: 16px 0 0 0;
+                    line-height: 37px;
+                    border-radius: 20px;
+                    background-color: #ff4e50;
+                    color: #ffffff;
+                    font: 700 Montserrat;
+                    font-size: 14px;
+                }
+            }
+            .work {
+                h4 {
+                    margin: 34px 0 0 0;
+                    color: #333333;
+                    text-align: center;
+                    font: 700 22px Montserrat;
+                }
+            }
+            .step1 {
+                margin-top: 13px;
+                background: url(../img/step1.jpg) no-repeat top center;
+                height: 242px;
+                h2 {
+                    margin: 70px 0 0 25px;
+                    color: #ffffff;
+                    font: 400 10px Montserrat;
+                    border: 1px solid #ff4e50;
+                    border-radius: 15px;
+                    background: #ff4e50;
+                    text-align: center;
+                    display: inline-block;
+                    line-height: 20px;
+                    width: 70px;
+                }
+                h1 {
+                    margin: 14px 0 0 24px;
+                    color: #ffffff;
+                    font: 700 24px Montserrat;
+                }
+                h3 {
+                    margin: 12px 0 0 24px;
+                    width: 259px;
+                    color: #cccccc;
+                    font: 300 14px Roboto;
+                }
+            }
+            .step2 {
+                margin: 10px 0 0 0;
+                background: url(../img/step2.jpg) no-repeat top center;
+                height: 242px;
+                h2 {
+                    margin: 98px 0 0 24px;
+                    color: #ffffff;
+                    font: 400 10px Montserrat;
+                    border: 1px solid #ff4e50;
+                    border-radius: 15px;
+                    background: #ff4e50;
+                    text-align: center;
+                    display: inline-block;
+                    line-height: 20px;
+                    width: 70px;
+                }
+                h1 {
+                    margin: 14px 0 0 23px;
+                    color: #ffffff;
+                    font: 700 24px Montserrat;
+                }
+                h3 {
+                    margin: 11px 0 0 24px;
+                    width: 259px;
+                    color: #cccccc;
+                    font: 300 14px Roboto;
+                }
+            }
+            .step3 {
+                background: url(../img/step3.jpg) no-repeat top center;
+                height: 242px;
+                margin: 9px 0 0 0;
+                h2 {
+                    margin: 66px 0 0 25px;
+                    color: #ffffff;
+                    font: 400 10px Montserrat;
+                    border: 1px solid #ff4e50;
+                    border-radius: 15px;
+                    background: #ff4e50;
+                    text-align: center;
+                    display: inline-block;
+                    line-height: 20px;
+                    width: 70px;
+                }
+                h1 {
+                    margin: 14px 0 0 24px;
+                    color: #ffffff;
+                    font: 700 24px Montserrat;
+                }
+                h3 {
+                    margin: 12px 0 0 24px;
+                    width: 259px;
+                    color: #cccccc;
+                    font: 300 14px Roboto;
+                }
+            }
+            .people {
+                h1 {
+                    margin: 30px 4px 0 0;
+                    text-align: center;
+                    color: #333333;
+                    font: 700 22px Montserrat;
+                }
+                figure {
+                    background: url(../img/Partner-4.png) no-repeat;
+                    height: 160px;
+                    margin: 14px 94px 0 94px;
+                }
+                figcaption {
+                    color: #333333;
+                    font: 700 14px Montserrat;
+                    margin: 139px 0 0 6px;
+                    display: inline-block;
+                }
+                p {
+                    text-align: center;
+                    color: #666666;
+                    font: 300 14px Roboto;
+                    margin: 8px 50px 0 48px;
+                }
+                button{
+                    color: #ff4e50;
+                    font: 700 14px Montserrat;
+                    padding: 0 72px;
+                    line-height: 37px;
+                    margin: 27px 0 0 12px;
+                    background-color: #ffffff;
+                    border: 2px solid #ff4e50;
+                    border-radius: 20px;
+                }
+            }
+            .people--first {
+                figure {
+                    background: url(../img/Partner-4.png) no-repeat;
+                    height: 160px;
+                    margin: 14px 94px 0 94px;
+                }
+                figcaption {
+                    color: #333333;
+                    font: 700 14px Montserrat;
+                    margin: 139px 0 0 6px;
+                    display: inline-block;
+                }
+                p {
+                    text-align: center;
+                    color: #666666;
+                    font: 300 14px Roboto;
+                    margin: 8px 50px 0 48px;
+                }
+            }
+            .people--second {
+                figure {
+                    background: url(../img/MergedLayers.png) no-repeat;
+                    height: 160px;
+                    margin: 28px 94px 0 94px;
+                }
+                figcaption {
+                    color: #333333;
+                    font: 700 14px Montserrat;
+                    margin: 138px 11px;
+                }
+                p {
+                    text-align: center;
+                    color: #666666;
+                    font: 300 14px Roboto;
+                    margin: 8px 46px 0 45px;
+                }
+            }
+            .people--third {
+                figure {
+                    background: url(../img/MergedLayers1.png) no-repeat;
+                    height: 160px;
+                    margin: 28px 94px 0 91px;
+                }
+                figcaption {
+                    color: #333333;
+                    font: 700 14px Montserrat;
+                    margin: 138px 0 0 5px;
+                }
+                p {
+                    text-align: center;
+                    color: #666666;
+                    font: 300 14px Roboto;
+                    margin: 8px 46px 0 39px;
+                }
+            }
+            .people--fourth{
+                    figure {
+                    background: url(../img/MergedLayers2.png) no-repeat;
+                    height: 160px;
+                    margin: 27px 94px 0 91px;
+                }
+                figcaption {
+                    color: #333333;
+                    font: 700 14px Montserrat;
+                    margin: 138px 0 0 5px;
+                }
+                p {
+                    text-align: center;
+                    color: #666666;
+                    font: 300 14px Roboto;
+                    margin: 8px 46px 0 39px;
+                }
+            }
+        }
