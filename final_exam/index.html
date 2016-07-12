@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
+    <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,100italic,300,100,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/media-queries.css">
+    <script src="js/script.js"></script>
     <title>URLAUBSGLÜCK</title>
 </head>
 <body>
@@ -15,7 +19,7 @@
   <div class="header">
   <header class="clearfix">
   <div class="log">
- <span class="log--span"><a href="#">Log in</a></span><span class="span"><a href="#">Sign up</a></span>
+ <span class="log--span span__log"><a href="#">Log in</a></span><span class="span span__sign"><a href="#">Sign up</a></span>
   </div>
 
   </ul>
@@ -67,9 +71,46 @@ best holiday</h1>
         <figure><figcaption>Bradley Hunter</figcaption></figure>
         <p>Based in Chicago. I love playing tennis and loud music.</p>
      </div>
-     <button>See other partners</button>
+     <div class="people--five">
+        <figure><figcaption>Bradley Hunter</figcaption></figure>
+        <p>Based in Chicago. I love playing tennis and loud music.</p>
+     </div>
+       <button class="button">See other partners</button>
   </div>
+  <div class="ideas">
+      <h1>Discover holiday activity ideas</h1>
+      <div class="grid clearfix">
+  <div class="grid-item"></div>
+  <div class="grid-item item__2"></div>
+  <div class="grid-item item__2"></div>
+  <div class="grid-item item__2"></div>
+  <div class="grid-item item__2"></div>
+  <div class="grid-item item__2"></div>
+  <div class="grid-item item__2"></div>
+  </div>
+  <div class="search clearfix">
+     <h1>Discover holiday activity ideas</h1>
+     <h2>Hi! What are your holiday interests?</h2>
+     <form action="get">
+         <input type="text" value="Enter your interests">
+         <button>Search partners</button>
+     </form>
 
+  </div>
+<footer class="clearfix">
+    <div class="footer">
+       <p class="footer--name">URLAUBSGLÜCK</p>
+        <p class="footer--comp">Company</p>
+        <div class="links">
+        <a class="footer--link link__1" href="#">About</a>
+        <a class="footer--link link__2" href="#">Contacts</a>
+        <a class="footer--link link__3" href="#">Press</a>
+        <a class="footer--link link__4" href="#">Blog</a>
+        </div>
+        <p class="footer--part">Partners</p>
+        <div class="footer--des"></div>
+    </div>
+</footer>
 
 
 
