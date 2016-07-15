@@ -14,8 +14,10 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/media-queries.css">
+     <script src="js/jcarousel.basic.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <link rel="stylesheet" href="css/jcarousel.css">
     <script src="js/script.js"></script>
     <script src="js/masonry.js"></script>
     <title>URLAUBSGLÜCK</title>
@@ -23,18 +25,18 @@
 <body>
  <div class=" head_wrapper">
   <header class="header clearfix">
-  <div class="log clearfix">
+  <div class="log">
  <span class="log--span span__log"><a href="#">Log in</a></span><span class="span span__sign"><a href="#">Sign up</a></span>
   </div>
-
-  </ul>
-  <div class="topic clearfix">
-
+  <div class="test1">
   <h2>URLAUBSGLÜCK</h2>
-  <h1>SHARE YOUR
-HOLIDAY DREAMS</h1>
+  </div>
+  <div class="test">
+
+  <h1>SHARE YOUR HOLIDAY DREAMS</h1>
   <h3>And find the perfect partner to fullfill it</h3>
   <button>Find your holiday partner</button>
+
   </div>
   </header>
 
@@ -42,26 +44,49 @@ HOLIDAY DREAMS</h1>
   <div class="work clearfix">
   <h4>How Urlaubsgluck works?</h4>
   <div class="carousel--step1">
-      <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-      </ul>
+<div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                     <li><img src="img/MergedLayersstep1sdesktop.png" width="300" height="397" alt=""></li>
+                      <li><img src="img/step2desktop.png" width="300" height="397" alt=""></li>
+                      <li><img src="img/MergedLayersStep3Desktop.png" width="300" height="397" alt=""></li>
+
+                    </ul>
+                </div>
+                <a href="#" class="jcarousel-control-prev"><img src="img/Forma-1.png" alt=""></a>
+                <a href="#" class="jcarousel-control-next"><img src="img/Forma-1-copy.png" alt=""></a>
+
+            </div>
   </div>
   <div class="carousel--step2">
-      <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-      </ul>
+  <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                     <li><img src="img/step2desktop.png" width="300" height="397" alt=""></li>
+                      <li><img src="img/MergedLayersStep3Desktop.png" width="300" height="397" alt=""></li>
+                      <li><img src="img/MergedLayersstep1sdesktop.png" width="300" height="397" alt=""></li>
 
+                    </ul>
+                </div>
+                <a href="#" class="jcarousel-control-prev"><img src="img/Forma-1.png" alt=""></a>
+                <a href="#" class="jcarousel-control-next"><img src="img/Forma-1-copy.png" alt=""></a>
+
+            </div>
   </div>
   <div class="carousel--step3">
-      <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-      </ul>
+      <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                     <li><img src="img/MergedLayersStep3Desktop.png" width="300" height="397" alt=""></li>
+                      <li><img src="img/MergedLayersstep1sdesktop.png" width="300" height="397" alt=""></li>
+                      <li><img src="img/step2desktop.png" width="300" height="397" alt=""></li>
+
+                    </ul>
+                </div>
+                <a href="#" class="jcarousel-control-prev"><img src="img/Forma-1.png" alt=""></a>
+                <a href="#" class="jcarousel-control-next"><img src="img/Forma-1-copy.png" alt=""></a>
+
+            </div>
   </div>
   <div class="step1">
       <h2>S T E P 1</h2>
@@ -126,20 +151,21 @@ best holiday</h1>
     <img src="img/Layer-13.png" />
   </div>
   <div class="grid-item item__5">
-    <img src="img/Layer-15.png" />
-  </div>
-  <div class="grid-item item__6">
-    <img src="img/Layer-16.png" />
-  </div>
-    <div class="grid-item item__7">
     <img src="img/Layer-14.png" />
   </div>
+  <div class="grid-item item__6">
+    <img src="img/Layer-15.png" />
+  </div>
+    <div class="grid-item item__7">
+    <img src="img/Layer-16.png" />
+  </div>
 </div>
+     </div>
   <div class="search clearfix">
      <h1>Discover holiday activity ideas</h1>
      <h2>Hi! What are your holiday interests?</h2>
      <form action="get">
-         <input type="text" value="Enter your interests">
+         <input type="text" placeholder="Enter your interests">
          <button>Search partners</button>
      </form>
 
