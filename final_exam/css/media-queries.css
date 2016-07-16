@@ -967,7 +967,7 @@
       font: 300 18px Roboto;
       text-align: center; }
     .search input {
-      width: 32%;
+      width: 240px;
       padding: 0 0 0 15px;
       margin: 40px 0 0 -6px;
       color: #999999;
@@ -977,7 +977,7 @@
       line-height: 35px; }
     .search button {
       margin-left: 3px;
-      width: 21%;
+      width: 160px;
       background-color: #ff4e50;
       border-radius: 20px;
       border: 1px solid #ff4e50;
