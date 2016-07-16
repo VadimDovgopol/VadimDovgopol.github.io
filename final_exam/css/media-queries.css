@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   header {
     background: url(../img/promo.jpg) no-repeat top center;
     height: 540px; }
@@ -349,7 +349,7 @@
     margin: 16px 97px;
     background: url(../img/DesLayers.png) no-repeat;
     height: 42px; } }
-@media (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   * {
     box-sizing: border-box; }
 
@@ -710,7 +710,7 @@
     background: url(../img/MergedLayers12.png);
     height: 42px;
     width: 110px; } }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   * {
     box-sizing: border-box; }
 
@@ -749,7 +749,7 @@
       letter-spacing: 1px; }
 
   .test {
-    width: 40%;
+    width: 500px;
     text-align: center;
     margin: 0 auto; }
     .test h1 {
@@ -765,7 +765,7 @@
       letter-spacing: 1px;
       border: 1px solid #ff4e50;
       line-height: 37px;
-      width: 45%;
+      width: 225px;
       border-radius: 20px;
       background-color: #ff4e50;
       color: #ffffff;
@@ -780,6 +780,48 @@
       color: #333333;
       text-align: center;
       font: 700 22px Montserrat; }
+
+  .jcarousel-wrapper {
+    width: 300px;
+    height: 397px;
+    margin: 20px auto;
+    position: relative; }
+
+  .jcarousel {
+    position: relative;
+    overflow: hidden; }
+
+  .jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important; }
+
+  .jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+  .jcarousel li {
+    display: list-item;
+    float: left; }
+
+  .jcarousel-control-prev,
+  .jcarousel-control-next {
+    position: absolute;
+    top: 150px;
+    width: 30px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none; }
+
+  .jcarousel-control-prev {
+    left: 21px; }
+
+  .jcarousel-control-next {
+    right: 21px; }
 
   .step1,
   .step2,
@@ -808,30 +850,12 @@
       text-align: center;
       color: #333333;
       font: 700 22px Montserrat; }
-    .people .close {
-      width: 19%;
-      margin: 35px 410px;
-      cursor: pointer;
-      color: #ff4e50;
-      font: 700 14px Montserrat;
-      line-height: 37px;
-      background-color: #ffffff;
-      border: 2px solid #ff4e50;
-      border-radius: 20px; }
-    .people .button {
-      width: 19%;
-      margin: 35px 410px;
-      cursor: pointer;
-      color: #ff4e50;
-      font: 700 14px Montserrat;
-      line-height: 37px;
-      background-color: #ffffff;
-      border: 2px solid #ff4e50;
-      border-radius: 20px; }
 
   .people--list {
-    width: 21.5%;
+    height: 233px;
+    width: 217px;
     margin-top: 33px;
+    margin-bottom: 37px;
     float: left; }
     .people--list figure {
       text-align: center; }
@@ -861,7 +885,7 @@
     .people__third figcaption {
       margin: 10px 5px 0 0; }
     .people__third p {
-      margin: 14px 4px 0 0; }
+      margin: 14px 0 0 0; }
 
   .people__fourth {
     margin-left: 22px; }
@@ -871,6 +895,7 @@
       margin: 14px 4px 0 0; }
 
   .people--five {
+    margin-bottom: 37px;
     text-align: center;
     float: left;
     width: 100%;
@@ -883,11 +908,40 @@
       color: #666666;
       font: 300 14px Roboto; }
 
+  .button--wraper {
+    width: 192px;
+    height: 40px;
+    margin: 0 auto; }
+
+  .close {
+    margin: 0 auto;
+    display: block;
+    width: 192px;
+    cursor: pointer;
+    color: #ff4e50;
+    font: 700 14px Montserrat;
+    line-height: 37px;
+    background-color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; }
+
+  .button {
+    margin: 0 auto;
+    display: block;
+    width: 192px;
+    cursor: pointer;
+    color: #ff4e50;
+    font: 700 14px Montserrat;
+    line-height: 37px;
+    background-color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; }
+
   .ideas {
     width: 80%;
     margin: 0 auto; }
     .ideas h1 {
-      margin-top: 60px;
+      margin-top: 95px;
       color: #333333;
       font: 700 22px Montserrat;
       text-align: center; }
@@ -901,8 +955,8 @@
 
   .grid {
     max-width: 1200px;
-    margin-left: 36px;
-    margin-top: 34px; }
+    margin-left: 40px;
+    margin-top: 40px; }
 
   * {
     box-sizing: border-box; }
@@ -912,17 +966,18 @@
 
   .grid-sizer,
   .grid-item {
+    height: 22%;
     width: 22%; }
 
   .grid-item img {
-    height: 310px;
+    height: 100%;
     width: 100%; }
 
   .gutter-sizer {
     width: 4%; }
 
   .grid-item {
-    height: 310px;
+    height: 100%;
     float: left;
     border-radius: 5px; }
 
@@ -931,52 +986,52 @@
   .item__3,
   .item__4,
   .item__7 {
-    width: 31%; }
+    width: 30%; }
 
   .item__5,
   .item__6 {
-    width: 63.5%; }
+    width: 62%; }
 
   .item__2,
   .item__3 {
-    margin: 0 0 0 16px; }
+    margin: 0 0 0 27px; }
 
   .item__4 {
-    margin: 20px 0 0 0; }
+    margin: 25px 0 0 0; }
 
   .item__5 {
-    margin: 20px 0 0 17px; }
+    margin: 25px 0 0 35px; }
 
   .item__6 {
-    margin: 20px 0 0 0; }
+    margin: 25px 0 0 0; }
 
   .item__7 {
-    margin: 20px 0 0 18px; }
+    margin: 28px 0 0 37px; }
 
   .search {
     text-align: center;
     margin: 0 auto;
     width: 60%; }
     .search h1 {
-      margin: 95px 4px 0 0px;
+      margin: 96px 4px 0 0px;
       color: #333333;
       font: 700 22px Montserrat; }
     .search h2 {
-      margin: 30px 5px 0 1px;
+      margin: 33px 5px 0 1px;
       color: #333333;
       font: 300 18px Roboto;
       text-align: center; }
     .search input {
       width: 240px;
       padding: 0 0 0 15px;
-      margin: 40px 0 0 -6px;
+      margin: 39px 0 0 0px;
       color: #999999;
       font: 300 14px Roboto;
       background-color: #ffffff;
       border-radius: 4px;
       line-height: 35px; }
     .search button {
-      margin-left: 3px;
+      margin-left: 8px;
       width: 160px;
       background-color: #ff4e50;
       border-radius: 20px;
