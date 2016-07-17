@@ -569,31 +569,6 @@
   html {
     overflow-y: scroll; }
 
-  .grid {
-    margin-top: 35px;
-    margin-left: 3px; }
-
-  * {
-    box-sizing: border-box; }
-
-  body {
-    font-family: sans-serif; }
-
-  .ideas {
-    width: 100%; }
-    .ideas h1 {
-      margin-top: 95px;
-      color: #333333;
-      font: 700 22px Montserrat;
-      text-align: center; }
-
-  * {
-    box-sizing: border-box; }
-
-  /* force scrollbar */
-  html {
-    overflow-y: scroll; }
-
   body {
     font-family: sans-serif; }
 
@@ -602,15 +577,10 @@
     background: #DDD; }
 
   /* clear fix */
-  .grid:after {
-    content: '';
-    display: block;
-    clear: both; }
-
   /* ---- .grid-item ---- */
   .grid-sizer,
   .grid-item {
-    width: 33.333%; }
+    width: 30%; }
 
   .grid-item {
     float: left; }
@@ -618,6 +588,17 @@
   .grid-item img {
     display: block;
     max-width: 100%; }
+
+  .item__5,
+  .item__6 {
+    width: 54%; }
+
+  .item__1,
+  .item__2,
+  .item__3,
+  .item__4,
+  .item__7 {
+    width: 26.2%; }
 
   .search {
     width: 80%;
@@ -701,17 +682,20 @@
   * {
     box-sizing: border-box; }
 
+  .head_wrapper {
+    margin: 0 auto;
+    width: 1440px; }
+
   header {
-    background: url(../img/MergedLayersdesktop.png) no-repeat;
+    background: url(../img/Vector-Smart-Object.png) no-repeat;
     height: 700px;
     background-position: top center;
     text-align: center;
-    margin-top: 0;
     overflow: hidden; }
 
   .log {
     margin-top: 37px;
-    margin-right: 166px;
+    margin-right: 250px;
     float: right; }
     .log span {
       text-align: center;
@@ -729,7 +713,7 @@
   .test1 {
     float: left; }
     .test1 h2 {
-      margin: 45px 0 0 164px;
+      margin: 45px 0 0 250px;
       font: 700 20px Montserrat;
       color: #ffffff;
       float: left;
@@ -748,6 +732,7 @@
       color: #ffffff;
       font: 300 24px Roboto; }
     .test button {
+      cursor: pointer;
       margin-top: 33px;
       letter-spacing: 1px;
       border: 1px solid #ff4e50;
@@ -760,7 +745,7 @@
       font-size: 14px; }
 
   .work {
-    width: 80%;
+    width: 70%;
     margin: 0 auto; }
     .work h4 {
       margin: 93px 0 0 0;
@@ -770,7 +755,7 @@
   .jcarousel-wrapper {
     width: 300px;
     height: 397px;
-    margin: 20px auto;
+    margin: 19px auto;
     position: relative; }
 
   .jcarousel {
@@ -824,7 +809,7 @@
     margin: 17px 0 0 20px; }
 
   .people {
-    width: 80%;
+    width: 70%;
     margin: 0 auto; }
     .people h1 {
       margin: 76px 4px 0 0;
@@ -930,19 +915,12 @@
   * {
     box-sizing: border-box; }
 
-  /* force scrollbar */
   html {
     overflow-y: scroll; }
 
   body {
     font-family: sans-serif; }
 
-  /* ---- grid ---- */
-  .grid {
-    background: #DDD; }
-
-  /* clear fix */
-  /* ---- .grid-item ---- */
   .grid-sizer,
   .grid-item {
     width: 30%;
@@ -954,12 +932,18 @@
 
   .item__5,
   .item__6 {
-    width: 63%; }
+    width: 54%; }
+
+  .item__1,
+  .item__2,
+  .item__3,
+  .item__4,
+  .item__7 {
+    width: 26%; }
 
   .search {
     text-align: center;
-    margin: 0 auto;
-    width: 60%; }
+    margin: 0 auto; }
     .search h1 {
       margin: 96px 4px 0 0px;
       color: #333333;
@@ -995,8 +979,8 @@
     border-top: 4px solid #ff4e50; }
 
   .footer {
-    margin: 0 auto;
-    width: 80%; }
+    width: 940px;
+    margin: 0 auto; }
 
   .footer--name {
     display: block;

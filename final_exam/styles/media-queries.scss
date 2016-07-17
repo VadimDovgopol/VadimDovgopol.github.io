@@ -438,7 +438,6 @@
                 width: 100%;
             }
         }
-
         @media screen and (min-width: 320px) and (max-width: 768px) {
             * {
                 box-sizing: border-box;
@@ -689,33 +688,8 @@
                     text-align: center;
                 }
             }
-            * {
-                box-sizing: border-box;
-            }
-            /* force scrollbar */
-            html {
-                overflow-y: scroll;
-            }
-            .grid {
-                margin-top: 35px;
-                margin-left: 3px;
-            }
-            * {
-                box-sizing: border-box;
-            }
-            body {
-                font-family: sans-serif;
-            }
-            .ideas {
-                width: 100%;
-                h1 {
-                    margin-top: 95px;
-                    color: #333333;
-                    font: 700 22px Montserrat;
-                    text-align: center;
-                }
-            }
-            * {
+//
+                   * {
                 box-sizing: border-box;
             }
             /* force scrollbar */
@@ -730,15 +704,12 @@
                 background: #DDD;
             }
             /* clear fix */
-            .grid:after {
-                content: '';
-                display: block;
-                clear: both;
-            }
+
             /* ---- .grid-item ---- */
+
             .grid-sizer,
             .grid-item {
-                width: 33.333%;
+                width: 30%;
             }
             .grid-item {
                 float: left;
@@ -747,70 +718,19 @@
                 display: block;
                 max-width: 100%;
             }
-            //            * {
-            //                box-sizing: border-box;
-            //            }
-            //            /* force scrollbar */
-            //            html {
-            //                overflow-y: scroll;
-            //            }
-            //            .grid {
-            //                max-width: 1200px;
-            //                margin-top: 35px;
-            //            }
-            //            * {
-            //                box-sizing: border-box;
-            //            }
-            //            body {
-            //                font-family: sans-serif;
-            //            }
-            //            .grid-item {
-            //                width: 22%;
-            //            }
-            //            .grid-item img {
-            //                width: 100%;
-            //            }
-            //            .gutter-sizer {
-            //                width: 4%;
-            //            }
-            //            .grid-item {
-            //                float: left;
-            //                border-radius: 5px;
-            //            }
-            //            .item__1,
-            //            .item__2,
-            //            .item__3,
-            //            .item__4,
-            //            .item__7 {
-            //                width: 31%;
-            //            }
-            //            .item__5,
-            //            .item__6 {
-            //                width: 65%;
-            //            }
-            //
-            //
-            //            .item__2,
-            //            .item__3 {
-            //                margin: 0 0 0 22px;
-            //            }
-            //
-            //            .item__4 {
-            //                margin: 15px 0 0 0;
-            //            }
-            //            ;
-            //            .item__5 {
-            //                margin: 15px 0 0 20px;
-            //            }
-            //            ;
-            //            .item__6 {
-            //                margin: 17px 0 0 0;
-            //            }
-            //
-            //            .item__7 {
-            //                margin: 17px 0 0 20px;
-            //            }
-            //
+            .item__5,
+            .item__6{
+                width: 54%;
+            }
+            .item__1,
+            .item__2,
+            .item__3,
+            .item__4,
+            .item__7{
+                width: 26.2%;
+            }
+
+
             .search {
                 width: 80%;
                 margin: 0 auto;
@@ -895,7 +815,6 @@
                 float: right;
             }
         }
-
         @media screen and (min-width: 768px) {
             .people__second--mobile {
                 display: none;
@@ -903,17 +822,20 @@
             * {
                 box-sizing: border-box;
             }
+            .head_wrapper{
+                margin: 0 auto;
+                width: 1440px;
+            }
             header {
-                background: url(../img/MergedLayersdesktop.png) no-repeat;
+                background: url(../img/Vector-Smart-Object.png) no-repeat;
                 height: 700px;
                 background-position: top center;
                 text-align: center;
-                margin-top: 0;
                 overflow: hidden;
             }
             .log {
                 margin-top: 37px;
-                margin-right: 166px;
+                margin-right: 250px;
                 float: right;
                 span {
                     text-align: center;
@@ -933,7 +855,7 @@
             .test1 {
                 float: left;
                 h2 {
-                    margin: 45px 0 0 164px;
+                    margin: 45px 0 0 250px;
                     font: 700 20px Montserrat;
                     color: #ffffff;
                     float: left;
@@ -955,6 +877,7 @@
                     font: 300 24px Roboto;
                 }
                 button {
+                    cursor: pointer;
                     margin-top: 33px;
                     letter-spacing: 1px;
                     border: 1px solid #ff4e50;
@@ -968,7 +891,7 @@
                 }
             }
             .work {
-                width: 80%;
+                width: 70%;
                 margin: 0 auto;
                 h4 {
                     margin: 93px 0 0 0;
@@ -979,7 +902,7 @@
             .jcarousel-wrapper {
                 width: 300px;
                 height: 397px;
-                margin: 20px auto;
+                margin: 19px auto;
                 position: relative;
             }
             .jcarousel {
@@ -1033,7 +956,7 @@
                 margin: 17px 0 0 20px;
             }
             .people {
-                width: 80%;
+                width: 70%;
                 margin: 0 auto;
                 h1 {
                     margin: 76px 4px 0 0;
@@ -1140,9 +1063,9 @@
                 border: 2px solid #ff4e50;
                 border-radius: 20px;
             }
-            .ideas {
-                width: 80%;
-                margin: 0 auto;
+             .ideas {
+                 width: 80%;
+                 margin: 0 auto;
                 h1 {
                     margin-top: 95px;
                     color: #333333;
@@ -1150,23 +1073,17 @@
                     text-align: center;
                 }
             }
-            * {
+//
+                   * {
                 box-sizing: border-box;
             }
-            /* force scrollbar */
             html {
                 overflow-y: scroll;
             }
             body {
                 font-family: sans-serif;
-            }
-            /* ---- grid ---- */
-            .grid {
-                background: #DDD;
-            }
-            /* clear fix */
 
-            /* ---- .grid-item ---- */
+            }
 
             .grid-sizer,
             .grid-item {
@@ -1179,77 +1096,18 @@
             }
             .item__5,
             .item__6{
-                width: 63%;
+                width: 54%;
             }
-            //            * {
-            //                box-sizing: border-box;
-            //            }
-            //            /* force scrollbar */
-            //            html {
-            //                overflow-y: scroll;
-            //            }
-            //            .grid {
-            //                max-width: 1200px;
-            //                margin-left: 40px;
-            //                margin-top: 40px;
-            //            }
-            //            * {
-            //                box-sizing: border-box;
-            //            }
-            //            body {
-            //                font-family: sans-serif;
-            //            }
-            //            .grid-sizer,
-            //            .grid-item {
-            //                width: 22%;
-            //            }
-            //            .grid-item img {
-            //                width: 100%;
-            //            }
-            //            .gutter-sizer {
-            //                width: 4%;
-            //            }
-            //            .grid-item {
-            //                float: left;
-            //                border-radius: 5px;
-            //            }
-            //            .item__1,
-            //            .item__2,
-            //            .item__3,
-            //            .item__4,
-            //            .item__7 {
-            //                width: 30%;
-            //            }
-            //            .item__5,
-            //            .item__6 {
-            //                width: 62%;
-            //            }
-            //            .item__1 {}
-            //
-            //            .item__2,
-            //            .item__3 {
-            //                margin: 0 0 0 27px;
-            //            }
-            //
-            //            .item__4 {
-            //                margin: 25px 0 0 0;
-            //            }
-            //            ;
-            //            .item__5 {
-            //                margin: 25px 0 0 35px;
-            //            }
-            //            ;
-            //            .item__6 {
-            //                margin: 25px 0 0 0;
-            //            }
-            //
-            //            .item__7 {
-            //                margin: 28px 0 0 37px;
-            //            }
+            .item__1,
+            .item__2,
+            .item__3,
+            .item__4,
+            .item__7{
+                width: 26%;
+            }
             .search {
                 text-align: center;
                 margin: 0 auto;
-                width: 60%;
                 h1 {
                     margin: 96px 4px 0 0px;
                     color: #333333;
@@ -1289,8 +1147,8 @@
                 border-top: 4px solid #ff4e50;
             }
             .footer {
+                width: 940px;
                 margin: 0 auto;
-                width: 80%;
             }
             .footer--name {
                 display: block;
