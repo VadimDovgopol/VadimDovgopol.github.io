@@ -683,8 +683,8 @@
     box-sizing: border-box; }
 
   .head_wrapper {
-    margin: 0 auto;
-    width: 1440px; }
+    width: 75.8%;
+    margin: 0 auto; }
 
   header {
     background: url(../img/Vector-Smart-Object.png) no-repeat;
@@ -921,13 +921,28 @@
 
   /* ---- grid ---- */
   .grid {
+    margin: 0 auto;
+    margin: 0 400px;
     background: #DDD; }
 
   /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
   /* ---- .grid-item ---- */
   .grid-sizer,
-  .grid-item {
-    width: 21%; }
+  .item__1,
+  .item__2,
+  .item__3,
+  .item__4,
+  .item__7 {
+    width: 30%; }
+
+  .item__5,
+  .item__6 {
+    width: 62%; }
 
   .grid-item {
     float: left; }

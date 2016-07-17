@@ -7,4 +7,13 @@
 .head_wrapper {
   margin: 0 auto; }
 
+* {
+  box-sizing: border-box; }
+
+html {
+  overflow-y: scroll; }
+
+body {
+  font-family: sans-serif; }
+
 /*# sourceMappingURL=style.css.map */
