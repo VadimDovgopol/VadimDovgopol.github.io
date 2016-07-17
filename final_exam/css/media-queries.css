@@ -1,58 +1,57 @@
 @media screen and (max-width: 320px) {
   header {
     background: url(../img/promo.jpg) no-repeat top center;
-    height: 540px; }
+    height: 540px;
+    margin-top: 0;
+    text-align: center;
+    overflow: hidden; }
 
   .carousel--step1,
   .carousel--step2,
   .carousel--step3 {
     display: none; }
 
-  .span__log {
-    margin: 22px 0 0 50px; }
-
-  .log span {
-    text-align: center;
-    display: inline-block;
-    width: 90px;
-    line-height: 32px; }
-    .log span a {
-      color: #ffffff;
-      font: 14px Montserrat; }
+  .log {
+    margin: 20px 15px 0 0; }
+    .log span {
+      text-align: center;
+      display: inline-block;
+      line-height: 32px;
+      padding: 0 17px; }
+      .log span a {
+        color: #ffffff;
+        font: 14px Montserrat; }
 
   .span {
     border: 2px solid white;
     border-radius: 20px; }
 
-  .topic {
-    margin: 0 auto;
-    margin-top: 114px;
+  .test1 {
+    margin: 115px 0 0 0; }
+    .test1 h2 {
+      color: #ffffff;
+      font: 700 20px Montserrat;
+      letter-spacing: 1px; }
+
+  .test {
+    margin-top: 25px;
     text-align: center; }
-    .topic h1 {
-      margin-top: 26px;
-      margin-left: 0px;
+    .test h1 {
       color: #ffffff;
       font: 700 30px Montserrat; }
-    .topic h2 {
-      margin-left: 0px;
-      letter-spacing: 1px;
-      color: #ffffff;
-      font: 20px Montserrat; }
-    .topic h3 {
-      margin: 9px 0 0 0px;
+    .test h3 {
+      margin: 10px 40px;
       color: #ffffff;
       font: 300 18px Roboto; }
-    .topic button {
-      padding: 0 50px;
+    .test button {
+      margin: 4px 0 0 0;
       letter-spacing: 1px;
       border: 1px solid #ff4e50;
-      margin: 16px 0 0 0;
       line-height: 37px;
       border-radius: 20px;
       background-color: #ff4e50;
       color: #ffffff;
-      font: 700 Montserrat;
-      font-size: 14px; }
+      font: 700 Montserrat; }
 
   .work h4 {
     margin: 34px 0 0 0;
@@ -81,7 +80,6 @@
       font: 700 24px Montserrat; }
     .step1 h3 {
       margin: 12px 0 0 24px;
-      width: 259px;
       color: #cccccc;
       font: 300 14px Roboto; }
 
@@ -106,7 +104,6 @@
       font: 700 24px Montserrat; }
     .step2 h3 {
       margin: 11px 0 0 24px;
-      width: 259px;
       color: #cccccc;
       font: 300 14px Roboto; }
 
@@ -131,178 +128,169 @@
       font: 700 24px Montserrat; }
     .step3 h3 {
       margin: 12px 0 0 24px;
-      width: 259px;
       color: #cccccc;
       font: 300 14px Roboto; }
 
-  .people h1 {
-    margin: 30px 4px 0 0;
-    text-align: center;
-    color: #333333;
-    font: 700 22px Montserrat; }
-  .people figure {
-    background: url(../img/Partner-4.png) no-repeat;
-    height: 160px;
-    margin: 14px 94px 0 94px; }
-  .people figcaption {
-    color: #333333;
-    font: 700 14px Montserrat;
-    margin: 139px 0 0 6px;
-    display: inline-block; }
-  .people p {
-    text-align: center;
-    color: #666666;
-    font: 300 14px Roboto;
-    margin: 8px 50px 0 48px; }
-  .people .close {
-    color: #ff4e50;
-    font: 700 14px Montserrat;
-    padding: 0 119px;
-    line-height: 37px;
-    margin: 27px 0 0 12px;
-    background-color: #ffffff;
-    border: 2px solid #ff4e50;
-    border-radius: 20px; }
-  .people .button {
-    cursor: pointer;
-    color: #ff4e50;
-    font: 700 14px Montserrat;
-    padding: 0 72px;
-    line-height: 37px;
-    margin: 27px 0 0 12px;
-    background-color: #ffffff;
-    border: 2px solid #ff4e50;
-    border-radius: 20px; }
+  .people {
+    width: 90%;
+    margin: 0 auto; }
+    .people h1 {
+      margin-top: 30px;
+      margin-right: 10px;
+      text-align: center;
+      color: #333333;
+      font: 700 22px Montserrat; }
 
-  .people--first figure {
-    background: url(../img/Partner-4.png) no-repeat;
-    height: 160px;
-    margin: 14px 94px 0 94px; }
-  .people--first figcaption {
+  .people--list figure {
+    text-align: center; }
+  .people--list figcaption {
+    margin-top: 10px;
+    text-align: center;
     color: #333333;
-    font: 700 14px Montserrat;
-    margin: 139px 0 0 6px;
-    display: inline-block; }
-  .people--first p {
+    font: 700 14px Montserrat; }
+  .people--list p {
     text-align: center;
     color: #666666;
-    font: 300 14px Roboto;
-    margin: 8px 50px 0 48px; }
+    font: 300 14px Roboto; }
 
-  .people--second figure {
-    background: url(../img/MergedLayers.png) no-repeat;
-    height: 160px;
-    margin: 28px 94px 0 94px; }
-  .people--second figcaption {
-    color: #333333;
-    font: 700 14px Montserrat;
-    margin: 138px 11px; }
-  .people--second p {
-    text-align: center;
-    color: #666666;
-    font: 300 14px Roboto;
-    margin: 8px 46px 0 45px; }
+  .people__first {
+    margin-top: 14px; }
+    .people__first p {
+      margin: 13px 40px; }
 
-  .people--third figure {
-    background: url(../img/MergedLayers1.png) no-repeat;
-    height: 160px;
-    margin: 28px 94px 0 91px; }
-  .people--third figcaption {
-    color: #333333;
-    font: 700 14px Montserrat;
-    margin: 138px 0 0 5px; }
-  .people--third p {
-    text-align: center;
-    color: #666666;
-    font: 300 14px Roboto;
-    margin: 8px 46px 0 39px; }
+  .people__second--mobile {
+    margin-top: 26px; }
+    .people__second--mobile figcaption {
+      margin: 10px 40px 0 35px; }
+    .people__second--mobile p {
+      margin: 14px 29px; }
 
-  .people--fourth figure {
-    background: url(../img/MergedLayers2.png) no-repeat;
-    height: 160px;
-    margin: 27px 94px 0 91px; }
-  .people--fourth figcaption {
-    color: #333333;
-    font: 700 14px Montserrat;
-    margin: 138px 0 0 5px; }
-  .people--fourth p {
-    text-align: center;
-    color: #666666;
-    font: 300 14px Roboto;
-    margin: 8px 46px 0 39px; }
+  .people__second {
+    display: none; }
+
+  .people__third {
+    margin-top: 28px; }
+    .people__third p {
+      margin: 14px 30px; }
+
+  .people__fourth {
+    margin-top: 26px; }
+    .people__fourth figcaption {
+      margin: 10px 0px; }
+    .people__fourth P {
+      margin: 15px 38px; }
 
   .people--five {
+    margin-bottom: 37px;
+    text-align: center;
+    float: left;
+    width: 100%;
     display: none; }
-    .people--five figure {
-      background: url(../img/MergedLayers5.png) no-repeat;
-      height: 160px;
-      margin: 27px 94px 0 91px; }
     .people--five figcaption {
       color: #333333;
-      font: 700 14px Montserrat;
-      margin: 138px 0 0 5px; }
+      font: 700 14px Montserrat; }
     .people--five p {
       text-align: center;
       color: #666666;
-      font: 300 14px Roboto;
-      margin: 8px 46px 0 39px; }
+      font: 300 14px Roboto; }
+
+  .button--wraper {
+    width: 90%;
+    margin: 0 auto; }
+
+  .close {
+    width: 100%;
+    cursor: pointer;
+    color: #ff4e50;
+    font: 700 14px Montserrat;
+    line-height: 37px;
+    background-color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; }
+
+  .button {
+    width: 100%;
+    margin: 9px 0 0 0;
+    cursor: pointer;
+    color: #ff4e50;
+    font: 700 14px Montserrat;
+    line-height: 37px;
+    background-color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; }
 
   .ideas h1 {
-    margin: 32px 0 0 0;
     color: #333333;
     font: 700 22px Montserrat;
     text-align: center; }
 
+  .ideas {
+    margin: 0 auto; }
+    .ideas h1 {
+      margin-top: 31px;
+      color: #333333;
+      font: 700 22px Montserrat;
+      text-align: center; }
+
   * {
     box-sizing: border-box; }
+
+  /* force scrollbar */
+  html {
+    overflow-y: scroll; }
 
   body {
     font-family: sans-serif; }
 
+  /* ---- grid ---- */
   .grid {
-    margin: 0 auto;
-    background: #EEE;
-    max-width: 1200px; }
+    background: #DDD; }
+
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  /* ---- .grid-item ---- */
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%; }
 
   .grid-item {
-    margin: 14px 0 0 3px;
-    width: 300px;
-    height: 121px;
-    float: left;
-    background: #906c79;
-    border: 2px solid #333;
-    border-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px; }
+    float: left; }
 
-  .item__2 {
-    margin: 9px 0 0 3px; }
+  .grid-item img {
+    display: block;
+    max-width: 100%; }
 
   .search h1 {
+    text-align: center;
     margin: 34px 4px 0 0px;
     color: #333333;
     font: 700 22px Montserrat; }
   .search h2 {
-    margin: 11px 5px 0 1px;
     color: #333333;
     font: 300 18px Roboto;
     text-align: center; }
   .search input {
+    width: 85%;
     color: #999999;
     font: 300 14px Roboto;
-    margin: 17px 0 0 10px;
+    margin: 15px 0 0 10px;
     background-color: #ffffff;
     border-radius: 4px;
-    padding: 0 110px 0 15px;
-    line-height: 35px; }
+    line-height: 35px;
+    padding-left: 13px; }
   .search button {
-    margin: 9px 0 0 11px;
+    width: 90%;
+    margin: 6px 15px 0 15px;
     background-color: #ff4e50;
     border-radius: 20px;
     border: 1px solid #ff4e50;
     color: #ffffff;
     font: 700 14px Montserrat;
     line-height: 40px;
-    padding: 0 83px;
     cursor: pointer; }
 
   footer {
@@ -312,55 +300,62 @@
 
   .footer--name {
     letter-spacing: 1px;
-    margin: 16px 5px 0 1px;
+    margin-top: 16px;
     color: #ff4e50;
     font: 700 16px Montserrat; }
 
   .footer--comp {
-    margin: 11px 4px 0 0;
+    margin-top: 11px;
     color: #333333;
     font: 700 14px Montserrat; }
 
   .links {
-    margin: 0 55px; }
+    margin: 0 auto;
+    width: 194px; }
 
   .footer--link {
+    float: left;
     color: #666666;
     font: 300 14px / 24px Roboto; }
 
   .link__2 {
-    margin-left: 9px; }
-
-  .link__3 {
     margin-left: 10px; }
 
+  .link__3 {
+    margin-left: 15px; }
+
   .link__4 {
-    margin-left: 9px; }
+    margin-left: 15px; }
 
   .footer--link:hover {
     color: black; }
 
   .footer--part {
-    margin: 9px 4px 0 2px;
+    margin-top: 10px;
+    margin-bottom: 12px;
     color: #333333;
     font: 700 14px Montserrat; }
 
   .footer--des {
-    margin: 16px 97px;
-    background: url(../img/DesLayers.png) no-repeat;
-    height: 42px; } }
+    width: 100%; } }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   * {
     box-sizing: border-box; }
 
-  .header {
-    background: url(../img/MergedLayers-taplet.png) no-repeat top center;
-    height: 700px; }
+  .people__second--mobile {
+    display: none; }
 
-  .span__sign {
-    margin: 38px 44px 0 0; }
+  header {
+    background: url(../img/MergedLayersdesktop.png) no-repeat;
+    height: 700px;
+    background-position: top center;
+    text-align: center;
+    margin-top: 0;
+    overflow: hidden; }
 
   .log {
+    margin-top: 37px;
+    margin-right: 45px;
     float: right; }
     .log span {
       text-align: center;
@@ -375,159 +370,143 @@
     border: 2px solid white;
     border-radius: 20px; }
 
-  .topic {
-    text-align: center; }
-    .topic h1 {
-      width: 65%;
-      float: right;
-      margin: 139px 135px 0 135px;
-      color: #ffffff;
-      font: 700 52px Montserrat; }
-    .topic h2 {
-      opacity: 1;
-      color: #ffffff;
+  .test1 {
+    float: left; }
+    .test1 h2 {
+      margin: 45px 0 0 40px;
       font: 700 20px Montserrat;
-      margin: 46px 0 0 43px;
+      color: #ffffff;
       float: left;
       letter-spacing: 1px; }
-    .topic h3 {
-      margin: 23px 180px;
-      width: 53%;
-      float: right;
+
+  .test {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto; }
+    .test h1 {
+      margin-top: 212px;
+      color: #ffffff;
+      font: 700 52px Montserrat; }
+    .test h3 {
+      margin-top: 24px;
       color: #ffffff;
       font: 300 24px Roboto; }
-    .topic button {
-      float: right;
-      width: 29.4%;
+    .test button {
+      margin-top: 33px;
       letter-spacing: 1px;
       border: 1px solid #ff4e50;
-      margin: 10px 269px 0 0;
       line-height: 37px;
+      width: 225px;
       border-radius: 20px;
       background-color: #ff4e50;
       color: #ffffff;
       font: 700 Montserrat;
       font-size: 14px; }
 
-  .work h4 {
-    margin: 94px 0 0 5px;
-    color: #333333;
+  .work {
+    margin: 0 auto; }
+    .work h4 {
+      margin: 93px 0 0 5px;
+      color: #333333;
+      text-align: center;
+      font: 700 22px Montserrat; }
+
+  .jcarousel-wrapper {
+    width: 236px;
+    height: 397px;
+    margin: 0 auto;
+    position: relative; }
+
+  .jcarousel {
+    position: relative;
+    overflow: hidden; }
+
+  .jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+  .jcarousel li {
+    display: list-item;
+    float: left; }
+
+  .jcarousel-control-prev,
+  .jcarousel-control-next {
+    position: absolute;
+    top: 150px;
+    width: 30px;
+    height: 55px;
     text-align: center;
-    font: 700 22px Montserrat; }
+    color: #fff;
+    text-decoration: none; }
 
-  .step1 {
-    float: left;
-    border-radius: 4px;
-    margin: 34px 0 0 5px;
-    background: url(../img/step1-teblet.jpg) no-repeat center;
-    height: 100%;
-    width: 31%; }
-    .step1 h2 {
-      margin: 210px 0 0 19px;
-      color: #ffffff;
-      font: 400 10px Montserrat;
-      border: 1px solid #ff4e50;
-      border-radius: 15px;
-      background: #ff4e50;
-      text-align: center;
-      display: inline-block;
-      line-height: 20px;
-      width: 70px; }
-    .step1 h1 {
-      margin: 15px 0 0 18px;
-      color: #ffffff;
-      font: 700 24px Montserrat; }
-    .step1 h3 {
-      margin: 11px 0 18px 18px;
-      color: #cccccc;
-      font: 300 14px Roboto; }
+  .jcarousel-control-prev {
+    top: 39px;
+    left: 21px; }
 
-  .step2 {
-    margin: 33px 0 0 21px;
-    border-radius: 4px;
-    float: left;
-    background: url(../img/MergedLayersstep2.png) no-repeat;
-    width: 31%; }
-    .step2 h2 {
-      margin: 260px 0 0 20px;
-      color: #ffffff;
-      font: 400 10px Montserrat;
-      border: 1px solid #ff4e50;
-      border-radius: 15px;
-      background: #ff4e50;
-      text-align: center;
-      display: inline-block;
-      line-height: 20px;
-      width: 70px; }
-    .step2 h1 {
-      margin: 14px 0 0 18px;
-      color: #ffffff;
-      font: 700 24px Montserrat; }
-    .step2 h3 {
-      width: 82%;
-      margin: 10px 0 20px 18px;
-      color: #cccccc;
-      font: 300 14px Roboto; }
+  .jcarousel-control-next {
+    top: 39px;
+    right: 21px; }
 
+  .step1,
+  .step2,
   .step3 {
-    margin: 34px 0 0 21px;
-    border-radius: 4px;
-    float: left;
-    background: url(../img/MergedLayersstep3.png) no-repeat;
-    width: 31%;
-    height: 100%; }
-    .step3 h2 {
-      margin: 211px 0 0 22px;
-      color: #ffffff;
-      font: 400 10px Montserrat;
-      border: 1px solid #ff4e50;
-      border-radius: 15px;
-      background: #ff4e50;
-      text-align: center;
-      display: inline-block;
-      line-height: 20px;
-      width: 70px; }
-    .step3 h1 {
-      margin: 14px 0 0 20px;
-      color: #ffffff;
-      font: 700 24px Montserrat; }
-    .step3 h3 {
-      margin: 11px 0 15px 21px;
-      color: #cccccc;
-      font: 300 14px Roboto; }
+    display: none; }
+
+  .carousel--step1,
+  .carousel--step2,
+  .carousel--step3 {
+    float: left; }
+
+  .carousel--step1 {
+    margin: 36px 0 0 3px; }
+
+  .carousel--step2 {
+    margin: 36px 0 0 20px; }
+
+  .carousel--step3 {
+    margin: 36px 0 0 20px; }
+
+  .close {
+    margin: 0 auto;
+    display: block;
+    width: 192px;
+    cursor: pointer;
+    color: #ff4e50;
+    font: 700 14px Montserrat;
+    line-height: 37px;
+    background-color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; }
+
+  .button {
+    margin: 0 auto;
+    display: block;
+    width: 192px;
+    cursor: pointer;
+    color: #ff4e50;
+    font: 700 14px Montserrat;
+    line-height: 37px;
+    background-color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; }
 
   .people {
-    margin: 0 auto; }
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 36px; }
     .people h1 {
-      margin: 92px 4px 0 0;
+      margin: 98px 5px 0 0;
       text-align: center;
       color: #333333;
       font: 700 22px Montserrat; }
-    .people .close {
-      width: 25.1%;
-      margin: 12px 283px;
-      cursor: pointer;
-      color: #ff4e50;
-      font: 700 14px Montserrat;
-      line-height: 37px;
-      background-color: #ffffff;
-      border: 2px solid #ff4e50;
-      border-radius: 20px; }
-    .people .button {
-      width: 25.1%;
-      margin: 12px 283px;
-      cursor: pointer;
-      color: #ff4e50;
-      font: 700 14px Montserrat;
-      line-height: 37px;
-      background-color: #ffffff;
-      border: 2px solid #ff4e50;
-      border-radius: 20px; }
 
   .people--list {
-    margin-bottom: 23px;
-    margin-top: 33px;
-    width: 30%;
+    margin-top: 32px;
+    height: 233px;
+    width: 217px;
     float: left; }
     .people--list figure {
       text-align: center; }
@@ -537,31 +516,30 @@
       font: 700 14px Montserrat; }
     .people--list p {
       margin-top: 14px;
-      margin-right: 5px;
       text-align: center;
       color: #666666;
       font: 300 14px Roboto; }
 
   .people__first {
-    margin-left: 139px; }
+    margin-left: 68px; }
     .people__first figcaption {
       margin: 9px 3px 0 0; }
 
   .people__second {
-    margin-left: 28px; }
+    margin-left: 38px; }
     .people__second figcaption {
       margin: 9px 3px 0 0; }
 
   .people__third {
-    margin-left: 139px; }
+    margin-top: 25px;
+    margin-left: 68px; }
     .people__third figcaption {
       margin: 10px 0 0 0; }
-    .people__third p {
-      width: 96%; }
 
   .people__fourth {
+    margin-top: 26px;
     padding-bottom: 33px;
-    margin-left: 28px; }
+    margin-left: 39px; }
     .people__fourth figcaption {
       margin: 10px 0 0 0; }
 
@@ -579,7 +557,7 @@
       font: 300 14px Roboto; }
 
   .ideas h1 {
-    margin-top: 83px;
+    margin-top: 95px;
     color: #333333;
     font: 700 22px Montserrat;
     text-align: center; }
@@ -592,14 +570,46 @@
     overflow-y: scroll; }
 
   .grid {
-    margin: 33px 0 0 6px;
-    background: #ffffff; }
+    margin-top: 35px;
+    margin-left: 3px; }
 
-  .grid-sizer {
-    width: 33.333%; }
+  * {
+    box-sizing: border-box; }
 
+  body {
+    font-family: sans-serif; }
+
+  .ideas {
+    width: 100%; }
+    .ideas h1 {
+      margin-top: 95px;
+      color: #333333;
+      font: 700 22px Montserrat;
+      text-align: center; }
+
+  * {
+    box-sizing: border-box; }
+
+  /* force scrollbar */
+  html {
+    overflow-y: scroll; }
+
+  body {
+    font-family: sans-serif; }
+
+  /* ---- grid ---- */
+  .grid {
+    background: #DDD; }
+
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  /* ---- .grid-item ---- */
+  .grid-sizer,
   .grid-item {
-    border-radius: 4px;
     width: 33.333%; }
 
   .grid-item {
@@ -607,63 +617,40 @@
 
   .grid-item img {
     display: block;
-    width: 100%; }
+    max-width: 100%; }
 
-  .item__1 {
-    width: 31.5%; }
-
-  .item__2 {
-    margin: 0 0 0 5px;
-    width: 31.5%; }
-
-  .item__3 {
-    margin: 0 0 0 11px;
-    width: 31.5%; }
-
-  .item__4 {
-    margin: 24px 0 0 0;
-    width: 31.5%; }
-
-  .item__5 {
-    margin: 24px 0 0 6px;
-    width: 65.5%; }
-
-  .item__6 {
-    margin: 21px 0 0 6px;
-    width: 65.5%; }
-
-  .item__7 {
-    margin: 21px 0 0 0px;
-    width: 31.5%; }
-
-  .search h1 {
-    margin: 86px 4px 0 0px;
-    color: #333333;
-    font: 700 22px Montserrat; }
-  .search h2 {
-    margin: 30px 5px 0 1px;
-    color: #333333;
-    font: 300 18px Roboto;
-    text-align: center; }
-  .search input {
-    width: 31.3%;
-    padding: 0 0 0 12px;
-    margin: 40px 0 0 173px;
-    color: #999999;
-    font: 300 14px Roboto;
-    background-color: #ffffff;
-    border-radius: 4px;
-    line-height: 35px; }
-  .search button {
-    width: 21.3%;
-    margin-left: 8px;
-    background-color: #ff4e50;
-    border-radius: 20px;
-    border: 1px solid #ff4e50;
-    color: #ffffff;
-    font: 700 14px Montserrat;
-    line-height: 38px;
-    cursor: pointer; }
+  .search {
+    width: 80%;
+    margin: 0 auto; }
+    .search h1 {
+      text-align: center;
+      margin: 92px 4px 0 0px;
+      color: #333333;
+      font: 700 22px Montserrat; }
+    .search h2 {
+      margin: 30px 5px 0 1px;
+      color: #333333;
+      font: 300 18px Roboto;
+      text-align: center; }
+    .search input {
+      width: 240px;
+      padding: 0 0 0 12px;
+      margin: 40px 0 0 98px;
+      color: #999999;
+      font: 300 14px Roboto;
+      background-color: #ffffff;
+      border-radius: 4px;
+      line-height: 35px; }
+    .search button {
+      width: 160px;
+      margin-left: 3px;
+      background-color: #ff4e50;
+      border-radius: 20px;
+      border: 1px solid #ff4e50;
+      color: #ffffff;
+      font: 700 14px Montserrat;
+      line-height: 38px;
+      cursor: pointer; }
 
   footer {
     text-align: center;
@@ -706,11 +693,11 @@
 
   .footer--des {
     margin: 40px 35px 0 0;
-    float: right;
-    background: url(../img/MergedLayers12.png);
-    height: 42px;
-    width: 110px; } }
+    float: right; } }
 @media screen and (min-width: 768px) {
+  .people__second--mobile {
+    display: none; }
+
   * {
     box-sizing: border-box; }
 
@@ -777,7 +764,6 @@
     margin: 0 auto; }
     .work h4 {
       margin: 93px 0 0 0;
-      color: #333333;
       text-align: center;
       font: 700 22px Montserrat; }
 
@@ -790,11 +776,6 @@
   .jcarousel {
     position: relative;
     overflow: hidden; }
-
-  .jcarousel img {
-    display: block;
-    max-width: 100%;
-    height: auto !important; }
 
   .jcarousel ul {
     width: 20000em;
@@ -953,60 +934,27 @@
   html {
     overflow-y: scroll; }
 
-  .grid {
-    max-width: 1200px;
-    margin-left: 40px;
-    margin-top: 40px; }
-
-  * {
-    box-sizing: border-box; }
-
   body {
     font-family: sans-serif; }
 
+  /* ---- grid ---- */
+  .grid {
+    background: #DDD; }
+
+  /* clear fix */
+  /* ---- .grid-item ---- */
   .grid-sizer,
   .grid-item {
-    height: 22%;
-    width: 22%; }
+    width: 30%;
+    float: left; }
 
   .grid-item img {
-    height: 100%;
-    width: 100%; }
-
-  .gutter-sizer {
-    width: 4%; }
-
-  .grid-item {
-    height: 100%;
-    float: left;
-    border-radius: 5px; }
-
-  .item__1,
-  .item__2,
-  .item__3,
-  .item__4,
-  .item__7 {
-    width: 30%; }
+    display: block;
+    max-width: 100%; }
 
   .item__5,
   .item__6 {
-    width: 62%; }
-
-  .item__2,
-  .item__3 {
-    margin: 0 0 0 27px; }
-
-  .item__4 {
-    margin: 25px 0 0 0; }
-
-  .item__5 {
-    margin: 25px 0 0 35px; }
-
-  .item__6 {
-    margin: 25px 0 0 0; }
-
-  .item__7 {
-    margin: 28px 0 0 37px; }
+    width: 63%; }
 
   .search {
     text-align: center;
@@ -1086,9 +1034,6 @@
 
   .footer--des {
     margin: 39px 37px 0 0;
-    float: right;
-    background: url(../img/MergedLayers12.png);
-    height: 42px;
-    width: 110px; } }
+    float: right; } }
 
 /*# sourceMappingURL=media-queries.css.map */

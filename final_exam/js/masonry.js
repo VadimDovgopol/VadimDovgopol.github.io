@@ -1,8 +1,12 @@
+// external js: masonry.pkgd.js, imagesloaded.pkgd.js
 
-
-$('.grid').masonry({
+// init Masonry
+var $grid = $('.grid').masonry({
   itemSelector: '.grid-item',
-  columnWidth: '.grid-sizer',
-  gutter: '.gutter-sizer',
-  percentPosition: true
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
 });
