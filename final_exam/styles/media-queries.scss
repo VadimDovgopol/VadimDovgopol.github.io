@@ -1023,7 +1023,6 @@
                 float: left;
                 width: 100%;
                 display: none;
-                figure {}
                 figcaption {
                     color: #333333;
                     font: 700 14px Montserrat;
@@ -1073,7 +1072,6 @@
                     text-align: center;
                 }
             }
-//
                    * {
                 box-sizing: border-box;
             }
@@ -1106,15 +1104,8 @@
                 width: 26%;
             }
 
-            .item__1,
-            .item__2,
-            .item__3,
-            .item__4,
-            .item__7{
-                width: 26%;
-            }
 
->>>>>>> origin/master
+
             .search {
                 text-align: center;
                 margin: 0 auto;
