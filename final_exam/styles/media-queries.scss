@@ -300,62 +300,7 @@
                 display: block;
                 max-width: 100%;
             }
-            //            .grid {
-            ////                margin-left: 40px;
-            ////                margin-top: 40px;
-            //            }
-            //
-            //
-            //            .grid-sizer,
-            //            .grid-item {
-            //                height: 100%;
-            //                width: 100%;
-            //            }
-            //            .grid-item img {
-            //                height: 100%;
-            //                width: 100%;
-            //            }
-            //            .gutter-sizer {
-            //                width: 4%;
-            //            }
-            //            .grid-item {
-            //                float: left;
-            //                border-radius: 5px;
-            //            }
-            //            .item__1,
-            //            .item__2,
-            //            .item__3,
-            //            .item__4,
-            //            .item__7 {
-            //                width: 100%;
-            //            }
-            //            .item__5,
-            //            .item__6 {
-            ////                width: 62%;
-            //            }
-            //            .item__1 {}
-            //
-            //            .item__2,
-            //            .item__3 {
-            ////                margin: 0 0 0 27px;
-            //            }
-            //
-            //            .item__4 {
-            ////                margin: 25px 0 0 0;
-            //            }
-            //            ;
-            //            .item__5 {
-            ////                margin: 25px 0 0 35px;
-            //            }
-            //            ;
-            //            .item__6 {
-            ////                margin: 25px 0 0 0;
-            //            }
-            //
-            //            .item__7 {
-            ////                margin: 28px 0 0 37px;
-            //            }
-            //
+
             .search {
                 h1 {
                     text-align: center;
@@ -1062,9 +1007,7 @@
                 border: 2px solid #ff4e50;
                 border-radius: 20px;
             }
-             .ideas {
-                 width: 80%;
-                 margin: 0 auto;
+              .ideas {
                 h1 {
                     margin-top: 95px;
                     color: #333333;
@@ -1072,40 +1015,35 @@
                     text-align: center;
                 }
             }
-                   * {
+
+              * {
                 box-sizing: border-box;
             }
+            /* force scrollbar */
             html {
                 overflow-y: scroll;
             }
             body {
                 font-family: sans-serif;
-
             }
+            /* ---- grid ---- */
+            .grid {
+                background: #DDD;
+            }
+            /* clear fix */
 
+            /* ---- .grid-item ---- */
             .grid-sizer,
             .grid-item {
-                width: 30%;
+                width: 21%;
+            }
+            .grid-item {
                 float: left;
             }
             .grid-item img {
                 display: block;
                 max-width: 100%;
             }
-            .item__5,
-            .item__6{
-                width: 54%;
-            }
-            .item__1,
-            .item__2,
-            .item__3,
-            .item__4,
-            .item__7{
-                width: 26%;
-            }
-
-
-
             .search {
                 text-align: center;
                 margin: 0 auto;

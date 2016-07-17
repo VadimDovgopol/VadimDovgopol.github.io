@@ -903,43 +903,38 @@
     border: 2px solid #ff4e50;
     border-radius: 20px; }
 
-  .ideas {
-    width: 80%;
-    margin: 0 auto; }
-    .ideas h1 {
-      margin-top: 95px;
-      color: #333333;
-      font: 700 22px Montserrat;
-      text-align: center; }
+  .ideas h1 {
+    margin-top: 95px;
+    color: #333333;
+    font: 700 22px Montserrat;
+    text-align: center; }
 
   * {
     box-sizing: border-box; }
 
+  /* force scrollbar */
   html {
     overflow-y: scroll; }
 
   body {
     font-family: sans-serif; }
 
+  /* ---- grid ---- */
+  .grid {
+    background: #DDD; }
+
+  /* clear fix */
+  /* ---- .grid-item ---- */
   .grid-sizer,
   .grid-item {
-    width: 30%;
+    width: 21%; }
+
+  .grid-item {
     float: left; }
 
   .grid-item img {
     display: block;
     max-width: 100%; }
-
-  .item__5,
-  .item__6 {
-    width: 54%; }
-
-  .item__1,
-  .item__2,
-  .item__3,
-  .item__4,
-  .item__7 {
-    width: 26%; }
 
   .search {
     text-align: center;
