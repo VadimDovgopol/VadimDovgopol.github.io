@@ -403,13 +403,11 @@
       font: 700 Montserrat;
       font-size: 14px; }
 
-  .work {
-    margin: 0 auto; }
-    .work h4 {
-      margin: 93px 0 0 5px;
-      color: #333333;
-      text-align: center;
-      font: 700 22px Montserrat; }
+  .work h4 {
+    margin: 93px 0 0 5px;
+    color: #333333;
+    text-align: center;
+    font: 700 22px Montserrat; }
 
   .jcarousel-wrapper {
     width: 236px;
@@ -809,8 +807,8 @@
     margin: 17px 0 0 20px; }
 
   .people {
-    width: 70%;
-    margin: 0 auto; }
+    position: relative;
+    overflow: hidden; }
     .people h1 {
       margin: 76px 4px 0 0;
       text-align: center;
@@ -818,47 +816,23 @@
       font: 700 22px Montserrat; }
 
   .people--list {
-    height: 233px;
-    width: 217px;
-    margin-top: 33px;
-    margin-bottom: 37px;
+    height: 211px;
+    width: 21%;
+    margin: 0px 2%;
     float: left; }
     .people--list figure {
-      text-align: center; }
+      text-align: center;
+      width: 217px; }
     .people--list figcaption {
-      margin: 9px 0 0 0;
       text-align: center;
       color: #333333;
+      width: 217px;
       font: 700 14px Montserrat; }
     .people--list p {
-      margin: 15px 0 0 0;
+      width: 217px;
       text-align: center;
       color: #666666;
       font: 300 14px Roboto; }
-
-  .people__first {
-    margin-left: 40px; }
-
-  .people__second {
-    margin-left: 22px; }
-    .people__second figcaption {
-      margin: 10px 5px 0 0; }
-    .people__second p {
-      margin: 14px 4px 0 0; }
-
-  .people__third {
-    margin-left: 22px; }
-    .people__third figcaption {
-      margin: 10px 5px 0 0; }
-    .people__third p {
-      margin: 14px 0 0 0; }
-
-  .people__fourth {
-    margin-left: 22px; }
-    .people__fourth figcaption {
-      margin: 10px 5px 0 0; }
-    .people__fourth P {
-      margin: 14px 4px 0 0; }
 
   .people--five {
     margin-bottom: 37px;

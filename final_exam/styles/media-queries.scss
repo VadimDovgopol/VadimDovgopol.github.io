@@ -1,4 +1,4 @@
-        @media screen and (max-width: 320px) {
+     @media screen and (max-width: 320px) {
             header {
                 background: url(../img/promo.jpg) no-repeat top center;
                 height: 540px;
@@ -455,7 +455,6 @@
                 }
             }
             .work {
-                margin: 0 auto;
                 h4 {
                     margin: 93px 0 0 5px;
                     color: #333333;
@@ -764,7 +763,7 @@
             * {
                 box-sizing: border-box;
             }
-            .head_wrapper {
+            .head_wrapper{
                 width: 75.8%;
                 margin: 0 auto;
             }
@@ -898,8 +897,9 @@
                 margin: 17px 0 0 20px;
             }
             .people {
-                width: 70%;
-                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+
                 h1 {
                     margin: 76px 4px 0 0;
                     text-align: center;
@@ -908,57 +908,59 @@
                 }
             }
             .people--list {
-                height: 233px;
-                width: 217px;
-                margin-top: 33px;
-                margin-bottom: 37px;
+                height: 211px;
+                width: 21%;
+                margin: 0px 2%;
                 float: left;
                 figure {
                     text-align: center;
+                    width: 217px;
                 }
                 figcaption {
-                    margin: 9px 0 0 0;
+//                    margin: 9px 0 0 0;
                     text-align: center;
                     color: #333333;
+                    width: 217px;
                     font: 700 14px Montserrat;
                 }
                 p {
-                    margin: 15px 0 0 0;
+                    width: 217px;
+//                    margin: 15px 0 0 0;
                     text-align: center;
                     color: #666666;
                     font: 300 14px Roboto;
                 }
             }
-            .people__first {
-                margin-left: 40px;
-            }
-            .people__second {
-                margin-left: 22px;
-                figcaption {
-                    margin: 10px 5px 0 0;
-                }
-                p {
-                    margin: 14px 4px 0 0;
-                }
-            }
-            .people__third {
-                margin-left: 22px;
-                figcaption {
-                    margin: 10px 5px 0 0;
-                }
-                p {
-                    margin: 14px 0 0 0;
-                }
-            }
-            .people__fourth {
-                margin-left: 22px;
-                figcaption {
-                    margin: 10px 5px 0 0;
-                }
-                P {
-                    margin: 14px 4px 0 0;
-                }
-            }
+//            .people__first {
+//                margin-left: 40px;
+//            }
+//            .people__second {
+//                margin-left: 22px;
+//                figcaption {
+//                    margin: 10px 5px 0 0;
+//                }
+//                p {
+//                    margin: 14px 4px 0 0;
+//                }
+//            }
+//            .people__third {
+//                margin-left: 22px;
+//                figcaption {
+//                    margin: 10px 5px 0 0;
+//                }
+//                p {
+//                    margin: 14px 0 0 0;
+//                }
+//            }
+//            .people__fourth {
+//                margin-left: 22px;
+//                figcaption {
+//                    margin: 10px 5px 0 0;
+//                }
+//                P {
+//                    margin: 14px 4px 0 0;
+//                }
+//            }
             .people--five {
                 margin-bottom: 37px;
                 text-align: center;
@@ -1043,7 +1045,6 @@
             .item__7{
                 width: 30%;
             }
-//            .grid-sizer,
             .item__5,
             .item__6 {
                 width: 62%;
@@ -1056,52 +1057,7 @@
                 display: block;
                 max-width: 100%;
             }
-            //            .grid{
-            //                width: 100%;
-            //
-            //            }
-            //            .grid-sizer{
-            //                width: 30%;
-            //            }
-            //            .grid-item {
-            //                float: left;
-            //            }
-            //            .grid-item img {
-            //                display: block;
-            //                max-width: 100%;
-            //            }
-            //            .item__5,
-            //            .item__6{
-            //                width: 66%;
-            //            }
-            //            .item__1,
-            //            .item__2,
-            //            .item__3,
-            //            .item__4,
-            //            .item__7{
-            //                width: 33%;
-            //            }
-            //            .item__1{
-            ////                margin: 38px 0 0 252px;
-            //            }
-            //            .item__2{
-            ////                margin: 38px 0 0 18px;
-            //            }
-            //            .item__3{
-            ////                margin: 38px 0 0 19px;
-            //            }
-            //            .item__4{
-            ////                margin: 20px 0 0 252px;
-            //            }
-            //            .item__5{
-            ////                margin: 20px 0 0 19px;
-            //            }
-            //            .item__6{
-            ////                margin: 20px 0 0 252px;
-            //            }
-            //            .item__7{
-            ////                margin: 20px 0 0 19px;
-            //            }
+
             .search {
                 text-align: center;
                 margin: 0 auto;

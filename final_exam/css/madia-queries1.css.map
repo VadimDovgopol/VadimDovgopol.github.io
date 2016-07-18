@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,MAAO;EACH,UAAU,EAAE,wDAAwD;EACpE,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,CAAC;EACb,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,MAAM",
+"sources": ["../styles/madia-queries1.scss"],
+"names": [],
+"file": "madia-queries1.css"
+}
