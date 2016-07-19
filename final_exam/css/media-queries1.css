@@ -104,7 +104,7 @@ header {
     margin: 0 auto; } }
 @media (min-width: 1440px) {
   .work {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 0 25px; } }
 .work h4 {
@@ -536,41 +536,53 @@ header {
   @media (min-width: 768px) {
     .search h2 {
       margin-top: 31px; } }
-.search input {
-  width: 85%;
-  color: #999999;
-  font: 300 14px Roboto;
-  margin: 15px 0 0 10px;
-  background-color: #ffffff;
-  border-radius: 4px;
-  line-height: 35px;
-  padding-left: 13px; }
+
+.button--search {
+  width: 60%;
+  margin: 0 auto; }
   @media (min-width: 768px) {
-    .search input {
-      width: 32%;
-      margin: 37px 0 0 170px; } }
+    .button--search {
+      width: 55%;
+      margin: 39px auto; } }
   @media (min-width: 1440px) {
-    .search input {
-      width: 17%;
-      margin: 37px 0 0 505px; } }
-.search button {
-  width: 90%;
-  margin: 6px 15px 0 15px;
-  background-color: #ff4e50;
-  border-radius: 20px;
-  border: 1px solid #ff4e50;
-  color: #ffffff;
-  font: 700 14px Montserrat;
-  cursor: pointer; }
-  @media (min-width: 768px) {
-    .search button {
-      width: 21%;
-      margin: 0 0 0 8px; } }
-  @media (min-width: 1440px) {
-    .search button {
-      width: 11.1%;
-      margin: 2px 0 0 5px;
-      line-height: 37px; } }
+    .button--search {
+      margin: 37px auto;
+      width: 29%; } }
+  .button--search input {
+    width: 90%;
+    color: #999999;
+    font: 300 14px Roboto;
+    margin: 15px 10px 0 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    line-height: 35px;
+    padding-left: 13px; }
+    @media (min-width: 768px) {
+      .button--search input {
+        margin: 0 7px 0 0;
+        width: 58%; } }
+    @media (min-width: 1440px) {
+      .button--search input {
+        width: 58%; } }
+  .button--search button {
+    width: 90%;
+    margin: 6px 15px 0 15px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: 1px solid #ff4e50;
+    color: #ffffff;
+    font: 700 14px  Montserrat;
+    line-height: 37px;
+    cursor: pointer; }
+    @media (min-width: 768px) {
+      .button--search button {
+        width: 34%;
+        margin: 0; } }
+    @media (min-width: 1440px) {
+      .button--search button {
+        width: 38%;
+        margin: 0;
+        line-height: 37px; } }
 
 footer {
   text-align: center;
@@ -580,7 +592,7 @@ footer {
   @media (min-width: 768px) {
     footer {
       overflow: hidden;
-      margin-top: 98px; } }
+      margin-top: 99px; } }
   @media (min-width: 1440px) {
     footer {
       padding: 0 207px;
@@ -596,7 +608,7 @@ footer {
       display: block;
       float: left;
       letter-spacing: 1px;
-      margin: 35px 5px 0 33px; } }
+      margin: 35px 5px 0 32px; } }
 
 .footer--comp {
   margin-top: 11px;
@@ -670,9 +682,12 @@ footer {
     text-align: right;
     color: #cccccc;
     font: 700 10px Montserrat; }
+    @media (min-width: 768px) {
+      .footer--des p {
+        padding-bottom: 6px; } }
     @media (min-width: 1440px) {
       .footer--des p {
-        padding-bottom: 7px; } }
+        padding-bottom: 8px; } }
   @media (min-width: 768px) {
     .footer--des {
       width: 110px;

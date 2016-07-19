@@ -116,7 +116,7 @@ header {
         margin: 0 auto;
     }
     @media#{$desktop} {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         padding: 0 25px;
     }
@@ -648,19 +648,30 @@ header {
         font: 300 18px Roboto;
         text-align: center;
     }
+}
+.button--search{
+      @media#{$tablet} {
+          width: 55%;
+          margin: 39px auto;
+        }
+@media#{$desktop} {
+    margin: 37px auto;
+    width: 29%;
+        }
+    width: 60%;
+    margin: 0 auto;
     input {
         @media#{$tablet} {
-            width: 32%;
-            margin: 37px 0 0 170px;
+            margin: 0 7px 0 0;
+            width: 58%;
         }
  @media#{$desktop} {
-     width: 17%;
-            margin: 37px 0 0 505px;
+     width: 58%;
     }
-        width: 85%;
+        width: 90%;
         color: #999999;
         font: 300 14px Roboto;
-        margin: 15px 0 0 10px;
+        margin: 15px 10px 0 10px;
         background-color: #ffffff;
         border-radius: 4px;
         line-height: 35px;
@@ -668,12 +679,12 @@ header {
     }
     button {
         @media#{$tablet} {
-            width: 21%;
-            margin: 0 0 0 8px;
+            width: 34%;
+            margin: 0;
         }
  @media#{$desktop} {
-     width: 11.1%;
-            margin: 2px 0 0 5px;
+     width: 38%;
+            margin: 0;
         line-height: 37px;
     }
         width: 90%;
@@ -682,7 +693,8 @@ header {
         border-radius: 20px;
         border: 1px solid #ff4e50;
         color: #ffffff;
-        font: 700 14px Montserrat;
+        font: 700 14px  Montserrat;
+        line-height: 37px;
         cursor: pointer;
     }
 }
@@ -690,7 +702,7 @@ header {
 footer {
     @media#{$tablet} {
         overflow: hidden;
-        margin-top: 98px;
+        margin-top: 99px;
     }
  @media#{$desktop} {
         padding: 0 207px;
@@ -707,7 +719,7 @@ footer {
         display: block;
         float: left;
         letter-spacing: 1px;
-        margin: 35px 5px 0 33px;
+        margin: 35px 5px 0 32px;
     }
     letter-spacing: 1px;
     margin-top: 16px;
@@ -792,9 +804,11 @@ footer {
 
 .footer--des {
     p {
+        @media#{$tablet} {
+        padding-bottom: 6px;
+    }
         @media#{$desktop} {
-        padding-bottom: 7px;
-
+        padding-bottom: 8px;
     }
         letter-spacing: 1px;
         text-align: right;
