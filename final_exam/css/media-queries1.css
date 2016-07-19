@@ -22,6 +22,10 @@ header {
       margin-top: 37px;
       margin-right: 45px;
       float: right; } }
+  @media (min-width: 1440px) {
+    .log {
+      margin-top: 37px;
+      margin-right: 240px; } }
   .log span {
     text-align: center;
     display: inline-block;
@@ -41,6 +45,9 @@ header {
     .test1 {
       margin: 0 0;
       float: left; } }
+  @media (min-width: 1440px) {
+    .test1 {
+      margin-left: 200px; } }
   .test1 h2 {
     color: #ffffff;
     font: 700 20px Montserrat;
@@ -58,6 +65,10 @@ header {
       margin: 0 auto;
       margin-top: 213px;
       width: 500px; } }
+  @media (min-width: 1440px) {
+    .test {
+      margin: 0 auto;
+      margin-top: 213px; } }
   .test h1 {
     color: #ffffff;
     font: 700 30px Montserrat; }
@@ -87,6 +98,15 @@ header {
         margin-top: 24px;
         width: 225px; } }
 
+@media (min-width: 768px) {
+  .work {
+    width: 100%;
+    margin: 0 auto; } }
+@media (min-width: 1440px) {
+  .work {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 25px; } }
 .work h4 {
   margin: 34px 0 0 0;
   color: #333333;
@@ -94,7 +114,7 @@ header {
   font: 700 22px Montserrat; }
   @media (min-width: 768px) {
     .work h4 {
-      margin: 94px 0 0 5px; } }
+      margin: 94px 0 0 0px; } }
 
 @media (min-width: 768px) {
   .jcarousel-wrapper {
@@ -102,6 +122,10 @@ header {
     height: 397px;
     margin: 0 auto;
     position: relative; } }
+@media (min-width: 1440px) {
+  .jcarousel-wrapper {
+    width: 300px;
+    width: 19px auto; } }
 
 @media (min-width: 768px) {
   .jcarousel {
@@ -120,6 +144,10 @@ header {
   .jcarousel li {
     width: 235px;
     float: left; } }
+@media (min-width: 1440px) {
+  .jcarousel li {
+    float: left;
+    display: list-item; } }
 
 @media (min-width: 768px) {
   .jcarousel-control-prev,
@@ -136,10 +164,18 @@ header {
   .jcarousel-control-prev {
     top: 39px;
     left: 21px; } }
+@media (min-width: 1440px) {
+  .jcarousel-control-prev {
+    top: 150px;
+    left: 21px; } }
 
 @media (min-width: 768px) {
   .jcarousel-control-next {
     top: 39px;
+    right: 21px; } }
+@media (min-width: 1440px) {
+  .jcarousel-control-next {
+    top: 150px;
     right: 21px; } }
 
 @media (min-width: 768px) {
@@ -238,6 +274,10 @@ header {
     color: #cccccc;
     font: 300 14px Roboto; }
 
+@media (min-width: 1440px) {
+  .people {
+    width: 66%;
+    margin: 0 auto; } }
 .people h1 {
   margin-top: 19px;
   margin-right: 10px;
@@ -253,9 +293,13 @@ header {
   .people--list {
     width: 29%;
     float: left; } }
+@media (min-width: 1440px) {
+  .people--list {
+    width: 23%; } }
 .people--list figure {
   text-align: center; }
 .people--list figcaption {
+  padding: 0 5px 0 0;
   margin-top: 10px;
   text-align: center;
   color: #333333;
@@ -267,21 +311,33 @@ header {
   @media (min-width: 768px) {
     .people--list p {
       margin: 0 0 0 0; } }
+  @media (min-width: 1440px) {
+    .people--list p {
+      margin: 0; } }
 
 .people__first {
   margin-top: 14px; }
   @media (min-width: 768px) {
     .people__first {
       margin: 31px 0 0 140px; } }
+  @media (min-width: 1440px) {
+    .people__first {
+      margin: 32px 0 0 4px; } }
   .people__first p {
     margin: 13px 40px; }
     @media (min-width: 768px) {
+      .people__first p {
+        margin: 12px 0 0 0; } }
+    @media (min-width: 1440px) {
       .people__first p {
         margin: 12px 0 0 0; } }
 
 .people__second--mobile {
   margin-top: 26px; }
   @media (min-width: 768px) {
+    .people__second--mobile {
+      display: none; } }
+  @media (min-width: 1440px) {
     .people__second--mobile {
       display: none; } }
   .people__second--mobile figcaption {
@@ -298,6 +354,9 @@ header {
     .people__second {
       display: block;
       margin: 31px 0 0 39px; } }
+  @media (min-width: 1440px) {
+    .people__second {
+      margin: 32px 0 0 24px; } }
   @media (min-width: 768px) {
     .people__second p {
       margin: 12px 0 0 0; } }
@@ -307,17 +366,26 @@ header {
   @media (min-width: 768px) {
     .people__third {
       margin: 56px 0 0 140px; } }
+  @media (min-width: 1440px) {
+    .people__third {
+      margin: 32px 0 0 24px; } }
   .people__third p {
     margin: 14px 30px; }
     @media (min-width: 768px) {
       .people__third p {
         margin: 14px 0 0 0px; } }
+    @media (min-width: 1440px) {
+      .people__third p {
+        margin: 12px 0 0 0; } }
 
 .people__fourth {
   margin-top: 26px; }
   @media (min-width: 768px) {
     .people__fourth {
       margin: 56px 0 0 37px; } }
+  @media (min-width: 1440px) {
+    .people__fourth {
+      margin: 32px 0 0 23px; } }
   .people__fourth figcaption {
     margin: 10px 0px; }
   .people__fourth P {
@@ -347,6 +415,10 @@ header {
     .button--wraper {
       width: 25%;
       margin-top: 34px; } }
+  @media (min-width: 1440px) {
+    .button--wraper {
+      width: 13.5%;
+      margin-top: 36px; } }
 
 .close {
   width: 100%;
@@ -381,12 +453,22 @@ header {
 @media (min-width: 768px) {
   #gallery {
     padding: 0 3px; } }
+@media (min-width: 1440px) {
+  #gallery {
+    width: 66.5%;
+    margin: 0 auto; } }
 
 @media (min-width: 768px) {
   .sizer4 {
     width: 33%; } }
+@media (min-width: 1440px) {
+  .sizer4 {
+    width: 33%; } }
 
 @media (min-width: 768px) {
+  .sizer5 {
+    width: 66%; } }
+@media (min-width: 1440px) {
   .sizer5 {
     width: 66%; } }
 
@@ -437,6 +519,9 @@ header {
 @media (min-width: 768px) {
   .search {
     margin-top: 94px; } }
+@media (min-width: 1440px) {
+  .search {
+    margin-top: 96px; } }
 .search h1 {
   text-align: center;
   color: #333333;
@@ -464,6 +549,10 @@ header {
     .search input {
       width: 32%;
       margin: 37px 0 0 170px; } }
+  @media (min-width: 1440px) {
+    .search input {
+      width: 17%;
+      margin: 37px 0 0 505px; } }
 .search button {
   width: 90%;
   margin: 6px 15px 0 15px;
@@ -472,21 +561,30 @@ header {
   border: 1px solid #ff4e50;
   color: #ffffff;
   font: 700 14px Montserrat;
-  line-height: 40px;
   cursor: pointer; }
   @media (min-width: 768px) {
     .search button {
       width: 21%;
       margin: 0 0 0 8px; } }
+  @media (min-width: 1440px) {
+    .search button {
+      width: 11.1%;
+      margin: 2px 0 0 5px;
+      line-height: 37px; } }
 
 footer {
   text-align: center;
   margin-top: 39px;
-  border-top: 4px solid #ff4e50; }
+  border-top: 4px solid #ff4e50;
+  margin-bottom: 20px; }
   @media (min-width: 768px) {
     footer {
       overflow: hidden;
       margin-top: 98px; } }
+  @media (min-width: 1440px) {
+    footer {
+      padding: 0 207px;
+      margin-top: 100px; } }
 
 .footer--name {
   letter-spacing: 1px;
@@ -509,6 +607,9 @@ footer {
       display: block;
       float: left;
       margin: 36px 4px 0 76px; } }
+  @media (min-width: 1440px) {
+    .footer--comp {
+      margin: 36px 4px 0 90px; } }
 
 .links {
   margin: 0 auto;
@@ -558,19 +659,27 @@ footer {
     .footer--part {
       margin: 36px 0 0 -23px;
       float: left; } }
+  @media (min-width: 1440px) {
+    .footer--part {
+      margin: 36px 0 0 -35px; } }
 
 .footer--des {
   width: 100%; }
   .footer--des p {
     letter-spacing: 1px;
-    padding-bottom: 5px;
     text-align: right;
     color: #cccccc;
     font: 700 10px Montserrat; }
+    @media (min-width: 1440px) {
+      .footer--des p {
+        padding-bottom: 7px; } }
   @media (min-width: 768px) {
     .footer--des {
       width: 110px;
       margin: 39px 30px 0 0;
       float: right; } }
+  @media (min-width: 1440px) {
+    .footer--des {
+      margin: 37px 36px 0 0; } }
 
 /*# sourceMappingURL=media-queries1.css.map */

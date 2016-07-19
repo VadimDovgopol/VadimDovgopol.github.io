@@ -10,7 +10,7 @@ header {
 
 .carousel--step1,
 .carousel--step2,
-.carousel--step3{
+.carousel--step3 {
     @media#{$tablet} {
         display: block;
     }
@@ -22,6 +22,10 @@ header {
         margin-top: 37px;
         margin-right: 45px;
         float: right;
+    }
+    @media#{$desktop} {
+        margin-top: 37px;
+        margin-right: 240px;
     }
     margin: 20px 15px 0 0;
     span {
@@ -46,6 +50,9 @@ header {
         margin: 0 0;
         float: left;
     }
+    @media#{$desktop} {
+        margin-left: 200px;
+    }
     margin: 115px 0 0 0;
     h2 {
         @media#{$tablet} {
@@ -63,6 +70,10 @@ header {
         margin: 0 auto;
         margin-top: 213px;
         width: 500px;
+    }
+    @media#{$desktop} {
+        margin: 0 auto;
+        margin-top: 213px;
     }
     margin-top: 25px;
     text-align: center;
@@ -100,9 +111,18 @@ header {
 }
 
 .work {
+    @media#{$tablet} {
+        width: 100%;
+        margin: 0 auto;
+    }
+    @media#{$desktop} {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0 25px;
+    }
     h4 {
         @media#{$tablet} {
-            margin: 94px 0 0 5px;
+            margin: 94px 0 0 0px;
         }
         margin: 34px 0 0 0;
         color: #333333;
@@ -117,6 +137,10 @@ header {
         height: 397px;
         margin: 0 auto;
         position: relative;
+    }
+    @media#{$desktop} {
+        width: 300px;
+        width: 19px auto;
     }
 }
 
@@ -137,10 +161,18 @@ header {
     }
 }
 
+.jcarousel img {
+    @media#{$desktop} {}
+}
+
 .jcarousel li {
     @media#{$tablet} {
         width: 235px;
         float: left;
+    }
+    @media#{$desktop} {
+        float: left;
+        display: list-item;
     }
 }
 
@@ -162,11 +194,19 @@ header {
         top: 39px;
         left: 21px;
     }
+    @media#{$desktop} {
+        top: 150px;
+        left: 21px;
+    }
 }
 
 .jcarousel-control-next {
     @media#{$tablet} {
         top: 39px;
+        right: 21px;
+    }
+    @media#{$desktop} {
+        top: 150px;
         right: 21px;
     }
 }
@@ -291,7 +331,10 @@ header {
 }
 
 .people {
-    @media#{$tablet} {}
+    @media#{$desktop} {
+        width: 66%;
+        margin: 0 auto;
+    }
     h1 {
         @media#{$tablet} {
             margin-top: 96px;
@@ -310,10 +353,14 @@ header {
         width: 29%;
         float: left;
     }
+    @media#{$desktop} {
+        width: 23%;
+    }
     figure {
         text-align: center;
     }
     figcaption {
+        padding: 0 5px 0 0;
         margin-top: 10px;
         text-align: center;
         color: #333333;
@@ -322,6 +369,9 @@ header {
     p {
         @media#{$tablet} {
             margin: 0 0 0 0;
+        }
+        @media#{$desktop} {
+            margin: 0;
         }
         text-align: center;
         color: #666666;
@@ -333,9 +383,15 @@ header {
     @media#{$tablet} {
         margin: 31px 0 0 140px;
     }
+    @media#{$desktop} {
+        margin: 32px 0 0 4px;
+    }
     margin-top: 14px;
     p {
         @media#{$tablet} {
+            margin: 12px 0 0 0;
+        }
+        @media#{$desktop} {
             margin: 12px 0 0 0;
         }
         margin: 13px 40px;
@@ -344,6 +400,9 @@ header {
 
 .people__second--mobile {
     @media#{$tablet} {
+        display: none;
+    }
+    @media#{$desktop} {
         display: none;
     }
     margin-top: 26px;
@@ -363,6 +422,9 @@ header {
         display: block;
         margin: 31px 0 0 39px;
     }
+    @media#{$desktop} {
+        margin: 32px 0 0 24px;
+    }
     display: none;
     p {
         @media#{$tablet} {
@@ -375,11 +437,16 @@ header {
     @media#{$tablet} {
         margin: 56px 0 0 140px;
     }
+    @media#{$desktop} {
+        margin: 32px 0 0 24px;
+    }
     margin-top: 28px;
-    figcaption {}
     p {
         @media#{$tablet} {
             margin: 14px 0 0 0px;
+        }
+        @media#{$desktop} {
+            margin: 12px 0 0 0;
         }
         margin: 14px 30px;
     }
@@ -389,9 +456,11 @@ header {
     @media#{$tablet} {
         margin: 56px 0 0 37px;
     }
+    @media#{$desktop} {
+        margin: 32px 0 0 23px;
+    }
     margin-top: 26px;
     figcaption {
-        @media#{$tablet} {}
         margin: 10px 0px;
     }
     P {
@@ -425,6 +494,10 @@ header {
         width: 25%;
         margin-top: 34px;
     }
+    @media#{$desktop} {
+        width: 13.5%;
+        margin-top: 36px;
+    }
     width: 80%;
     margin: 0 auto;
 }
@@ -450,6 +523,7 @@ header {
     border: 2px solid #ff4e50;
     border-radius: 20px;
 }
+
 .ideas {
     @media#{$tablet} {
         margin-top: 96px;
@@ -462,108 +536,127 @@ header {
         text-align: center;
     }
 }
-#gallery{
+
+#gallery {
     @media#{$tablet} {
         padding: 0 3px;
-
+    }
+    @media#{$desktop} {
+        width: 66.5%;
+        margin: 0 auto;
     }
 }
-//.sizer1{
-//	width: 100%;
-//}
-//.sizer2{
-//	width: 50%;
-//}
-.sizer4{
-	@media#{$tablet} {
+
+.sizer4 {
+    @media#{$tablet} {
         width: 33%;
-
+    }
+    @media#{$desktop} {
+        width: 33%;
     }
 }
-.sizer5{
+
+.sizer5 {
     @media#{$tablet} {
         width: 66%;
     }
-}
-.item-masonry{
-	position: relative;
+    @media#{$desktop} {
+        width: 66%;
+    }
 }
 
-.item-masonry img{
+.item-masonry {
+    position: relative;
+}
+
+.item-masonry img {
     @media#{$tablet} {
-    height: 311px;
-    width: 100%;
+        height: 311px;
+        width: 100%;
     }
     height: auto;
-	width: 100%;
-	display: block;
+    width: 100%;
+    display: block;
 }
-.item-masonry1{
-     @media#{$tablet} {
-         padding-right: 11px;
 
+.item-masonry1 {
+    @media#{$tablet} {
+        padding-right: 11px;
     }
 }
-.item-masonry2{
-     @media#{$tablet} {
-         padding: 0 4px 0 6px;
+
+.item-masonry2 {
+    @media#{$tablet} {
+        padding: 0 4px 0 6px;
     }
 }
-.item-masonry3{
-     @media#{$tablet} {
-         padding-left: 16px;
+
+.item-masonry3 {
+    @media#{$tablet} {
+        padding-left: 16px;
     }
 }
-.item-masonry4{
-     @media#{$tablet} {
-         padding: 0 10px 0 1px;
-         margin-top: 17px;
+
+.item-masonry4 {
+    @media#{$tablet} {
+        padding: 0 10px 0 1px;
+        margin-top: 17px;
     }
 }
-.item-masonry5{
-     @media#{$tablet} {
-         padding: 0 0 0 9px;
-         margin-top: 17px;
+
+.item-masonry5 {
+    @media#{$tablet} {
+        padding: 0 0 0 9px;
+        margin-top: 17px;
     }
 }
-.item-masonry6{
-     @media#{$tablet} {
-         margin-top: 19px;
-         padding: 0 4px 0 1px;
+
+.item-masonry6 {
+    @media#{$tablet} {
+        margin-top: 19px;
+        padding: 0 4px 0 1px;
     }
 }
-.item-masonry7{
-     @media#{$tablet} {
-         margin-top: 19px;
-         padding-left: 17px;
+
+.item-masonry7 {
+    @media#{$tablet} {
+        margin-top: 19px;
+        padding-left: 17px;
     }
 }
 
 .search {
     @media#{$tablet} {
-    margin-top: 94px;
-}
+        margin-top: 94px;
+    }
+ @media#{$desktop} {
+        margin-top: 96px;
+    }
     h1 {
         @media#{$tablet} {
-        margin: 34px 0 0 0;
-}
+            margin: 34px 0 0 0;
+        }
         text-align: center;
         color: #333333;
         font: 700 22px Montserrat;
     }
     h2 {
         @media#{$tablet} {
-        margin-top: 31px;
-}
+            margin-top: 31px;
+        }
         color: #333333;
         font: 300 18px Roboto;
         text-align: center;
     }
     input {
         @media#{$tablet} {
-        width: 32%;
-        margin: 37px 0 0 170px;
-}
+            width: 32%;
+            margin: 37px 0 0 170px;
+        }
+ @media#{$desktop} {
+     width: 17%;
+            margin: 37px 0 0 505px;
+    }
         width: 85%;
         color: #999999;
         font: 300 14px Roboto;
@@ -575,9 +668,14 @@ header {
     }
     button {
         @media#{$tablet} {
-        width: 21%;
-        margin: 0 0 0 8px;
-}
+            width: 21%;
+            margin: 0 0 0 8px;
+        }
+ @media#{$desktop} {
+     width: 11.1%;
+            margin: 2px 0 0 5px;
+        line-height: 37px;
+    }
         width: 90%;
         margin: 6px 15px 0 15px;
         background-color: #ff4e50;
@@ -585,20 +683,23 @@ header {
         border: 1px solid #ff4e50;
         color: #ffffff;
         font: 700 14px Montserrat;
-        line-height: 40px;
         cursor: pointer;
     }
 }
 
 footer {
-        @media#{$tablet} {
-            overflow: hidden;
-    margin-top: 98px;
-
-}
+    @media#{$tablet} {
+        overflow: hidden;
+        margin-top: 98px;
+    }
+ @media#{$desktop} {
+        padding: 0 207px;
+        margin-top: 100px;
+    }
     text-align: center;
     margin-top: 39px;
     border-top: 4px solid #ff4e50;
+    margin-bottom: 20px;
 }
 
 .footer--name {
@@ -607,7 +708,7 @@ footer {
         float: left;
         letter-spacing: 1px;
         margin: 35px 5px 0 33px;
-}
+    }
     letter-spacing: 1px;
     margin-top: 16px;
     color: #ff4e50;
@@ -615,11 +716,15 @@ footer {
 }
 
 .footer--comp {
-       @media#{$tablet} {
+    @media#{$tablet} {
         display: block;
         float: left;
         margin: 36px 4px 0 76px;
-}
+    }
+     @media#{$desktop} {
+        margin: 36px 4px 0 90px;
+
+    }
     margin-top: 11px;
     color: #333333;
     font: 700 14px Montserrat;
@@ -631,42 +736,38 @@ footer {
         text-align: left;
         display: inline-block;
         margin: 65px 0 0 -71px;
-            }
-
+    }
     margin: 0 auto;
     width: 194px;
 }
 
 .footer--link {
-     @media#{$tablet} {
+    @media#{$tablet} {
         float: none;
-            }
+    }
     float: left;
     color: #666666;
     font: 300 14px / 24px Roboto;
 }
 
 .link__2 {
-     @media#{$tablet} {
-    margin-left: 0px;
-
-            }
+    @media#{$tablet} {
+        margin-left: 0px;
+    }
     margin-left: 10px;
 }
 
 .link__3 {
-     @media#{$tablet} {
-    margin-left: 0px;
-
-            }
+    @media#{$tablet} {
+        margin-left: 0px;
+    }
     margin-left: 15px;
 }
 
 .link__4 {
-     @media#{$tablet} {
-    margin-left: 0px;
-
-            }
+    @media#{$tablet} {
+        margin-left: 0px;
+    }
     margin-left: 15px;
 }
 
@@ -675,10 +776,14 @@ footer {
 }
 
 .footer--part {
-     @media#{$tablet} {
+    @media#{$tablet} {
         margin: 36px 0 0 -23px;
-                float: left;
-            }
+        float: left;
+    }
+ @media#{$desktop} {
+        margin: 36px 0 0 -35px;
+
+    }
     margin-top: 10px;
     margin-bottom: 12px;
     color: #333333;
@@ -686,17 +791,24 @@ footer {
 }
 
 .footer--des {
-    p{
+    p {
+        @media#{$desktop} {
+        padding-bottom: 7px;
+
+    }
         letter-spacing: 1px;
-        padding-bottom: 5px;
         text-align: right;
         color: #cccccc;
         font: 700 10px Montserrat;
     }
     @media#{$tablet} {
-    width: 110px;
+        width: 110px;
         margin: 39px 30px 0 0;
-                float: right;
-            }
+        float: right;
+    }
+@media#{$desktop} {
+        margin: 37px 36px 0 0;
+
+    }
     width: 100%;
 }
