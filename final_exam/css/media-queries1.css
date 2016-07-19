@@ -2,7 +2,6 @@ header {
   background: url(../img/Vector-Smart-Object.png) no-repeat top center;
   height: 700px;
   margin-top: 0;
-  min-width: 320px;
   text-align: center;
   overflow: hidden; }
 
@@ -87,174 +86,6 @@ header {
       .test button {
         margin-top: 24px;
         width: 225px; } }
-
-.people h1 {
-  margin-top: 19px;
-  margin-right: 10px;
-  text-align: center;
-  color: #333333;
-  font: 700 22px Montserrat; }
-  @media (min-width: 768px) {
-    .people h1 {
-      margin-top: 96px;
-      margin-right: 0; } }
-
-@media (min-width: 768px) {
-  .people--list {
-    width: 29%;
-    float: left; } }
-.people--list figure {
-  text-align: center; }
-.people--list figcaption {
-  margin-top: 10px;
-  text-align: center;
-  color: #333333;
-  font: 700 14px Montserrat; }
-.people--list p {
-  text-align: center;
-  color: #666666;
-  font: 300 14px Roboto; }
-  @media (min-width: 768px) {
-    .people--list p {
-      margin: 0 0 0 0; } }
-
-.people__first {
-  margin-top: 14px; }
-  @media (min-width: 768px) {
-    .people__first {
-      margin: 31px 0 0 140px; } }
-  .people__first p {
-    margin: 13px 40px; }
-    @media (min-width: 768px) {
-      .people__first p {
-        margin: 12px 0 0 0; } }
-
-.people__second--mobile {
-  margin-top: 26px; }
-  @media (min-width: 768px) {
-    .people__second--mobile {
-      display: none; } }
-  .people__second--mobile figcaption {
-    margin: 10px 40px 0 35px; }
-  .people__second--mobile p {
-    margin: 14px 29px; }
-    @media (min-width: 768px) {
-      .people__second--mobile p {
-        margin: 0 0 0 0; } }
-
-.people__second {
-  display: none; }
-  @media (min-width: 768px) {
-    .people__second {
-      display: block;
-      margin: 31px 0 0 39px; } }
-  @media (min-width: 768px) {
-    .people__second p {
-      margin: 12px 0 0 0; } }
-
-.people__third {
-  margin-top: 28px; }
-  @media (min-width: 768px) {
-    .people__third {
-      margin: 56px 0 0 140px; } }
-  .people__third p {
-    margin: 14px 30px; }
-    @media (min-width: 768px) {
-      .people__third p {
-        margin: 14px 0 0 0px; } }
-
-.people__fourth {
-  margin-top: 26px; }
-  @media (min-width: 768px) {
-    .people__fourth {
-      margin: 56px 0 0 37px; } }
-  .people__fourth figcaption {
-    margin: 10px 0px; }
-  .people__fourth P {
-    margin: 15px 38px; }
-    @media (min-width: 768px) {
-      .people__fourth P {
-        margin: 0 0 0 0; } }
-
-.people--five {
-  margin-bottom: 37px;
-  text-align: center;
-  float: left;
-  width: 100%;
-  display: none; }
-  .people--five figcaption {
-    color: #333333;
-    font: 700 14px Montserrat; }
-  .people--five p {
-    text-align: center;
-    color: #666666;
-    font: 300 14px Roboto; }
-
-.button--wraper {
-  width: 30%;
-  margin: 0 auto; }
-
-.close {
-  width: 100%;
-  cursor: pointer;
-  color: #ff4e50;
-  font: 700 14px Montserrat;
-  line-height: 37px;
-  background-color: #ffffff;
-  border: 2px solid #ff4e50;
-  border-radius: 20px; }
-
-.button {
-  width: 100%;
-  margin: 9px 0 0 0;
-  cursor: pointer;
-  color: #ff4e50;
-  font: 700 14px Montserrat;
-  line-height: 37px;
-  background-color: #ffffff;
-  border: 2px solid #ff4e50;
-  border-radius: 20px; }
-
-.ideas h1 {
-  color: #333333;
-  font: 700 22px Montserrat;
-  text-align: center; }
-
-.ideas {
-  margin: 0 auto; }
-  .ideas h1 {
-    margin-top: 31px;
-    color: #333333;
-    font: 700 22px Montserrat;
-    text-align: center; }
-
-* {
-  box-sizing: border-box; }
-
-html {
-  overflow-y: scroll; }
-
-body {
-  font-family: sans-serif; }
-
-.grid {
-  background: #DDD; }
-
-.grid:after {
-  content: '';
-  display: block;
-  clear: both; }
-
-.grid-sizer,
-.grid-item {
-  width: 33.333%; }
-
-.grid-item {
-  float: left; }
-
-.grid-item img {
-  display: block;
-  max-width: 100%; }
 
 .work h4 {
   margin: 34px 0 0 0;
@@ -406,5 +237,340 @@ body {
     margin: 12px 0 0 24px;
     color: #cccccc;
     font: 300 14px Roboto; }
+
+.people h1 {
+  margin-top: 19px;
+  margin-right: 10px;
+  text-align: center;
+  color: #333333;
+  font: 700 22px Montserrat; }
+  @media (min-width: 768px) {
+    .people h1 {
+      margin-top: 96px;
+      margin-right: 0; } }
+
+@media (min-width: 768px) {
+  .people--list {
+    width: 29%;
+    float: left; } }
+.people--list figure {
+  text-align: center; }
+.people--list figcaption {
+  margin-top: 10px;
+  text-align: center;
+  color: #333333;
+  font: 700 14px Montserrat; }
+.people--list p {
+  text-align: center;
+  color: #666666;
+  font: 300 14px Roboto; }
+  @media (min-width: 768px) {
+    .people--list p {
+      margin: 0 0 0 0; } }
+
+.people__first {
+  margin-top: 14px; }
+  @media (min-width: 768px) {
+    .people__first {
+      margin: 31px 0 0 140px; } }
+  .people__first p {
+    margin: 13px 40px; }
+    @media (min-width: 768px) {
+      .people__first p {
+        margin: 12px 0 0 0; } }
+
+.people__second--mobile {
+  margin-top: 26px; }
+  @media (min-width: 768px) {
+    .people__second--mobile {
+      display: none; } }
+  .people__second--mobile figcaption {
+    margin: 10px 40px 0 35px; }
+  .people__second--mobile p {
+    margin: 14px 29px; }
+    @media (min-width: 768px) {
+      .people__second--mobile p {
+        margin: 0 0 0 0; } }
+
+.people__second {
+  display: none; }
+  @media (min-width: 768px) {
+    .people__second {
+      display: block;
+      margin: 31px 0 0 39px; } }
+  @media (min-width: 768px) {
+    .people__second p {
+      margin: 12px 0 0 0; } }
+
+.people__third {
+  margin-top: 28px; }
+  @media (min-width: 768px) {
+    .people__third {
+      margin: 56px 0 0 140px; } }
+  .people__third p {
+    margin: 14px 30px; }
+    @media (min-width: 768px) {
+      .people__third p {
+        margin: 14px 0 0 0px; } }
+
+.people__fourth {
+  margin-top: 26px; }
+  @media (min-width: 768px) {
+    .people__fourth {
+      margin: 56px 0 0 37px; } }
+  .people__fourth figcaption {
+    margin: 10px 0px; }
+  .people__fourth P {
+    margin: 15px 38px; }
+    @media (min-width: 768px) {
+      .people__fourth P {
+        margin: 0 0 0 0; } }
+
+.people--five {
+  margin-bottom: 37px;
+  text-align: center;
+  float: left;
+  width: 100%;
+  display: none; }
+  .people--five figcaption {
+    color: #333333;
+    font: 700 14px Montserrat; }
+  .people--five p {
+    text-align: center;
+    color: #666666;
+    font: 300 14px Roboto; }
+
+.button--wraper {
+  width: 80%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .button--wraper {
+      width: 25%;
+      margin-top: 34px; } }
+
+.close {
+  width: 100%;
+  cursor: pointer;
+  color: #ff4e50;
+  font: 700 Montserrat;
+  line-height: 35px;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+  border-radius: 20px; }
+
+.button {
+  width: 100%;
+  cursor: pointer;
+  color: #ff4e50;
+  font: 700 14px Montserrat;
+  line-height: 35px;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+  border-radius: 20px; }
+
+@media (min-width: 768px) {
+  .ideas {
+    margin-top: 96px; } }
+.ideas h1 {
+  margin-bottom: 33px;
+  margin-top: 31px;
+  color: #333333;
+  font: 700 22px Montserrat;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  #gallery {
+    padding: 0 3px; } }
+
+@media (min-width: 768px) {
+  .sizer4 {
+    width: 33%; } }
+
+@media (min-width: 768px) {
+  .sizer5 {
+    width: 66%; } }
+
+.item-masonry {
+  position: relative; }
+
+.item-masonry img {
+  height: auto;
+  width: 100%;
+  display: block; }
+  @media (min-width: 768px) {
+    .item-masonry img {
+      height: 311px;
+      width: 100%; } }
+
+@media (min-width: 768px) {
+  .item-masonry1 {
+    padding-right: 11px; } }
+
+@media (min-width: 768px) {
+  .item-masonry2 {
+    padding: 0 4px 0 6px; } }
+
+@media (min-width: 768px) {
+  .item-masonry3 {
+    padding-left: 16px; } }
+
+@media (min-width: 768px) {
+  .item-masonry4 {
+    padding: 0 10px 0 1px;
+    margin-top: 17px; } }
+
+@media (min-width: 768px) {
+  .item-masonry5 {
+    padding: 0 0 0 9px;
+    margin-top: 17px; } }
+
+@media (min-width: 768px) {
+  .item-masonry6 {
+    margin-top: 19px;
+    padding: 0 4px 0 1px; } }
+
+@media (min-width: 768px) {
+  .item-masonry7 {
+    margin-top: 19px;
+    padding-left: 17px; } }
+
+@media (min-width: 768px) {
+  .search {
+    margin-top: 94px; } }
+.search h1 {
+  text-align: center;
+  color: #333333;
+  font: 700 22px Montserrat; }
+  @media (min-width: 768px) {
+    .search h1 {
+      margin: 34px 0 0 0; } }
+.search h2 {
+  color: #333333;
+  font: 300 18px Roboto;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .search h2 {
+      margin-top: 31px; } }
+.search input {
+  width: 85%;
+  color: #999999;
+  font: 300 14px Roboto;
+  margin: 15px 0 0 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  line-height: 35px;
+  padding-left: 13px; }
+  @media (min-width: 768px) {
+    .search input {
+      width: 32%;
+      margin: 37px 0 0 170px; } }
+.search button {
+  width: 90%;
+  margin: 6px 15px 0 15px;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  border: 1px solid #ff4e50;
+  color: #ffffff;
+  font: 700 14px Montserrat;
+  line-height: 40px;
+  cursor: pointer; }
+  @media (min-width: 768px) {
+    .search button {
+      width: 21%;
+      margin: 0 0 0 8px; } }
+
+footer {
+  text-align: center;
+  margin-top: 39px;
+  border-top: 4px solid #ff4e50; }
+  @media (min-width: 768px) {
+    footer {
+      overflow: hidden;
+      margin-top: 98px; } }
+
+.footer--name {
+  letter-spacing: 1px;
+  margin-top: 16px;
+  color: #ff4e50;
+  font: 700 16px Montserrat; }
+  @media (min-width: 768px) {
+    .footer--name {
+      display: block;
+      float: left;
+      letter-spacing: 1px;
+      margin: 35px 5px 0 33px; } }
+
+.footer--comp {
+  margin-top: 11px;
+  color: #333333;
+  font: 700 14px Montserrat; }
+  @media (min-width: 768px) {
+    .footer--comp {
+      display: block;
+      float: left;
+      margin: 36px 4px 0 76px; } }
+
+.links {
+  margin: 0 auto;
+  width: 194px; }
+  @media (min-width: 768px) {
+    .links {
+      float: left;
+      text-align: left;
+      display: inline-block;
+      margin: 65px 0 0 -71px; } }
+
+.footer--link {
+  float: left;
+  color: #666666;
+  font: 300 14px / 24px Roboto; }
+  @media (min-width: 768px) {
+    .footer--link {
+      float: none; } }
+
+.link__2 {
+  margin-left: 10px; }
+  @media (min-width: 768px) {
+    .link__2 {
+      margin-left: 0px; } }
+
+.link__3 {
+  margin-left: 15px; }
+  @media (min-width: 768px) {
+    .link__3 {
+      margin-left: 0px; } }
+
+.link__4 {
+  margin-left: 15px; }
+  @media (min-width: 768px) {
+    .link__4 {
+      margin-left: 0px; } }
+
+.footer--link:hover {
+  color: black; }
+
+.footer--part {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: #333333;
+  font: 700 14px Montserrat; }
+  @media (min-width: 768px) {
+    .footer--part {
+      margin: 36px 0 0 -23px;
+      float: left; } }
+
+.footer--des {
+  width: 100%; }
+  .footer--des p {
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    text-align: right;
+    color: #cccccc;
+    font: 700 10px Montserrat; }
+  @media (min-width: 768px) {
+    .footer--des {
+      width: 110px;
+      margin: 39px 30px 0 0;
+      float: right; } }
 
 /*# sourceMappingURL=media-queries1.css.map */

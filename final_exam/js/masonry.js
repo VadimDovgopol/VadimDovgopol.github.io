@@ -1,12 +1,22 @@
-// external js: masonry.pkgd.js, imagesloaded.pkgd.js
+$( document ).ready(function() {
+    jQuery('.item-masonry').hover(
+		function(){
+			$(this).find(".cover-item-gallery").fadeIn();
+		},
+		function(){
+			$(this).find(".cover-item-gallery").fadeOut();
+		}
+    );
 
-// init Masonry
-var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  columnWidth: '.grid-sizer'
-});
-// layout Isotope after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
+    var sizer = '.sizer4';
+
+    var container = $('#gallery');
+
+    container.imagesLoaded(function(){
+    	container.masonry({
+    		itemSelector: '.item-masonry',
+    		columnWidth: sizer,
+    		percentPosition: true
+    	});
+    });
 });

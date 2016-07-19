@@ -1031,11 +1031,7 @@
                 background: #DDD;
             }
             /* clear fix */
-            .grid:after {
-                content: '';
-                display: block;
-                clear: both;
-            }
+
             /* ---- .grid-item ---- */
             .grid-sizer,
             .item__1,
