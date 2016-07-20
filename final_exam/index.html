@@ -7,19 +7,12 @@
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
-   <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
     <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,100italic,300,100,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/media-queries1.css">
-     <script src="js/jcarousel.responsive.js"></script>
-    <script src="js/jquery.jcarousel.min.js"></script>
-    <link rel="stylesheet" href="css/jcarousel.css">
-    <script src="js/script.js"></script>
-    <script src="js/masonry.js"></script>
+    <script src="minjs/script.main.min.js"></script>
     <title>URLAUBSGLÜCK</title>
 </head>
 <body>
@@ -48,9 +41,9 @@
 <div class="jcarousel-wrapper">
                 <div class="jcarousel">
                     <ul>
-                     <li><img src="img/MergedLayersstep1sdesktop.png" width="300" height="397" alt=""></li>
-                      <li><img src="img/step2desktop.png" width="300" height="397" alt=""></li>
-                      <li><img src="img/MergedLayersStep3Desktop.png" width="300" height="397" alt=""></li>
+                     <li><img src="img/MergedLayersstep1sdesktop.png" alt=""></li>
+                      <li><img src="img/step2desktop.png" alt=""></li>
+                      <li><img src="img/MergedLayersStep3Desktop.png" alt=""></li>
 
                     </ul>
                 </div>
@@ -63,9 +56,9 @@
   <div class="jcarousel-wrapper">
                 <div class="jcarousel">
                     <ul>
-                     <li><img src="img/step2desktop.png" width="300" height="397" alt=""></li>
-                      <li><img src="img/MergedLayersStep3Desktop.png" width="300" height="397" alt=""></li>
-                      <li><img src="img/MergedLayersstep1sdesktop.png" width="300" height="397" alt=""></li>
+                     <li><img src="img/step2desktop.png" alt=""></li>
+                      <li><img src="img/MergedLayersStep3Desktop.png"  alt=""></li>
+                      <li><img src="img/MergedLayersstep1sdesktop.png" alt=""></li>
 
                     </ul>
                 </div>
@@ -79,8 +72,8 @@
                 <div class="jcarousel">
                     <ul>
                      <li><img src="img/MergedLayersStep3Desktop.png" alt=""></li>
-                      <li><img src="img/MergedLayersstep1sdesktop.png" width="300" height="397" alt=""></li>
-                      <li><img src="img/step2desktop.png" width="300" height="397" alt=""></li>
+                      <li><img src="img/MergedLayersstep1sdesktop.png" alt=""></li>
+                      <li><img src="img/step2desktop.png"  alt=""></li>
 
                     </ul>
                 </div>
@@ -207,9 +200,9 @@ best holiday</h1>
      <h1>Discover holiday activity ideas</h1>
      <h2>Hi! What are your holiday interests?</h2>
      <div class="button--search">
-     <form action="get">
-         <input type="text" placeholder="Enter your interests">
-         <button>Search partners</button>
+     <form method="post" action="" id="form">
+         <input type="text" id="searchForfoto" placeholder="Enter your interests">
+         <button id="buttonForsearch">Search partners</button>
      </form>
      </div>
 

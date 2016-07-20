@@ -5,6 +5,7 @@ $(function () {
         var $people = $('.people--five');
         e.preventDefault();
         $people.fadeToggle(300);
+        $button.removeClass().addClass('close').text('Close');
     })
 
 });

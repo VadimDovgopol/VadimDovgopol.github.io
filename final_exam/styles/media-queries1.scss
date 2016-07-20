@@ -1,11 +1,42 @@
+@import "reset.css";
 $tablet: "(min-width: 768px)";
 $desktop: "(min-width: 1440px)";
+.clearfix:after {
+    content: ' ';
+    clear: both;
+    display: block;
+    font-size: 0;
+}
+
+.head_wrapper {
+    margin: 0 auto
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: sans-serif;
+}
+
 header {
     background: url(../img/Vector-Smart-Object.png) no-repeat top center;
-    height: 700px;
+    height: 540px;
     margin-top: 0;
+    background-size: cover;
     text-align: center;
     overflow: hidden;
+    @media#{$tablet} {
+        height: 700px;
+    }
+    @media#{$desktop} {
+        height: 700px;
+    }
 }
 
 .carousel--step1,
@@ -85,19 +116,21 @@ header {
         font: 700 30px Montserrat;
     }
     h3 {
+        margin: 10px 50px;
+        color: #ffffff;
+        font: 300 18px Roboto;
         @media#{$tablet} {
             margin-top: 24px;
             font: 300 24px Roboto;
         }
-        margin: 10px 40px;
-        color: #ffffff;
-        font: 300 18px Roboto;
     }
     button {
+        cursor: pointer;
         @media#{$tablet} {
             margin-top: 24px;
             width: 225px;
         }
+        width: 87%;
         margin: 4px 0 0 0;
         letter-spacing: 1px;
         border: 1px solid #ff4e50;
@@ -111,12 +144,14 @@ header {
 }
 
 .work {
+    max-width: 300px;
+    margin: 0 auto;
     @media#{$tablet} {
-        width: 100%;
+        max-width: 768px;
         margin: 0 auto;
     }
     @media#{$desktop} {
-        width: 80%;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 0 25px;
     }
@@ -134,11 +169,11 @@ header {
 .jcarousel-wrapper {
     @media#{$tablet} {
         width: 236px;
-        height: 397px;
         margin: 0 auto;
         position: relative;
     }
     @media#{$desktop} {
+        height: 397px;
         width: 300px;
         width: 19px auto;
     }
@@ -162,15 +197,22 @@ header {
 }
 
 .jcarousel img {
-    @media#{$desktop} {}
+    @media#{$tablet} {
+        height: 397px;
+        width: 236px;
+    }
+    @media#{$desktop} {
+        height: 397px;
+        width: 300px;
+    }
 }
 
 .jcarousel li {
     @media#{$tablet} {
-        width: 235px;
         float: left;
     }
     @media#{$desktop} {
+        width: 397px;
         float: left;
         display: list-item;
     }
@@ -263,6 +305,7 @@ header {
         width: 70px;
     }
     h1 {
+        position: relative;
         margin: 14px 0 0 24px;
         color: #ffffff;
         font: 700 24px Montserrat;
@@ -277,7 +320,7 @@ header {
 .step2 {
     margin: 10px 0 0 0;
     background: url(../img/step2.jpg) no-repeat top center;
-    height: 242psx;
+    height: 242px;
     h2 {
         margin: 98px 0 0 24px;
         color: #ffffff;
@@ -331,6 +374,7 @@ header {
 }
 
 .people {
+    margin-top: 30px;
     @media#{$desktop} {
         width: 66%;
         margin: 0 auto;
@@ -386,7 +430,7 @@ header {
     @media#{$desktop} {
         margin: 32px 0 0 4px;
     }
-    margin-top: 14px;
+    margin-top: 13px;
     p {
         @media#{$tablet} {
             margin: 12px 0 0 0;
@@ -394,7 +438,7 @@ header {
         @media#{$desktop} {
             margin: 12px 0 0 0;
         }
-        margin: 13px 40px;
+        margin: 13px 50px;
     }
 }
 
@@ -405,15 +449,15 @@ header {
     @media#{$desktop} {
         display: none;
     }
-    margin-top: 26px;
+    margin-top: 24px;
     figcaption {
         margin: 10px 40px 0 35px;
     }
     p {
+        margin: 14px 50px;
         @media#{$tablet} {
             margin: 0 0 0 0;
         }
-        margin: 14px 29px;
     }
 }
 
@@ -440,15 +484,15 @@ header {
     @media#{$desktop} {
         margin: 32px 0 0 24px;
     }
-    margin-top: 28px;
+    margin-top: 25px;
     p {
+        margin: 14px 55px;
         @media#{$tablet} {
             margin: 14px 0 0 0px;
         }
         @media#{$desktop} {
             margin: 12px 0 0 0;
         }
-        margin: 14px 30px;
     }
 }
 
@@ -459,7 +503,7 @@ header {
     @media#{$desktop} {
         margin: 32px 0 0 23px;
     }
-    margin-top: 26px;
+    margin-top: 24px;
     figcaption {
         margin: 10px 0px;
     }
@@ -467,7 +511,7 @@ header {
         @media#{$tablet} {
             margin: 0 0 0 0;
         }
-        margin: 15px 38px;
+        margin: 13px 45px;
     }
 }
 
@@ -490,6 +534,8 @@ header {
 }
 
 .button--wraper {
+    width: 88%;
+    margin: 25px auto;
     @media#{$tablet} {
         width: 25%;
         margin-top: 34px;
@@ -498,19 +544,6 @@ header {
         width: 13.5%;
         margin-top: 36px;
     }
-    width: 80%;
-    margin: 0 auto;
-}
-
-.close {
-    width: 100%;
-    cursor: pointer;
-    color: #ff4e50;
-    font: 700 Montserrat;
-    line-height: 35px;
-    background-color: #ffffff;
-    border: 2px solid #ff4e50;
-    border-radius: 20px;
 }
 
 .button {
@@ -529,7 +562,7 @@ header {
         margin-top: 96px;
     }
     h1 {
-        margin-bottom: 33px;
+        margin-bottom: 6px;
         margin-top: 31px;
         color: #333333;
         font: 700 22px Montserrat;
@@ -538,16 +571,19 @@ header {
 }
 
 #gallery {
+    margin: 0 9px;
     @media#{$tablet} {
         padding: 0 3px;
     }
     @media#{$desktop} {
+        padding: 0;
         width: 66.5%;
         margin: 0 auto;
     }
 }
 
 .sizer4 {
+    width: 100%;
     @media#{$tablet} {
         width: 33%;
     }
@@ -557,6 +593,7 @@ header {
 }
 
 .sizer5 {
+    width: 100%;
     @media#{$tablet} {
         width: 66%;
     }
@@ -570,18 +607,31 @@ header {
 }
 
 .item-masonry img {
-    @media#{$tablet} {
-        height: 311px;
-        width: 100%;
-    }
-    height: auto;
+    height: 121px;
     width: 100%;
     display: block;
+    @media#{$tablet} {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.item-masonry1,
+.item-masonry2,
+.item-masonry3,
+.item-masonry4,
+.item-masonry5,
+.item-masonry6,
+.item-masonry7 {
+    margin-top: 9px;
 }
 
 .item-masonry1 {
     @media#{$tablet} {
         padding-right: 11px;
+    }
+    @media#{$desktop} {
+        margin-top: 0px;
     }
 }
 
@@ -589,24 +639,30 @@ header {
     @media#{$tablet} {
         padding: 0 4px 0 6px;
     }
+    @media#{$desktop} {
+        margin-top: 0px;
+    }
 }
 
 .item-masonry3 {
     @media#{$tablet} {
-        padding-left: 16px;
+        padding-left: 10px;
+    }
+    @media#{$desktop} {
+        margin-top: 0px;
     }
 }
 
 .item-masonry4 {
     @media#{$tablet} {
-        padding: 0 10px 0 1px;
+        padding: 0 12px 0px 0;
         margin-top: 17px;
     }
 }
 
 .item-masonry5 {
     @media#{$tablet} {
-        padding: 0 0 0 9px;
+        padding: 0 0 0 0px;
         margin-top: 17px;
     }
 }
@@ -614,22 +670,23 @@ header {
 .item-masonry6 {
     @media#{$tablet} {
         margin-top: 19px;
-        padding: 0 4px 0 1px;
+        padding: 0 0px 0 0px;
     }
 }
 
 .item-masonry7 {
     @media#{$tablet} {
         margin-top: 19px;
-        padding-left: 17px;
+        padding-left: 11px;
     }
 }
 
 .search {
+    margin-top: 34px;
     @media#{$tablet} {
         margin-top: 94px;
     }
- @media#{$desktop} {
+    @media#{$desktop} {
         margin-top: 96px;
     }
     h1 {
@@ -641,6 +698,7 @@ header {
         font: 700 22px Montserrat;
     }
     h2 {
+        margin-top: 10px;
         @media#{$tablet} {
             margin-top: 31px;
         }
@@ -649,29 +707,29 @@ header {
         text-align: center;
     }
 }
-.button--search{
-      @media#{$tablet} {
-          width: 55%;
-          margin: 39px auto;
-        }
-@media#{$desktop} {
-    margin: 37px auto;
-    width: 29%;
-        }
-    width: 60%;
+
+.button--search {
     margin: 0 auto;
+    @media#{$tablet} {
+        width: 55%;
+        margin: 39px auto;
+    }
+    @media#{$desktop} {
+        margin: 37px auto;
+        width: 29%;
+    }
     input {
         @media#{$tablet} {
             margin: 0 7px 0 0;
             width: 58%;
         }
- @media#{$desktop} {
-     width: 58%;
-    }
-        width: 90%;
+        @media#{$desktop} {
+            width: 58%;
+        }
+        width: 88%;
         color: #999999;
         font: 300 14px Roboto;
-        margin: 15px 10px 0 10px;
+        margin: 15px 0px 0 16px;
         background-color: #ffffff;
         border-radius: 4px;
         line-height: 35px;
@@ -682,18 +740,18 @@ header {
             width: 34%;
             margin: 0;
         }
- @media#{$desktop} {
-     width: 38%;
+        @media#{$desktop} {
+            width: 38%;
             margin: 0;
-        line-height: 37px;
-    }
-        width: 90%;
-        margin: 6px 15px 0 15px;
+            line-height: 37px;
+        }
+        width: 88%;
+        margin: 9px 0 0 16px;
         background-color: #ff4e50;
         border-radius: 20px;
         border: 1px solid #ff4e50;
         color: #ffffff;
-        font: 700 14px  Montserrat;
+        font: 700 14px Montserrat;
         line-height: 37px;
         cursor: pointer;
     }
@@ -704,7 +762,7 @@ footer {
         overflow: hidden;
         margin-top: 99px;
     }
- @media#{$desktop} {
+    @media#{$desktop} {
         padding: 0 207px;
         margin-top: 100px;
     }
@@ -733,9 +791,8 @@ footer {
         float: left;
         margin: 36px 4px 0 76px;
     }
-     @media#{$desktop} {
+    @media#{$desktop} {
         margin: 36px 4px 0 90px;
-
     }
     margin-top: 11px;
     color: #333333;
@@ -792,9 +849,8 @@ footer {
         margin: 36px 0 0 -23px;
         float: left;
     }
- @media#{$desktop} {
+    @media#{$desktop} {
         margin: 36px 0 0 -35px;
-
     }
     margin-top: 10px;
     margin-bottom: 12px;
@@ -804,25 +860,27 @@ footer {
 
 .footer--des {
     p {
-        @media#{$tablet} {
-        padding-bottom: 6px;
-    }
-        @media#{$desktop} {
-        padding-bottom: 8px;
-    }
+        padding-bottom: 7px;
+        text-align: center;
         letter-spacing: 1px;
-        text-align: right;
         color: #cccccc;
         font: 700 10px Montserrat;
+        @media#{$tablet} {
+            padding-bottom: 6px;
+            text-align: right;
+        }
+        @media#{$desktop} {
+            padding-bottom: 8px;
+            text-align: right;
+        }
     }
     @media#{$tablet} {
         width: 110px;
         margin: 39px 30px 0 0;
         float: right;
     }
-@media#{$desktop} {
+    @media#{$desktop} {
         margin: 37px 36px 0 0;
-
     }
     width: 100%;
 }
