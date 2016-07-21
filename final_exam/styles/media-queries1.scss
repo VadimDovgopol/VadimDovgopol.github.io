@@ -375,15 +375,20 @@ header {
 
 .people {
     margin-top: 30px;
+
+     @media#{$tablet} {
+            width: 750px;
+            margin: 0 auto;
+        }
     @media#{$desktop} {
-        width: 66%;
+        width: 948px;
         margin: 0 auto;
     }
     h1 {
         @media#{$tablet} {
             margin-top: 96px;
             margin-right: 0;
-        }
+}
         margin-top: 19px;
         margin-right: 10px;
         text-align: center;
@@ -571,7 +576,6 @@ header {
 }
 
 #gallery {
-    margin: 0 9px;
     @media#{$tablet} {
         padding: 0 3px;
     }
@@ -592,94 +596,50 @@ header {
     }
 }
 
-.sizer5 {
-    width: 100%;
-    @media#{$tablet} {
-        width: 66%;
-    }
-    @media#{$desktop} {
-        width: 66%;
-    }
-}
+//.sizer5 {
+//    width: 100%;
+//    @media#{$tablet} {
+//        width: 66%;
+//    }
+//    @media#{$desktop} {
+//        width: 66%;
+//    }
+//}
 
 .item-masonry {
+    margin-top: 15px;
+    float: left;
     position: relative;
 }
 
 .item-masonry img {
-    height: 121px;
+    height: auto;
     width: 100%;
     display: block;
     @media#{$tablet} {
         width: 100%;
-        height: auto;
+        height: 300px;
     }
 }
 
-.item-masonry1,
-.item-masonry2,
-.item-masonry3,
-.item-masonry4,
-.item-masonry5,
-.item-masonry6,
-.item-masonry7 {
-    margin-top: 9px;
-}
+.idea-content{
+    width: 100%;
+    position: absolute;
+    top: 80px;
 
-.item-masonry1 {
     @media#{$tablet} {
-        padding-right: 11px;
-    }
+    top: 140px;
+}
     @media#{$desktop} {
-        margin-top: 0px;
-    }
+    top: 140px;
+}
+    p{
+        text-align: center;
+        color: #ffffff;
+        font: 700 22px Montserrat;
+}
 }
 
-.item-masonry2 {
-    @media#{$tablet} {
-        padding: 0 4px 0 6px;
-    }
-    @media#{$desktop} {
-        margin-top: 0px;
-    }
-}
-
-.item-masonry3 {
-    @media#{$tablet} {
-        padding-left: 10px;
-    }
-    @media#{$desktop} {
-        margin-top: 0px;
-    }
-}
-
-.item-masonry4 {
-    @media#{$tablet} {
-        padding: 0 12px 0px 0;
-        margin-top: 17px;
-    }
-}
-
-.item-masonry5 {
-    @media#{$tablet} {
-        padding: 0 0 0 0px;
-        margin-top: 17px;
-    }
-}
-
-.item-masonry6 {
-    @media#{$tablet} {
-        margin-top: 19px;
-        padding: 0 0px 0 0px;
-    }
-}
-
-.item-masonry7 {
-    @media#{$tablet} {
-        margin-top: 19px;
-        padding-left: 11px;
-    }
-}
 
 .search {
     margin-top: 34px;
