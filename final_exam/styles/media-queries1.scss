@@ -576,6 +576,7 @@ header {
 }
 
 #gallery {
+    display: block;
     @media#{$tablet} {
         padding: 0 3px;
     }
@@ -723,7 +724,7 @@ footer {
         margin-top: 99px;
     }
     @media#{$desktop} {
-        padding: 0 207px;
+        padding: 0 300px;
         margin-top: 100px;
     }
     text-align: center;
