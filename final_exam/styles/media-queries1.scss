@@ -375,11 +375,10 @@ header {
 
 .people {
     margin-top: 30px;
-
-     @media#{$tablet} {
-            width: 750px;
-            margin: 0 auto;
-        }
+    @media#{$tablet} {
+        width: 750px;
+        margin: 0 auto;
+    }
     @media#{$desktop} {
         width: 948px;
         margin: 0 auto;
@@ -388,7 +387,7 @@ header {
         @media#{$tablet} {
             margin-top: 96px;
             margin-right: 0;
-}
+        }
         margin-top: 19px;
         margin-right: 10px;
         text-align: center;
@@ -606,7 +605,6 @@ header {
 //        width: 66%;
 //    }
 //}
-
 .item-masonry {
     margin-top: 15px;
     float: left;
@@ -623,24 +621,22 @@ header {
     }
 }
 
-.idea-content{
+.idea-content {
     width: 100%;
     position: absolute;
     top: 80px;
-
     @media#{$tablet} {
-    top: 140px;
-}
+        top: 140px;
+    }
     @media#{$desktop} {
-    top: 140px;
-}
-    p{
+        top: 140px;
+    }
+    p {
         text-align: center;
         color: #ffffff;
         font: 700 22px Montserrat;
+    }
 }
-}
-
 
 .search {
     margin-top: 34px;
