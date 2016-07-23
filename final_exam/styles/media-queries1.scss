@@ -1,8 +1,8 @@
 @import "reset.css";
-
 $tablet: "screen and (min-width: 768px)";
 $desktop: "screen and (min-width: 1440px)";
-$mobile: "screen and and (min-width 1px) (max-width: 320px)";
+
+
 .clearfix:after {
     content: ' ';
     clear: both;
@@ -847,3 +847,4 @@ footer {
     }
     width: 100%;
 }
+
