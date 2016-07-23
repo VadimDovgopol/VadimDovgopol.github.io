@@ -30,7 +30,7 @@ body {
   clear: both; }
 
 .main {
-  width: 100%; }
+  width: 1920px; }
 
 .wrapper {
   width: 1160px;
@@ -101,7 +101,8 @@ header:after {
 
 .info {
   margin: 0 0 50px 0;
-  width: 1160px; }
+  width: 1160px;
+  height: 200px; }
   .info h1 {
     float: left;
     text-align: center;
@@ -158,8 +159,8 @@ header:after {
   clear: both; }
 
 .service {
-  width: 100%;
-  padding-bottom: 100px;
+  width: 1920px;
+  height: 500px;
   background-color: #2a2d32; }
   .service h1 {
     padding: 43px 0 0 0;
@@ -236,7 +237,7 @@ header:after {
   clear: both; }
 
 section {
-  width: 100%;
+  width: 1920px;
   background-color: #f7f7f7;
   padding-bottom: 50px; }
 
@@ -383,7 +384,7 @@ div.panel {
 
 footer {
   padding-top: 50px;
-  width: 100%;
+  width: 1920px;
   background-color: #2a2d32; }
 
 .menu-socials,
