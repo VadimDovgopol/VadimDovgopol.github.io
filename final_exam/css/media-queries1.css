@@ -24,10 +24,10 @@ header {
   background-size: cover;
   text-align: center;
   overflow: hidden; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     header {
       height: 700px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     header {
       height: 700px; } }
 
@@ -35,7 +35,7 @@ header {
 .carousel--step2,
 .carousel--step3 {
   display: none; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .carousel--step1,
     .carousel--step2,
     .carousel--step3 {
@@ -43,12 +43,12 @@ header {
 
 .log {
   margin: 20px 15px 0 0; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .log {
       margin-top: 37px;
       margin-right: 45px;
       float: right; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .log {
       margin-top: 37px;
       margin-right: 240px; } }
@@ -67,18 +67,18 @@ header {
 
 .test1 {
   margin: 115px 0 0 0; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .test1 {
       margin: 0 0;
       float: left; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .test1 {
       margin-left: 200px; } }
   .test1 h2 {
     color: #ffffff;
     font: 700 20px Montserrat;
     letter-spacing: 1px; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .test1 h2 {
         margin: 45px 0 0 40px;
         float: left; } }
@@ -86,26 +86,26 @@ header {
 .test {
   margin-top: 25px;
   text-align: center; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .test {
       margin: 0 auto;
       margin-top: 213px;
       width: 500px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .test {
       margin: 0 auto;
       margin-top: 213px; } }
   .test h1 {
     color: #ffffff;
     font: 700 30px Montserrat; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .test h1 {
         font: 700 52px Montserrat; } }
   .test h3 {
     margin: 10px 50px;
     color: #ffffff;
     font: 300 18px Roboto; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .test h3 {
         margin-top: 24px;
         font: 300 24px Roboto; } }
@@ -121,7 +121,7 @@ header {
     color: #ffffff;
     font: 700 Montserrat;
     font-size: 14px; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .test button {
         margin-top: 24px;
         width: 225px; } }
@@ -129,11 +129,11 @@ header {
 .work {
   max-width: 300px;
   margin: 0 auto; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .work {
       max-width: 768px;
       margin: 0 auto; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .work {
       max-width: 1000px;
       margin: 0 auto;
@@ -143,27 +143,27 @@ header {
     color: #333333;
     text-align: center;
     font: 700 22px Montserrat; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .work h4 {
         margin: 94px 0 0 0px; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel-wrapper {
     width: 236px;
     margin: 0 auto;
     position: relative; } }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .jcarousel-wrapper {
     height: 397px;
     width: 300px;
     width: 19px auto; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel {
     position: relative;
     overflow: hidden; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel ul {
     width: 20000em;
     position: relative;
@@ -171,25 +171,25 @@ header {
     margin: 0;
     padding: 0; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel img {
     height: 397px;
     width: 236px; } }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .jcarousel img {
     height: 397px;
     width: 300px; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel li {
     float: left; } }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .jcarousel li {
     width: 397px;
     float: left;
     display: list-item; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel-control-prev,
   .jcarousel-control-next {
     position: absolute;
@@ -200,43 +200,43 @@ header {
     color: #fff;
     text-decoration: none; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel-control-prev {
     top: 39px;
     left: 21px; } }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .jcarousel-control-prev {
     top: 150px;
     left: 21px; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .jcarousel-control-next {
     top: 39px;
     right: 21px; } }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .jcarousel-control-next {
     top: 150px;
     right: 21px; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .carousel--step1,
   .carousel--step2,
   .carousel--step3 {
     float: left; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .carousel--step1 {
     margin: 36px 0 0 3px; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .carousel--step2 {
     margin: 36px 0 0 20px; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .carousel--step3 {
     margin: 36px 0 0 20px; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .step1,
   .step2,
   .step3 {
@@ -317,11 +317,11 @@ header {
 
 .people {
   margin-top: 30px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people {
       width: 750px;
       margin: 0 auto; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .people {
       width: 948px;
       margin: 0 auto; } }
@@ -331,16 +331,16 @@ header {
     text-align: center;
     color: #333333;
     font: 700 22px Montserrat; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .people h1 {
         margin-top: 96px;
         margin-right: 0; } }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .people--list {
     width: 29%;
     float: left; } }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .people--list {
     width: 23%; } }
 .people--list figure {
@@ -355,89 +355,89 @@ header {
   text-align: center;
   color: #666666;
   font: 300 14px Roboto; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people--list p {
       margin: 0 0 0 0; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .people--list p {
       margin: 0; } }
 
 .people__first {
   margin-top: 13px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people__first {
       margin: 31px 0 0 140px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .people__first {
       margin: 32px 0 0 4px; } }
   .people__first p {
     margin: 13px 50px; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .people__first p {
         margin: 12px 0 0 0; } }
-    @media (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
       .people__first p {
         margin: 12px 0 0 0; } }
 
 .people__second--mobile {
   margin-top: 24px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people__second--mobile {
       display: none; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .people__second--mobile {
       display: none; } }
   .people__second--mobile figcaption {
     margin: 10px 40px 0 35px; }
   .people__second--mobile p {
     margin: 14px 50px; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .people__second--mobile p {
         margin: 0 0 0 0; } }
 
 .people__second {
   display: none; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people__second {
       display: block;
       margin: 31px 0 0 39px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .people__second {
       margin: 32px 0 0 24px; } }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people__second p {
       margin: 12px 0 0 0; } }
 
 .people__third {
   margin-top: 25px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people__third {
       margin: 56px 0 0 140px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .people__third {
       margin: 32px 0 0 24px; } }
   .people__third p {
     margin: 14px 55px; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .people__third p {
         margin: 14px 0 0 0px; } }
-    @media (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
       .people__third p {
         margin: 12px 0 0 0; } }
 
 .people__fourth {
   margin-top: 24px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .people__fourth {
       margin: 56px 0 0 37px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .people__fourth {
       margin: 32px 0 0 23px; } }
   .people__fourth figcaption {
     margin: 10px 0px; }
   .people__fourth P {
     margin: 13px 45px; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .people__fourth P {
         margin: 0 0 0 0; } }
 
@@ -458,11 +458,11 @@ header {
 .button--wraper {
   width: 88%;
   margin: 25px auto; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .button--wraper {
       width: 25%;
       margin-top: 34px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .button--wraper {
       width: 13.5%;
       margin-top: 36px; } }
@@ -477,7 +477,7 @@ header {
   border: 2px solid #ff4e50;
   border-radius: 20px; }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .ideas {
     margin-top: 96px; } }
 .ideas h1 {
@@ -489,10 +489,10 @@ header {
 
 #gallery {
   display: block; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     #gallery {
       padding: 0 3px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     #gallery {
       padding: 0;
       width: 66.5%;
@@ -500,10 +500,10 @@ header {
 
 .sizer4 {
   width: 100%; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .sizer4 {
       width: 33%; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .sizer4 {
       width: 33%; } }
 
@@ -516,7 +516,7 @@ header {
   height: auto;
   width: 100%;
   display: block; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .item-masonry img {
       width: 100%;
       height: 300px; } }
@@ -525,10 +525,10 @@ header {
   width: 100%;
   position: absolute;
   top: 80px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .idea-content {
       top: 140px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .idea-content {
       top: 140px; } }
   .idea-content p {
@@ -538,17 +538,17 @@ header {
 
 .search {
   margin-top: 34px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .search {
       margin-top: 94px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .search {
       margin-top: 96px; } }
   .search h1 {
     text-align: center;
     color: #333333;
     font: 700 22px Montserrat; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .search h1 {
         margin: 34px 0 0 0; } }
   .search h2 {
@@ -556,17 +556,17 @@ header {
     color: #333333;
     font: 300 18px Roboto;
     text-align: center; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .search h2 {
         margin-top: 31px; } }
 
 .button--search {
   margin: 0 auto; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .button--search {
       width: 55%;
       margin: 39px auto; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .button--search {
       margin: 37px auto;
       width: 29%; } }
@@ -579,11 +579,11 @@ header {
     border-radius: 4px;
     line-height: 35px;
     padding-left: 13px; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .button--search input {
         margin: 0 7px 0 0;
         width: 58%; } }
-    @media (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
       .button--search input {
         width: 58%; } }
   .button--search button {
@@ -596,11 +596,11 @@ header {
     font: 700 14px Montserrat;
     line-height: 37px;
     cursor: pointer; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .button--search button {
         width: 34%;
         margin: 0; } }
-    @media (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
       .button--search button {
         width: 38%;
         margin: 0;
@@ -611,11 +611,11 @@ footer {
   margin-top: 39px;
   border-top: 4px solid #ff4e50;
   margin-bottom: 20px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     footer {
       overflow: hidden;
       margin-top: 99px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     footer {
       padding: 0 300px;
       margin-top: 100px; } }
@@ -625,7 +625,7 @@ footer {
   margin-top: 16px;
   color: #ff4e50;
   font: 700 16px Montserrat; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .footer--name {
       display: block;
       float: left;
@@ -636,19 +636,19 @@ footer {
   margin-top: 11px;
   color: #333333;
   font: 700 14px Montserrat; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .footer--comp {
       display: block;
       float: left;
       margin: 36px 4px 0 76px; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .footer--comp {
       margin: 36px 4px 0 90px; } }
 
 .links {
   margin: 0 auto;
   width: 194px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .links {
       float: left;
       text-align: left;
@@ -659,25 +659,25 @@ footer {
   float: left;
   color: #666666;
   font: 300 14px / 24px Roboto; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .footer--link {
       float: none; } }
 
 .link__2 {
   margin-left: 10px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .link__2 {
       margin-left: 0px; } }
 
 .link__3 {
   margin-left: 15px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .link__3 {
       margin-left: 0px; } }
 
 .link__4 {
   margin-left: 15px; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .link__4 {
       margin-left: 0px; } }
 
@@ -689,11 +689,11 @@ footer {
   margin-bottom: 12px;
   color: #333333;
   font: 700 14px Montserrat; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .footer--part {
       margin: 36px 0 0 -23px;
       float: left; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .footer--part {
       margin: 36px 0 0 -35px; } }
 
@@ -705,20 +705,20 @@ footer {
     letter-spacing: 1px;
     color: #cccccc;
     font: 700 10px Montserrat; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .footer--des p {
         padding-bottom: 6px;
         text-align: right; } }
-    @media (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
       .footer--des p {
         padding-bottom: 8px;
         text-align: right; } }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .footer--des {
       width: 110px;
       margin: 39px 30px 0 0;
       float: right; } }
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .footer--des {
       margin: 37px 36px 0 0; } }
 
