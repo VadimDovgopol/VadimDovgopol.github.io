@@ -1,5 +1,4 @@
 @import "reset.css";
-$mobile: "only screen and (min-width: 1px) and (max-width: 320px)";
 $tablet: "only screen and (max-width: 768px)";
 $desktop: "only screen and (min-width: 768px)";
 
@@ -33,9 +32,6 @@ header {
     background-size: cover;
     text-align: center;
     overflow: hidden;
-     @media#{$mobile} {
-        height: 500px;
-    }
     @media#{$tablet} {
         height: 700px;
     }
@@ -47,9 +43,6 @@ header {
 .carousel--step1,
 .carousel--step2,
 .carousel--step3 {
-     @media#{$mobile} {
-      display: none;
-    }
     @media#{$tablet} {
         display: block;
     }
@@ -65,7 +58,7 @@ header {
     @media#{$desktop} {
         margin-top: 37px;
         margin-right: 240px;
-    }
+}
     margin: 20px 15px 0 0;
     span {
         text-align: center;
