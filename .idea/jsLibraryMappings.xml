@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/final_exam" libraries="{VadimDovgopol.github.io/final_exam/node_modules}" />
+    <file url="file://$PROJECT_DIR$/js19-20" libraries="{VadimDovgopol.github.io/js19-20/node_modules}" />
+    <file url="file://$PROJECT_DIR$/jsmodul17-18" libraries="{VadimDovgopol.github.io/jsmodul17-18/node_modules}" />
     <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>
