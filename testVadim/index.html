@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="posters.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="search_form">
+        <p>Search...</p>
+        <form>
+            <button class="search_form--button" type="submit"><img src="images/Black_Search.png"></button>
+        </form>
+    </div>
+    <div ng-controller="mainCtrl" class="poster_img">
+        <posters></posters>
+    </div>
+
+    <div class="list_item" ng-controller="mainCtrl">
+        <list></list>
+
+            </div>
+
+        <div ng-controller="mainCtrl" class="text_description">
+            <text></text>
+            <!--<h1>THE GRAND TOUR</h1>-->
+            <!--<p>Lorem ipsum dolor sit amet,-->
+                <!--consectetur adipisicing elit.-->
+                <!--Accusamus aliquam assumenda,-->
+                <!--consectetur consequatur delectus-->
+                <!--et in nemo repellendus temporibus-->
+                <!--ut. Aliquam commodi dolorum ducimus-->
+                <!--eaque expedita ipsam libero, quam sit.</p>-->
+        </div>
+
+
+            </div>
+</body>
+</html>
