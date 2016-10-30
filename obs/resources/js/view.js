@@ -5,8 +5,14 @@ $(function () {
     var closeBtn = $('.closeBtn');
     var signUp = $('.submit');
     var signUpFooter = $('.foo');
+    var signUpMainBtn = $('#button');
 
     signButton.on('click', function (e) {
+        e.preventDefault();
+        signForm.show(300).addClass('flex')
+
+    });
+    signUpMainBtn.on('click', function (e) {
         e.preventDefault();
         signForm.show(300).addClass('flex')
 
