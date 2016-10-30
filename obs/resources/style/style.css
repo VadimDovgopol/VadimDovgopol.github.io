@@ -1,0 +1,211 @@
+.header {
+    background: url(../image/fon.jpg) no-repeat center;
+    max-width: 1920px;
+    height: 700px;
+    margin-top: 0;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.singUp_window {
+    border-radius: 0 25px 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    z-index: 47;
+    background: #e4e0e0;
+    display: none;
+    margin-bottom: 4px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+}
+.closeBtn{
+    box-shadow: ;
+    position: absolute;
+    top: 0;
+    left: 84%;
+}
+
+.sing_form {
+    display: inline-block;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    padding: 8px 8px 0 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    line-height: 50px;
+    color: #9f9d9d;
+}
+
+.sing_form h1 {
+    font: 400 20px "Open Sans";
+    margin-bottom: 17px;
+}
+
+.sing_form h2 {
+    font: 400 14px "Open Sans";
+    margin-bottom: 17px;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.submit {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    border: 1px solid #17d0f2;
+    background-color: #17d0f2;
+    width: 300px;
+    line-height: 59px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.submit:hover {
+    background-color: #27acc4;
+    border-color: #27acc4;
+}
+
+.form input {
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: none;
+    line-height: 20px;
+    border-radius: 6px;
+    width: 250px;
+}
+
+.logo img {
+    display: flex;
+    margin-left: 60px;
+}
+
+.logIn {
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: none;
+    background: none;
+    line-height: 45px;
+}
+
+.singUp {
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: 3px solid white;
+    background: none;
+    line-height: 45px;
+    width: 100px;
+}
+
+.singUp:hover{
+    color: black;
+    background-color: white;
+}
+#button{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+#button:hover{
+    background: white;
+    color: black;
+}
+
+.logIn:hover {
+    color: grey;
+}
+
+.comp_name {
+    margin-top: 350px;
+}
+
+.button {
+    margin-top: 7px;
+    margin-right: 60px;
+}
+
+.name {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing: 15px;
+}
+
+.slogan {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #f4f5f9;
+    font: 400 24px 'Open Sans';
+}
+
+.comp_name-button {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: none;
+    border: 1px solid white;
+    width: 225px;
+    line-height: 52px;
+    cursor: pointer;
+}
+
+.ellipse {
+    padding: 0 11px 0 13px;
+}
+
+.line {
+    padding-bottom: 2px;
+}
+
+footer {
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 23px;
+    color: #131314;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer button {
+    cursor: pointer;
+    padding: 0 12px;
+    background: none;
+    border: none;
+    color: #131314;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
