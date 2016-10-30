@@ -32,7 +32,8 @@
     margin-bottom: 4px;
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
 }
-.closeBtn{
+
+.closeBtn {
     box-shadow: ;
     position: absolute;
     top: 0;
@@ -105,6 +106,7 @@
     width: 80px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     color: white;
     border: none;
     background: none;
@@ -112,6 +114,7 @@
 }
 
 .singUp {
+    font-weight: 600;
     cursor: pointer;
     margin-left: 15px;
     font-family: 'Open Sans', sans-serif;
@@ -122,15 +125,17 @@
     width: 100px;
 }
 
-.singUp:hover{
+.singUp:hover {
     color: black;
     background-color: white;
 }
-#button{
+
+#button {
     color: white;
     background: rgba(0, 0, 0, 0.5);
 }
-#button:hover{
+
+#button:hover {
     background: white;
     color: black;
 }
@@ -166,6 +171,7 @@
 .comp_name-button {
     color: white;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     background: none;
     border: 1px solid white;
