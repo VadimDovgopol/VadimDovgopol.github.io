@@ -268,7 +268,7 @@ footer li span{
     }
 
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-device-width: 640px) {
 
     .navigation {
         display: none;
