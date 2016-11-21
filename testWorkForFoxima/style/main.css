@@ -235,39 +235,6 @@ footer li span{
 }
 
 
-@media screen and (min-width: 640px) {
-
-    header{
-        margin:0 0 20px 0;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-    header img{
-        padding: 20px 0 0  30px
-    }
-
-    header button{
-        display: none;
-    }
-    .navigation {
-        margin-top: 21px;
-        margin-right: 32px;
-        align-items:center;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
-    }
-    .navigation li {
-        margin-left: 30px;
-        letter-spacing: 1px;
-    }
-    .navigation a:hover{
-        color: #5f2769;
-        
-    }
-
-}
 @media screen and (max-device-width: 640px) {
 
     .navigation {
