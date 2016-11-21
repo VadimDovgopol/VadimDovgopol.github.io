@@ -279,6 +279,7 @@ footer li span{
         justify-content: space-between;
     }
    header button{
+       display: block;
         background: url("../images/menuBtn.png") no-repeat;
         border: none;
         width: 40px;
