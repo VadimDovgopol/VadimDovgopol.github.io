@@ -354,6 +354,8 @@ footer li span{
         display: flex;
 
     }
+    .readMore{
+    }
     .readMore h1{
         color: #ffffff;
         margin:177px 0 0 34px;
@@ -496,12 +498,14 @@ footer li span{
     }
     .contacts-right input{
         height: 68px;
-        width: 90%;
+        width: 89%;
         margin: 0 auto;
         border-radius: 200px;
     }
     #btn{
-        margin: 50px auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 35px;
         width: 90%;
         color: #ffffff;
         font: 500 30px  Roboto;
@@ -511,19 +515,47 @@ footer li span{
     .copy{
         margin: 0;
         color: #252525;
-        font: 400 28px / 24px Roboto;
+        font: 400 26px / 24px Roboto;
     }
     footer li{
         font: 400 24px Roboto;
     
     }
-    footer span{
+    .ourMail{
+        display: flex;
+        align-self: flex-start;
         color: #188cef;
-        font: 400 28px / 24px Roboto;
+        font: 400 26px / 24px Roboto;
+    }
+    .copy, .ourNumber{
+        display: flex;
+        align-self: flex-end;
+        
+    }
+    .copy{
+        margin: 38px 20px 0 0;
+        order: 2;
+    }
+    .ourNumber{
+        margin: -90px 24px 0 0;
+        order: 1
     }
     .news-block{
         padding: 0;
         margin: 30px 0 60px 0;
+    }
+    footer ul{
+        margin: 18px 0 20px 0;
+        width: 100%;
+        flex-direction:  column;
+        display: flex;
+        
+    }
+    .ourMail{
+        margin: 15px 0 0 20px;
+    }
+    #contact{
+        margin:  36px 0 0 20px;
     }
 
 }
