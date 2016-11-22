@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Foxima</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="style/resetCss.css">
     <link rel="stylesheet" href="style/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
@@ -14,6 +16,14 @@
     <header>
         <img src="images/logo.png">
         <img class="menuBtn" src="images/menuBtn.png" width="40" height="32">
+        <div class="phoneMenu">
+           <img  class="closeBtn" src="images/closeBtn.png">
+            <ul>
+            <li>Products</li>
+            <li>News</li>
+            <li>Contacts</li>
+            </ul>
+        </div>
         <ul class="navigation">
             <li><a href="#">PRODUCTS</a></li>
             <li><a href="#">NEWS</a></li>
@@ -23,7 +33,7 @@
     <div class="readMore">
         <h1>The Emerald Buddha</h1>
         <p>DUDE YOU RE GETTING A TELESCOPE</p>
-        <button>Read more</button>
+        <button class="hover">Read more</button>
     </div>
     <div class="products">
         <h1 class="topic">Products</h1>
@@ -31,18 +41,18 @@
             <div class="container-content">
                 <img class="container-content_first" src="images/prod1.png">
                 <p>Telescopes 101</p>
-                <button>See more</button>
+                <button class="hover">See more</button>
 
             </div>
             <div class="container-content">
                 <img class="container-content_second" src="images/prod2.png">
                 <p>Pictures In The Sky</p>
-                <button>See more</button>
+                <button class="hover">See more</button>
             </div>
             <div class="container-content">
                 <img class="container-content_third" src="images/prod3.png">
                 <p>Moon Fever</p>
-                <button>See more</button>
+                <button class="hover">See more</button>
             </div>
         </div>
 
@@ -59,42 +69,42 @@
             <div class="news-block_content">
                 <img src="images/1.jpg" alt=""  width="251" height="145">
                 <p>Cooking Healthy For Radiant Health</p>
-                <a href="#">Read more</a>
+                <a class="bottom1"  href="#">Read more</a>
             </div>
             <div class="news-block_content">
                 <img src="images/2.jpg" alt="">
                 <p>Buying Prescription Drugs In Canada</p>
-                <a href="#">Read more</a>
+                <a class="bottom2"  href="#">Read more</a>
             </div>
             <div class="news-block_content">
                 <img src="images/3.jpg" alt="">
                 <p>Computer Repair</p>
-                <a href="#">Read more</a>
+                <a class="bottom3"  href="#">Read more</a>
             </div>
             <div class="news-block_content">
                 <img src="images/4.jpg" alt="">
                 <p>Aloe Vera A Wonder Herb For Skin</p>
-                <a href="#">Read more</a>
+                <a class="bottom4"  href="#">Read more</a>
             </div>
             <div class="news-block_content">
                 <img src="images/5.jpg" alt="">
                 <p>Pictures In The Sky</p>
-                <a href="#">Read more</a>
+                <a class="bottom5"  href="#">Read more</a>
             </div>
             <div class="news-block_content">
                 <img src="images/6.jpg" alt="">
                 <p>Male Menopause The Alternative Anti Aging Approach</p>
-                <a href="#">Read more</a>
+                <a class="bottom6" href="#">Read more</a>
             </div>
             <div class="news-block_content">
                 <img src="images/7.jpg" alt="">
                 <p>Tourism Is Back In Full Swing In Cancun Mexico</p>
-                <a href="#">Read more</a>
+                <a class="bottom7" href="#">Read more</a>
             </div>
             <div class="news-block_content">
                 <img src="images/8.jpg" alt="">
                 <p>Roar With Confidence</p>
-                <a href="#">Read more</a>
+                <a  class="bottom8" href="#">Read more</a>
             </div>
             <div class="news-block_content" id="mobile">
                 <img src="images/9.jpg">
@@ -132,7 +142,7 @@
             <input type="text">
             <label class="phone">YOUR PHONE </label>
             <input type="text">
-            <button id="btn">Return call</button>
+            <button id="btn" >Return call</button>
 
 
         </div>
@@ -149,6 +159,7 @@
 
 
         </footer>
+    
 
 </div>
 </body>
