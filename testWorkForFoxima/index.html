@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Foxima</title>
     <link rel="stylesheet" href="style/resetCss.css">
     <link rel="stylesheet" href="style/main.css">
@@ -12,9 +12,8 @@
 <div class="wrapper">
 
     <header>
-
-            <img src="images/logo.png">
-            <button></button>
+        <img src="images/logo.png">
+        <img class="menuBtn" src="images/menuBtn.png" width="40" height="32">
         <ul class="navigation">
             <li><a href="#">PRODUCTS</a></li>
             <li><a href="#">NEWS</a></li>
@@ -30,18 +29,18 @@
         <h1 class="topic">Products</h1>
         <div class="container">
             <div class="container-content">
-                <img src="images/prod1.png">
+                <img class="container-content_first" src="images/prod1.png">
                 <p>Telescopes 101</p>
                 <button>See more</button>
 
             </div>
             <div class="container-content">
-                <img src="images/prod2.png">
+                <img class="container-content_second" src="images/prod2.png">
                 <p>Pictures In The Sky</p>
                 <button>See more</button>
             </div>
             <div class="container-content">
-                <img src="images/prod3.png">
+                <img class="container-content_third" src="images/prod3.png">
                 <p>Moon Fever</p>
                 <button>See more</button>
             </div>
@@ -97,7 +96,23 @@
                 <p>Roar With Confidence</p>
                 <a href="#">Read more</a>
             </div>
-        </div>
+            <div class="news-block_content" id="mobile">
+                <img src="images/9.jpg">
+                <p>Italian Cuisine Diverse And Delicious</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="news-block_content" id="mobile" >
+                <img src="images/10.jpg">
+                <p>Going Wireless With Your Headphonesr</p>
+                <a href="#">Read more</a>
+            </div>
+             <div class="news-block_content" id="mobile">
+                <img src="images/11.jpg">
+                <p>Laser Eye Surgery A Risk Analysis For My Daughter</p>
+                <a href="#">Read more</a>
+            </div>
+            <button class="button">View all</button>
+           
     </div>
 
     <div class="contacts">
@@ -114,9 +129,9 @@
         </div>
         <div class="contacts-right">
             <label>YOUR NAME</label>
-            <input  type="text">
+            <input type="text">
             <label class="phone">YOUR PHONE </label>
-            <input  type="text">
+            <input type="text">
             <button id="btn">Return call</button>
 
 
