@@ -261,7 +261,7 @@ footer li span{
         color: #5f2769;
         
     }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 641px) {
     .news-block_content p{
     width: 208px;
     margin: 10px 0 0 20px; 
@@ -311,9 +311,23 @@ footer li span{
     .secondPhoto{
         background-size: cover;
     }
+    .secondPhoto h1 {
+        margin: 0;
+        padding: 0 20px;
+    }
+    .secondPhoto h2{
+    color: rgba(255, 255, 255, 0.8);
+    font: 300 28px / 36px Roboto;
+    margin: 30px 0 80px 0;
+    padding: 0 1px;
+    }
 
     .menuBtn{
-        margin: 0 25px 0 0;
+        margin: 4px 12px 0 0;
+    }
+    .news h1{
+        
+        margin: 100px 0 0 30px;
     }
     .wrapper{
         width: 100%;
@@ -345,20 +359,23 @@ footer li span{
         margin:177px 0 0 34px;
     }
     .readMore p{
-        margin: 29px 0 0 34px;
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.6);
+        font: 500 26px / 28px Roboto;
+        margin: 23px 0 0 34px;
     }
     .readMore button{
         padding: 0;
         
-        margin: 60px 0 0 34px;
+        margin: 55px 0 0 31px;
         color: #ffffff;
         font: 500 30px Roboto;
         width: 229px;
         height: 68px;
-        border-radius: 030px;
+        border-radius: 300px;
     }
     .topic{
-        margin: 100px 0 0 30px;
+        margin: 170px 0 0 30px;
         padding: 0;
         text-align: left;
     }
@@ -372,11 +389,11 @@ footer li span{
         padding:0;
     }
     .container-content p{
-        margin: 46px 0 0 0;
+        margin: 61px 0 0 0;
         color: #252525;
-        font: 700 36px / 18px "Open Sans";
+        font: 700 30px "Open Sans";
     }
-
+    
     .container-content button{
         width: 228px;
         height: 68px;
@@ -390,7 +407,8 @@ footer li span{
         display: none;
     }
     #mobile{
-        width: 95%;
+     margin: 22px 0 0 0;
+     width: 90%;
      display: flex;   
     }
     .navigation {
@@ -413,7 +431,7 @@ footer li span{
     }
     .button{
         cursor: pointer;
-        margin: 40px 0 60px 0;
+        margin: 35px 0 0 24px;
         display: block;
         border: 3px solid #188cef;
         width: 188px;
@@ -429,7 +447,11 @@ footer li span{
         display: none;
     }
     .contacts{
+        margin: 0;
         width: 100%;
+    }
+    .contacts h1{
+        margin: 95px 0 68px 0;
     }
     .contacts-left{
         margin: 0 0 0 32px;
@@ -438,23 +460,39 @@ footer li span{
         color: #808080;
         font: 400 24px Roboto;
     }
+    #phone{
+        margin: 0px;
+    }
+    #number{
+        margin: 20px 0 30px 0;
+    }
+    #mailName{
+        margin: 20px 0 35px 0;
+        font-size: 35px;
+    }
+    #address{
+        margin: 20px 0 4px 0;
+    }
+    #address1{
+    }
     .contacts-left p{
         color: #252525;
-        font: 400 38px Roboto;
+        font: 400 34px Roboto;
     }
     .contacts-left h1{
         color: #252525;
-        font: 700 52px / 48px Roboto;
-        
+        font-family: Roboto;
+        font-size: 52px;
+    
     }
     .contacts-right{
         width: 900%;
         margin: 42px auto;
     }
     .contacts-right label{
-        margin: 50px 0 30px 20px;
+        margin: 24px 0 30px 29px;
         color: #808080;
-        font: 400 24px Roboto;
+        font: 400 26px Roboto;
     }
     .contacts-right input{
         height: 68px;
@@ -483,6 +521,9 @@ footer li span{
         color: #188cef;
         font: 400 28px / 24px Roboto;
     }
-    
-    
+    .news-block{
+        padding: 0;
+        margin: 30px 0 60px 0;
+    }
+
 }
