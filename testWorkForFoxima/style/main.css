@@ -344,6 +344,7 @@ footer li span{
     }
     .readMore button{
         padding: 0;
+        
         margin: 60px 0 0 34px;
         color: #ffffff;
         font: 500 30px Roboto;
@@ -358,9 +359,9 @@ footer li span{
     }
 
     .container-content{
+        width: 90%;
         display: flex;
-        flex-flow: column nowrap;
-        width: 580px;
+        flex-flow: column wrap;
         height: 570px;
         margin: 0 0 40px 0;
         padding:0;
@@ -384,10 +385,8 @@ footer li span{
         display: none;
     }
     #mobile{
+        width: 95%;
      display: flex;   
-    }
-    .secondPhoto{
-        max-height: 480px;
     }
     .navigation {
         display: none;
@@ -425,8 +424,7 @@ footer li span{
         display: none;
     }
     .contacts{
-        
-        
+        width: 100%;
     }
     .contacts-left{
         margin: 0 0 0 32px;
@@ -445,22 +443,25 @@ footer li span{
         
     }
     .contacts-right{
-        
-        margin: 92px auto;
+        width: 900%;
+        margin: 42px auto;
     }
     .contacts-right label{
+        margin: 50px 0 30px 20px;
         color: #808080;
         font: 400 24px Roboto;
     }
     .contacts-right input{
         height: 68px;
-        width: 580px;
+        width: 90%;
+        margin: 0 auto;
         border-radius: 200px;
     }
     #btn{
+        margin: 50px auto;
+        width: 90%;
         color: #ffffff;
         font: 500 30px  Roboto;
-        width: 580px;
         height: 78px;
         border-radius: 200px;
     }
