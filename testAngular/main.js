@@ -1,30 +1,17 @@
-// var app = angular.module('app', []);
-//
-//
-//
-// app.controller('mainCtrl', function () {
-//     this.myLesson = '1lesson';
-//     this.addLesson = function () {
-//         console.log('addLesson');
-//     };
-//
-// });
-//
-// app.controller('firsCtrl', function () {
-//
-//     this.myLesson = '2lesson';
-//
-//
-// });
-//
-// app.controller('secondCtrl', function () {
-// this.myLesson = '3lesson';
-//
-// });
-//
-//
-for (var i = 0; i < 10; i++) {
-    setTimeout(function () {
-        console.log(i);
-    }, 0);
-}
+var app = angular.module('app', []);
+
+app.directive('uiSource', function () {
+    return {
+        compile: function (elem) {
+            var escape = function (content) {
+                return content.replace(/\</g, '&lt;')
+                    .replace(/\>/g, '&gt;');
+            };
+            var pre = angular.element('<pre class="prettyprint"></pre');
+            var pretty = prettyPrintOne(escape(elem.html()));
+            console.log(pretty);
+            pre.append(pretty);
+            elem.replaceWith(pre);
+        }
+    };
+});
