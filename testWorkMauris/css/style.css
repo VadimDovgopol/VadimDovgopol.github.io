@@ -2,7 +2,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
-    background: url("Screenshot_1.jpg") repeat;
+    background: url("../images/Screenshot_1.jpg") repeat;
 }
 
 .main {
@@ -93,7 +93,7 @@ body {
     display: block;
     width: 30px;
     height: 26px;
-    background: url("Screenshot_1.png") 0 0 no-repeat;
+    background: url("../images/Screenshot_1.png") 0 0 no-repeat;
 }
 
 .popUp .clock {
