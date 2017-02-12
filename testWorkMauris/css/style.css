@@ -54,21 +54,44 @@ body {
     background: linear-gradient(to bottom, rgba(168, 236, 255, 1) 0%, rgba(138, 230, 255, 1) 53%, rgba(97, 226, 255, 1) 59%, rgba(97, 226, 255, 1) 78%, rgba(97, 226, 255, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a8ecff', endColorstr='#61e2ff', GradientType=0);
 }
+.waves{
+    display: flex;
+    background: url("../images/line.png") repeat-x;
+    height: 5px;
+    margin-left: 20px;
+}
 
 .leftColumn {
+    position: relative;
     width: 300px;
     display: flex;
     flex-direction: column;
     margin: 0 20px 0 0;
 
 }
+.thirdWaves{
+    display: flex;
+    background: url("../images/line.png") repeat-x;
+    height: 5px;
+    margin-top: 20px;
 
+}
+#secondWaves{
+    margin-top: 20px;
+    align-self: flex-end;
+    background: url("../images/line.png") repeat-x;
+    height: 5px;
+}
+#firstWave{
+    margin-top: 23px;
+}
 .rightColumn {
     display: flex;
     justify-content: flex-end;
 }
 
 .popUp {
+    height: 50px;
     margin: 38px 22px;
 }
 
@@ -119,6 +142,7 @@ body {
     border-radius: 10px;
 }
 
+
 .sey {
     display: block;
     left: 200px;
@@ -129,11 +153,11 @@ body {
 }
 
 .someText {
-    margin: 23px 0 0 20px;
+    margin: 0px 0 0 20px;
     text-align: justify;
     padding: 25px 0;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    /*border-top: 1px solid grey;*/
+    /*border-bottom: 1px solid grey;*/
 }
 
 .someText p {
