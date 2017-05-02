@@ -1,0 +1,176 @@
+.checkbox-wrapper {
+    float: left;
+}
+
+.logo-wrapper {
+    float: left;
+}
+
+.test {
+    float: right;
+}
+
+.footer-icon {
+    float: left;
+}
+
+@media screen and (max-width: 1350px) {
+    .header {
+        width: 90%;
+    }
+
+    .content-header {
+        width: 90%;
+    }
+
+    .main-contain_container {
+        width: 90%;
+    }
+
+    .footer-content {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 830px) {
+    .content{
+        margin: 10px 0;
+    }
+
+}
+@media screen and (max-width: 885px) {
+    .main-contain_container{
+        width: 63%;
+    }
+    .footer{
+        position: relative;
+
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .checkbox-wrapper {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .sort {
+        width: 169px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .sort label {
+    }
+
+    .select {
+        float: left;
+    }
+
+}
+
+@media screen and (max-width: 970px) {
+    .footer-content {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .footer-content_secondLeft{
+        float: none;
+    }
+    .second-line{
+        padding-bottom: 20px;
+    }
+    .footer-logo{
+        width: 221px;
+        margin: 0 auto;
+        float: none;
+    }
+    .footer-list{
+        text-align: center;
+        margin: 10px auto;
+        width: 100px;
+    }
+    .footer-content_left{
+        margin: 0;
+    }
+    .footer-list ul {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    .footer-list ul li{
+        float: none;
+        margin: 0;
+    }
+
+    .footer-icon {
+        float: none;
+        width: 235px;
+        margin: 0 auto;
+    }
+
+    .main-contain_container {
+        margin: 30px auto;
+        width: 218px;
+    }
+
+}
+@media screen and (max-width: 570px) {
+
+    .rss {
+        margin: 0;
+    }
+
+    .header-menu {
+        margin: 0 auto;
+        float: none;
+    }
+
+    .header-main_menu li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .test {
+        margin: 10px auto;
+        float: none;
+        width: 200px;
+    }
+
+    .logo-wrapper {
+        float: none;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .checkbox {
+        margin: 5px 10px;
+    }
+
+    .checkbox-wrapper {
+        max-width: 217px;
+
+    }
+}
+@media screen and (max-height:830px){
+    .footer{
+        padding: 10px 0;
+        position: relative;
+    }
+
+}

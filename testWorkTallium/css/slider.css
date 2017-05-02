@@ -1,0 +1,162 @@
+.range-slider {
+    position: relative;
+    -webkit-box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 0 5px 5px 5px;
+    border-radius: 8px;
+    background: #eaeaea;
+    width: 127px;
+    float: left;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    background: #bbbbbb;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    position: relative;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: #fefefe;
+    margin-top: -6px;
+    z-index: 20;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(13, 177, 218, 0.4);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(13, 177, 218, 0.4);
+    box-shadow: 0px 0px 12px 0px rgba(13, 177, 218, 0.4);
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #bbbbbb;
+}
+
+input[type=range]::-moz-range-track {
+    width: 125px;
+    height: 5px;
+    background: #bbbbbb;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    z-index: 20;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: #fefefe;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring {
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+
+    z-index: 20;
+    width: 125px;
+    height: 5px;
+    height: 5px;
+    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+    background: transparent;
+    /*leave room for the larger thumb to overflow with a transparent border */
+    border-color: transparent;
+    /*remove default tick marks*/
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+}
+
+input[type=range]::-ms-thumb {
+    position: relative;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: #fefefe;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+}
+
+.range-slider__value {
+    font-family: 'Open Sans', sans-serif;
+    color: #2f323b;
+    font-size: 14px;
+    position: absolute;
+    right: -24px;
+    top: 0;
+}
+
+.slider-dot,
+.slider-dot1,
+.slider-dot2,
+.slider-dot3,
+.slider-dot4,
+.slider-dot5{
+    z-index: 0;
+    border-radius: 100%;
+    top: 7px;
+    width: 11px;
+    height: 11px;
+    background: #bbbbbb;
+    position: absolute;
+}
+.slider-dot{
+    left: 4%;
+}
+.slider-dot1{
+    left: 22%;
+}
+.slider-dot2{
+    left: 38%;
+}
+.slider-dot3{
+    left: 56%;
+}
+.slider-dot4{
+    left: 72%;
+}
+.slider-dot5{
+    left: 90%;
+}
