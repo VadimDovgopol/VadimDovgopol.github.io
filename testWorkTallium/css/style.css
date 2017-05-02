@@ -219,7 +219,9 @@ body {
     margin-right: 15px;
     float: left;
 }
-
+.shadow:before{
+    text-shadow: 10px 10px 17px #000000;
+}
 .footer-content {
     display: block;
     margin: 32px auto 0 auto;
@@ -285,7 +287,10 @@ body {
     font-size: 14px;
     color: white;
 }
-
+.footer-list ul li a{
+    text-decoration: none;
+    color: white;
+}
 .footer-content_left {
     margin-right: 23px;
     float: right;
@@ -297,7 +302,14 @@ body {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
-
+.footer-content_left p a{
+    color: white;
+    text-decoration: none;
+}
+.footer-content_secondLeft p a{
+    text-decoration: none;
+    color: white;
+}
 .footer-logo {
     float: left;
 }
@@ -433,10 +445,12 @@ body {
 }
 
 .add-comment {
+    position: relative;
     margin: 0 auto;
 }
 
 .text-area {
+    position: relative;
     padding: 0 5px;
     color: #2f323b;
     font-family: 'Open Sans', sans-serif;
@@ -448,6 +462,28 @@ body {
     width: 90%;
     display: block;
     margin: 5px auto;
+}
+.arrowUp{
+    z-index: 50;
+    display: block;
+    background: url("../images/content/upArrow.png") no-repeat center;
+    padding: 0 10px;
+    width: 17px;
+    height: 7px;
+    top: -6px;
+    right: 0;
+    position:  absolute;
+}
+.arrowUp-last{
+    z-index: 50;
+    display: block;
+    background: url("../images/content/upArrow.png") no-repeat center;
+    padding: 0 10px;
+    width: 17px;
+    height: 7px;
+    top: -6px;
+    right: 18px;
+    position:  absolute;
 }
 
 .add-comment button {
@@ -505,4 +541,10 @@ body {
     -webkit-box-shadow: 0px 0px 20px 3px rgba(165, 221, 236, 0.5);
     -moz-box-shadow: 0px 0px 20px 3px rgba(165, 221, 236, 0.5);
     box-shadow: 0px 0px 20px 3px rgba(165, 221, 236, 0.5);
+}
+.footer-icon div{
+    cursor: pointer;
+}
+.footer-icon div a{
+    color: white;
 }
