@@ -39,7 +39,7 @@
     }
 
     .content-text p {
-        padding-bottom: 130px;
+        padding: 0 15px 130px 15px;
         margin-left: 0;
         max-width: 1000px;
         text-align: center;
@@ -67,7 +67,7 @@
     }
 
     .content-text2 p {
-        padding-bottom: 70px;
+        padding: 0 15px 130px 15px;
         margin-left: 0;
         max-width: 1000px;
         text-align: center;
@@ -139,13 +139,7 @@
         text-align: center;
     }
 
-    .content-text p {
-        padding: 0 15px;
-    }
 
-    .content-text2 p {
-        padding: 0 15px;
-    }
     .third-container p{
         padding: 0 15px;
     }
