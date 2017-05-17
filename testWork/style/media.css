@@ -76,21 +76,28 @@
 }
 
 @media screen and (max-width: 410px) {
-    .form{
+    .form {
         width: 300px;
     }
-    .form form{
+
+    .form form {
         margin: 10px;
     }
-    .form div input{
+
+    .form div input {
         width: 280px;
     }
-    .name div input{
+
+    .name div input {
         width: 120px;
     }
 }
 
 @media screen and (max-width: 1200px) {
+    .head p {
+        padding: 0 15px;
+    }
+
     .copy {
         text-align: center;
     }
@@ -98,11 +105,13 @@
     .footer {
         flex-wrap: wrap;
     }
-    .footer-text{
+
+    .footer-text {
         padding: 0 15px;
         width: 100%;
     }
-    .footer-text p{
+
+    .footer-text p {
         max-width: 1200px;
     }
 
@@ -115,16 +124,29 @@
         align-items: center;
         justify-content: center;
     }
-    .social-link{
+
+    .social-link {
         align-self: center;
         max-width: 1200px;
         display: flex;
     }
+
     .policy {
         margin: 10px 0 0 0;
     }
-    .policy p{
-        text-align: center;
 
+    .policy p {
+        text-align: center;
+    }
+
+    .content-text p {
+        padding: 0 15px;
+    }
+
+    .content-text2 p {
+        padding: 0 15px;
+    }
+    .third-container p{
+        padding: 0 15px;
     }
 }
