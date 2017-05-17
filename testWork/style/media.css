@@ -90,7 +90,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     .copy {
         text-align: center;
     }
@@ -98,16 +98,32 @@
     .footer {
         flex-wrap: wrap;
     }
+    .footer-text{
+        width: 100%;
+    }
+    .footer-text p{
+        max-width: 1200px;
+    }
 
     .footer-link {
+        max-width: 1200px;
+        width: 100%;
         margin-top: 20px;
         display: flex;
-        flex-wrap: wrap;
+        flex-flow: column wrap;
         align-items: center;
         justify-content: center;
     }
-
+    .social-link{
+        align-self: center;
+        max-width: 1200px;
+        display: flex;
+    }
     .policy {
         margin: 10px 0 0 0;
+    }
+    .policy p{
+        text-align: center;
+
     }
 }
