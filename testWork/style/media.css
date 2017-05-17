@@ -99,6 +99,7 @@
         flex-wrap: wrap;
     }
     .footer-text{
+        padding: 0 15px;
         width: 100%;
     }
     .footer-text p{
