@@ -167,7 +167,14 @@
 
     }
 }
-@media screen and (max-height:830px){
+@media screen and (max-height: 600px){
+    .footer{
+        padding: 10px 0;
+        position: relative;
+    }
+
+}
+@media screen and (max-height: 600px) and (max-width:   800px){
     .footer{
         padding: 10px 0;
         position: relative;
