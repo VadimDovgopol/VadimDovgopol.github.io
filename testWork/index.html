@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8"  name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/intlTelInput.js"></script>
+    <script src="js/utils.js"></script>
     <link rel="stylesheet" href="style/reserCss.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/intlTelInput.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:300,400,900|Open+Sans:300"
           rel="stylesheet">
@@ -30,37 +34,40 @@
                 <p>It's time to forget about struggling and switching your life to the new course. Keep your head up
                     since Bull&Bear has everything to make your dreams come true!</p>
             </div>
-            <div class="form">
-                <form>
-                    <div class="name">
+            <div class="form" >
+                <form   class="form-wrapper" method="post" name="myForm" onsubmit=" validateForm(); return false">
+                    <div class="name padding">
                         <div>
                             <label>First Name</label>
-                            <input type="text" name="main-form">
+                            <input type="text"  name="first-name">
                         </div>
                         <div>
                             <label>Last Name</label>
-                            <input type="text" name="main-form">
+                            <input type="text"  name="last-name">
                         </div>
                     </div>
-                    <div class="email full">
+                    <div class="email full padding">
                         <label>E-mail</label>
-                        <input type="text" name="main-form">
+                        <input type="text" name="email">
                     </div>
-                    <div class="country full">
+                    <div class="country full padding">
                         <label>Country</label>
-                        <input type="text" name="main-form">
+                        <select id="address-country"></select>
                     </div>
-                    <div class="number full">
+                    <div class="number full padding">
                         <label>Mobile Phone</label>
-                        <input type="text" name="main-form">
+                        <input id="phone" type="tel" name="tel">
                     </div>
-                    <div class="currency full">
+                    <div class="currency full padding">
                         <label>Currency</label>
-                        <input type="text" name="main-form">
+                        <input type="text" name="currency">
                     </div>
-                    <button class="button">GET STARTED</button>
+                    <button type="submit" class="button">GET STARTED</button>
 
                 </form>
+                <div class="hide-message">
+                    <p>registration complete</p>
+                </div>
             </div>
         </div>
     </div>
@@ -169,6 +176,6 @@
     </div>
 
 </div>
-
+<script src="js/init.js"></script>
 </body>
 </html>

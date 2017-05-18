@@ -1,7 +1,15 @@
 body {
     font-family: sans-serif;
 }
-
+.hide-message{
+    margin: 30px;
+    display: none;
+}
+.hide-message p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
 .header {
     background: url("../images/background.jpg") no-repeat center;
     background-size: cover;
@@ -85,7 +93,7 @@ body {
     margin: 30px 30px;
 }
 
-.form form div {
+.padding {
     margin-bottom: 21px;
 }
 
@@ -196,6 +204,9 @@ body {
     height: 160px;
     border-radius: 100%;
     border: 1px solid #e5e6ea;
+}
+.number{
+    height: 50px;
 }
 
 .user-friendly span {
@@ -422,4 +433,29 @@ body {
 }
 .policy p a:hover{
     color: black;
+}
+/*#phone{*/
+    /*padding: 5px;*/
+/*}*/
+#address-country{
+    height: 33px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+}#address-country option{
+    width: auto;
+
+ }
+.flag-container{
+    height: 100%;
+}
+.intl-tel-input .country-list{
+    max-width: 320px;
+}
+@media (max-width: 500px) {
+    .intl-tel-input .country-list {
+        width: 280px;
+        white-space: normal;
+    }
 }
