@@ -39,8 +39,12 @@ function validateForm() {
         alert('Not valid email or number or you have empty field');
         return false;
     } else {
-        form.hide();
-        message.show();
+        form.hide('slow');
+        message.show('slow');
+        setTimeout(
+            function () {
+            $('.form').hide("slowe");
+            },3500);
     }
 }
 
