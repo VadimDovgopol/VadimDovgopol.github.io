@@ -1,8 +1,8 @@
-body{
-    overflow-y: scroll;
-    overflow-x: hidden;
-    font-family: sans-serif;
-}
+/*body{*/
+    /*overflow-y: scroll;*/
+    /*overflow-x: hidden;*/
+    /*font-family: sans-serif;*/
+/*}*/
 .header {
     background: #002258;
 }
@@ -293,4 +293,7 @@ padding: 16px 10px;
 }
 .border{
     border-right: 1px solid white;
+}
+.slick-prev, .slick-next {
+    display: none !important;
 }

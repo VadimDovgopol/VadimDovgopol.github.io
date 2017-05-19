@@ -1,6 +1,10 @@
 @media screen  and (max-width: 1020px) {
+    .line{
+        max-width: 360px;
+
+    }
     .header-content {
-        margin: 0 10px;
+        /*margin: 0 10px;*/
         justify-content: center;
     }
 
