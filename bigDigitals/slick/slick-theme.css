@@ -1,5 +1,4 @@
-@charset 'UTF-8';
-/* Slider */
+
 .slick-loading .slick-list
 {
     background: #fff url('ajax-loader.gif') center center no-repeat;
@@ -180,7 +179,7 @@
 
     font-family: 'slick';
     font-size: 20px;
-    line-height: 24px;
+    line-height: 23px;
 
     position: absolute;
     top: 0;
