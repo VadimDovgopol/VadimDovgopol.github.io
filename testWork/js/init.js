@@ -35,6 +35,7 @@ function validateForm() {
     var message = $('.hide-message');
     var atpos = email.indexOf("@");
     var dotpos = email.lastIndexOf(".");
+
     if (firstName == "" || lastName == "" || email == "" || tel == "" || currency == "" || telInput.intlTelInput("isValidNumber") == false || atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
         alert('Not valid email or number or you have empty field');
         return false;
