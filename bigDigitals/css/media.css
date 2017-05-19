@@ -70,8 +70,8 @@
         width: 100%;
     }
     body{
-        overflow-y: scroll;
+        overflow-y: hidden;
         overflow-x: hidden;
-        font-family: sans-serif;
+        /*font-family: sans-serif;*/
     }
 }
