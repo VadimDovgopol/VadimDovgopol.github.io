@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="12" height="13" viewBox="0 0 12 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d24a43;
+        filter: url(#inner-shadow-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="innerShadowBlur"/>
+      <feFlood flood-opacity="0.5"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+  </defs>
+  <path d="M6.514,4.106 C6.514,2.595 7.098,1.232 8.029,0.184 C7.542,0.068 7.037,-0.000 6.514,-0.000 C2.917,-0.000 -0.000,2.910 -0.000,6.500 C-0.000,10.090 2.917,13.000 6.514,13.000 C8.821,13.000 10.842,11.801 12.000,9.997 C8.935,9.756 6.514,7.226 6.514,4.106 Z" class="cls-1"/>
+</svg>

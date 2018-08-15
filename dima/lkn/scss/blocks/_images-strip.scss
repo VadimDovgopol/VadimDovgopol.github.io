@@ -1,0 +1,36 @@
+.images-strip{
+  &__item{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 15px;
+    &.last{
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+    img{
+      width: auto;
+      @media screen and (max-width: 479px) {
+        max-width: 320px;
+        width: 100%;
+      }
+    }
+  }
+  &__link{
+    position: relative;
+    color: #d24a43;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    margin-top: 15px;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 8px;
+      top: 4px;
+      right: 0;
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjgiPgogICAgPHBhdGggZmlsbD0iIzg4OCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSA0LjE1MmwtLjc1MS43MzQtLjE1Ni0uMTUyTC43NTEgOCAwIDcuMjY1IDMuMzQyIDQgMCAuNzM0bC43NTEtLjczNSAzLjM0MiAzLjI2Ny4xNTYtLjE1My43NTEuNzM1TDQuODQ0IDQgNSA0LjE1MnoiLz4KPC9zdmc+Cg==');
+    }
+  }
+}
