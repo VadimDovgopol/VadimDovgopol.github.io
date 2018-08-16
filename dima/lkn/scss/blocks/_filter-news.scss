@@ -1,0 +1,115 @@
+.filter_news {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  .result_block_mobile {
+    display: none;
+    color: #d24a43 !important;
+    p {
+
+      color: #d24a43 !important;
+
+    }
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+  .filter_news_arrow_wrapper {
+    justify-content: flex-end;
+    width: 50%;
+    display: none;
+    @media screen and (max-width: 767px) {
+      display: flex;
+    }
+  }
+  .filter_news_arrow {
+    margin-top: 5px;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjI5Mi4zNjJweCIgaGVpZ2h0PSIyOTIuMzYycHgiIHZpZXdCb3g9IjAgMCAyOTIuMzYyIDI5Mi4zNjIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5Mi4zNjIgMjkyLjM2MjsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTI4Ni45MzUsNjkuMzc3Yy0zLjYxNC0zLjYxNy03Ljg5OC01LjQyNC0xMi44NDgtNS40MjRIMTguMjc0Yy00Ljk1MiwwLTkuMjMzLDEuODA3LTEyLjg1LDUuNDI0DQoJCUMxLjgwNyw3Mi45OTgsMCw3Ny4yNzksMCw4Mi4yMjhjMCw0Ljk0OCwxLjgwNyw5LjIyOSw1LjQyNCwxMi44NDdsMTI3LjkwNywxMjcuOTA3YzMuNjIxLDMuNjE3LDcuOTAyLDUuNDI4LDEyLjg1LDUuNDI4DQoJCXM5LjIzMy0xLjgxMSwxMi44NDctNS40MjhMMjg2LjkzNSw5NS4wNzRjMy42MTMtMy42MTcsNS40MjctNy44OTgsNS40MjctMTIuODQ3QzI5Mi4zNjIsNzcuMjc5LDI5MC41NDgsNzIuOTk4LDI4Ni45MzUsNjkuMzc3eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=') no-repeat center;
+    background-size: contain;
+    width: 19px;
+    height: 19px;
+    display: none;
+
+    @media screen and (max-width: 767px) {
+      display: flex;
+      align-self: flex-start;
+    }
+    &.open {
+      transform: rotate(180deg);
+      -webkit-transition: transform 0.40s ease-in-out;
+      -moz-transition: transform 0.40s ease-in-out;
+      -o-transition: transform 0.40s ease-in-out;
+      -ms-transition: transform 0.40s ease-in-out;
+      transition: transform 0.40s ease-in-out;
+    }
+    &.close {
+      transform: rotate(0deg);
+      -webkit-transition: transform 0.40s ease-in-out;
+      -moz-transition: transform 0.40s ease-in-out;
+      -o-transition: transform 0.40s ease-in-out;
+      -ms-transition: transform 0.40s ease-in-out;
+      transition: transform 0.40s ease-in-out;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    max-height: 37px;
+    overflow: hidden;
+    &.open {
+      max-height: 400px;
+      -webkit-transition: max-height 0.40s ease-in-out;
+      -moz-transition: max-height 0.40s ease-in-out;
+      -o-transition: max-height 0.40s ease-in-out;
+      -ms-transition: max-height 0.40s ease-in-out;
+      transition: max-height 0.40s ease-in-out;
+    }
+    &.close {
+      max-height: 37px;
+      -webkit-transition: max-height 0.40s ease-in-out;
+      -moz-transition: max-height 0.40s ease-in-out;
+      -o-transition: max-height 0.40s ease-in-out;
+      -ms-transition: max-height 0.40s ease-in-out;
+      transition: max-height 0.40s ease-in-out;
+    }
+  }
+
+  .filter_news_item_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    @media screen and (max-width: 767px) {
+      width: 50%;
+      flex-flow: column;
+    }
+    .filter_news_item {
+      margin-right: 10px;
+      @include transition(color .2s);
+      color: #282828;
+      cursor: pointer;
+      @media screen and (max-width: 767px) {
+        margin: 0 0 10px 0;
+      }
+      &.active {
+        p {
+          a {
+
+            color: #d24a43;
+          }
+        }
+      }
+      p {
+        a {
+          color: #282828;
+        }
+        margin: 0;
+        font-size: 19px;
+      }
+      a {
+        &:hover {
+          color: #d24a43;
+        }
+      }
+    }
+  }
+}

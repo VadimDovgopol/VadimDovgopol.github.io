@@ -1,0 +1,37 @@
+.interview{
+  &-item{
+    &:hover{
+      .interview__img{
+        filter: none;
+        -webkit-filter: grayscale(0%);
+      }
+      .interview__link{
+        color: #d24a43;
+      }
+    }
+  }
+  &__img-link{
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    @media screen and (max-width: 767px) {
+      float: none;
+      display: block;
+      margin: 0 auto 10px;
+      text-align: center;
+    }
+  }
+  &__img{
+    width: 100%;
+    max-width: 350px;
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+    }
+  }
+  &__title{
+    margin-bottom: 6px;
+  }
+  &__link{
+    display: block;
+  }
+}

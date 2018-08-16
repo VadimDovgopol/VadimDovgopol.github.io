@@ -1,0 +1,23 @@
+.gallery {
+  margin-bottom: 15px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  @include transition(all 1s);
+  .gallery-for img {
+    @media screen and (max-width: 768px) {
+      width: 100% !important;
+    }
+    height: auto;
+  }
+  &.initialized {
+    opacity: 1;
+    height: auto;
+    overflow: visible;
+  }
+
+  &-nav {
+    margin-top: 15px;
+  }
+
+}
