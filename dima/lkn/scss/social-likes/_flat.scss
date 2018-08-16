@@ -36,7 +36,12 @@
 .social-likes__widget {
   display: inline-block;
   position: relative;
-  white-space: nowrap
+  white-space: nowrap;
+  transition: transform .5s;
+  &:hover {
+    //background: red;
+    transform: translateY(-7px);
+  }
 }
 
 .social-likes__widget:after, .social-likes__widget:before {
@@ -56,7 +61,8 @@
 .social-likes__button {
   display: inline-block;
   margin: 0;
-  outline: 0
+  outline: 0;
+
 }
 
 .social-likes__counter {
@@ -351,6 +357,7 @@
 .social-likes_light .social-likes__icon_twitter {
   left: .1em
 }
+
 .social-likes__widget_plusone {
   background: #d23e30
 }
