@@ -982,6 +982,10 @@ header {
   @media screen and (max-width: 900px) {
     .top-people_wrapper {
       height: auto; } }
+  .top-people_wrapper .goToAllList {
+    position: absolute;
+    right: 5px;
+    bottom: 5px; }
   .top-people_wrapper .left-side {
     position: relative;
     display: flex;

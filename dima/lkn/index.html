@@ -158,75 +158,102 @@
     </div>
     <div class="container main-wrapper">
         <div class="content">
+
+            <!-- .banner -->
             <div class="banner">
                 <img src="img/banner.png" alt="banner">
-            </div><!-- /.banner -->
+            </div>
+            <!-- /.banner -->
 
+            <!-- .photo-news -->
             <div class="section photo-news photo-news__main ">
                 <h1 class="h1-title head-page"><a href="#">новости криптовалют</a></h1>
-                <article class="photo-news__item photo-news__item--left">
-                    <img class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
-                    <span class="red-icon">Важно</span>
-                    <!--<div class="photo-news__description">-->
-                    <!--<p class="photo-news__title">-->
-                    <!--<a class="photo-news__link" href="#">Экспортные мифы. Как покорить Великую Китайскую стену</a>-->
-                    <!--</p>-->
-                    <!--<div class="photo-news__info">-->
-                    <!--<span class="photo-news__date">23 ФЕВРАЛЯ 2017</span>-->
-                    <!--—-->
-                    <!--<a href="#" class="photo-news__category">Статьи</a>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                </article><!-- /.photo-news__item -->
 
-                <article class="photo-news__item photo-news__item--right">
-                    <img class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                <!-- .photo-news__item -->
+                <article itemscope itemtype="http://schema.org/Article" class="photo-news__item photo-news__item--left">
+                    <img itemprop="photo" class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                    <span class="red-icon">Важно</span>
+
+                </article>
+                <!-- /.photo-news__item -->
+
+                <!-- .photo-news__item -->
+                <article itemscope itemtype="http://schema.org/Article"
+                         class="photo-news__item photo-news__item--right">
+                    <img itemprop="photo" class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
                     <div class="photo-news__description">
-                        <p class="photo-news__title">
-                            <a class="photo-news__link" href="#">Экспортные мифы. Как покорить Великую Китайскую
+                        <p itemprop="description" class="photo-news__title">
+                            <a itemprop="url" class="photo-news__link" href="#">Экспортные мифы. Как покорить Великую
+                                Китайскую
                                 стену</a>
                         </p>
                         <div class="news-info">
-                            <span class="news-info__date">23 ФЕВРАЛЯ 2017</span>
+                            <span datetime="2017-02-23" class="news-info__date">23 ФЕВРАЛЯ 2017</span>
                             —
-                            <a href="#" class="news-info__category">Статьи</a>
+                            <a itemprop="url" href="#" class="news-info__category">Статьи</a>
                         </div>
                     </div>
-                </article><!-- /.photo-news__item -->
-            </div><!-- /.photo-news -->
+                </article>
+                <!-- /.photo-news__item -->
 
+            </div>
+            <!-- /.photo-news -->
+
+            <!-- .tags-cloud -->
             <div class="section tags-cloud">
                 <h1 class="h1-title head-page"><a href="#">облако тегов</a></h1>
                 <div class="tag-cloud main-cloud" id="tag-cloud"></div>
             </div>
-            <div class="section last-news last-news__mobile"></div>
+            <!-- /.tags-cloud -->
 
+            <!-- .last-news -->
+            <div class="section last-news last-news__mobile"></div>
+            <!-- /.last-news -->
+
+            <!-- .interview -->
             <div class="section interview">
-                <article class="interview-item">
-                    <h1 class="h1-title head-page"><a href="#">интервью</a></h1>
-                    <a class="interview__img-link" href="#">
-                        <img class="interview__img gray-color" src="img/news-img.jpg" class="interview__img" alt="news">
+
+                <!-- .interview-item -->
+                <article class="interview-item" itemscope itemtype="http://schema.org/Article">
+
+                    <h1 itemprop="headline" class="h1-title head-page"><a href="#">интервью</a></h1>
+                    <a itemprop="url" class="interview__img-link" href="#">
+                        <img itemprop="image" class="interview__img gray-color" src="img/news-img.jpg"
+                             class="interview__img" alt="news">
                         <span class="red-icon">Важно</span>
                     </a>
                     <div class="interview__description">
+
                         <h3 class="h3-title interview__title">
-                            <a class="interview__link" href="#">
+                            <a itemprop="url" class="interview__link" href="#">
                                 Виталик Бутерин: «Говорить с людьми, включая власти, —
                                 это полезно. Это гарантия того, что они не будут видеть в технологии врага»
                             </a>
                         </h3>
-                        <p>
+                        <p itemprop="description">
                             Let Know взял интервью у основателя Ethereum Виталика Бутерина и представителя набсовета
                             Ethereum Foundation Владислава Мартынова.
                         </p>
                         <div class="news-info">
                             <span class="news-info__date">23 ФЕВРАЛЯ 2017</span>
+                            <meta itemprop="author" content="Let know news"/>
+                            <meta itemprop="datePublished" content="23-02-2017"/>
                             —
-                            <a href="#" class="news-info__category">Статьи</a>
+                            <a itemprop="url" href="#" class="news-info__category">Статьи</a>
+                        </div>
+                        <div style="display: none" itemprop="publisher" itemscope
+                             itemtype="https://schema.org/Organization">
+                            <meta itemprop="name" content="LetKnowNews">
+                            <meta itemprop="logo" content="img/logo.svg">
+                            <meta itemprop="url" content="http://letknow.news/">
                         </div>
                     </div>
-                </article><!-- /.interview-item -->
-            </div><!-- /.interview -->
+
+                </article>
+                <!-- /.interview-item -->
+
+            </div>
+            <!-- /.interview -->
 
             <div class="section articles">
                 <h1 class="h1-title head-page"><a href="#">Статьи</a></h1>
@@ -236,9 +263,9 @@
                             <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
                             <span class="red-icon">Важно</span>
                         </a>
-                        <h3 class="h3-title articles-media__title">
+                        <div class="h3-title articles-media__title">
                             <a href="#" class="articles-media__link">Show must go on: чистый ритейл никому не нужна</a>
-                        </h3>
+                        </div>
                         <div class="news-info">
                             <span class="news-info__date">23 ФЕВРАЛЯ 2017</span>
                             —
@@ -251,9 +278,9 @@
                             <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
                             <span class="red-icon">Важно</span>
                         </a>
-                        <h3 class="h3-title articles-media__title">
+                        <div class="h3-title articles-media__title">
                             <a href="#" class="articles-media__link">Show must go on: чистый ритейл никому не нужна</a>
-                        </h3>
+                        </div>
                         <div class="news-info">
                             <span class="news-info__date">23 ФЕВРАЛЯ 2017</span>
                             —
@@ -266,9 +293,9 @@
                             <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
                             <span class="red-icon">Важно</span>
                         </a>
-                        <h3 class="h3-title articles-media__title">
+                        <div class="h3-title articles-media__title">
                             <a href="#" class="articles-media__link">Show must go on: чистый ритейл никому не нужна</a>
-                        </h3>
+                        </div>
                         <div class="news-info">
                             <span class="news-info__date">23 ФЕВРАЛЯ 2017</span>
                             —
@@ -376,8 +403,8 @@
                     </div><!-- /.articles-strip__item -->
 
                     <div class="read-more">
-                    <a href="#" class="read-more__link">Все статьи</a>
-                </div><!-- /.read-more -->
+                        <a href="#" class="read-more__link">Все статьи</a>
+                    </div><!-- /.read-more -->
                 </article><!-- /.articles-strip -->
             </div><!-- /.interview -->
 
