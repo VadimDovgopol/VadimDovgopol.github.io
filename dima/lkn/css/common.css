@@ -982,10 +982,17 @@ header {
   @media screen and (max-width: 900px) {
     .top-people_wrapper {
       height: auto; } }
-  .top-people_wrapper .goToAllList {
-    position: absolute;
-    right: 5px;
-    bottom: 5px; }
+  .top-people_wrapper .btn-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center; }
+    @media screen and (max-width: 420px) {
+      .top-people_wrapper .btn-wrapper {
+        justify-content: center; } }
+    .top-people_wrapper .btn-wrapper .goToAllList {
+      margin-top: 10px; }
   .top-people_wrapper .left-side {
     position: relative;
     display: flex;
