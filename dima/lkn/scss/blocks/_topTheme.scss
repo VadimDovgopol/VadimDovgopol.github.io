@@ -1,8 +1,11 @@
 .top-theme {
-  max-width: 1336px;
+  width: 100%;
   font-size: 14px;
   margin: 0 auto;
-  border-bottom: 1px solid #d5d5d5;
+  display: flex;
+  justify-content: center;
+  //border-bottom: 1px solid #d5d5d5;
+  border-top: 1px solid #d5d5d5;
   text-align: center;
   @media screen and (max-width: 1270px) {
     font-size: 12px;
@@ -43,12 +46,15 @@
     }
   }
   .theme-wrapper {
+    max-width: 1336px;
     position: relative;
     display: flex;
     margin: 0 30px;
     flex-direction: row;
     justify-content: flex-start;
     @media screen and (max-width: 800px) {
+      max-width: 100%;
+      width: 100%;
       overflow: hidden;
       flex-direction: column;
       align-items: center;

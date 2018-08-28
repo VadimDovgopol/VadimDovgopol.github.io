@@ -1,4 +1,15 @@
 //main
+.night-mode {
+
+  .exchange-wrapper {
+    .name-exchange, .desk-exchange {
+      color: white !important;
+    }
+    .exchange-item {
+      background-color: #4c4c4c;
+    }
+  }
+}
 
 .night-mode {
   .desktop_visible_only {

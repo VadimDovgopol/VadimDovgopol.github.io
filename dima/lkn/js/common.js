@@ -167,6 +167,26 @@ $(window).load(function () {
         asNavFor: '.gallery-nav'
 
     });
+
+    $('.gallery-wrapper').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        speed: 200,
+        fade: true,
+        cssEase: 'linear'
+    });
+    $('.gallery-wrapper1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        speed: 200,
+        fade: true,
+        cssEase: 'linear'
+    });
+
     $('.gallery-nav').slick({
         slidesToShow: 3,
         slidesToScroll: 1,

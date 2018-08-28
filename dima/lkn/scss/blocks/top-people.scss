@@ -10,8 +10,13 @@
   }
 }
 
+.inner-page {
+  .top-people_wrapper {
+    margin-bottom: 30px;
+  }
+}
+
 .top-people_wrapper {
-  margin-bottom: 30px;
   display: flex;
   background-color: #f5f5f5;
   flex-direction: row;

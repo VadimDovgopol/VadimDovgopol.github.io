@@ -84,17 +84,17 @@
 </header><!-- /.header -->
 <main class="main">
     <div class="container main-wrapper">
-        <div class="content inner-page">
+        <div class="content inner-page" itemscope itemtype="http://schema.org/Article">
             <div class="banner">
                 <img src="img/banner.png" alt="banner">
             </div><!-- /.banner -->
 
-            <h1 class="h1-title">
+            <h1 class="h1-title" itemprop="headline">
                 Скромное обаяние биткоина: украинские реалии использования криптовалют
             </h1>
 
             <div class="section poster">
-                <img src="img/gallery-img.jpg" alt="One">
+                <img itemprop="image" src="img/gallery-img.jpg" alt="One">
                 <h1 class="h1-title poster__title">Скромное обаяние биткоина: украинские реалии использования
                     криптовалют</h1>
             </div>
@@ -142,12 +142,13 @@
 
             <div class="social-likes-wrap">
                 <span class="social-likes__info">
-                    <a class="social-likes__link" href="#">Интервью</a>
+                    <a itemprop="url" class="social-likes__link" href="#">Интервью</a>
                     <span class="social-likes__date">— 23 ФЕВРАЛЯ 2017</span>
+                    <meta itemprop="author" content="Let know news"/>
+                    <meta itemprop="datePublished" content="23-02-2017"/>
                 </span>
 
                 <div class="social-likes social-likes_visible social-likes_ready" data-counters="yes">
-
 
                     <div class="social-likes__widget social-likes__widget_facebook" title="Share link on Facebook"><span
                             class="social-likes__button social-likes__button_facebook"><span
@@ -161,15 +162,14 @@
                             class="social-likes__button social-likes__button_telegram"><span
                             class="social-likes__icon social-likes__icon_telegram"></span><span>Telegram</span></span>
                     </div>
-
                     <div class="social-likes__widget">
                         <span class="social-likes_sub">Подписывайся:</span>
                         <a href="https://t.me/LetknowNews" rel="nofollow" target="_blank"
-                                         style="color: #d24a43;">Teregram канал LetKnow.News</a>
+                           style="color: #d24a43;">Teregram канал LetKnow.News</a>
                     </div>
                 </div>
             </div>
-            <p>
+            <p itemprop="description">
                 В последние годы на финансовом рынке появились новые термины –
                 криптовалюта, биткоины, блокчейны. Для большинства людей они пока очень
                 непривычны. Но можно с уверенностью утверждать, что за
@@ -180,14 +180,14 @@
                 Подписывайтесь на наш <a href="#">Telegram</a> канал <a href="#">@LetKnowNews</a>
             </p>
 
-            <p>
+            <p itemprop="description">
                 Возможность использования криптовалют была открыта в 2008 году и за девять лет
                 получила широкое распространение. Пока что криптовалюты находятся лишь в начале пути своего
                 развития: на данный момент эта революционная технология только ожидает своего «звездного часа».
                 И в ближайшем будущем она получит широкое распространение в мире.
             </p>
 
-            <p>
+            <p itemprop="description">
                 Причиной этому могут послужить значительные преимущества криптовалюты по сравнению с
                 альтернативными национальными валютами. Основными достоинствами такой валюты являются
                 возможность добывать их самостоятельно каждому желающему,
@@ -195,7 +195,7 @@
             </p>
 
             <blockquote>
-                <p>
+                <p itemprop="description">
                     “Несмотря на то, что в нашей стране почти никто не
                     знает о криптовалюте, и она пока
                     официально запрещена, Украина входит в топ-5 стран мира
@@ -211,14 +211,14 @@
                 <p class="note__description">Бывшие бойцы создали около 1000 начинающих IT-компаний.</p>
             </aside>
 
-            <p>
+            <p itemprop="description">
                 Еще одна особенность криптовалют – ими можно пользоваться
                 под псевдонимом. То есть, все транзакции между всеми электронными
                 кошельками находятся в общем доступе, однако невозможно связать это с
                 конкретным человеком. Правда, личность владельца можно
                 установить, если есть дополнительная информация.
             </p>
-            <p>
+            <p itemprop="description">
                 Конечно, как и у любой технологии, у криптовалют есть свои
                 недостатки, которых, впрочем, немного. Например, потеря пароля
                 или доступа к электронному кошельку приведет
@@ -274,7 +274,7 @@
                 </div><!-- /.twitter-wrapper -->
             </div><!-- /.twitter -->
 
-            <p>
+            <p itemprop="description">
                 На данный момент в мире существует более 90 криптовалют. Самой
                 распространенной и дорогой из них остается биткоин (англ. – bitcoin).
                 Биткоины не выпускаются центральными банками и не зависят от кредитно-денежной
@@ -292,9 +292,10 @@
                     <label for="ac-1">1. Гонконг, Китай</label>
                     <article class="ac-large">
                         <p class="ac-container__h2">Гонконг, Китай</p>
-                        <img src="img/acardion.jpg" alt="photo_city">
+                        <img itemprop="image" src="img/acardion.jpg" alt="photo_city">
                         <p class="ac-container__photo-maker">Фото Steven Wei</p>
-                        <p class="ac-container__text">Уже семь лет подряд жилье в Гонконге характеризуется как самое
+                        <p itemprop="description" class="ac-container__text">Уже семь лет подряд жилье в Гонконге
+                            характеризуется как самое
                             недоступное. Тут стоит отметить, что <a href="" class="">Китай</a> – довольно закрытая
                             страна, поэтому другие
                             города в рейтинг не попали – ввиду недостаточного количества данных. С 2010 года в
@@ -309,9 +310,10 @@
                     <label for="ac-2">2. Сидней, Австралия</label>
                     <article class="ac-medium">
                         <p class="ac-container__h2">Сидней, Австралия</p>
-                        <img src="img/acardion.jpg" alt="photo_city">
+                        <img itemprop="image" src="img/acardion.jpg" alt="photo_city">
                         <p class="ac-container__photo-maker">Фото Steven Wei</p>
-                        <p class="ac-container__text">Уже семь лет подряд жилье в Гонконге характеризуется как самое
+                        <p itemprop="description" class="ac-container__text">Уже семь лет подряд жилье в Гонконге
+                            характеризуется как самое
                             недоступное. Тут стоит отметить, что <a href="" class="">Китай</a> – довольно закрытая
                             страна, поэтому другие
                             города в рейтинг не попали – ввиду недостаточного количества данных. С 2010 года в
@@ -326,9 +328,10 @@
                     <label for="ac-3">3. Ванкувер, Канада</label>
                     <article class="ac-large">
                         <p class="ac-container__h2">Ванкувер, Канада</p>
-                        <img src="img/acardion.jpg" alt="photo_city">
+                        <img itemprop="image" src="img/acardion.jpg" alt="photo_city">
                         <p class="ac-container__photo-maker">Фото Steven Wei</p>
-                        <p class="ac-container__text">Уже семь лет подряд жилье в Гонконге характеризуется как самое
+                        <p itemprop="description" class="ac-container__text">Уже семь лет подряд жилье в Гонконге
+                            характеризуется как самое
                             недоступное. Тут стоит отметить, что <a href="" class="">Китай</a> – довольно закрытая
                             страна, поэтому другие
                             города в рейтинг не попали – ввиду недостаточного количества данных. С 2010 года в
@@ -343,9 +346,10 @@
                     <label for="ac-4">4. Окленд, Новая Зеландия</label>
                     <article class="ac-large">
                         <p class="ac-container__h2">Окленд, Новая Зеландия</p>
-                        <img src="img/acardion.jpg" alt="photo_city">
+                        <img itemprop="image" src="img/acardion.jpg" alt="photo_city">
                         <p class="ac-container__photo-maker">Фото Steven Wei</p>
-                        <p class="ac-container__text">Уже семь лет подряд жилье в Гонконге характеризуется как самое
+                        <p itemprop="description" class="ac-container__text">Уже семь лет подряд жилье в Гонконге
+                            характеризуется как самое
                             недоступное. Тут стоит отметить, что <a href="" class="">Китай</a> – довольно закрытая
                             страна, поэтому другие
                             города в рейтинг не попали – ввиду недостаточного количества данных. С 2010 года в
@@ -360,9 +364,10 @@
                     <label for="ac-5">5. Сан-Хосе, США</label>
                     <article class="ac-large">
                         <p class="ac-container__h2">Сан-Хосе, США</p>
-                        <img src="img/acardion.jpg" alt="photo_city">
+                        <img itemprop="image" src="img/acardion.jpg" alt="photo_city">
                         <p class="ac-container__photo-maker">Фото Steven Wei</p>
-                        <p class="ac-container__text">Уже семь лет подряд жилье в Гонконге характеризуется как самое
+                        <p itemprop="description" class="ac-container__text">Уже семь лет подряд жилье в Гонконге
+                            характеризуется как самое
                             недоступное. Тут стоит отметить, что <a href="" class="">Китай</a> – довольно закрытая
                             страна, поэтому другие
                             города в рейтинг не попали – ввиду недостаточного количества данных. С 2010 года в
@@ -420,28 +425,33 @@
             <div class="section last-news">
                 <h2 class="h2-title last-news__title"><a href="#">Читайте также</a></h2>
                 <ul class="last-news__list">
-                    <li class="last-news__item">
-                        <a href="#">Российский газ для ЕС может подорожать на $20</a>
+                    <li class="last-news__item" itemprop="headline">
+                        <a itemprop="url" href="#">Российский газ для ЕС может подорожать на $20</a>
                     </li>
-                    <li class="last-news__item">
-                        <a href="#">«Дельта банк» подозревают в хищении 1,7 млрд грн</a>
+                    <li class="last-news__item" itemprop="headline">
+                        <a itemprop="url" href="#">«Дельта банк» подозревают в хищении 1,7 млрд грн</a>
                     </li>
-                    <li class="last-news__item">
-                        <a href="#">Инвесткомпания Баффета увеличила пакет акций Apple</a>
+                    <li class="last-news__item" itemprop="headline">
+                        <a itemprop="url" href="#">Инвесткомпания Баффета увеличила пакет акций Apple</a>
                     </li>
-                    <li class="last-news__item">
-                        <a href="#">Российский газ для ЕС может подорожать на $20</a>
+                    <li class="last-news__item" itemprop="headline">
+                        <a itemprop="url" href="#">Российский газ для ЕС может подорожать на $20</a>
                     </li>
-                    <li class="last-news__item">
-                        <a href="#">«Дельта банк» подозревают в хищении 1,7 млрд грн</a>
+                    <li class="last-news__item" itemprop="headline">
+                        <a itemprop="url" href="#">«Дельта банк» подозревают в хищении 1,7 млрд грн</a>
                     </li>
-                    <li class="last-news__item last">
-                        <a href="#">Инвесткомпания Баффета увеличила пакет акций Apple</a>
+                    <li class="last-news__item last" itemprop="headline">
+                        <a itemprop="url" href="#">Инвесткомпания Баффета увеличила пакет акций Apple</a>
                     </li>
                 </ul><!-- /.last-news__list -->
             </div><!-- /.last-news -->
 
-
+            <div style="display: none" itemprop="publisher" itemscope
+                 itemtype="https://schema.org/Organization">
+                <meta itemprop="name" content="LetKnowNews">
+                <meta itemprop="logo" content="img/logo.svg">
+                <meta itemprop="url" content="http://letknow.news/">
+            </div>
         </div><!-- /.content -->
 
         <div class="sidebar">
@@ -659,7 +669,7 @@
                         должна быть размещена в подзаголовке или в первом абзаце материала.
                     </p>
                     <div class="footer__analytics">Bigmir
-                    analytics
+                        analytics
                     </div>
                 </div>
             </div>
