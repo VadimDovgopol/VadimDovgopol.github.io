@@ -807,7 +807,7 @@ header {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row; }
-  @media screen and (max-width: 623px) {
+  @media screen and (max-width: 673px) {
     .stock-exchange .filter-wrapper {
       flex-direction: column;
       justify-content: center; } }
@@ -820,10 +820,9 @@ header {
     .stock-exchange .filter-wrapper .filter-item p a {
       font-size: 18px; }
   .stock-exchange .filter-wrapper .filter-item.filter-item_first p {
-    padding: 0 50px 0 0;
     border-left: none;
     text-align: left; }
-  @media screen and (max-width: 623px) {
+  @media screen and (max-width: 673px) {
     .stock-exchange .filter-wrapper .filter-item p {
       padding: 10px 0;
       border-left: none;
@@ -848,12 +847,13 @@ header {
         border-right: none; } }
     .stock-exchange .stock-exchange-item .left-block .img-wrapper {
       display: flex;
-      height: 200px;
+      height: 120px;
       align-items: center;
       justify-content: center; }
       .stock-exchange .stock-exchange-item .left-block .img-wrapper img {
         width: 82px; }
     .stock-exchange .stock-exchange-item .left-block .name {
+      margin-top: 18px;
       font-family: "Exo2-Bold";
       font-size: 30px;
       text-align: center; }
