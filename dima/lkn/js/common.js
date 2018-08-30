@@ -1,14 +1,16 @@
 function yHandler() {
+    var ajaxLoading = false;
     var url = "./tsconfig.json";
-    $.getJSON(url, function (data) {
-        console.log(data.wrap);
-        var myBlock = data.wrap;
-        $.each(myBlock, function (i, myBlock) {
-            var item = myBlock.item
+    if (!ajaxLoading) {
+        ajaxLoading = true;
+        $.getJSON(url, function (data) {
+            var item = data.item;
+            var url = data.url;
+            history.pushState(null, '', url);
             $("#load-new-content").append("<div class='newData'>" + item + "</div>")
+            ajaxLoading = false;
         })
-
-    });
+    }
 }
 
 window.onscroll = function (ev) {
