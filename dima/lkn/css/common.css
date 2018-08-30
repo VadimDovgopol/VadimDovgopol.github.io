@@ -1081,6 +1081,13 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #f5f5f5; }
+  @media screen and (max-width: 1220px) {
+    .top-compilation .top-compilation-block {
+      flex-direction: row;
+      justify-content: space-around; } }
+  @media screen and (max-width: 670px) {
+    .top-compilation .top-compilation-block {
+      flex-direction: column; } }
   .top-compilation .top-compilation-block .top-compilation-item {
     margin: 20px 0;
     display: flex;
@@ -1095,11 +1102,11 @@ header {
       transition: transform 0.40s ease-in-out; }
     .top-compilation .top-compilation-block .top-compilation-item:hover #A-coin_1_ {
       transform-origin: bottom right;
-      transform: rotate(-2deg);
+      transform: rotate(-4deg);
       transition: transform 0.40s ease-in-out; }
     .top-compilation .top-compilation-block .top-compilation-item:hover #B-coin_1_ {
       transform-origin: left bottom;
-      transform: rotate(2deg);
+      transform: rotate(4deg);
       transition: transform 0.40s ease-in-out; }
     .top-compilation .top-compilation-block .top-compilation-item:hover #bitkoin_1_ {
       transform-origin: bottom right;
@@ -1111,14 +1118,33 @@ header {
       transition: transform 0.40s ease-in-out; }
     .top-compilation .top-compilation-block .top-compilation-item:hover p {
       color: #d24a43 !important; }
-    .top-compilation .top-compilation-block .top-compilation-item .svg-icon {
-      margin-bottom: 15px; }
     .top-compilation .top-compilation-block .top-compilation-item .svg-icon_man {
+      margin-bottom: 15px;
       width: 59px; }
+      @media screen and (max-width: 1220px) {
+        .top-compilation .top-compilation-block .top-compilation-item .svg-icon_man {
+          margin-bottom: 15px; } }
+      @media screen and (max-width: 670px) {
+        .top-compilation .top-compilation-block .top-compilation-item .svg-icon_man {
+          margin-bottom: 15px; } }
     .top-compilation .top-compilation-block .top-compilation-item .svg-icon_purse {
+      margin-bottom: 15px;
       width: 85px; }
+      @media screen and (max-width: 1220px) {
+        .top-compilation .top-compilation-block .top-compilation-item .svg-icon_purse {
+          margin-bottom: 23px; } }
+      @media screen and (max-width: 670px) {
+        .top-compilation .top-compilation-block .top-compilation-item .svg-icon_purse {
+          margin-bottom: 15px; } }
     .top-compilation .top-compilation-block .top-compilation-item .svg-icon_exchange {
+      margin-bottom: 15px;
       width: 102px; }
+      @media screen and (max-width: 1220px) {
+        .top-compilation .top-compilation-block .top-compilation-item .svg-icon_exchange {
+          margin-bottom: 26px; } }
+      @media screen and (max-width: 670px) {
+        .top-compilation .top-compilation-block .top-compilation-item .svg-icon_exchange {
+          margin-bottom: 15px; } }
 
 .top-theme {
   width: 100%;
