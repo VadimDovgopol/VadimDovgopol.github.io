@@ -1,4 +1,43 @@
+// var load = true;
+
+// function loadContent() {
+//     var url = "./tsconfig.json";
+//     $.getJSON(url, function (data) {
+//         var article = data.wrap;
+//         console.log(data);
+//         $.each(article, function (i, article) {
+//             var content = article.item;
+//             $("#load-new-content").append("<div class='load'>" + content + "</div>")
+//         });
+//         load = false
+//         $(".loading").remove()
+//     });
+// }
+
+
 $(document).ready(function () {
+    // loadContent();
+    // window.onscroll = (function () {
+    //     var maxScroll = $("#load-new-content")[0].scrollTop;
+    //     var curScroll = $("#load-new-content")[0].scrollHeight - $("#load-new-content").height();
+    //
+    //     console.log($("#load-new-content")[0].scrollTop);
+    //     console.log($("#load-new-content")[0].scrollHeight);
+    //     console.log($("#load-new-content").height());
+    //
+    //     console.log(maxScroll);
+    //     console.log(curScroll);
+
+    // if ((curScroll === maxScroll) && load === false) {
+    //
+    //     load = true;
+    //     $("#load-new-content").append("<div class='loading'>loading....</div>")
+    //
+    //     $(this)[0].scrollTop = $(this)[0].scrollHeight - $(this).height()
+    //
+    //     loadContent()
+    // }
+    // });
     // $('.articles-media__item_shuffle').shuffle();
 
     $(".filter_news_item").on("click", function () {
@@ -208,4 +247,5 @@ $(window).load(function () {
     });
 
     $('.gallery').addClass('initialized');
+    $('.gallery-block').css("opacity", "1");
 });

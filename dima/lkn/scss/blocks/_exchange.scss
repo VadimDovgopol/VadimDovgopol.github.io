@@ -5,19 +5,29 @@
   @media screen and (max-width: 830px) {
     flex-direction: column;
   }
-  .exchange-item {
-    box-sizing: border-box;
-    padding: 30px 25px 15px 25px;
+  .gallery-block {
+    opacity: 0;
     max-width: 49%;
     width: 100%;
     min-height: 519px;
-    background-color: #f5f5f5;
-    display: flex;
-    flex-direction: column;
+    .link-to-list {
+
+      padding: 0 0 0 25px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: flex-start;
+    }
     @media screen and (max-width: 830px) {
       margin-top: 30px;
       max-width: 100%;
     }
+  }
+  .exchange-item {
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    padding: 30px 25px 15px 25px;
+    display: flex;
+    flex-direction: column;
     .img-wrapper {
       display: flex;
       height: 200px;
