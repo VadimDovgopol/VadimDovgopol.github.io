@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/jqcloud.min.css">
     <link rel="stylesheet" href="css/common.css">
 
-
 </head>
 <body id="body">
 <script>
@@ -22,6 +21,61 @@
     }
 </script>
 <header class="header">
+    <div class="currency">
+        <div class="container currency-bar desktop">
+            <div class="currency__item">
+                <span class="currency__title">market-cap:</span>
+                <span class="currency__value">$433 741 842 546</span>
+            </div>
+            <div class="currency__item">
+                <span class="currency__title">24h VOL:</span>
+                <span class="currency__value">$37 320 116 148</span>
+            </div>
+            <div class="currency__item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29">
+                    <path fill="#F7931A" fill-rule="evenodd"
+                          d="M28.124 17.897C26.248 25.421 18.627 30 11.102 28.124 3.579 26.248-1 18.627.877 11.104 2.752 3.579 10.373-1 17.896.876 25.421 2.751 30 10.373 28.124 17.897zm-10.52-8.942l.631-2.531-1.541-.384-.615 2.465c-.405-.101-.821-.196-1.234-.291l.619-2.481-1.541-.384-.631 2.531c-.336-.077-.665-.152-.984-.232l.001-.007-2.125-.531-.41 1.646s1.144.262 1.12.278c.624.156.736.569.718.896l-.719 2.884c.043.011.098.027.16.052a19.055 19.055 0 0 0-.163-.041l-1.008 4.04c-.076.19-.27.474-.706.366.015.022-1.12-.28-1.12-.28l-.765 1.764 2.005.5c.373.094.739.192 1.099.284l-.638 2.56 1.539.384.632-2.533c.421.114.829.22 1.228.319l-.629 2.521 1.541.384.638-2.556c2.627.498 4.603.297 5.435-2.079.67-1.914-.033-3.018-1.416-3.738 1.007-.232 1.766-.894 1.968-2.262.28-1.869-1.143-2.873-3.089-3.544zm-3.942 4.156l.768-3.077c.869.217 3.671.622 3.219 2.437-.435 1.741-3.117.857-3.987.64zm3.51 4.325c-.476 1.914-3.698.879-4.743.62l.846-3.392c1.045.26 4.395.776 3.897 2.772z"/>
+                </svg>
+                <span class="currency__value currency__value--arrow currency__value--arrow-up">$15,114.87</span>
+                <span class="currency__percent currency__percent--green">(1.3%)</span>
+            </div>
+
+            <div class="currency__item last">
+                <img src="img/currency-img.png" alt="currency">
+                <span class="currency__value currency__value--arrow currency__value--arrow-down">$441.64</span>
+                <span class="currency__percent currency__percent--blue">(2.2%)</span>
+            </div>
+        </div>
+        <div class="container currency-bar mobile">
+            <div class="currency_wrapper">
+                <div class="currency__item">
+                    <span class="currency__title">market-cap:</span>
+                    <span class="currency__value">$433 741 842 546</span>
+                </div>
+                <div class="icon_arrow"></div>
+            </div>
+            <div class="drop-wrapper">
+                <div class="currency__item">
+                    <span class="currency__title">24h VOL:</span>
+                    <span class="currency__value">$37 320 116 148</span>
+                </div>
+                <div class="currency__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29">
+                        <path fill="#F7931A" fill-rule="evenodd"
+                              d="M28.124 17.897C26.248 25.421 18.627 30 11.102 28.124 3.579 26.248-1 18.627.877 11.104 2.752 3.579 10.373-1 17.896.876 25.421 2.751 30 10.373 28.124 17.897zm-10.52-8.942l.631-2.531-1.541-.384-.615 2.465c-.405-.101-.821-.196-1.234-.291l.619-2.481-1.541-.384-.631 2.531c-.336-.077-.665-.152-.984-.232l.001-.007-2.125-.531-.41 1.646s1.144.262 1.12.278c.624.156.736.569.718.896l-.719 2.884c.043.011.098.027.16.052a19.055 19.055 0 0 0-.163-.041l-1.008 4.04c-.076.19-.27.474-.706.366.015.022-1.12-.28-1.12-.28l-.765 1.764 2.005.5c.373.094.739.192 1.099.284l-.638 2.56 1.539.384.632-2.533c.421.114.829.22 1.228.319l-.629 2.521 1.541.384.638-2.556c2.627.498 4.603.297 5.435-2.079.67-1.914-.033-3.018-1.416-3.738 1.007-.232 1.766-.894 1.968-2.262.28-1.869-1.143-2.873-3.089-3.544zm-3.942 4.156l.768-3.077c.869.217 3.671.622 3.219 2.437-.435 1.741-3.117.857-3.987.64zm3.51 4.325c-.476 1.914-3.698.879-4.743.62l.846-3.392c1.045.26 4.395.776 3.897 2.772z"/>
+                    </svg>
+                    <span class="currency__value currency__value--arrow currency__value--arrow-up">$15,114.87</span>
+                    <span class="currency__percent currency__percent--green">(1.3%)</span>
+                </div>
+
+                <div class="currency__item last">
+                    <img src="img/currency-img.png" alt="currency">
+                    <span class="currency__value currency__value--arrow currency__value--arrow-down">$441.64</span>
+                    <span class="currency__percent currency__percent--blue">(2.2%)</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <nav class="nav">
             <button class="nav__toggle-menu js-toggle-menu"></button>
@@ -32,7 +86,7 @@
                 <img class="nav__logo-icon nav__logo--mobile white-mobile" src="img/logo-small-invers.svg" alt="logo">
             </a>
 
-            <div class="search search-mobile">
+            <div class="search search-mobile">theme-links
                 <form class="search__form" action="">
                     <div class="search__group">
                         <input class="search__control" type="text" placeholder="Поиск">
@@ -49,7 +103,7 @@
                         </label>
                     </div>
                 </li>
-                <li class="nav-list__item"><a class="nav-list__link" href="#">Новости</a></li>
+                <li class="nav-list__item active"><a class="nav-list__link " href="#">Новости</a></li>
                 <li class="nav-list__item"><a class="nav-list__link" href="#">Статьи</a></li>
                 <li class="nav-list__item"><a class="nav-list__link" href="#">Интервью</a></li>
                 <li class="nav-list__item"><a class="nav-list__link" href="#">Сообщества</a></li>
@@ -78,13 +132,29 @@
                 </label>
             </div>
         </nav>
-
-
+    </div>
+    <div class="top-theme">
+        <div class="theme-wrapper">
+            <div class="top-theme_head">
+                <p>ТОП ТЕМЫ:</p>
+            </div>
+            <div class="theme-icon_arrow"></div>
+            <div class="theme-links">
+                <div class="theme-links__item"><a href="/hots/Ukraine-and-Russia.html">Украина и Россия </a></div>
+                <div class="theme-links__item"><a href="/hots/Prognoz-rynka.html">Прогнозы рынка</a></div>
+                <div class="theme-links__item active"><a href="/hots/Legalizaciya-i-regulirovanie.html">Легализация и
+                    регулирование</a></div>
+                <div class="theme-links__item"><a href="/hots/Kriminal-i-proisshestviya.html">Криминал и
+                    происшествия</a></div>
+                <div class="theme-links__item"><a href="/hots/Birzhi-i-obmenniki.html">Биржи и обменники</a></div>
+                <div class="theme-links__item"><a href="#">Наука и технологии</a></div>
+            </div>
+        </div>
     </div>
 </header><!-- /.header -->
 <main class="main">
     <div class="container main-wrapper">
-        <div class="content inner-page" itemscope itemtype="http://schema.org/Article">
+        <div id="content" class="content inner-page" itemscope itemtype="http://schema.org/Article">
             <div class="banner">
                 <img src="img/banner.png" alt="banner">
             </div><!-- /.banner -->
@@ -383,78 +453,7 @@
                 <a class="tags__link" href="#">#украина</a>
                 <a class="tags__link last" href="#">#криптовалюта</a>
             </div>
-
-            <div id="subscribe-block_social">
-                <h2 class="h2-title"><a href="#">ПОДПИСЫВАЙТЕСЬ НА НОВОСТИ</a></h2>
-                <div class="social-block_wrapper">
-                    <div class="social-block_tw"><a class="social-link__tw" href="#"><span>Twitter</span></a>
-                    </div>
-                    <div class="social-block_gram"><a class="social-link__gram" href="#"><span>Telegram</span></a></div>
-                    <div class="social-block_face"><a class="social-link__face" href="#"><span>Facebook</span></a></div>
-                    <div class="social-block_inst"><a class="social-link__inst" href="#"><span>Instagram</span></a>
-                    </div>
-                    <div class="social-block_vk"><a class="social-link__vk" href="#"><span>ВКонтакте</span></a></div>
-                </div>
-            </div>
-            <p class="text-gray">
-                Главные новости криптовалютного рынка, LetKnowNews –
-                информационное издание которое стремится к самым высоким журналистским
-                стандартам. Хотите поделиться своим опытом или знаниями с
-                нашими отчетами? Свяжитесь с нами по адресу news@letknow.com
-            </p>
-
-            <div class="news-slider">
-                <article class="news-slider__article news-slider__article--odd">
-                    <h3 class="h3-title news-slider__title">
-                        <a href="#">Show Must Go On: чистый ритейл никому не нужен</a>
-                    </h3>
-                </article>
-                <article class="news-slider__article news-slider__article--even">
-                    <h3 class="h3-title">
-                        <a href="#">Выйти в море: как выбрать яхту для покупки</a>
-                    </h3>
-                </article>
-
-                <a href="#" class="news-slider__arrow news-slider__arrow--left">
-                    <i class="news-slider__icon news-slider__icon--left"></i>
-                </a>
-                <a href="#" class="news-slider__arrow news-slider__arrow--right">
-                    <i class="news-slider__icon news-slider__icon--right"></i>
-                </a>
-            </div><!-- /.news-slider -->
-
-            <div class="section last-news">
-                <h2 class="h2-title last-news__title"><a href="#">Читайте также</a></h2>
-                <ul class="last-news__list">
-                    <li class="last-news__item" itemprop="headline">
-                        <a itemprop="url" href="#">Российский газ для ЕС может подорожать на $20</a>
-                    </li>
-                    <li class="last-news__item" itemprop="headline">
-                        <a itemprop="url" href="#">«Дельта банк» подозревают в хищении 1,7 млрд грн</a>
-                    </li>
-                    <li class="last-news__item" itemprop="headline">
-                        <a itemprop="url" href="#">Инвесткомпания Баффета увеличила пакет акций Apple</a>
-                    </li>
-                    <li class="last-news__item" itemprop="headline">
-                        <a itemprop="url" href="#">Российский газ для ЕС может подорожать на $20</a>
-                    </li>
-                    <li class="last-news__item" itemprop="headline">
-                        <a itemprop="url" href="#">«Дельта банк» подозревают в хищении 1,7 млрд грн</a>
-                    </li>
-                    <li class="last-news__item last" itemprop="headline">
-                        <a itemprop="url" href="#">Инвесткомпания Баффета увеличила пакет акций Apple</a>
-                    </li>
-                </ul><!-- /.last-news__list -->
-            </div><!-- /.last-news -->
-
-            <div style="display: none" itemprop="publisher" itemscope
-                 itemtype="https://schema.org/Organization">
-                <meta itemprop="name" content="LetKnowNews">
-                <meta itemprop="logo" content="img/logo.svg">
-                <meta itemprop="url" content="http://letknow.news/">
-            </div>
-        </div><!-- /.content -->
-
+        </div><!-- /.main-sidebar -->
         <div class="sidebar">
             <div class="section search search-desktop">
                 <form class="search__form" action="">
@@ -623,65 +622,13 @@
         </div><!-- /.main-sidebar -->
     </div><!-- /.main-wrapper -->
 
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-content">
-                <div class="footer__left">
-                    <div class="footer-social">
-                        <div class="footer-social__item">
-                            <a href="#" class="footer-social__link">
-                                <i class="footer-social__icon footer-social__icon--fb"></i>
-                                <span class="footer-social__name">letknowNEWS</span>
-                            </a>
-                            <a href="#" class="footer-social__link">
-                                <i class="footer-social__icon footer-social__icon--tw"></i>
-                                <span class="footer-social__name">letknowNEWS</span>
-                            </a>
-                            <a href="#" class="footer-social__link">
-                                <i class="footer-social__icon footer-social__icon--tg"></i>
-                                <span class="footer-social__name">letknowNEWS</span>
-                            </a>
-                            <a href="#" class="footer-social__link last">
-                                <i class="footer-social__icon footer-social__icon--in"></i>
-                                <span class="footer-social__name">letknowNEWS</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footer-menu">
-                        <ul class="footer-menu__list">
-                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Контакты</a></li>
-                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">О LetKnow</a></li>
-                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Реклама</a></li>
-                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Вакансии</a></li>
-                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">RSS</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer__right">
-                    <p class="footer__copyright">
-                        © 2017 «Let Know Cryptocurrency News»
-                    </p>
-                    <p class="footer__txt">
-                        Использование любых материалов, размещенных на сайте Let Know
-                        Cryptocurrency News разрешается при условии размещении гиперссылки на
-                        letknow.com. Для интернет-изданий обязательна прямая, открытая для поисковых
-                        систем гиперссылка. Ссылка должна быть размещена вне зависимости от полного либо частичного
-                        использования материалов. Гиперссылка (для интернет-изданий) –
-                        должна быть размещена в подзаголовке или в первом абзаце материала.
-                    </p>
-                    <div class="footer__analytics">Bigmir
-                        analytics
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 </main>
 
 <script src="js/lib/jquery.min.js"></script>
-<script src="js/lib/slick.min.js"></script>
+<script src="js/lib/jquery.svg3dtagcloud.min.js"></script>
 <script src="js/lib/jqcloud.js"></script>
-<script src="js/lib/social-likes.min.js"></script>
+<script src="js/lib/slick.min.js"></script>
+<script src="js/lib/shuffle.js"></script>
 <script src="js/common.js"></script>
 </body>
 </html>

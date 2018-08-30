@@ -1,23 +1,25 @@
+var ajaxLoading = true;
+
 function yHandler() {
-    var ajaxLoading = false;
     var url = "./tsconfig.json";
-    if (!ajaxLoading) {
-        ajaxLoading = true;
-        $.getJSON(url, function (data) {
-            var item = data.item;
-            var url = data.url;
-            history.pushState(null, '', url);
-            $("#load-new-content").append("<div class='newData'>" + item + "</div>")
-            ajaxLoading = false;
-        })
-    }
+    $.getJSON(url, function (data) {
+        console.log(data);
+        var item = data.item;
+        var url = data.url;
+        history.pushState(null, '', url);
+        $("#content").append("<div class='newData'>" + item + "</div>")
+        ajaxLoading = false;
+    })
 }
+
+yHandler()
 
 window.onscroll = function (ev) {
     var yOffset = window.pageYOffset;
     var y = yOffset + window.innerHeight;
-    var blockPosition = Math.floor($("#load-new-content").position().top) + document.getElementById('load-new-content').offsetHeight;
-    if (y >= blockPosition) {
+    var blockPosition = Math.floor($("#content").position().top) + document.getElementById('content').offsetHeight;
+    if ((y >= blockPosition) && ajaxLoading === false) {
+        ajaxLoading = true;
         yHandler()
     }
 };
