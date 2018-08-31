@@ -1,4 +1,4 @@
-var ajaxLoading = true;
+var ajaxLoading = false;
 
 function yHandler() {
     var url = "./tsconfig.json";
@@ -7,12 +7,12 @@ function yHandler() {
         var item = data.item;
         var url = data.url;
         history.pushState(null, '', url);
-        $("#content").append("<div class='newData'>" + item + "</div>")
+        $("#content").append(item)
         ajaxLoading = false;
     })
 }
 
-yHandler()
+// yHandler()
 
 window.onscroll = function (ev) {
     var yOffset = window.pageYOffset;
