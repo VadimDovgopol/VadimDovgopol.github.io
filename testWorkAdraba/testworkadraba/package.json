@@ -1,0 +1,32 @@
+{
+  "name": "multi-chanel-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "gsap": "^2.0.1",
+    "normalize.css": "^8.0.0",
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.16",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+    "@vue/cli-plugin-pwa": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-svg-loader": "^0.5.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

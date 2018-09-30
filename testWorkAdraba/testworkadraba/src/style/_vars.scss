@@ -1,0 +1,13 @@
+$wrapper_max_w_mob: 320px;
+$wrapper_max_w_tablet: 600px;
+$phone_h: 100vh; // only "vh" units
+
+$font: "Tahoma";
+$fontB: "TahomaB";
+
+@mixin wrapperOffset($top, $right, $bottom: $top, $left: $right) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
