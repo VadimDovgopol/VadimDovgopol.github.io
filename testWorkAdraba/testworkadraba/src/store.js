@@ -5,18 +5,17 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    selectMovie: null
+    favorite: []
     // Current state of the application lies here.
   },
   getters: {
     // Compute derived state based on the current state. More like computed property.
   },
   mutations: {
-    setSelectMovie (state, id) {
-      state.selectMovie = id
+    favorite(state, favoriteArray) {
+      state.favorite.push(favoriteArray);
     }
-  }
-  ,
+  },
   actions: {
     // Get data from server and send that to mutations to mutate the current state
   }

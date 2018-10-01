@@ -8,9 +8,9 @@
           <p v-html="key.title"></p>
           <p v-html="key.overview"></p>
           <div class="buttons-wrapper">
-            <div class="favorite-item">
+            <div class="favorite-item" @click="addToFavorite(key.id)">
               <p class="add-to-favorite">favorite</p>
-              <span class="favorite-icon active"></span>
+              <span class="favorite-icon"></span>
             </div>
             <p class="see-more"><a @click="moreInfo(key.id)">more</a></p>
           </div>
@@ -26,9 +26,11 @@
     name: 'home',
     data: () => ({
       someData: [],
+      favorite: [],
       page: 1,
       token: '3685d3eb8695f087227e0ee980f3ae4d',
     }),
+
     created() {
       this.moreMovie()
     },
@@ -36,6 +38,10 @@
       this.scroll();
     },
     methods: {
+      addToFavorite(id) {
+        let arrayFavorite = this.someData.find(x => x.id === id);
+        this.$store.commit('favorite', arrayFavorite)
+      },
       scroll() {
         window.onscroll = () => {
           let bottomOfWindow = Math.floor(document.documentElement.scrollTop) + window.innerHeight === document.documentElement.offsetHeight;
@@ -99,6 +105,7 @@
             text-transform: uppercase;
           }
           .favorite-item {
+            cursor: pointer;
             display: flex;
             align-items: baseline;
             .favorite-icon {
