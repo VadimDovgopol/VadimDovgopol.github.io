@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="" />
+    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +14,9 @@
     <session id="1403214211">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -28,10 +30,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
-    <option name="y" value="-26" />
-    <option name="width" value="1709" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2014" />
+    <option name="width" value="2021" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -39,13 +40,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/lkn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testWorkAdraba/testworkadraba" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,16 +73,17 @@
       <workItem from="1534319400849" duration="18000" />
       <workItem from="1534319425990" duration="1000" />
       <workItem from="1534852979474" duration="13000" />
+      <workItem from="1538380048500" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32000" />
+    <option name="totallyTimeSpent" value="88000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-2014" y="0" width="2021" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
