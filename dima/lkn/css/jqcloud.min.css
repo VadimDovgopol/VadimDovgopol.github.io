@@ -1,5 +1,6 @@
 .jqcloud {
-    font: 10px Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-family: "Exo2-Regular";
     line-height: normal;
     overflow: hidden;
     position: relative

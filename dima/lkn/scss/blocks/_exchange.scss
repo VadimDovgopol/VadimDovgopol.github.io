@@ -72,18 +72,12 @@
         .exchange_link {
           display: flex;
           justify-content: center;
-          align-items: center;
-          width: 180px;
-          height: 29px;
-          border-radius: 5px;
-          background-color: #1b95e0;
           a {
             display: flex;
             flex-direction: row;
             align-self: center;
             justify-content: center;
             align-items: center;
-            color: white;
             font-size: 14px;
             font-family: $Exo2-Regular;
             &:hover {
@@ -96,6 +90,11 @@
               width: 22px;
               height: 17px;
             }
+          }
+        }
+        .goToAllList{
+          a{
+            font-size: 14px;
           }
         }
       }

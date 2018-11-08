@@ -41,7 +41,9 @@
             </div>
 
             <div class="currency__item last">
-                <img src="img/currency-img.png" alt="currency">
+
+                <img src="img/currency-img.png" alt="MDN">
+
                 <span class="currency__value currency__value--arrow currency__value--arrow-down">$441.64</span>
                 <span class="currency__percent currency__percent--blue">(2.2%)</span>
             </div>
@@ -69,7 +71,8 @@
                 </div>
 
                 <div class="currency__item last">
-                    <img src="img/currency-img.png" alt="currency">
+
+                    <img src="img/currency-img.png" alt="MDN">
                     <span class="currency__value currency__value--arrow currency__value--arrow-down">$441.64</span>
                     <span class="currency__percent currency__percent--blue">(2.2%)</span>
                 </div>
@@ -83,10 +86,9 @@
                 <img class="nav__logo-icon nav__logo--desktop night-logo" src="img/logo.svg" alt="logo">
                 <img class="nav__logo-icon nav__logo--desktop white-logo" src="img/logo_for_white_menu.svg" alt="logo">
                 <img class="nav__logo-icon nav__logo--mobile night-mobile" src="img/logo-small.svg" alt="logo">
-                <img class="nav__logo-icon nav__logo--mobile white-mobile" src="img/logo-small-invers.svg" alt="logo">
             </a>
 
-            <div class="search search-mobile">theme-links
+            <div class="search search-mobile">
                 <form class="search__form" action="">
                     <div class="search__group">
                         <input class="search__control" type="text" placeholder="Поиск">
@@ -154,12 +156,32 @@
 </header><!-- /.header -->
 
 <main class="main">
-    <div class="container main-wrapper">
-        <div class="content">
 
+    <div class="container main-wrapper home-page">
+
+        <div class="content">
+            <div class="bread-crumbs">
+                <ul>
+                    <li><a href="#" title="">Главная</a></li>
+                    <li><a href="#" title="">Новости в Киеве</a></li>
+                    <li><a href="#" title="">Происшествия</a></li>
+                    <li><a href="#" title="">Происшествия</a></li>
+                    <li><a href="#" title="">Происшествия</a></li>
+                </ul>
+            </div>
+            <div xmlns:v="http://rdf.data-vocabulary.org/#" style="display:none;">
+                <span typeof="v:Breadcrumb"><a href="#" rel="v:url" property="v:title">Главная</a></span>
+                <span typeof="v:Breadcrumb"> › <a href="#" rel="v:url" property="v:title">Новости в Киеве</a></span>
+                <span typeof="v:Breadcrumb"> › <a href="#" rel="v:url" property="v:title">Происшествия</a></span>
+            </div>
             <!-- .banner -->
             <div class="banner">
-                <img src="img/banner.png" alt="banner">
+                <picture>
+                    <source media="(min-width: 425px)" srcset="">
+                    <source media="(min-width: 320px)" srcset="">
+                    <img itemprop="photo" class="photo-news__img gray-color" src="img/banner.png" alt="news">
+                </picture>
+
             </div>
             <!-- /.banner -->
 
@@ -172,7 +194,12 @@
                     <div class="exchange-item gallery-wrapper">
                         <div>
                             <div class="img-wrapper">
-                                <img src="img/logo-for-exchange.png" alt="">
+                                <picture>
+                                    <source media="(min-width: 425px)" srcset="img/logo-for-exchange.png">
+                                    <source media="(min-width: 320px)" srcset="img/logo-for-exchange.png">
+                                    <img itemprop="photo" class="photo-news__img gray-color"
+                                         src="img/logo-for-exchange.png" alt="news">
+                                </picture>
                             </div>
                             <div class="desc-item">
                                 <div class="name-exchange">Binance</div>
@@ -183,8 +210,8 @@
                                     торгов криптовалютами.
                                 </div>
                                 <div class="bottom-nav">
-                                    <div class="exchange_link exchange_link__twitter"><a href="#"><span></span>Перейти в
-                                        Твиттер</a>
+                                    <div class="exchange_link">
+                                        <a href="stock-exchange-page.html" class="read-more__link">Новости Binance</a>
                                     </div>
                                     <div class="goToAllList">
                                         <a href="stock-exchange-page.html" class="read-more__link">Подробнее</a>
@@ -194,7 +221,12 @@
                         </div>
                         <div>
                             <div class="img-wrapper">
-                                <img src="img/logo-for-exchange.png" alt="">
+                                <picture>
+                                    <source media="(min-width: 425px)" srcset="img/logo-for-exchange.png">
+                                    <source media="(min-width: 320px)" srcset="img/logo-for-exchange.png">
+                                    <img itemprop="photo" class="photo-news__img gray-color"
+                                         src="img/logo-for-exchange.png" alt="news">
+                                </picture>
                             </div>
                             <div class="desc-item">
                                 <div class="name-exchange">Binancesss</div>
@@ -205,8 +237,8 @@
                                     торгов криптовалютами.
                                 </div>
                                 <div class="bottom-nav">
-                                    <div class="exchange_link exchange_link__twitter"><a href="#"><span></span>Перейти в
-                                        Твиттер</a>
+                                    <div class="exchange_link">
+                                        <a href="stock-exchange-page.html" class="read-more__link">Новости Binance</a>
                                     </div>
                                     <div class="goToAllList">
                                         <a href="#" class="read-more__link">Подробнее</a>
@@ -216,7 +248,12 @@
                         </div>
                         <div>
                             <div class="img-wrapper">
-                                <img src="img/logo-for-exchange.png" alt="">
+                                <picture>
+                                    <source media="(min-width: 425px)" srcset="img/logo-for-exchange.png">
+                                    <source media="(min-width: 320px)" srcset="img/logo-for-exchange.png">
+                                    <img itemprop="photo" class="photo-news__img gray-color"
+                                         src="img/logo-for-exchange.png" alt="news">
+                                </picture>
                             </div>
                             <div class="desc-item">
                                 <div class="name-exchange">Binanceqqq</div>
@@ -227,8 +264,8 @@
                                     торгов криптовалютами.
                                 </div>
                                 <div class="bottom-nav">
-                                    <div class="exchange_link exchange_link__twitter"><a href="#"><span></span>Перейти в
-                                        Твиттер</a>
+                                    <div class="exchange_link">
+                                        <a href="stock-exchange-page.html" class="read-more__link">Новости Binance</a>
                                     </div>
                                     <div class="goToAllList">
                                         <a href="#" class="read-more__link">Подробнее</a>
@@ -247,7 +284,12 @@
                     <div class="exchange-item gallery-wrapper1">
                         <div>
                             <div class="img-wrapper">
-                                <img src="img/logo-for-exchange_socond.png" alt="">
+                                <picture>
+                                    <source media="(min-width: 425px)" srcset="img/logo-for-exchange_socond.png">
+                                    <source media="(min-width: 320px)" srcset="img/logo-for-exchange_socond.png">
+                                    <img itemprop="photo" class="photo-news__img gray-color"
+                                         src="img/logo-for-exchange_socond.png" alt="news">
+                                </picture>
                             </div>
                             <div class="desc-item">
                                 <div class="name-exchange">Exmo</div>
@@ -259,8 +301,8 @@
                                     удобной в мире платформы по работе с криптовалютами.
                                 </div>
                                 <div class="bottom-nav">
-                                    <div class="exchange_link exchange_link__twitter"><a href="#"><span></span>Перейти в
-                                        Твиттер</a>
+                                    <div class="exchange_link">
+                                        <a href="stock-exchange-page.html" class="read-more__link">Новости Binance</a>
                                     </div>
                                     <div class="goToAllList">
                                         <a href="#" class="read-more__link">Подробнее</a>
@@ -270,7 +312,12 @@
                         </div>
                         <div>
                             <div class="img-wrapper">
-                                <img src="img/logo-for-exchange_socond.png" alt="">
+                                <picture>
+                                    <source media="(min-width: 425px)" srcset="img/logo-for-exchange_socond.png">
+                                    <source media="(min-width: 320px)" srcset="img/logo-for-exchange_socond.png">
+                                    <img itemprop="photo" class="photo-news__img gray-color"
+                                         src="img/logo-for-exchange_socond.png" alt="news">
+                                </picture>
                             </div>
                             <div class="desc-item">
                                 <div class="name-exchange">Exmoww</div>
@@ -282,8 +329,8 @@
                                     удобной в мире платформы по работе с криптовалютами.
                                 </div>
                                 <div class="bottom-nav">
-                                    <div class="exchange_link exchange_link__twitter"><a href="#"><span></span>Перейти в
-                                        Твиттер</a>
+                                    <div class="exchange_link">
+                                        <a href="stock-exchange-page.html" class="read-more__link">Новости Binance</a>
                                     </div>
                                     <div class="goToAllList">
                                         <a href="#" class="read-more__link">Подробнее</a>
@@ -293,7 +340,14 @@
                         </div>
                         <div>
                             <div class="img-wrapper">
-                                <img src="img/logo-for-exchange_socond.png" alt="">
+                                <picture>
+                                    <source media="(min-width: 425px)" srcset="img/logo-for-exchange_socond.png">
+                                    <source media="(min-width: 320px)" srcset="img/logo-for-exchange_socond.png">
+                                    <img itemprop="photo" class="photo-news__img gray-color"
+                                         src="img/logo-for-exchange_socond.png" alt="news">
+                                </picture>
+
+
                             </div>
                             <div class="desc-item">
                                 <div class="name-exchange">Exmoqq</div>
@@ -305,8 +359,8 @@
                                     удобной в мире платформы по работе с криптовалютами.
                                 </div>
                                 <div class="bottom-nav">
-                                    <div class="exchange_link exchange_link__twitter"><a href="#"><span></span>Перейти в
-                                        Твиттер</a>
+                                    <div class="exchange_link">
+                                        <a href="stock-exchange-page.html" class="read-more__link">Новости Binance</a>
                                     </div>
                                     <div class="goToAllList">
                                         <a href="#" class="read-more__link">Подробнее</a>
@@ -327,7 +381,13 @@
 
                 <!-- .photo-news__item -->
                 <article itemscope itemtype="http://schema.org/Article" class="photo-news__item photo-news__item--left">
-                    <img itemprop="photo" class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+
+                    <picture>
+                        <source media="(min-width: 425px)" srcset="img/news-img.jpg">
+                        <source media="(min-width: 320px)" srcset="img/announcement.jpg">
+                        <img itemprop="photo" class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                    </picture>
+
                     <span class="red-icon">Важно</span>
 
                 </article>
@@ -336,7 +396,11 @@
                 <!-- .photo-news__item -->
                 <article itemscope itemtype="http://schema.org/Article"
                          class="photo-news__item photo-news__item--right">
-                    <img itemprop="photo" class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                    <picture>
+                        <source media="(min-width: 425px)" srcset="img/news-img.jpg">
+                        <source media="(min-width: 320px)" srcset="img/announcement.jpg">
+                        <img itemprop="photo" class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                    </picture>
                     <div class="photo-news__description">
                         <p itemprop="description" class="photo-news__title">
                             <a itemprop="url" class="photo-news__link" href="#">Экспортные мифы. Как покорить Великую
@@ -374,8 +438,14 @@
 
                     <h1 itemprop="headline" class="h1-title head-page"><a href="#">интервью</a></h1>
                     <a itemprop="url" class="interview__img-link" href="#">
-                        <img itemprop="image" class="interview__img gray-color" src="img/news-img.jpg"
-                             class="interview__img" alt="news">
+                        <picture>
+                            <source media="(min-width: 425px)" srcset="img/news-img.jpg">
+                            <source media="(min-width: 320px)" srcset="img/news-img.jpg">
+                            <img itemprop="image" class="interview__img gray-color interview__img"
+                                 src="img/news-img.jpg" alt="news">
+
+                        </picture>
+
                         <span class="red-icon">Важно</span>
                     </a>
                     <div class="interview__description">
@@ -416,7 +486,11 @@
                 <div class="articles-media justifier">
                     <article class="articles-media__item">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <div class="h3-title articles-media__title">
@@ -430,7 +504,11 @@
 
                     <article class="articles-media__item">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <div class="h3-title articles-media__title">
@@ -445,7 +523,11 @@
 
                     <article class="articles-media__item last">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <div class="h3-title articles-media__title">
@@ -463,7 +545,12 @@
                 <article class="articles-strip" itemscope itemtype="http://schema.org/Article">
                     <div class="articles-strip__item">
                         <a href="#" class="articles-strip__img-link">
-                            <img itemprop="image" class="articles-strip__img gray-color" src="img/media.jpg" alt="">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img itemprop="image" class="articles-strip__img gray-color" src="img/media.jpg" alt="">
+
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <div class="articles-strip__description">
@@ -503,7 +590,11 @@
 
                     <div class="articles-strip__item">
                         <a href="#" class="articles-strip__img-link">
-                            <img class="articles-strip__img gray-color" src="img/media.jpg" alt="">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-strip__img gray-color" src="img/media.jpg" alt="">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <div class="articles-strip__description">
@@ -535,7 +626,12 @@
 
                     <div class="articles-strip__item last">
                         <a href="#" class="articles-strip__img-link">
-                            <img class="articles-strip__img gray-color" src="img/media.jpg" alt="">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-strip__img gray-color" src="img/media.jpg" alt="">
+
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <div class="articles-strip__description">
@@ -578,7 +674,12 @@
                 <div class="articles-media justifier">
                     <article class="articles-media__item articles-media__item_shuffle ">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -594,7 +695,11 @@
 
                     <article class="articles-media__item articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -610,7 +715,12 @@
 
                     <article class="articles-media__item articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -626,7 +736,11 @@
 
                     <article class="articles-media__item articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -642,7 +756,11 @@
 
                     <article class="articles-media__item articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -658,7 +776,11 @@
 
                     <article class="articles-media__item articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -674,7 +796,11 @@
 
                     <article class="articles-media__item articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -690,7 +816,11 @@
 
                     <article class="articles-media__item articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -706,7 +836,11 @@
 
                     <article class="articles-media__item last articles-media__item_shuffle">
                         <a class="articles-media__img-link" href="#">
-                            <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            <picture>
+                                <source media="(min-width: 425px)" srcset="img/media.jpg">
+                                <source media="(min-width: 320px)" srcset="img/media.jpg">
+                                <img class="articles-media__img gray-color" src="img/media.jpg" alt="media">
+                            </picture>
                             <span class="red-icon">Важно</span>
                         </a>
                         <h3 class="h3-title articles-media__title">
@@ -723,6 +857,35 @@
 
             </div><!-- /.interview -->
             <!--news block -->
+
+            <div class="section specification">
+                <div class="specification_text specification_text_show">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem blanditiis delectus enim
+                        facere incidunt ipsa itaque labore magnam minima necessitatibus nobis perspiciatis quaerat qui
+                        repellendus sed tempore, temporibus voluptatibus.</p>
+                </div>
+                <div class="specification_text specification_text_animation active">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi error mollitia quia. A
+                        accusantium cupiditate harum minus optio veritatis, voluptate. Distinctio error fugit laboriosam
+                        non odio provident quam quia veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                        at doloremque et facere facilis mollitia necessitatibus nostrum sed! Dignissimos eum ex facilis
+                        incidunt inventore ipsum non obcaecati perferendis quae quasi. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Amet atque consequatur deleniti doloremque doloribus error facilis
+                        illo in, ipsam iste itaque maxime, molestiae odio quae quam, rerum temporibus velit
+                        voluptates?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi error mollitia
+                        quia. A
+                        accusantium cupiditate harum minus optio veritatis, voluptate. Distinctio error fugit laboriosam
+                        non odio provident quam quia veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                        at doloremque et facere facilis mollitia necessitatibus nostrum sed! Dignissimos eum ex facilis
+                        incidunt inventore ipsum non obcaecati perferendis quae quasi. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Amet atque consequatur deleniti doloremque doloribus error facilis
+                        illo in, ipsam iste itaque maxime, molestiae odio quae quam, rerum temporibus velit
+                        voluptates?</p>
+                </div>
+                <div class="specification_btn">
+                    <p class="show">показать все</p>
+                </div>
+            </div>
 
         </div><!-- /.main-content -->
 
@@ -1159,7 +1322,11 @@
             <div class="section photo-news">
                 <div class="h2-title"><a href="#">Анонс статьи</a></div>
                 <article class="photo-news__item photo-news__item--left">
-                    <img class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                    <picture>
+                        <source media="(min-width: 425px)" srcset="img/news-img.jpg">
+                        <source media="(min-width: 320px)" srcset="img/news-img.jpg">
+                        <img class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                    </picture>
                     <span class="red-icon">Важно</span>
                     <!-- <div class="photo-news__description">
                         <p class="photo-news__title">
@@ -1175,7 +1342,12 @@
 
                 <article class="photo-news__item photo-news__item--right last">
                     <!-- добавлять класс "last" только когда в сайдбаре -->
-                    <img class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+                    <picture>
+                        <source media="(min-width: 425px)" srcset="img/news-img.jpg">
+                        <source media="(min-width: 320px)" srcset="img/news-img.jpg">
+                        <img class="photo-news__img gray-color" src="img/news-img.jpg" alt="news">
+
+                    </picture>
                     <div class="photo-news__description">
                         <p class="photo-news__title">
                             <a class="photo-news__link" href="#">Экспортные мифы. Как покорить Великую Китайскую

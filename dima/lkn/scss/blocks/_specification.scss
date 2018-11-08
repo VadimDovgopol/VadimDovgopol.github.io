@@ -1,0 +1,47 @@
+.specification {
+  .specification_text {
+    p {
+      margin: 0 0;
+      padding: 10px 0;
+    }
+  }
+  .specification_text_animation {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    &.active {
+      max-height: 1500px;
+    }
+  }
+
+  .specification_btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 180px;
+    margin: 10px auto;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #1f1f1f;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    visibility: hidden;
+    &.active {
+      visibility: visible;
+      opacity: 1;
+    }
+    &:hover, &:active {
+      border-color: #d24a43;
+      p {
+        color: #d24a43;
+      }
+    }
+    p {
+      margin: 0;
+      transition: color 0.1s ease-in-out;
+      text-transform: uppercase;
+    }
+  }
+}

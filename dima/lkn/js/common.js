@@ -1,18 +1,45 @@
 var ajaxLoading = false;
+var arrayUrl = [];
 
 function yHandler() {
     var url = "./tsconfig.json";
     $.getJSON(url, function (data) {
-        console.log(data);
         var item = data.item;
-        var url = data.url;
-        history.pushState(null, '', url);
-        $("#content").append(item)
+        $("#content").append(item);
         ajaxLoading = false;
     })
 }
 
-// yHandler()
+$(function () {
+
+    $(window).scroll(function () {
+        var scrollTop = $(document).scrollTop() + ($(window).height() / 2);
+        var positions = [];
+
+        $('.first-element-for-url').each(function () {
+            $(this).removeClass("active");
+            positions.push({position: $(this).position().top, element: $(this)});
+        });
+
+        var getClosest = closest(positions, scrollTop);
+        if (arrayUrl[arrayUrl.length - 1] !== getClosest.data("value")) {
+            arrayUrl.push(getClosest.data("value"));
+            history.pushState(null, '', arrayUrl[arrayUrl.length - 1]);
+        } else {
+            return false;
+        }
+    });
+
+    function closest(array, number) {
+        var num = 0;
+        for (var i = array.length - 1; i >= 0; i--) {
+            if (Math.abs(number - array[i].position) < Math.abs(number - array[num].position)) {
+                num = i;
+            }
+        }
+        return array[num].element;
+    }
+});
 
 window.onscroll = function (ev) {
     var yOffset = window.pageYOffset;
@@ -20,13 +47,70 @@ window.onscroll = function (ev) {
     var blockPosition = Math.floor($("#content").position().top) + document.getElementById('content').offsetHeight;
     if ((y >= blockPosition) && ajaxLoading === false) {
         ajaxLoading = true;
-        yHandler()
+        yHandler();
+        setTimeout(function () {
+            $('.slider__preloader').hide();
+
+            $('.gallery-for').not('.slick-initialized').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                adaptiveHeight: true,
+                asNavFor: '.gallery-nav'
+            });
+
+            $('.gallery-nav').not('.slick-initialized').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.gallery-for',
+                centerMode: true,
+                focusOnSelect: true,
+                centerPadding: 0,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            infinite: true,
+                            dots: true
+                        }
+                    }
+                ]
+            });
+            $('.gallery').addClass('initialized');
+            $('.gallery-block').css("opacity", "1");
+            $('.social-likes').socialLikes();
+        }, 500)
     }
 };
 
 $(document).ready(function () {
+    var triggerForspecificationBtn = false;
 
     // $('.articles-media__item_shuffle').shuffle();
+
+    setTimeout(function () {
+        $(".specification_text_animation").removeClass("active")
+    }, 3000);
+    setTimeout(function () {
+        $(".specification_btn").addClass("active")
+    }, 3300);
+
+    $(".specification_btn").on("click", function () {
+        if (triggerForspecificationBtn === false) {
+            $(".specification_text_animation").addClass("active");
+            $(".specification_btn .show").text("Cпрятать");
+            triggerForspecificationBtn = true;
+        } else {
+            $(".specification_text_animation").removeClass("active");
+            setTimeout(function () {
+                $(".specification_btn .show").text("показать все");
+            }, 300)
+            triggerForspecificationBtn = false;
+        }
+    });
 
     $(".filter_news_item").on("click", function () {
         $(".result_block_mobile p").text($(this).text());
@@ -181,19 +265,8 @@ $(document).ready(function () {
 });
 
 $(window).load(function () {
-
     $('.slider__preloader').hide();
-
-    // gallery
-    $('.gallery-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        adaptiveHeight: true,
-        asNavFor: '.gallery-nav'
-
-    });
+    $('.gallery-block').css("opacity", "1");
 
     $('.gallery-wrapper').slick({
         slidesToShow: 1,
@@ -214,6 +287,16 @@ $(window).load(function () {
         cssEase: 'linear'
     });
 
+    // gallery
+    $('.gallery-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        adaptiveHeight: true,
+        asNavFor: '.gallery-nav'
+
+    });
     $('.gallery-nav').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -237,3 +320,4 @@ $(window).load(function () {
     $('.gallery').addClass('initialized');
     $('.gallery-block').css("opacity", "1");
 });
+
