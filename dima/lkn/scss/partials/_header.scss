@@ -309,6 +309,7 @@ header {
     }
   }
   &-menu {
+    z-index: 20;
     display: none;
     position: absolute;
     top: 120%;

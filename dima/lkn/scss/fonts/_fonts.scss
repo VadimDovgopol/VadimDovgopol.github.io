@@ -1,4 +1,5 @@
 @font-face {font-family: 'Exo2-Regular';
+  font-display: auto;
   src: url('../fonts/Exo2-Regular/Exo2-Regular.eot');
   src: url('../fonts/Exo2-Regular/Exo2-Regular.eot?#iefix') format('embedded-opentype'),
   url('../fonts/Exo2-Regular/Exo2-Regular.woff') format('woff'),
@@ -8,6 +9,7 @@
 }
 
 @font-face {font-family: 'Exo2-Bold';
+  font-display: auto;
   src: url('../fonts/Exo2-Bold/Exo2-Bold.eot');
   src: url('../fonts/Exo2-Bold/Exo2-Bold.eot?#iefix') format('embedded-opentype'),
   url('../fonts/Exo2-Bold/Exo2-Bold.woff') format('woff'),
