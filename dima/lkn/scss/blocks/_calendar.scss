@@ -40,12 +40,12 @@
   p{
     &.calendar__date{
       font-size: 20px;
-      font-family: $Exo2-Bold;
+      font-family:  $Exo2-Bold;
     }
   }
   &__txt{
     font-size: 20px;
-    font-family: $Exo2-Bold;
+    font-family:  $Exo2-Bold;
   }
   &__link{
     display: block;
@@ -69,7 +69,7 @@
 }
 
 .ui-widget{
-  font-family: $Exo2-Regular;
+   font-family: $Exo2-Regular;
 }
 
 .ui-widget.ui-widget-content{

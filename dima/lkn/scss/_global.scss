@@ -1,5 +1,5 @@
 body {
-  font-family: $Exo2-Regular;
+   font-family: $Exo2-Regular;
   font-size: 14px;
   color: #282828;
   background-color: #F5F5F5;
@@ -29,7 +29,7 @@ img {
 
 h2 {
   font-size: 20px;
-  font-family: $Exo2-Bold;
+  font-family:  $Exo2-Bold;
   margin-bottom: 10px;
   &.h2-title {
     position: relative;
@@ -58,7 +58,7 @@ h2 {
 }
 
 .h2-title {
-  font-family: $Exo2-Bold;
+  font-family:  $Exo2-Bold;
   position: relative;
   text-align: left;
   text-transform: uppercase;
@@ -101,7 +101,7 @@ h2 {
       position: relative;
       font-size: 18px;
       text-transform: none;
-      font-family: $Exo2-Regular;
+       font-family: $Exo2-Regular;
     }
     .percent {
       margin-left: 20px;
@@ -135,7 +135,7 @@ h2 {
 
 h1 {
   font-size: 20px;
-  font-family: $Exo2-Bold;
+  font-family:  $Exo2-Bold;
   margin-bottom: 10px;
   &.head-page {
     position: relative;
@@ -189,12 +189,12 @@ h1 {
     }
   }
   font-size: 30px;
-  font-family: $Exo2-Bold;
+  font-family:  $Exo2-Bold;
   margin-bottom: 15px;
 }
 
 .h3-title {
-  font-family: $Exo2-Bold;
+  font-family:  $Exo2-Bold;
   font-size: 20px;
   &.white {
     color: #ffffff;
@@ -209,7 +209,7 @@ h1 {
 
 .h4-title {
   font-size: 16px;
-  font-family: $Exo2-Bold;
+  font-family:  $Exo2-Bold;
   margin-bottom: 12px;
 }
 

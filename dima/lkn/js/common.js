@@ -87,30 +87,8 @@ window.onscroll = function (ev) {
 };
 
 $(document).ready(function () {
-    var triggerForspecificationBtn = false;
 
     // $('.articles-media__item_shuffle').shuffle();
-
-    setTimeout(function () {
-        $(".specification_text_animation").removeClass("active")
-    }, 3000);
-    setTimeout(function () {
-        $(".specification_btn").addClass("active")
-    }, 3300);
-
-    $(".specification_btn").on("click", function () {
-        if (triggerForspecificationBtn === false) {
-            $(".specification_text_animation").addClass("active");
-            $(".specification_btn .show").text("Cпрятать");
-            triggerForspecificationBtn = true;
-        } else {
-            $(".specification_text_animation").removeClass("active");
-            setTimeout(function () {
-                $(".specification_btn .show").text("показать все");
-            }, 300)
-            triggerForspecificationBtn = false;
-        }
-    });
 
     $(".filter_news_item").on("click", function () {
         $(".result_block_mobile p").text($(this).text());
