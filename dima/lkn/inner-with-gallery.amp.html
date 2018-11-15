@@ -1,0 +1,419 @@
+<!doctype html>
+<html amp lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Let Know</title>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+    <script async custom-element="amp-social-share"
+            src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    <link rel="canonical" href="/inner-list.html">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <style amp-custom>
+        .main-header,header{box-sizing:border-box}.logo,header{top:0;left:0}.currency-wrapper section h4 .show-less .arrow,.theme-wrapper section h4 .show-less .arrow-theme{transform:rotate(180deg)}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.article strong,.inner-page b,.inner-page h4{font-weight:900}body{line-height:1;font-family:"Exo 2",sans-serif;font-weight:400;font-size:14px;color:#282828;background-color:#F5F5F5}ol,ul{list-style:none}blockquote,q{quotes:none}table{border-collapse:collapse;border-spacing:0}header{z-index:2000;background:#fff;position:fixed;width:100%;display:flex;flex-direction:column;border-bottom:3px solid #282828}#sidebar1{width:80%}#sidebar1 .head-line{height:60px;display:flex;align-items:center;flex-direction:row;justify-content:flex-end;border-bottom:1px solid #d5d5d5}#sidebar1 .sidebar{border-bottom:1px solid #888;margin:15px 30px}#sidebar1 .sidebar_social-block{padding:0 30px;display:flex;flex-direction:row;justify-content:space-around}#sidebar1 .social-icon_fb a{display:block;width:12px;height:25px;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIyNSI+CiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjU5MyA0Ljg0MXYzLjQ0MUgwdjQuMjA5aDIuNTkzVjI1aDUuMzI4VjEyLjQ5MmgzLjU3NXMuMzM1LTIuMDE3LjQ5OC00LjIyNEg3Ljk0MlY1LjM4OWMwLS40MjkuNTgtMS4wMDcgMS4xNTUtMS4wMDdIMTJWMEg4LjA1MmMtNS41OSAwLTUuNDU5IDQuMjEyLTUuNDU5IDQuODQxeiIvPgo8L3N2Zz4K);background-repeat:no-repeat}#sidebar1 .social-icon_inst a,#sidebar1 .social-icon_tl a,#sidebar1 .social-icon_tw a{display:block;width:25px;height:25px;background-repeat:no-repeat}#sidebar1 .social-icon_tw a{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyMCI+CiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNSAyLjM2N2MtLjkyLjQwMi0xLjkwOC42NzMtMi45NDYuNzk2QTUuMDg0IDUuMDg0IDAgMCAwIDI0LjMwOS4zNjlhMTAuMzUgMTAuMzUgMCAwIDEtMy4yNTcgMS4yMjVBNS4xNiA1LjE2IDAgMCAwIDE3LjMwOCAwYy0yLjgzMiAwLTUuMTI5IDIuMjYtNS4xMjkgNS4wNDggMCAuMzk2LjA0Ni43ODEuMTMzIDEuMTUyQTE0LjYzNiAxNC42MzYgMCAwIDEgMS43NDEuOTIzYTQuOTY2IDQuOTY2IDAgMCAwLS42OTUgMi41NGMwIDEuNzUxLjkwNSAzLjI5NiAyLjI4MiA0LjIwMmE1LjE2NyA1LjE2NyAwIDAgMS0yLjMyMy0uNjMybC0uMDAxLjA2NGMwIDIuNDQ2IDEuNzY4IDQuNDg3IDQuMTE0IDQuOTVhNS4xODEgNS4xODEgMCAwIDEtMi4zMTYuMDg3Yy42NTMgMi4wMDYgMi41NDcgMy40NjYgNC43OTEgMy41MDZhMTAuMzkgMTAuMzkgMCAwIDEtNi4zNyAyLjE2MmMtLjQxNCAwLS44MjItLjAyNC0xLjIyMy0uMDcxQTE0LjY4MiAxNC42ODIgMCAwIDAgNy44NjIgMjBjOS40MzQgMCAxNC41OTMtNy42OTQgMTQuNTkzLTE0LjM2NiAwLS4yMTktLjAwNS0uNDM3LS4wMTUtLjY1M0ExMC4zMjQgMTAuMzI0IDAgMCAwIDI1IDIuMzY3eiIvPgo8L3N2Zz4K)}#sidebar1 .social-icon_tl a{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyMiI+CiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS41MjYgNC45NDlsLTkuMjAyIDguNjA4YTEuOTI3IDEuOTI3IDAgMCAwLS41OTEgMS4xNDlsLS4zMTMgMi4zMzhjLS4wNDIuMzEyLS40NzguMzQzLS41NjMuMDQxbC0xLjIwNi00LjI2M2ExLjEzMiAxLjEzMiAwIDAgMSAuNDkxLTEuMjcxbDExLjE1LTYuOTExYy4yLS4xMjQuNDA2LjE0OS4yMzQuMzA5ek0yMy45OTIuMTkzTC41NzggOS4yODNDMCA5LjUwNy4wMDUgMTAuMzMuNTg0IDEwLjU0OGw1LjcwNSAyLjE0NCAyLjIwOSA3LjE0NmEuNjY5LjY2OSAwIDAgMCAxLjA2Ni4zMjNsMy4xOC0yLjYwOGEuOTQ0Ljk0NCAwIDAgMSAxLjE1Ny0uMDMzbDUuNzM2IDQuMTkxYS42Ny42NyAwIDAgMCAxLjA1My0uNDA5TDI0Ljg5Mi45NjJhLjY3NC42NzQgMCAwIDAtLjktLjc2OXoiLz4KPC9zdmc+Cg==)}#sidebar1 .social-icon_inst a{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0zNTIsMEgxNjBDNzEuNjQ4LDAsMCw3MS42NDgsMCwxNjB2MTkyYzAsODguMzUyLDcxLjY0OCwxNjAsMTYwLDE2MGgxOTJjODguMzUyLDAsMTYwLTcxLjY0OCwxNjAtMTYwVjE2MA0KCQkJQzUxMiw3MS42NDgsNDQwLjM1MiwwLDM1MiwweiBNNDY0LDM1MmMwLDYxLjc2LTUwLjI0LDExMi0xMTIsMTEySDE2MGMtNjEuNzYsMC0xMTItNTAuMjQtMTEyLTExMlYxNjBDNDgsOTguMjQsOTguMjQsNDgsMTYwLDQ4DQoJCQloMTkyYzYxLjc2LDAsMTEyLDUwLjI0LDExMiwxMTJWMzUyeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjU2LDEyOGMtNzAuNjg4LDAtMTI4LDU3LjMxMi0xMjgsMTI4czU3LjMxMiwxMjgsMTI4LDEyOHMxMjgtNTcuMzEyLDEyOC0xMjhTMzI2LjY4OCwxMjgsMjU2LDEyOHogTTI1NiwzMzYNCgkJCWMtNDQuMDk2LDAtODAtMzUuOTA0LTgwLTgwYzAtNDQuMTI4LDM1LjkwNC04MCw4MC04MHM4MCwzNS44NzIsODAsODBDMzM2LDMwMC4wOTYsMzAwLjA5NiwzMzYsMjU2LDMzNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPGNpcmNsZSBjeD0iMzkzLjYiIGN5PSIxMTguNCIgcj0iMTcuMDU2Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);background-size:100%}#sidebar1 li a{text-decoration:none;display:inline-block;height:32px;text-transform:uppercase;vertical-align:baseline;font-size:16px;color:#282828}#sidebar1 .logo{position:absolute;left:0;top:0;width:100%;display:flex;justify-content:center}#sidebar1 .close-sidebar{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMjEuMDM1cHgiIGhlaWdodD0iMjEuMDM1cHgiIHZpZXdCb3g9IjAgMCAyMS4wMzUgMjEuMDM1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyMS4wMzUgMjEuMDM1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjQzg1MDQ5IiBkPSJNMTkuNjQ2LDBMMCwxOS42NDZsMS4zODksMS4zODlMMjEuMDM1LDEuMzg5TDE5LjY0NiwweiBNOS4yLDcuODExTDEuMzg5LDBMMCwxLjM4OUw3LjgxMSw5LjJMOS4yLDcuODExeg0KCQkJIE0xMS44MzYsMTMuMjI1bDcuODExLDcuODExbDEuMzg5LTEuMzg5bC03LjgxMS03LjgxMUwxMS44MzYsMTMuMjI1eiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K) center no-repeat;background-size:20px 18px;display:inline-block;width:60px;height:60px;border:0;cursor:pointer;z-index:5}.logo,.main-header{display:flex;width:100%;height:60px}.currency-wrapper,.main-header{border-bottom:1px solid #d5d5d5}.main-header{align-items:center;justify-content:space-between;position:relative}.logo{z-index:1;justify-content:center;align-items:center;position:absolute}.hamburger{z-index:2;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxOCI+CiAgICA8cGF0aCBmaWxsPSIjODg4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDE4di0yaDIwdjJIMHpNMCA4aDIwdjJIMFY4em0wLThoMjB2MkgwVjB6Ii8+Cjwvc3ZnPgo=) center no-repeat;background-size:20px 18px;width:60px;height:60px}.currency-wrapper{padding:10px 20px}.currency-wrapper .item{text-transform:uppercase;display:inline-block;color:#535353;font-size:14px;margin:4px 0}.currency-wrapper .item b{position:relative;font-weight:900;color:#282828;margin-left:5px;vertical-align:middle}.currency-wrapper .first-item{margin:10px 0 4px}.currency-wrapper section h4{position:relative;display:flex;justify-content:space-between;align-items:flex-end;vertical-align:bottom;border:none;padding:0;background:0 0;text-transform:uppercase;color:#535353;font-size:14px}.currency-wrapper section h4 .market-cap_wrapper{display:flex;justify-content:space-between;align-items:center}.currency-wrapper .cap{display:inline-flex;vertical-align:bottom}.currency-wrapper section h4 .show-less .arrow,.currency-wrapper section h4 .show-more .arrow{display:flex;align-self:flex-end;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjI5Mi4zNjJweCIgaGVpZ2h0PSIyOTIuMzYycHgiIHZpZXdCb3g9IjAgMCAyOTIuMzYyIDI5Mi4zNjIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5Mi4zNjIgMjkyLjM2MjsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTI4Ni45MzUsNjkuMzc3Yy0zLjYxNC0zLjYxNy03Ljg5OC01LjQyNC0xMi44NDgtNS40MjRIMTguMjc0Yy00Ljk1MiwwLTkuMjMzLDEuODA3LTEyLjg1LDUuNDI0DQoJCUMxLjgwNyw3Mi45OTgsMCw3Ny4yNzksMCw4Mi4yMjhjMCw0Ljk0OCwxLjgwNyw5LjIyOSw1LjQyNCwxMi44NDdsMTI3LjkwNywxMjcuOTA3YzMuNjIxLDMuNjE3LDcuOTAyLDUuNDI4LDEyLjg1LDUuNDI4DQoJCXM5LjIzMy0xLjgxMSwxMi44NDctNS40MjhMMjg2LjkzNSw5NS4wNzRjMy42MTMtMy42MTcsNS40MjctNy44OTgsNS40MjctMTIuODQ3QzI5Mi4zNjIsNzcuMjc5LDI5MC41NDgsNzIuOTk4LDI4Ni45MzUsNjkuMzc3eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=) center no-repeat;background-size:contain;width:19px;height:19px}.currency-wrapper b{position:relative;font-weight:900;color:#282828;margin-left:5px;display:inline;vertical-align:middle}.currency-wrapper .item .item-centered{display:flex;align-items:center}.currency-wrapper .item .item-centered .value-arrow{padding-right:18px}.currency-wrapper .item .item-centered .value-arrow:after{content:'';position:absolute;width:10px;height:15px;top:50%;margin-top:-7px;right:2px}.currency-wrapper .item .item-centered .arrow-up:after{background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxNSI+CiAgICA8cGF0aCBmaWxsPSIjMzY5ODI5IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCA0LjY2N0w4LjU3MSA2IDYgMy42VjE1SDRWMy42TDEuNDI5IDYgMCA0LjY2N2wzLjU3MS0zLjMzNEw1IDBsMS40MjkgMS4zMzNoLS4wMDFMMTAgNC42Njd6Ii8+Cjwvc3ZnPgo=)}.currency-wrapper .item .item-centered .arrow-down:after{background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxNSI+CiAgICA8cGF0aCBmaWxsPSIjMzk2OEI3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAxMC4zMzNMNSAxNWwtMS40MjktMS4zMzNMMCAxMC4zMzMgMS40MjggOSA0IDExLjRWMGgydjExLjRMOC41NzEgOSAxMCAxMC4zMzN6Ii8+Cjwvc3ZnPgo=)}.theme-wrapper,.theme-wrapper section h4{background:#fff;width:100%}.currency-wrapper .item .item-centered .currency__percent-green{color:#369829}.currency-wrapper .item .item-centered .currency__percent-blue{color:#3968b7}.theme-wrapper section h4{outline:0;border:none;text-align:center;padding:10px 0;color:#f24941;font-size:16px}amp-accordion section:not([expanded]) .show-less,amp-accordion section[expanded] .show-more{display:none}.theme-wrapper section h4 .show-less .arrow-theme,.theme-wrapper section h4 .show-more .arrow-theme{position:absolute;right:20px;top:10px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjI5Mi4zNjJweCIgaGVpZ2h0PSIyOTIuMzYycHgiIHZpZXdCb3g9IjAgMCAyOTIuMzYyIDI5Mi4zNjIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5Mi4zNjIgMjkyLjM2MjsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTI4Ni45MzUsNjkuMzc3Yy0zLjYxNC0zLjYxNy03Ljg5OC01LjQyNC0xMi44NDgtNS40MjRIMTguMjc0Yy00Ljk1MiwwLTkuMjMzLDEuODA3LTEyLjg1LDUuNDI0DQoJCUMxLjgwNyw3Mi45OTgsMCw3Ny4yNzksMCw4Mi4yMjhjMCw0Ljk0OCwxLjgwNyw5LjIyOSw1LjQyNCwxMi44NDdsMTI3LjkwNywxMjcuOTA3YzMuNjIxLDMuNjE3LDcuOTAyLDUuNDI4LDEyLjg1LDUuNDI4DQoJCXM5LjIzMy0xLjgxMSwxMi44NDctNS40MjhMMjg2LjkzNSw5NS4wNzRjMy42MTMtMy42MTcsNS40MjctNy44OTgsNS40MjctMTIuODQ3QzI5Mi4zNjIsNzcuMjc5LDI5MC41NDgsNzIuOTk4LDI4Ni45MzUsNjkuMzc3eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=) center no-repeat;background-size:contain;width:19px;height:19px}.theme-wrapper .theme-item a{display:inline-block;padding:10px;color:#282828;font-size:16px;text-align:center;text-decoration:none}.theme-wrapper .theme-item{text-align:center}.theme-wrapper .theme-item a.active{border-bottom:3px solid #f24941}.main{margin:99px auto 0;max-width:425px;background:#fff}.article{padding:20px}.h1-title{font-size:30px;font-weight:900;margin-bottom:15px}.poster__title{font-size:16px;z-index:150;position:absolute;font-weight:900;bottom:20px;right:0;margin:0 0 0 20px;padding:15px;background-color:rgba(0,0,0,.85);color:#fff}.section{margin-bottom:30px}.social-block{border-top:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5;padding:12px 0;margin-bottom:20px;overflow:hidden}.article a{text-decoration:none;color:#d24a43}.article p{color:#282828;margin-bottom:15px;font-size:16px}.article p.subscribe{font-size:13px}.article blockquote p{font-style:italic;margin-bottom:0;font-size:14px}.social-block .date .date-item,.social-block .date a{font-size:12px;text-transform:uppercase}.article blockquote{margin:25px;padding:18px 0;border-top:1px solid #282828;border-bottom:1px solid #282828}.social-block .links{margin:5px 0;display:flex;flex-direction:row}.social-block .date .date-item{color:#888}.social-block .second-links{font-size:14px}.social-block amp-social-share[type=facebook],.social-block amp-social-share[type=twitter]{display:flex;align-items:center;margin-right:5px;background-position:left center}.links-text{margin-left:20px;width:100%;display:flex;justify-content:space-around}.article .show-less:after,.article .show-more:after{position:absolute;width:24px;height:24px;right:13px;top:12px;content:''}.social-block .links .name{color:#fff;font-size:12px}.social-block .links .counter{margin-left:5px;color:#fff;font-size:12px}.article .note{border:1px solid #282828;border-top-left-radius:10px;border-bottom-right-radius:10px;padding:15px 15px 25px;max-width:855px;float:none;display:block;margin:15px auto}.article .note__name{font-size:20px;text-transform:uppercase}.article .note__title{font-size:20px;font-weight:900}.article .note__description{font-size:14px;margin-bottom:0}.twitter-block{margin-bottom:15px}.article-accordion section h4{font-size:16px;display:flex;align-items:center;border:none;padding:16px 15px;font-weight:900;border-bottom:1px solid #d5d5d5}.article-accordion section p{border-bottom:1px solid #d5d5d5;margin:0;padding:0 15px;background:#f5f5f5}.article-accordion section .wrapper-item span{padding:10px 0;display:inline-block}.article-accordion section .wrapper-item .ac-container__h2{font-size:20px}.article-accordion section .wrapper-item .ac-container__photo-maker{color:#888;font-size:12px}.article-accordion section .wrapper-item .ac-container__text{padding-top:0}.article amp-accordion section[expanded] h4{color:#fff;background:#d24a43}.article amp-accordion section:not[expanded] h4{color:#282828;background:#f5f5f5}.article amp-accordion section:not([expanded]) .show-less,.article amp-accordion section[expanded] .show-more{display:none}.article .show-more:after{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTBweCIgaGVpZ2h0PSI1cHgiIHZpZXdCb3g9IjAgMCAxMCA1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMCA1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cG9seWdvbiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzI1MjUyNSIgcG9pbnRzPSIxMCwwLjgxNyA5LjM1MSwwIDUsMy41MDQgMC42NDksMCAwLDAuODE3IDQuMTY4LDQuMTczIA0KCQkJNC4xNTYsNC4xODMgNC44MDUsNSA1LDQuODQzIDUuMTk1LDUgNS44NDQsNC4xODMgNS44MzIsNC4xNzMgCQkiLz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4NCg==) center no-repeat}.article .show-less:after{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTBweCIgaGVpZ2h0PSI1cHgiIHZpZXdCb3g9IjAgMCAxMCA1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMCA1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cG9seWdvbiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIxMCw0LjE4MyA1LjgzMiwwLjgyNyA1Ljg0NCwwLjgxNyA1LjE5NSwwIDUsMC4xNTcgDQoJCQk0LjgwNSwwIDQuMTU2LDAuODE3IDQuMTY4LDAuODI3IDAsNC4xODMgMC42NDksNSA1LDEuNDk2IDkuMzUxLDUgCQkiLz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4NCg==) center no-repeat}.article .article-accordion{margin-bottom:15px}.article .tags{display:flex;flex-flow:row wrap;position:relative;font-size:0;padding-top:20px;margin:25px 0}.footer-menu__link,.footer-social,.footer-social__icon,.footer__left{display:inline-block}.article .tags__link{color:#fff;background-color:#888;padding:8px 10px;font-size:16px;border-top-left-radius:10px;border-bottom-right-radius:10px;margin:0 12px 5px 0}.article .tags__link.last{margin-right:0}.article .tags:before,.tags:after{content:'';position:absolute;top:0;left:0;right:0;width:100%;height:1px;background-color:#282828}.article .tags:after{top:4px}.footer-content{padding:30px 20px;border-top:3px solid #282828}.footer-social{margin-right:100px}@media screen and (max-width:1220px){.footer-social{margin-right:40px}}.footer-social__link.last{margin-bottom:20px}.footer-social__icon{width:25px;height:25px;margin-right:15px;background-repeat:no-repeat;background-position:center;vertical-align:middle}.footer-menu,.footer__right{display:inline-block;vertical-align:top}.footer-social__icon--fb{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIyNSI+CiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjU5MyA0Ljg0MXYzLjQ0MUgwdjQuMjA5aDIuNTkzVjI1aDUuMzI4VjEyLjQ5MmgzLjU3NXMuMzM1LTIuMDE3LjQ5OC00LjIyNEg3Ljk0MlY1LjM4OWMwLS40MjkuNTgtMS4wMDcgMS4xNTUtMS4wMDdIMTJWMEg4LjA1MmMtNS41OSAwLTUuNDU5IDQuMjEyLTUuNDU5IDQuODQxeiIvPgo8L3N2Zz4K)}.footer-social__icon--tw{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyMCI+CiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNSAyLjM2N2MtLjkyLjQwMi0xLjkwOC42NzMtMi45NDYuNzk2QTUuMDg0IDUuMDg0IDAgMCAwIDI0LjMwOS4zNjlhMTAuMzUgMTAuMzUgMCAwIDEtMy4yNTcgMS4yMjVBNS4xNiA1LjE2IDAgMCAwIDE3LjMwOCAwYy0yLjgzMiAwLTUuMTI5IDIuMjYtNS4xMjkgNS4wNDggMCAuMzk2LjA0Ni43ODEuMTMzIDEuMTUyQTE0LjYzNiAxNC42MzYgMCAwIDEgMS43NDEuOTIzYTQuOTY2IDQuOTY2IDAgMCAwLS42OTUgMi41NGMwIDEuNzUxLjkwNSAzLjI5NiAyLjI4MiA0LjIwMmE1LjE2NyA1LjE2NyAwIDAgMS0yLjMyMy0uNjMybC0uMDAxLjA2NGMwIDIuNDQ2IDEuNzY4IDQuNDg3IDQuMTE0IDQuOTVhNS4xODEgNS4xODEgMCAwIDEtMi4zMTYuMDg3Yy42NTMgMi4wMDYgMi41NDcgMy40NjYgNC43OTEgMy41MDZhMTAuMzkgMTAuMzkgMCAwIDEtNi4zNyAyLjE2MmMtLjQxNCAwLS44MjItLjAyNC0xLjIyMy0uMDcxQTE0LjY4MiAxNC42ODIgMCAwIDAgNy44NjIgMjBjOS40MzQgMCAxNC41OTMtNy42OTQgMTQuNTkzLTE0LjM2NiAwLS4yMTktLjAwNS0uNDM3LS4wMTUtLjY1M0ExMC4zMjQgMTAuMzI0IDAgMCAwIDI1IDIuMzY3eiIvPgo8L3N2Zz4K)}.footer-social__icon--inst{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAh9JREFUeNqslj1IW1EUx28+BumkQlCCVHEK0c2PSV0dbRQ7lOJi02bwI9BFVNDBFodClZZAiIsiNB1KO4izYCdbuhiqk6hIqw2okyCo8X/gf+HwiE/fSw/8uF/nnf+9992vQCwWM8qegGHQAeqMdzsBP8Ay+AJKUhmgyCOwAgbM/zMRGQIXYVasgoRy2AVHPgI3ADs10uEg6JeR9CHzjQ1/wVPwvYIRdIHPIGp/gSi9UA7PfAoEwGvwAewwjrVkmMpiv8GGz973gneqPMp4cdApI6lmw4FLEHHOgAL4xzTDesO6G+aPHfEiYRXo5o5pmAMT/InWIqAFvALzYJrLXn78mjNe+J5pmAGTqnwG9kAzqKGwtF/R91e5IEEXgVb2UOwSpDiCdqYp1otN0d94FRkHIebTIAuuWb5mOc2y+I35Eelhegpyd/jk2K79PYnYs2tfjcBpUn/IfL0fkROmTWranCb1jx1L15PIJtNax6mgLcl27e9JZFFN0wJ4qUYUYvm9mrZFPyLb4A3zVVxNRfCTaZb1Ym95CpS1+zbjLH3sjpcN2OY4Jea5Ec1DRMqNqsSN9gmMgG5uxCL/wUeXEQS1yDkPyUaXzhS4w72YjVcMqvsj7rahPFqPOqG3RGRJNebV/VLJzZjXp4J9SHzlS8WoC+yPD4GoGoHhtZ7QrxXnY6JSk44/l9eKXQEX8qqgyDpXjx8r8vtBvlYkrrkVYABNI2+VbhfIdgAAAABJRU5ErkJggg==)}.footer-social__icon--tg{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyMiI+CiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS41MjYgNC45NDlsLTkuMjAyIDguNjA4YTEuOTI3IDEuOTI3IDAgMCAwLS41OTEgMS4xNDlsLS4zMTMgMi4zMzhjLS4wNDIuMzEyLS40NzguMzQzLS41NjMuMDQxbC0xLjIwNi00LjI2M2ExLjEzMiAxLjEzMiAwIDAgMSAuNDkxLTEuMjcxbDExLjE1LTYuOTExYy4yLS4xMjQuNDA2LjE0OS4yMzQuMzA5ek0yMy45OTIuMTkzTC41NzggOS4yODNDMCA5LjUwNy4wMDUgMTAuMzMuNTg0IDEwLjU0OGw1LjcwNSAyLjE0NCAyLjIwOSA3LjE0NmEuNjY5LjY2OSAwIDAgMCAxLjA2Ni4zMjNsMy4xOC0yLjYwOGEuOTQ0Ljk0NCAwIDAgMSAxLjE1Ny0uMDMzbDUuNzM2IDQuMTkxYS42Ny42NyAwIDAgMCAxLjA1My0uNDA5TDI0Ljg5Mi45NjJhLjY3NC42NzQgMCAwIDAtLjktLjc2OXoiLz4KPC9zdmc+Cg==)}.footer-social__icon--in{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSI+CiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMy4xNTQgMEgxLjg0N0MuODI3IDAgMCAuODAxIDAgMS43OTF2MjEuNDE3QzAgMjQuMTk3LjgyNyAyNSAxLjg0NyAyNWgyMS4zMDdjMS4wMiAwIDEuODQ2LS44MDMgMS44NDYtMS43OTJWMS43OTFDMjUgLjgwMSAyNC4xNzQgMCAyMy4xNTQgMHpNNy41NzkgMjAuOTI3SDMuODAyVjkuNjM5aDMuNzc3djExLjI4OHpNNS42OTEgOC4wOTdoLS4wMjZjLTEuMjY2IDAtMi4wODctLjg2Ny0yLjA4Ny0xLjk1IDAtMS4xMDcuODQ1LTEuOTQ5IDIuMTM2LTEuOTQ5IDEuMjkzIDAgMi4wODguODQyIDIuMTEyIDEuOTQ5IDAgMS4wODUtLjgxOSAxLjk1LTIuMTM1IDEuOTV6bTE1LjUwNCAxMi44M2gtMy43NzZ2LTYuMDRjMC0xLjUxOC0uNTQ4LTIuNTUzLTEuOTEyLTIuNTUzLTEuMDQ2IDAtMS42NjYuNjk5LTEuOTM4IDEuMzczLS4xMDEuMjQxLS4xMjUuNTc4LS4xMjUuOTE0djYuMzA2SDkuNjY4cy4wNS0xMC4yMyAwLTExLjI4OGgzLjc3NnYxLjYwMWMuNTAyLS43NjkgMS4zOTctMS44NjYgMy40MDMtMS44NjYgMi40ODUgMCA0LjM0OCAxLjYxMiA0LjM0OCA1LjA4djYuNDczem0tNy43NzYtOS42NTJhLjMzMS4zMzEgMCAwIDEgLjAyNS0uMDM1di4wMzVoLS4wMjV6Ii8+Cjwvc3ZnPgo=)}.footer-social__icon--vk{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjU0OC4zNThweCIgaGVpZ2h0PSI1NDguMzU4cHgiIHZpZXdCb3g9IjAgMCA1NDguMzU4IDU0OC4zNTgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU0OC4zNTggNTQ4LjM1ODsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTU0NS40NTEsNDAwLjI5OGMtMC42NjQtMS40MzEtMS4yODMtMi42MTgtMS44NTgtMy41NjljLTkuNTE0LTE3LjEzNS0yNy42OTUtMzguMTY3LTU0LjUzMi02My4xMDJsLTAuNTY3LTAuNTcxDQoJCWwtMC4yODQtMC4yOGwtMC4yODctMC4yODdoLTAuMjg4Yy0xMi4xOC0xMS42MTEtMTkuODkzLTE5LjQxOC0yMy4xMjMtMjMuNDE1Yy01LjkxLTcuNjE0LTcuMjM0LTE1LjMyMS00LjAwNC0yMy4xMw0KCQljMi4yODItNS45LDEwLjg1NC0xOC4zNiwyNS42OTYtMzcuMzk3YzcuODA3LTEwLjA4OSwxMy45OS0xOC4xNzUsMTguNTU2LTI0LjI2N2MzMi45MzEtNDMuNzgsNDcuMjA4LTcxLjc1Niw0Mi44MjgtODMuOTM5DQoJCWwtMS43MDEtMi44NDdjLTEuMTQzLTEuNzE0LTQuMDkzLTMuMjgyLTguODQ2LTQuNzEyYy00Ljc2NC0xLjQyNy0xMC44NTMtMS42NjMtMTguMjc4LTAuNzEybC04Mi4yMjQsMC41NjgNCgkJYy0xLjMzMi0wLjQ3Mi0zLjIzNC0wLjQyOC01LjcxMiwwLjE0NGMtMi40NzUsMC41NzItMy43MTMsMC44NTktMy43MTMsMC44NTlsLTEuNDMxLDAuNzE1bC0xLjEzNiwwLjg1OQ0KCQljLTAuOTUyLDAuNTY4LTEuOTk5LDEuNTY3LTMuMTQyLDIuOTk1Yy0xLjEzNywxLjQyMy0yLjA4OCwzLjA5My0yLjg0OCw0Ljk5NmMtOC45NTIsMjMuMDMxLTE5LjEzLDQ0LjQ0NC0zMC41NTMsNjQuMjM4DQoJCWMtNy4wNDMsMTEuODAzLTEzLjUxMSwyMi4wMzItMTkuNDE4LDMwLjY5M2MtNS44OTksOC42NTgtMTAuODQ4LDE1LjAzNy0xNC44NDIsMTkuMTI2Yy00LDQuMDkzLTcuNjEsNy4zNzItMTAuODUyLDkuODQ5DQoJCWMtMy4yMzcsMi40NzgtNS43MDgsMy41MjUtNy40MTksMy4xNDJjLTEuNzE1LTAuMzgzLTMuMzMtMC43NjMtNC44NTktMS4xNDNjLTIuNjYzLTEuNzE0LTQuODA1LTQuMDQ1LTYuNDItNi45OTUNCgkJYy0xLjYyMi0yLjk1LTIuNzE0LTYuNjYzLTMuMjg1LTExLjEzNmMtMC41NjgtNC40NzYtMC45MDQtOC4zMjYtMS0xMS41NjNjLTAuMDg5LTMuMjMzLTAuMDQ4LTcuODA2LDAuMTQ1LTEzLjcwNg0KCQljMC4xOTgtNS45MDMsMC4yODctOS44OTcsMC4yODctMTEuOTkxYzAtNy4yMzQsMC4xNDEtMTUuMDg1LDAuNDI0LTIzLjU1NWMwLjI4OC04LjQ3LDAuNTIxLTE1LjE4MSwwLjcxNi0yMC4xMjUNCgkJYzAuMTk0LTQuOTQ5LDAuMjg0LTEwLjE4NSwwLjI4NC0xNS43MDVzLTAuMzM2LTkuODQ5LTEtMTIuOTkxYy0wLjY1Ni0zLjEzOC0xLjY2My02LjE4NC0yLjk5LTkuMTM3DQoJCWMtMS4zMzUtMi45NS0zLjI4OS01LjIzMi01Ljg1My02Ljg1MmMtMi41NjktMS42MTgtNS43NjMtMi45MDItOS41NjQtMy44NTZjLTEwLjA4OS0yLjI4My0yMi45MzYtMy41MTgtMzguNTQ3LTMuNzENCgkJYy0zNS40MDEtMC4zOC01OC4xNDgsMS45MDYtNjguMjM2LDYuODU1Yy0zLjk5NywyLjA5MS03LjYxNCw0Ljk0OC0xMC44NDgsOC41NjJjLTMuNDI3LDQuMTg5LTMuOTA1LDYuNDc1LTEuNDMxLDYuODUxDQoJCWMxMS40MjIsMS43MTEsMTkuNTA4LDUuODA0LDI0LjI2NywxMi4yNzVsMS43MTUsMy40MjljMS4zMzQsMi40NzQsMi42NjYsNi44NTQsMy45OTksMTMuMTM0YzEuMzMxLDYuMjgsMi4xOSwxMy4yMjcsMi41NjgsMjAuODM3DQoJCWMwLjk1LDEzLjg5NywwLjk1LDI1Ljc5MywwLDM1LjY4OWMtMC45NTMsOS45LTEuODUzLDE3LjYwNy0yLjcxMiwyMy4xMjdjLTAuODU5LDUuNTItMi4xNDMsOS45OTMtMy44NTUsMTMuNDE4DQoJCWMtMS43MTUsMy40MjYtMi44NTYsNS41Mi0zLjQyOCw2LjI4Yy0wLjU3MSwwLjc2LTEuMDQ3LDEuMjM5LTEuNDI1LDEuNDI3Yy0yLjQ3NCwwLjk0OC01LjA0NywxLjQzMS03LjcxLDEuNDMxDQoJCWMtMi42NjcsMC01LjkwMS0xLjMzNC05LjcwNy00Yy0zLjgwNS0yLjY2Ni03Ljc1NC02LjMyOC0xMS44NDctMTAuOTkyYy00LjA5My00LjY2NS04LjcwOS0xMS4xODQtMTMuODUtMTkuNTU4DQoJCWMtNS4xMzctOC4zNzQtMTAuNDY3LTE4LjI3MS0xNS45ODctMjkuNjkxbC00LjU2Ny04LjI4MmMtMi44NTUtNS4zMjgtNi43NTUtMTMuMDg2LTExLjcwNC0yMy4yNjcNCgkJYy00Ljk1Mi0xMC4xODUtOS4zMjktMjAuMDM3LTEzLjEzNC0yOS41NTRjLTEuNTIxLTMuOTk3LTMuODA2LTcuMDQtNi44NTEtOS4xMzRsLTEuNDI5LTAuODU5Yy0wLjk1LTAuNzYtMi40NzUtMS41NjctNC41NjctMi40MjcNCgkJYy0yLjA5NS0wLjg1OS00LjI4MS0xLjQ3NS02LjU2Ny0xLjg1NGwtNzguMjI5LDAuNTY4Yy03Ljk5NCwwLTEzLjQxOCwxLjgxMS0xNi4yNzQsNS40MjhsLTEuMTQzLDEuNzExDQoJCUMwLjI4OCwxNDAuMTQ2LDAsMTQxLjY2OCwwLDE0My43NjNjMCwyLjA5NCwwLjU3MSw0LjY2NCwxLjcxNCw3LjcwN2MxMS40MiwyNi44NCwyMy44MzksNTIuNzI1LDM3LjI1Nyw3Ny42NTkNCgkJYzEzLjQxOCwyNC45MzQsMjUuMDc4LDQ1LjAxOSwzNC45NzMsNjAuMjM3YzkuODk3LDE1LjIyOSwxOS45ODUsMjkuNjAyLDMwLjI2NCw0My4xMTJjMTAuMjc5LDEzLjUxNSwxNy4wODMsMjIuMTc2LDIwLjQxMiwyNS45ODENCgkJYzMuMzMzLDMuODEyLDUuOTUxLDYuNjYyLDcuODU0LDguNTY1bDcuMTM5LDYuODUxYzQuNTY4LDQuNTY5LDExLjI3NiwxMC4wNDEsMjAuMTI3LDE2LjQxNg0KCQljOC44NTMsNi4zNzksMTguNjU0LDEyLjY1OSwyOS40MDgsMTguODVjMTAuNzU2LDYuMTgxLDIzLjI2OSwxMS4yMjUsMzcuNTQ2LDE1LjEyNmMxNC4yNzUsMy45MDUsMjguMTY5LDUuNDcyLDQxLjY4NCw0LjcxNmgzMi44MzQNCgkJYzYuNjU5LTAuNTc1LDExLjcwNC0yLjY2OSwxNS4xMzMtNi4yODNsMS4xMzYtMS40MzFjMC43NjQtMS4xMzYsMS40NzktMi45MDEsMi4xMzktNS4yNzZjMC42NjgtMi4zNzksMS01LDEtNy44NTENCgkJYy0wLjE5NS04LjE4MywwLjQyOC0xNS41NTgsMS44NTItMjIuMTI0YzEuNDIzLTYuNTY0LDMuMDQ1LTExLjUxMyw0Ljg1OS0xNC44NDZjMS44MTMtMy4zMywzLjg1OS02LjE0LDYuMTM2LTguNDE4DQoJCWMyLjI4Mi0yLjI4MywzLjkwOC0zLjY2Niw0Ljg2Mi00LjE0MmMwLjk0OC0wLjQ3OSwxLjcwNS0wLjgwNCwyLjI3Ni0wLjk5OWM0LjU2OC0xLjUyMiw5Ljk0NC0wLjA0OCwxNi4xMzYsNC40MjkNCgkJYzYuMTg3LDQuNDczLDExLjk5LDkuOTk2LDE3LjQxOCwxNi41NmM1LjQyNSw2LjU3LDExLjk0MywxMy45NDEsMTkuNTU1LDIyLjEyNGM3LjYxNyw4LjE4NiwxNC4yNzcsMTQuMjcxLDE5Ljk4NSwxOC4yNzQNCgkJbDUuNzA4LDMuNDI2YzMuODEyLDIuMjg2LDguNzYxLDQuMzgsMTQuODUzLDYuMjgzYzYuMDgxLDEuOTAyLDExLjQwOSwyLjM3OCwxNS45ODQsMS40MjdsNzMuMDg3LTEuMTQNCgkJYzcuMjI5LDAsMTIuODU0LTEuMTk3LDE2Ljg0NC0zLjU3MmMzLjk5OC0yLjM3OSw2LjM3My01LDcuMTM5LTcuODUxYzAuNzY0LTIuODU0LDAuODA1LTYuMDkyLDAuMTQ1LTkuNzEyDQoJCUM1NDYuNzgyLDQwNC4yNSw1NDYuMTE1LDQwMS43MjUsNTQ1LjQ1MSw0MDAuMjk4eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);background-size:contain}.footer-social__name{font-size:16px;vertical-align:middle}.footer-menu__list{margin:0;padding:0;list-style:none}.footer-menu__link{text-decoration:none;font-size:20px;margin-bottom:25px;color:#282828}.footer-menu__link.last{margin-bottom:0}.footer__right{max-width:790px;padding-right:20px}.footer__copyright{margin-bottom:20px}.footer__txt{color:#888}.footer__analytics{margin-top:10px;float:right}.footer-social__link{display:block;margin-bottom:20px;text-decoration:none;color:#282828}
+    </style>
+    <script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "NewsArticle",
+ "mainEntityOfPage":{
+   "@type":"WebPage",
+   "@id":"https://example.com/my-article.html"
+ },
+ "headline": "My First AMP Article",
+ "image": {
+   "@type": "ImageObject",
+   "url": "https://example.com/article_thumbnail1.jpg",
+   "height": 800,
+   "width": 800
+ },
+ "datePublished": "2015-02-05T08:00:00+08:00",
+ "dateModified": "2015-02-05T09:20:00+08:00",
+ "author": {
+   "@type": "Person",
+   "name": "John Doe"
+ },
+ "publisher": {
+   "@type": "Organization",
+   "name": "⚡ AMP Times",
+   "logo": {
+     "@type": "ImageObject",
+     "url": "https://example.com/amptimes_logo.jpg",
+     "width": 600,
+     "height": 60
+   }
+ },
+ "description": "My first experience in an AMPlified world"
+}
+
+
+
+    </script>
+
+</head>
+<body id="body">
+<header>
+    <div class="main-header">
+        <div role="button" on="tap:sidebar1.open" tabindex="0" class="hamburger"></div>
+        <a href="#" class="logo">
+            <amp-img src="img/logo-small-invers.svg" alt="logo" width="140" height="48"></amp-img>
+        </a>
+    </div>
+    <div class="theme-wrapper">
+        <amp-accordion class="select-theme" animate disable-session-states expand-single-section>
+            <section>
+                <h4>
+                    <span class="show-more">
+                        ТОП ТЕМЫ:<span class="arrow-theme"></span>
+                    </span>
+                    <span class="show-less">
+                        ТОП ТЕМЫ:<span class="arrow-theme"></span>
+                    </span>
+                </h4>
+                <p class="theme-item">
+                    <a class="active" href="#">Украина и Россия </a><br>
+                    <a href="#">Прогнозы рынка</a><br>
+                    <a href="#">Легализация и регулирование</a><br>
+                    <a href="#">Криминал и происшествия</a><br>
+                    <a href="#">Биржи и обменники</a><br>
+                    <a href="#">Наука и технологии</a><br>
+                </p>
+            </section>
+        </amp-accordion>
+    </div>
+</header>
+<amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+    <div class="head-line">
+        <a href="#" class="logo">
+            <amp-img src="img/logo-small-invers.svg" alt="logo" width="140" height="48"></amp-img>
+        </a>
+        <div on="tap:sidebar1.close"
+             class="close-sidebar"
+             role="button"
+             tabindex="0">
+
+        </div>
+    </div>
+    <ul class="sidebar">
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Статьи</a></li>
+        <li><a href="#">Интервью</a></li>
+        <li><a href="#">Сообщества</a></li>
+        <li><a href="#">События</a></li>
+    </ul>
+    <div class="sidebar_social-block">
+        <div class="social-icon_fb"><a href="#"></a></div>
+        <div class="social-icon_tw"><a href="#"></a></div>
+        <div class="social-icon_tl"><a href="#"></a></div>
+        <div class="social-icon_inst"><a href="#"></a></div>
+    </div>
+</amp-sidebar>
+<div class="main">
+    <div class="article">
+
+        <div class="section">
+            <h1 class="h1-title">
+                Скромное обаяние биткоина: украинские реалии использования криптовалют
+            </h1>
+            <amp-img src="img/gallery-img.jpg"
+                     width="385"
+                     height="225"
+                     layout="responsive">
+                <h1 class="h1-title poster__title">Скромное обаяние биткоина: украинские реалии использования
+                    криптовалют</h1>
+            </amp-img>
+        </div>
+        <div class="section">
+            <amp-carousel id="carousel-with-preview"
+                          width="401"
+                          height="606"
+                          layout="responsive"
+                          type="slides"
+                          loop
+                          controls
+                          data-next-button-aria-label="Go to next slide"
+                          data-previous-button-aria-label="Go to previous slide"
+                          delay="200">
+                <amp-img src="img/test-photo.jpg"
+                         width="401"
+                         height="606"
+                         layout="responsive"
+                         alt="a sample image"></amp-img>
+                <amp-img src="img/gallery-img.jpg"
+                         width="401"
+                         height="236"
+                         layout="responsive"
+                         alt="another sample image"></amp-img>
+                <amp-img src="img/gallery-img.jpg"
+                         width="401"
+                         height="236"
+                         layout="responsive"
+                         alt="and another sample image"></amp-img>
+            </amp-carousel>
+        </div>
+        <div class="social-block">
+            <div class="date">
+                <a href="#">Новости</a>
+                <span class="date-item">— 23 ФЕВРАЛЯ 2017</span>
+            </div>
+            <div class="links">
+                <amp-social-share type="facebook" data-param-url="#" data-param-app_id=""
+                                  width="98"
+                                  height="22">
+                    <div class="links-text">
+                        <span class="name">facebook</span> <span class="counter">12</span>
+                    </div>
+                </amp-social-share>
+
+                <amp-social-share type="twitter"
+                                  width="98"
+                                  height="22">
+                    <div class="links-text">
+                        <span class="name">twitter</span> <span class="counter">22</span>
+                    </div>
+                </amp-social-share>
+            </div>
+            <div class="second-links">
+                <span>Подписывайся: <a href="#">Telegram канал LetKnow</a></span>
+            </div>
+        </div>
+        <p>
+            В последние годы на финансовом рынке появились новые термины –
+            криптовалюта, биткоины, блокчейны. Для большинства людей они пока очень
+            непривычны. Но можно с уверенностью утверждать, что за
+            криптовалютами, или, другими словами, «электронной наличностью» – будущее.
+        </p>
+        <p class="subscribe">
+            Подписывайтесь на наш <a href="">Telegram</a> канал <a href="">@LetKnowNews</a></p>
+        <p>
+
+            Возможность использования криптовалют была открыта в 2008 году и за девять лет
+            получила широкое распространение. Пока что криптовалюты находятся лишь в начале пути своего
+            развития: на данный момент эта революционная технология только ожидает своего «звездного часа».
+            И в ближайшем будущем она получит широкое распространение в мире.
+
+        </p>
+        <p>
+            Причиной этому могут послужить значительные преимущества криптовалюты по сравнению с
+            альтернативными национальными валютами. Основными достоинствами такой валюты являются
+            возможность добывать их самостоятельно каждому желающему,
+            анонимность транзакций, отсутствие инфляции, повышенная защищенность (ее невозможно скопировать).
+        </p>
+        <blockquote>
+            <p>
+                “Несмотря на то, что в нашей стране почти никто не
+                знает о криптовалюте, и она пока
+                официально запрещена, Украина входит в топ-5 стран мира
+                по количеству пользователей различными биткоин-кошельками”
+            </p>
+        </blockquote>
+        <div class="note">
+            <p class="note__name">По теме:</p>
+            <p class="note__title">
+                <a href="#">Как израильская армия стала «кузницей стартапов»</a>
+            </p>
+            <p class="note__description">Бывшие бойцы создали около 1000 начинающих IT-компаний.</p>
+        </div>
+        <p>
+            Еще одна особенность криптовалют – ими можно пользоваться
+            под псевдонимом. То есть, все транзакции между всеми электронными
+            кошельками находятся в общем доступе, однако невозможно связать это с
+            конкретным человеком. Правда, личность владельца можно
+            установить, если есть дополнительная информация.
+        </p>
+        <p>
+            Конечно, как и у любой технологии, у криптовалют есть свои
+            недостатки, которых, впрочем, немного. Например, потеря пароля
+            или доступа к электронному кошельку приведет
+            к полной потере криптовалюты. Кроме того, не исключены варианты,
+            когда национальный регулятор может запретить пользоваться таким видом расчетов.
+        </p>
+        <amp-twitter class="twitter-block"
+                     width="425"
+                     height="350"
+                     layout="responsive"
+                     data-tweetid="1037641721948123137">
+        </amp-twitter>
+        <p>
+            На данный момент в мире существует более 90 криптовалют. Самой
+            распространенной и дорогой из них остается биткоин (англ. – bitcoin).
+            Биткоины не выпускаются центральными банками и не зависят от кредитно-денежной
+            политики того или иного государства. Эмиссия происходит только в цифровом виде.
+            Любой желающий может добывать криптовалюту (заниматься майнингом), используя
+            вычислительные мощности компьютера. Чтобы добыть новые биткоины, нужно вычислить
+            новую уникальную последовательность блоков. Полученные блоки передаются в базу биткоинов по сети. Причем
+            чем больше
+            биткоинов добыто, тем сложнее получить новые. По состоянию на начало февраля 2017
+            года один биткоин можно купить примерно за $1010.
+        </p>
+        <amp-accordion class="article-accordion" animate disable-session-states expand-single-section>
+            <section>
+                <h4>
+                    <span class="show-more">1. Гонконг, Китай</span>
+                    <span class="show-less">1. Гонконг, Китай</span>
+                </h4>
+                <p class="wrapper-item">
+
+                    <span class="ac-container__h2">Гонконг, Китай</span>
+                    <amp-img src="img/acardion.jpg"
+                             layout="responsive"
+                             width="690"
+                             height="404"></amp-img>
+                    <span class="ac-container__photo-maker">Фото Steven Wei</span>
+                    <span class="ac-container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut beatae consequatur
+                    deserunt dolor eligendi excepturi facere laboriosam, laudantium maiores nam nostrum quam, quasi
+                    quisquam, ratione recusandae sapiente sint.</span>
+                </p>
+            </section>
+            <section>
+                <h4>
+                    <span class="show-more">1. Гонконг, Китай</span>
+                    <span class="show-less">1. Гонконг, Китай</span>
+                </h4>
+                <p class="wrapper-item">
+
+                    <span class="ac-container__h2">Гонконг, Китай</span>
+                    <amp-img src="img/acardion.jpg"
+                             layout="responsive"
+                             width="690"
+                             height="404"></amp-img>
+                    <span class="ac-container__photo-maker">Фото Steven Wei</span>
+                    <span class="ac-container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut beatae consequatur
+                    deserunt dolor eligendi excepturi facere laboriosam, laudantium maiores nam nostrum quam, quasi
+                    quisquam, ratione recusandae sapiente sint.</span>
+                </p>
+            </section>
+            <section>
+                <h4>
+                    <span class="show-more">1. Гонконг, Китай</span>
+                    <span class="show-less">1. Гонконг, Китай</span>
+                </h4>
+                <p class="wrapper-item">
+
+                    <span class="ac-container__h2">Гонконг, Китай</span>
+                    <amp-img src="img/acardion.jpg"
+                             layout="responsive"
+                             width="690"
+                             height="404"></amp-img>
+                    <span class="ac-container__photo-maker">Фото Steven Wei</span>
+                    <span class="ac-container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut beatae consequatur
+                    deserunt dolor eligendi excepturi facere laboriosam, laudantium maiores nam nostrum quam, quasi
+                    quisquam, ratione recusandae sapiente sint.</span>
+                </p>
+            </section>
+            <section>
+                <h4>
+                    <span class="show-more">1. Гонконг, Китай</span>
+                    <span class="show-less">1. Гонконг, Китай</span>
+                </h4>
+                <p class="wrapper-item">
+
+                    <span class="ac-container__h2">Гонконг, Китай</span>
+                    <amp-img src="img/acardion.jpg"
+                             layout="responsive"
+                             width="690"
+                             height="404"></amp-img>
+                    <span class="ac-container__photo-maker">Фото Steven Wei</span>
+                    <span class="ac-container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut beatae consequatur
+                    deserunt dolor eligendi excepturi facere laboriosam, laudantium maiores nam nostrum quam, quasi
+                    quisquam, ratione recusandae sapiente sint.</span>
+                </p>
+            </section>
+            <section>
+                <h4>
+                    <span class="show-more">1. Гонконг, Китай</span>
+                    <span class="show-less">1. Гонконг, Китай</span>
+                </h4>
+                <p class="wrapper-item">
+
+                    <span class="ac-container__h2">Гонконг, Китай</span>
+                    <amp-img src="img/acardion.jpg"
+                             layout="responsive"
+                             width="690"
+                             height="404"></amp-img>
+                    <span class="ac-container__photo-maker">Фото Steven Wei</span>
+                    <span class="ac-container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut beatae consequatur
+                    deserunt dolor eligendi excepturi facere laboriosam, laudantium maiores nam nostrum quam, quasi
+                    quisquam, ratione recusandae sapiente sint.</span>
+                </p>
+            </section>
+        </amp-accordion>
+        <p><strong>Автор:&nbsp;Аннабелла Лапшина</strong></p>
+        <p>
+            <a href="/" class="social-likes__link">Вернуться на главную</a>
+        </p>
+        <div>
+            <span class="social-likes__date"><strong>Источник</strong> —</span>
+            <a class="social-likes__link" href="http://LetKnow.News" rel="nofollow" target="_blank">LetKnow.News</a>
+        </div>
+
+        <div class="tags">
+            <a class="tags__link" href="#">#биткоин</a>
+            <a class="tags__link" href="#">#украина</a>
+            <a class="tags__link" href="#">#украина #украина #украина</a>
+            <a class="tags__link" href="#">#украина</a>
+            <a class="tags__link" href="#">#украина #украина #украина</a>
+            <a class="tags__link" href="#">#украина</a>
+            <a class="tags__link last" href="#">#криптовалюта</a>
+        </div>
+    </div>
+    <div class="footer-content">
+        <div class="footer__left">
+            <div class="footer-social">
+                <div class="footer-social__item">
+                    <a href="#" class="footer-social__link">
+                        <i class="footer-social__icon footer-social__icon--fb"></i>
+                        <span class="footer-social__name">letknowNEWS</span>
+                    </a>
+                    <a href="#" class="footer-social__link">
+                        <i class="footer-social__icon footer-social__icon--tw"></i>
+                        <span class="footer-social__name">letknowNEWS</span>
+                    </a>
+                    <a href="#" class="footer-social__link">
+                        <i class="footer-social__icon footer-social__icon--tg"></i>
+                        <span class="footer-social__name">letknowNEWS</span>
+                    </a>
+                    <a href="#" class="footer-social__link last">
+                        <i class="footer-social__icon footer-social__icon--in"></i>
+                        <span class="footer-social__name">letknowNEWS</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">Контакты</a></li>
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">О LetKnow</a></li>
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">Реклама</a></li>
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">Вакансии</a></li>
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">RSS</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__right">
+            <p class="footer__copyright">
+                © 2017 «Let Know Cryptocurrency News»
+            </p>
+            <p class="footer__txt">
+                Использование любых материалов, размещенных на сайте Let Know
+                Cryptocurrency News разрешается при условии размещении гиперссылки на
+                letknow.com. Для интернет-изданий обязательна прямая, открытая для поисковых
+                систем гиперссылка. Ссылка должна быть размещена вне зависимости от полного либо частичного
+                использования материалов. Гиперссылка (для интернет-изданий) –
+                должна быть размещена в подзаголовке или в первом абзаце материала.
+            </p>
+            <div class="footer__analytics">Bigmir
+                analytics
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

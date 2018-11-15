@@ -106,24 +106,9 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none; }
 
-@font-face {
-  font-family: 'Exo2-Regular';
-  font-display: auto;
-  src: url("../fonts/Exo2-Regular/Exo2-Regular.eot");
-  src: url("../fonts/Exo2-Regular/Exo2-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo2-Regular/Exo2-Regular.woff") format("woff"), url("../fonts/Exo2-Regular/Exo2-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Exo2-Bold';
-  font-display: auto;
-  src: url("../fonts/Exo2-Bold/Exo2-Bold.eot");
-  src: url("../fonts/Exo2-Bold/Exo2-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo2-Bold/Exo2-Bold.woff") format("woff"), url("../fonts/Exo2-Bold/Exo2-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
 body {
-  font-family: "Exo2-Regular";
+  font-family: "Exo 2";
+  font-weight: 400;
   font-size: 14px;
   color: #282828;
   background-color: #F5F5F5; }
@@ -150,7 +135,8 @@ img {
 
 h2 {
   font-size: 20px;
-  font-family: "Exo2-Bold";
+  font-family: "Exo 2";
+  font-weight: bold;
   margin-bottom: 10px; }
   h2.h2-title {
     position: relative;
@@ -175,7 +161,8 @@ h2 {
       background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyMyI+CiAgICA8cGF0aCBmaWxsPSIjMjgyODI4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjY1IDIyLjk5M2wxLjMwOC04LjI4OS01Ljk2MS01Ljg3NiA4LjI0NC0xLjMxMUwxMS45NTYuMDAxbDMuNzg3IDcuNDc5TDI0IDguNzFsLTUuOTAzIDUuOTMzIDEuMzg4IDguMjc3LTcuNDM2LTMuODEyLTcuMzk5IDMuODg1em0tLjQyLTEyLjgwNWwzLjg2MiAzLjgwNy0uODQ3IDUuMzcgNC43OTMtMi41MTcgNC44MTggMi40Ny0uODk5LTUuMzYyIDMuODI0LTMuODQ1LTUuMzQ5LS43OTYtMi40NTQtNC44NDYtMi40MDcgNC44Ny01LjM0MS44NDl6Ii8+Cjwvc3ZnPgo="); }
 
 .h2-title {
-  font-family: "Exo2-Bold";
+  font-family: "Exo 2";
+  font-weight: bold;
   position: relative;
   text-align: left;
   text-transform: uppercase;
@@ -213,7 +200,8 @@ h2 {
     position: relative;
     font-size: 18px;
     text-transform: none;
-    font-family: "Exo2-Regular"; }
+    font-family: "Exo 2";
+    font-weight: 400; }
   .articles-counter .articles-counter__item .percent {
     margin-left: 20px; }
   .articles-counter .articles-counter__item .num:after {
@@ -235,7 +223,8 @@ h2 {
 
 h1 {
   font-size: 20px;
-  font-family: "Exo2-Bold";
+  font-family: "Exo 2";
+  font-weight: bold;
   margin-bottom: 10px; }
   h1.head-page {
     position: relative;
@@ -261,7 +250,8 @@ h1 {
 
 .h1-title {
   font-size: 30px;
-  font-family: "Exo2-Bold";
+  font-family: "Exo 2";
+  font-weight: bold;
   margin-bottom: 15px; }
   .h1-title.head-page {
     position: relative;
@@ -286,7 +276,8 @@ h1 {
       background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyMyI+CiAgICA8cGF0aCBmaWxsPSIjMjgyODI4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjY1IDIyLjk5M2wxLjMwOC04LjI4OS01Ljk2MS01Ljg3NiA4LjI0NC0xLjMxMUwxMS45NTYuMDAxbDMuNzg3IDcuNDc5TDI0IDguNzFsLTUuOTAzIDUuOTMzIDEuMzg4IDguMjc3LTcuNDM2LTMuODEyLTcuMzk5IDMuODg1em0tLjQyLTEyLjgwNWwzLjg2MiAzLjgwNy0uODQ3IDUuMzcgNC43OTMtMi41MTcgNC44MTggMi40Ny0uODk5LTUuMzYyIDMuODI0LTMuODQ1LTUuMzQ5LS43OTYtMi40NTQtNC44NDYtMi40MDcgNC44Ny01LjM0MS44NDl6Ii8+Cjwvc3ZnPgo="); }
 
 .h3-title {
-  font-family: "Exo2-Bold";
+  font-family: "Exo 2";
+  font-weight: bold;
   font-size: 20px; }
   .h3-title.white {
     color: #ffffff; }
@@ -297,7 +288,8 @@ h1 {
 
 .h4-title {
   font-size: 16px;
-  font-family: "Exo2-Bold";
+  font-family: "Exo 2";
+  font-weight: bold;
   margin-bottom: 12px; }
 
 .main {
@@ -691,7 +683,8 @@ header {
     color: #d24a43; }
 
 .inner-page strong, .inner-page b, .inner-page h4 {
-  font-family: "Exo2-Bold"; }
+  font-family: "Exo 2";
+  font-weight: bold; }
 
 .inner-page h4 {
   font-size: 16px;
@@ -738,7 +731,8 @@ header {
     text-transform: uppercase; }
   .inner-page .note__title {
     font-size: 20px;
-    font-family: "Exo2-Bold"; }
+    font-family: "Exo 2";
+    font-weight: bold; }
   .inner-page .note__description {
     font-size: 14px;
     margin-bottom: 0; }
@@ -887,7 +881,8 @@ header {
         width: 82px; }
     .stock-exchange .stock-exchange-item .left-block .name {
       margin-top: 18px;
-      font-family: "Exo2-Bold";
+      font-family: "Exo 2";
+      font-weight: bold;
       font-size: 30px;
       text-align: center; }
     .stock-exchange .stock-exchange-item .left-block .link {
@@ -940,7 +935,8 @@ header {
           align-items: center;
           color: white;
           font-size: 14px;
-          font-family: "Exo2-Regular"; }
+          font-family: "Exo 2";
+          font-weight: 400; }
           .stock-exchange .stock-exchange-item .right-block .button-nav .stock-exchange_link a:hover {
             color: #d24a43; }
           .stock-exchange .stock-exchange-item .right-block .button-nav .stock-exchange_link a span {
@@ -950,7 +946,8 @@ header {
             width: 22px;
             height: 17px; }
       .stock-exchange .stock-exchange-item .right-block .button-nav .link-to-exchange a {
-        font-family: "Exo2-Bold";
+        font-family: "Exo 2";
+        font-weight: bold;
         color: #d24a43;
         text-decoration: underline; }
 
@@ -1017,9 +1014,11 @@ header {
         align-self: flex-start;
         color: #282828;
         font-size: 36px;
-        font-family: "Exo2-Bold"; }
+        font-family: "Exo 2";
+        font-weight: bold; }
       .exchange-wrapper .exchange-item .desc-item .desk-exchange {
-        font-family: "Exo2-Regular";
+        font-family: "Exo 2";
+        font-weight: 400;
         font-size: 14px;
         color: #282828; }
       .exchange-wrapper .exchange-item .desc-item .bottom-nav {
@@ -1042,7 +1041,8 @@ header {
             justify-content: center;
             align-items: center;
             font-size: 14px;
-            font-family: "Exo2-Regular"; }
+            font-family: "Exo 2";
+            font-weight: 400; }
             .exchange-wrapper .exchange-item .desc-item .bottom-nav .exchange_link a:hover {
               color: #d24a43; }
             .exchange-wrapper .exchange-item .desc-item .bottom-nav .exchange_link a span {
@@ -1095,7 +1095,8 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-family: "Exo2-Bold";
+    font-family: "Exo 2";
+    font-weight: bold;
     color: #404040;
     font-size: 14px; }
     .top-compilation .top-compilation-block .top-compilation-item:hover #glasses {
@@ -1288,7 +1289,7 @@ header {
         font-size: 26px; } }
     @media screen and (max-width: 600px) {
       .main-article .main-article__top {
-        font: 500 calc(200vw / 1920 * 40)/1.33 "Exo2-Regular" !important; } }
+        font: 500 calc(200vw / 1920 * 40)/1.33 "Exo 2" !important; } }
   .main-article__item {
     position: relative;
     max-width: 100%;
@@ -1316,7 +1317,7 @@ header {
     @media screen and (max-width: 600px) {
       .main-article__argument {
         margin-top: 7px;
-        font: 500 calc(120vw / 1920 * 40)/1.33 "Exo2-Regular" !important; } }
+        font: 500 calc(120vw / 1920 * 40)/1.33 "Exo 2" !important; } }
   .main-article__img {
     width: 100%;
     height: auto; }
@@ -1419,13 +1420,15 @@ header {
         .top-people_wrapper .right-side_wrapper .right-side_content .top-people__name .top-people__name-item {
           text-align: center;
           color: #282828;
-          font-family: "Exo2-Bold";
+          font-family: "Exo 2";
+          font-weight: bold;
           font-size: 36px; }
         .top-people_wrapper .right-side_wrapper .right-side_content .top-people__name .top-people_position {
           color: #d24a43 !important;
           line-height: 0.8em;
           font-size: 36px;
-          font-family: "Exo2-Bold"; }
+          font-family: "Exo 2";
+          font-weight: bold; }
           @media screen and (min-width: 905px) {
             .top-people_wrapper .right-side_wrapper .right-side_content .top-people__name .top-people_position {
               right: 30px;
@@ -1441,7 +1444,8 @@ header {
       .top-people_wrapper .right-side_wrapper .right-side_content .top-people__desc {
         margin-bottom: 15px;
         color: #282828;
-        font-family: "Exo2-Regular";
+        font-family: "Exo 2";
+        font-weight: 400;
         font-size: 16px; }
       .top-people_wrapper .right-side_wrapper .right-side_content .top-people_link {
         display: flex;
@@ -1459,7 +1463,8 @@ header {
           align-items: center;
           color: white;
           font-size: 14px;
-          font-family: "Exo2-Regular"; }
+          font-family: "Exo 2";
+          font-weight: 400; }
           .top-people_wrapper .right-side_wrapper .right-side_content .top-people_link a:hover {
             color: #d24a43; }
           .top-people_wrapper .right-side_wrapper .right-side_content .top-people_link a span {
@@ -1520,7 +1525,8 @@ header {
   .photo-news__title {
     color: #ffffff;
     font-size: 20px;
-    font-family: "Exo2-Bold"; }
+    font-family: "Exo 2";
+    font-weight: bold; }
     @media screen and (max-width: 479px) {
       .photo-news__title {
         font-size: 16px; } }
@@ -1580,7 +1586,8 @@ header {
   height: 230px; }
   .tag-cloud a {
     color: #282828;
-    font-family: "Exo2-Regular"; }
+    font-family: "Exo 2";
+    font-weight: 400; }
     .tag-cloud a:hover {
       color: #d24a43; }
 
@@ -1589,7 +1596,8 @@ header {
 
 .articles-strip__crypto {
   vertical-align: middle;
-  font-family: "Exo2-Regular";
+  font-family: "Exo 2";
+  font-weight: 400;
   color: white;
   font-size: 8px;
   text-transform: uppercase;
@@ -1626,7 +1634,8 @@ header {
       display: block; }
   .articles .articles-strip__crypto {
     vertical-align: middle;
-    font-family: "Exo2-Regular";
+    font-family: "Exo 2";
+    font-weight: 400;
     color: white;
     font-size: 8px;
     text-transform: uppercase;
@@ -1741,7 +1750,8 @@ header {
 
 .last-news__crypto {
   vertical-align: middle;
-  font-family: "Exo2-Regular";
+  font-family: "Exo 2";
+  font-weight: 400;
   color: white;
   font-size: 8px;
   text-transform: uppercase;
@@ -1828,7 +1838,8 @@ header {
     text-transform: uppercase;
     color: #282828;
     font-size: 16px;
-    font-family: "Exo2-Bold"; }
+    font-family: "Exo 2";
+    font-weight: bold; }
   .social__icon {
     display: inline-block;
     width: 25px;
@@ -1898,10 +1909,12 @@ header {
     padding: 4px 0; }
   .calendar p.calendar__date {
     font-size: 20px;
-    font-family: "Exo2-Bold"; }
+    font-family: "Exo 2";
+    font-weight: bold; }
   .calendar__txt {
     font-size: 20px;
-    font-family: "Exo2-Bold"; }
+    font-family: "Exo 2";
+    font-weight: bold; }
   .calendar__link {
     display: block; }
   .calendar--float-right {
@@ -1919,7 +1932,8 @@ header {
   margin: 0 auto; }
 
 .ui-widget {
-  font-family: "Exo2-Regular"; }
+  font-family: "Exo 2";
+  font-weight: 400; }
 
 .ui-widget.ui-widget-content {
   width: 100%;
@@ -2079,7 +2093,8 @@ header {
 
 .answer {
   font-size: 16px;
-  font-family: "Exo2-Bold"; }
+  font-family: "Exo 2";
+  font-weight: bold; }
   .answer-group {
     color: #d24a43;
     margin-top: 18px; }
@@ -2087,7 +2102,8 @@ header {
       margin: 0 2px; }
     .answer-group__name {
       color: #ffffff;
-      font-family: "Exo2-Regular"; }
+      font-family: "Exo 2";
+      font-weight: 400; }
     .answer-group__bar {
       position: relative;
       height: 13px;
@@ -2141,7 +2157,8 @@ header {
         float: none; } }
   .twitter__name {
     font-size: 20px;
-    font-family: "Exo2-Bold";
+    font-family: "Exo 2";
+    font-weight: bold;
     margin-bottom: 10px; }
     .twitter__name a {
       color: #282828; }
@@ -2592,7 +2609,8 @@ header {
     vertical-align: bottom; }
   .currency__value {
     position: relative;
-    font-family: "Exo2-Bold";
+    font-family: "Exo 2";
+    font-weight: bold;
     color: #282828;
     margin-left: 5px;
     vertical-align: middle; }
@@ -2634,7 +2652,8 @@ header {
   height: 47px;
   line-height: 36px;
   font-size: 16px;
-  font-family: "Exo2-Bold";
+  font-family: "Exo 2";
+  font-weight: bold;
   padding: 5px 15px;
   position: relative;
   display: block;
@@ -2693,13 +2712,15 @@ header {
   .ac-container article .ac-container__h2 {
     color: #282828;
     margin: 10px 0;
-    font-family: "Exo2-Regular";
+    font-family: "Exo 2";
+    font-weight: 400;
     font-size: 20px; }
   .ac-container article .ac-container__photo-maker {
     margin: 10px 0;
     color: #888888;
     font-size: 12px;
-    font-family: "Exo2-Regular"; }
+    font-family: "Exo 2";
+    font-weight: 400; }
 
 .ac-container article img {
   width: 100%;
@@ -2755,7 +2776,8 @@ header {
       align-items: center;
       position: relative;
       color: #ffffff;
-      font-family: "Exo2-Regular";
+      font-family: "Exo 2";
+      font-weight: 400;
       font-size: 14px; }
       .social-block_wrapper div a p {
         font-size: 12px; }
@@ -2845,10 +2867,12 @@ header {
       .social-sub-counter .social-sub-counter_wrapperBlock .counter_block_wrapper .number_counter, .social-sub-counter .social-sub-counter_wrapperBlock a .number_counter {
         width: 35%;
         padding: 5px 0;
-        font-family: "Exo2-Bold";
+        font-family: "Exo 2";
+        font-weight: bold;
         font-size: 20px; }
       .social-sub-counter .social-sub-counter_wrapperBlock .counter_block_wrapper .sub_counter, .social-sub-counter .social-sub-counter_wrapperBlock a .sub_counter {
-        font-family: "Exo2-Regular";
+        font-family: "Exo 2";
+        font-weight: 400;
         font-size: 14px;
         text-transform: uppercase; }
     @media screen and (max-width: 1220px) {
@@ -3638,7 +3662,8 @@ header {
   .social-likes__button {
     font-weight: 400;
     text-transform: none;
-    font-family: "Exo2-Regular";
+    font-family: "Exo 2";
+    font-weight: 400;
     font-size: 12px;
     padding: .04em .7em .18em 25px; }
   @media screen and (max-width: 880px) {

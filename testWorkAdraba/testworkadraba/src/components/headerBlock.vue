@@ -1,8 +1,8 @@
 <template>
   <header>
     <div class="item">
-      <a href="/favorite">favorite</a>
-      <a href="/">home</a>
+      <a href="#/favorite">favorite</a>
+      <a href="/#/">home</a>
       <input type="text">
     </div>
   </header>
