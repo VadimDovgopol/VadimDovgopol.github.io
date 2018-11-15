@@ -87,7 +87,60 @@ window.onscroll = function (ev) {
 };
 
 $(document).ready(function () {
+    $('.slider__preloader').hide();
+    $('.gallery-block').css("opacity", "1");
 
+    $('.gallery-wrapper').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        speed: 200,
+        fade: true,
+        cssEase: 'linear'
+    });
+    $('.gallery-wrapper1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        speed: 200,
+        fade: true,
+        cssEase: 'linear'
+    });
+
+    // gallery
+    $('.gallery-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        adaptiveHeight: true,
+        asNavFor: '.gallery-nav'
+
+    });
+    $('.gallery-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.gallery-for',
+        centerMode: true,
+        focusOnSelect: true,
+        centerPadding: 0,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
+    });
+
+    $('.gallery').addClass('initialized');
+    $('.gallery-block').css("opacity", "1");
     // $('.articles-media__item_shuffle').shuffle();
 
     $(".filter_news_item").on("click", function () {
@@ -240,62 +293,5 @@ $(document).ready(function () {
             }
         });
     }
-});
-
-$(window).load(function () {
-    $('.slider__preloader').hide();
-    $('.gallery-block').css("opacity", "1");
-
-    $('.gallery-wrapper').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        arrows: true,
-        speed: 200,
-        fade: true,
-        cssEase: 'linear'
-    });
-    $('.gallery-wrapper1').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        arrows: true,
-        speed: 200,
-        fade: true,
-        cssEase: 'linear'
-    });
-
-    // gallery
-    $('.gallery-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        adaptiveHeight: true,
-        asNavFor: '.gallery-nav'
-
-    });
-    $('.gallery-nav').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.gallery-for',
-        centerMode: true,
-        focusOnSelect: true,
-        centerPadding: 0,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    dots: true
-                }
-            }
-        ]
-    });
-
-    $('.gallery').addClass('initialized');
-    $('.gallery-block').css("opacity", "1");
 });
 
