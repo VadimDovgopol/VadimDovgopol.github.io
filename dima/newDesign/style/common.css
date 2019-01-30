@@ -54,6 +54,9 @@ p {
   font-weight: 400;
   color: #000; }
 
+.h1-title a, .h2-title a {
+  font-weight: 600; }
+
 a {
   font-family: 'Exo 2.0', sans-serif;
   font-weight: 400;
@@ -92,10 +95,10 @@ a {
   font-weight: 600;
   font-style: normal; }
 .left-column {
-  min-width: 270px;
-  max-width: 270px;
+  min-width: 235px;
+  max-width: 235px;
   width: 100%;
-  padding: 0 20px 0 20px;
+  padding: 0 16px 0 20px;
   background-color: #f8f8f8;
   box-sizing: border-box; }
   .left-column .logo {
@@ -111,23 +114,25 @@ a {
     .left-column .left-column_menu .column-menu_first p,
     .left-column .left-column_menu .column-menu_second p,
     .left-column .left-column_menu .column-menu_third p {
-      margin-bottom: 18px; }
+      margin-bottom: 13px; }
   .left-column .left-column_menu .column-menu_first {
     border: none; }
   .left-column .left-column_menu .column-menu_four {
     margin: 18px 0 36px 0; }
-    .left-column .left-column_menu .column-menu_four .article_counter p .growth {
-      color: #00a048;
-      padding-left: 15px;
-      position: relative; }
-      .left-column .left-column_menu .column-menu_four .article_counter p .growth:before {
-        content: "";
-        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAYAAACwXJejAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAjElEQVQY08XMIW4CURSG0TPDJA0CXzP7eWETvGDoBlDVI0kwQBAkTzbpBt5GCJ4KBHsADJBhqMDxmV/ck0u7FHpSGOpUtkCBDX6lMP0fscQRP6il8H07FFLoY4Et1lhhdN0/NCUa7MQ8wwCVmE9inqDGuMJczPv758e+8Fm1wHMxn3EovdCbUYGPLroA34weiLsvK84AAAAASUVORK5CYII=") no-repeat center;
-        width: 9px;
-        height: 12px;
-        position: absolute;
-        left: 3px;
-        top: 4px; }
+    .left-column .left-column_menu .column-menu_four .article_counter p {
+      font-size: 15px; }
+      .left-column .left-column_menu .column-menu_four .article_counter p .growth {
+        color: #00a048;
+        padding-left: 15px;
+        position: relative; }
+        .left-column .left-column_menu .column-menu_four .article_counter p .growth:before {
+          content: "";
+          background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAYAAACwXJejAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAjElEQVQY08XMIW4CURSG0TPDJA0CXzP7eWETvGDoBlDVI0kwQBAkTzbpBt5GCJ4KBHsADJBhqMDxmV/ck0u7FHpSGOpUtkCBDX6lMP0fscQRP6il8H07FFLoY4Et1lhhdN0/NCUa7MQ8wwCVmE9inqDGuMJczPv758e+8Fm1wHMxn3EovdCbUYGPLroA34weiLsvK84AAAAASUVORK5CYII=") no-repeat center;
+          width: 9px;
+          height: 12px;
+          position: absolute;
+          left: 3px;
+          top: 4px; }
   .left-column .left-column_menu .column-menu_five p {
     margin-bottom: 5px; }
   .left-column .left-column_menu .column-menu_banners {
@@ -154,7 +159,7 @@ a {
     .header .menu-left .header-link {
       margin: 0 10px;
       padding: 5px 0;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 14px;
       box-sizing: border-box;
       border-bottom: 1px solid white; }
@@ -172,7 +177,8 @@ a {
   max-width: 977px;
   width: 100%; }
   .content .left-content {
-    max-width: 614px;
+    margin-right: 30px;
+    max-width: 640px;
     width: 100%;
     display: flex;
     flex-direction: column; }
@@ -213,7 +219,7 @@ a {
       display: flex;
       align-items: center;
       padding: 0 20px;
-      background-color: rgba(217, 110, 106, 0.7);
+      background-color: rgba(210, 74, 67, 0.8);
       transition: background-color 0.2s ease-in; }
       .main-article .article-item .article-text p {
         transition: color 0.2s ease-in;
@@ -251,7 +257,7 @@ a {
       justify-content: center; }
       .interview-block .interview-item .interview-text p:nth-child(1) {
         margin-bottom: 20px; }
-      .interview-block .interview-item .interview-text p.h2-title a {
+      .interview-block .interview-item .interview-text p.h2-title {
         font-weight: 600;
         font-size: 16px; }
       .interview-block .interview-item .interview-text p a {
@@ -285,18 +291,22 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-    .articles-block .articles-block_wrapper a:nth-child(2) .articles-block_item {
-      margin: 0 10px; }
     .articles-block .articles-block_wrapper a:hover p {
       color: #d24a43; }
     .articles-block .articles-block_wrapper .articles-block_item {
-      max-width: 188px;
+      max-width: 305px;
       width: 100%; }
       .articles-block .articles-block_wrapper .articles-block_item .img-wrapper {
         position: relative;
-        max-width: 188px;
+        max-width: 305px;
         width: 100%;
         margin-bottom: 20px; }
+        .articles-block .articles-block_wrapper .articles-block_item .img-wrapper img {
+          width: 100%;
+          height: auto; }
+      .articles-block .articles-block_wrapper .articles-block_item .desk {
+        font-size: 16px;
+        font-weight: 600; }
 
 .crypto-expert {
   margin-top: 40px; }
@@ -346,11 +356,14 @@ a {
     margin-bottom: 30px; }
   .popular-materials .popular-materials_wrapper {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     justify-content: space-between; }
+    .popular-materials .popular-materials_wrapper .line {
+      display: flex;
+      justify-content: space-between; }
     .popular-materials .popular-materials_wrapper .popular-materials_item {
-      margin: 5px 5px 30px 0;
-      max-width: 292px;
+      margin: 5px 0 25px 0;
+      max-width: 305px;
       width: 100%; }
       .popular-materials .popular-materials_wrapper .popular-materials_item .img-wrapper img {
         width: 100%;
@@ -359,6 +372,12 @@ a {
         margin-top: 15px;
         font-size: 18px;
         font-weight: 600; }
+  .popular-materials .arrow-more {
+    cursor: pointer;
+    margin: 0 auto;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAJCAYAAADtj3ZXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAkElEQVQoz5WPKw4CQRAFi59AIAhIwq7gcAiuQ0KyGQ3cAclHYjcgOUhhBjJZyDK07E5Vv4ewFLr8McJQWCHUQhA6meBA2AtHhLlwF0IG2Bd2wkmYvJZlFFQZ4EWYNo+FcBOqZoUYdSuc3x+/2GdREJJdL4k6/tWriBU2wih+/IzaIiiFq/AQDtlgIlgI6zbwCRbnTIeYCJrDAAAAAElFTkSuQmCC") no-repeat center;
+    width: 15px;
+    height: 9px; }
 
 .about-project {
   margin-top: 40px; }
@@ -404,7 +423,7 @@ a {
     .slider-block .slider-top-wrapper .slider-exchange, .slider-block .slider-top-wrapper .slider-purse {
       border: 1px solid #f0f0f0;
       background-color: #f8f8f8;
-      max-width: 288px;
+      max-width: 305px;
       width: 100%;
       height: 368px;
       padding: 18px 20px 0 20px;
@@ -562,7 +581,7 @@ a {
       .footer-wrapper .footer-content .left-side .col-1 {
         margin-right: 50px; }
         .footer-wrapper .footer-content .left-side .col-1 p {
-          margin-bottom: 30px;
+          margin-bottom: 25px;
           text-transform: uppercase; }
           .footer-wrapper .footer-content .left-side .col-1 p a {
             font-size: 15px;
@@ -576,7 +595,7 @@ a {
         .footer-wrapper .footer-content .left-side .col-3 p,
         .footer-wrapper .footer-content .left-side .col-4 p,
         .footer-wrapper .footer-content .left-side .col-5 p {
-          margin-bottom: 20px; }
+          margin-bottom: 15px; }
           .footer-wrapper .footer-content .left-side .col-2 p a,
           .footer-wrapper .footer-content .left-side .col-3 p a,
           .footer-wrapper .footer-content .left-side .col-4 p a,
@@ -639,7 +658,7 @@ a {
   position: relative;
   width: 100%;
   height: auto;
-  margin-bottom: 35px; }
+  margin-bottom: 30px; }
   .last-news .last-news_item:hover .red-block {
     background-color: rgba(255, 255, 255, 0.7); }
   .last-news .last-news_item img {
@@ -653,7 +672,7 @@ a {
     width: 100%;
     height: 35%;
     padding: 5px 10px;
-    background-color: rgba(210, 74, 67, 0.7);
+    background-color: rgba(210, 74, 67, 0.8);
     transition: all 0.2s ease-in-out; }
     .last-news .last-news_item .red-block p {
       color: white; }

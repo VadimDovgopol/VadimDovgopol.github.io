@@ -1,8 +1,8 @@
 .left-column {
-  min-width: 270px;
-  max-width: 270px;
+  min-width: 235px;
+  max-width: 235px;
   width: 100%;
-  padding: 0 20px 0 20px;
+  padding: 0 16px 0 20px;
   background-color: #f8f8f8;
   box-sizing: border-box;
 
@@ -21,7 +21,7 @@
       padding: 22px 0 0 0;
 
       p {
-        margin-bottom: 18px;
+        margin-bottom: 13px;
       }
     }
 
@@ -34,6 +34,7 @@
 
       .article_counter {
         p {
+          font-size: 15px;
           .growth {
             color: #00a048;
             padding-left: 15px;

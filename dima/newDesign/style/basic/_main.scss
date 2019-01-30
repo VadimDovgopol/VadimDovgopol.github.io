@@ -14,6 +14,12 @@ p {
 
 }
 
+.h1-title ,.h2-title {
+  a {
+    font-weight: $fontSB;
+  }
+}
+
 a {
   font-family: 'Exo 2.0', sans-serif;
   font-weight: $fontR;

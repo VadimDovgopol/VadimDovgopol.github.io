@@ -9,12 +9,17 @@
 
   .popular-materials_wrapper {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     justify-content: space-between;
 
+    .line {
+      display: flex;
+      justify-content: space-between;
+    }
+
     .popular-materials_item {
-      margin: 5px 5px 30px 0;
-      max-width: 292px;
+      margin: 5px 0 25px 0;
+      max-width: 305px;
       width: 100%;
 
       .img-wrapper {
@@ -30,6 +35,14 @@
         font-weight: $fontSB;
       }
     }
+  }
+
+  .arrow-more {
+    cursor: pointer;
+    margin: 0 auto;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAJCAYAAADtj3ZXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAkElEQVQoz5WPKw4CQRAFi59AIAhIwq7gcAiuQ0KyGQ3cAclHYjcgOUhhBjJZyDK07E5Vv4ewFLr8McJQWCHUQhA6meBA2AtHhLlwF0IG2Bd2wkmYvJZlFFQZ4EWYNo+FcBOqZoUYdSuc3x+/2GdREJJdL4k6/tWriBU2wih+/IzaIiiFq/AQDtlgIlgI6zbwCRbnTIeYCJrDAAAAAElFTkSuQmCC') no-repeat center;
+    width: 15px;
+    height: 9px;
   }
 
 }
