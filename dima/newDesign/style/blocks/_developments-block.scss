@@ -1,0 +1,68 @@
+.developments-block {
+  margin-top: 50px;
+
+
+  .h2-title {
+    font-weight: $fontSB;
+    font-size: 18px;
+  }
+
+  .event-item {
+    margin-top: 25px;
+    position: relative;
+
+    &:hover {
+      .red-block {
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .red-block {
+      box-sizing: border-box;
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 100%;
+      height: 40%;
+      padding: 15px 20px;
+      background-color: rgba(210, 74, 67, 0.7);
+      transition: all 0.2s ease-in-out;
+
+      p {
+        font-weight: $fontSB;
+        color: white;
+      }
+
+      .reg-text {
+        font-size: 20px;
+      }
+
+      .data {
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+    }
+
+
+  }
+
+  .place {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      text-transform: uppercase;
+      font-size: 11px;
+
+      &.red {
+        color: #d24a43;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.interview-block {
+  margin-top: 40px;
+
+  .h1-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: $fontSB;
+  }
+
+  .interview-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .img-wrapper {
+      max-width: 211px;
+      width: 100%;
+      height: max-content;
+      margin-right: 20px;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .interview-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        &:nth-child(1) {
+          margin-bottom: 20px;
+        }
+
+        &.h2-title {
+          a {
+            font-weight: $fontSB;
+            font-size: 16px;
+
+          }
+        }
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  a {
+    &:hover {
+      p {
+        color: #d24a43;
+      }
+    }
+  }
+}
+
+.exclusive-block {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+
+  width: 89px;
+  height: 29px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Exo 2.0', sans-serif;
+  font-weight: $fontR;
+  font-size: 12px;
+  background-color: rgba(210, 74, 67, 0.8);
+}

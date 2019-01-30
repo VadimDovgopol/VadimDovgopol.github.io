@@ -1,0 +1,59 @@
+.about-project {
+  margin-top: 40px;
+
+  .h1-title {
+
+    margin-bottom: 30px;
+    font-weight: $fontSB;
+    font-size: 18px;
+  }
+
+  .reg-text {
+    font-size: 15px;
+    line-height: 1.2em;
+    max-height: 56px;
+    overflow: hidden;
+
+    transition: all 0.3s ease-in-out;
+
+    &.active {
+      max-height: 600px;
+    }
+  }
+
+  .more-info {
+    margin: 30px auto 0 auto;
+
+    width: 158px;
+    height: 37px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #d24a43;
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    p {
+      transition: all 0.2s ease-in-out;
+      color: #fefdfd;
+      text-transform: uppercase;
+    }
+
+    .show {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+
+    &:hover {
+      p {
+        color: #010101;
+      }
+    }
+  }
+}

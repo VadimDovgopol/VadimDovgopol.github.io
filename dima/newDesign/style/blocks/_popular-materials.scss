@@ -1,0 +1,36 @@
+.popular-materials {
+  margin-top: 40px;
+
+  .h1-title {
+    font-size: 18px;
+    font-weight: $fontSB;
+    margin-bottom: 30px;
+  }
+
+  .popular-materials_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .popular-materials_item {
+      margin: 5px 5px 30px 0;
+      max-width: 292px;
+      width: 100%;
+
+      .img-wrapper {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .reg-text {
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: $fontSB;
+      }
+    }
+  }
+
+}
+

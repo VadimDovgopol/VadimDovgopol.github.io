@@ -1,0 +1,52 @@
+.num-of-day {
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(240, 240, 240);
+  background-color: rgb(248, 248, 248);
+
+  .h2-title {
+    font-weight: $fontSB;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .num-of-day_item {
+    font-weight: $fontSB;
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+
+  .reg-text {
+    color: #010101;
+    font-size: 15px;
+    margin-bottom: 25px;
+
+  }
+
+  .link-more {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    span {
+      display: block;
+      margin-left: 5px;
+      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAHCAYAAADXhRcnAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAY0lEQVQY053OsQ3CMAAF0YfsIpKbCDEAfTp6lmGIpKDKChkAsVcWSQGYBqclzvX37wfbSZiQMVd4KwFPXOGAC5rf4j/eaDGij+hwxGeDnLHghPOe63fcIFZIEQNeeNQWUykWvuhCDWaRLQTpAAAAAElFTkSuQmCC') no-repeat center;
+      width: 15px;
+      height: 7px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.currency {
+  margin-top: 20px;
+  max-width: 970px;
+  width: 100%;
+  background: #f8f8f8;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  overflow: hidden;
+
+  .slider-currency {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    .slider-currency_item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+
+      img {
+        margin-right: 10px;
+      }
+
+      .value {
+        margin-right: 10px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+
+      .value-up {
+        color: #00a048;
+      }
+
+      .value-down {
+        color: #d24a43;
+      }
+    }
+  }
+}

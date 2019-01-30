@@ -1,0 +1,42 @@
+.main-article {
+  margin-top: 20px;
+
+  .article-item {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .article-text {
+      position: absolute;
+      left: 0;
+      bottom: 3px;
+      width: 90%;
+      min-height: 73px;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      background-color: rgba(217, 110, 106, 0.7);
+      transition: background-color 0.2s ease-in;
+
+
+      p {
+        transition: color 0.2s ease-in;
+        color: #fffefe;
+        font-weight: $fontSB;
+        font-size: 16px;
+        line-height: 1.5em;
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+
+        p {
+          color: #d24a43;
+        }
+      }
+    }
+  }
+}

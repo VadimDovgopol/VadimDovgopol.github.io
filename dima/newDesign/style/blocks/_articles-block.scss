@@ -1,0 +1,41 @@
+.articles-block {
+  margin-top: 40px;
+
+  .h1-title {
+    font-size: 18px;
+    font-weight: $fontSB;
+    margin-bottom: 30px;
+  }
+
+  .articles-block_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a {
+      &:nth-child(2) {
+        .articles-block_item {
+          margin: 0 10px;
+        }
+      }
+
+      &:hover {
+        p {
+          color: #d24a43;
+        }
+      }
+    }
+
+    .articles-block_item {
+      max-width: 188px;
+      width: 100%;
+
+      .img-wrapper {
+        position: relative;
+        max-width: 188px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

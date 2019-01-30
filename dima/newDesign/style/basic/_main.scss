@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+p {
+  line-height: 1.2em;
+  transition: color 0.2s ease-in;
+  font-family: 'Exo 2.0', sans-serif;
+  font-weight: $fontR;
+  color: #000;
+
+}
+
+a {
+  font-family: 'Exo 2.0', sans-serif;
+  font-weight: $fontR;
+  color: #000;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+
+  transition: color 0.2s ease-in;
+
+  * p {
+    transition: all 0.2s ease-in;
+  }
+
+  &:hover {
+    color: #d24a43 !important;
+
+    * p {
+      color: #d24a43 !important;
+    }
+  }
+
+}
+
+.main-wrapper {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.main-content {
+  width: 100%;
+  padding: 0 20px;
+
+}
