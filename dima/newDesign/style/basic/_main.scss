@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 
+
+}
+
+span {
+  font-weight: $fontR;
+  font-family: 'Exo 2.0', sans-serif;
+
 }
 
 p {
@@ -14,7 +21,7 @@ p {
 
 }
 
-.h1-title ,.h2-title {
+.h1-title, .h2-title {
   a {
     font-weight: $fontSB;
   }

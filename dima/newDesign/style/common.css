@@ -47,6 +47,10 @@ table {
   padding: 0;
   box-sizing: border-box; }
 
+span {
+  font-weight: 400;
+  font-family: 'Exo 2.0', sans-serif; }
+
 p {
   line-height: 1.2em;
   transition: color 0.2s ease-in;
@@ -191,7 +195,8 @@ a {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  flex-direction: row; }
+  flex-direction: row;
+  align-items: center; }
   .header .menu-left {
     max-width: 541px;
     width: 100%;
@@ -209,6 +214,105 @@ a {
         margin-left: 0; }
       .header .menu-left .header-link:hover, .header .menu-left .header-link.active {
         border-bottom: 1px solid #d24a43; }
+  .header .menu-right {
+    display: flex;
+    flex-direction: row;
+    /* Rounded sliders */ }
+    .header .menu-right .lang-switcher {
+      cursor: pointer;
+      position: relative; }
+      .header .menu-right .lang-switcher .drop-block {
+        visibility: hidden;
+        opacity: 0;
+        z-index: 5;
+        position: absolute;
+        left: -10px;
+        top: -13px;
+        background: #000000;
+        padding: 10px;
+        transition: all 0.2s ease-in-out; }
+        .header .menu-right .lang-switcher .drop-block.active {
+          visibility: visible;
+          opacity: 1; }
+        .header .menu-right .lang-switcher .drop-block p {
+          margin-bottom: 15px; }
+          .header .menu-right .lang-switcher .drop-block p:last-child {
+            margin-bottom: 0; }
+          .header .menu-right .lang-switcher .drop-block p a {
+            font-size: 14px;
+            color: white; }
+          .header .menu-right .lang-switcher .drop-block p.active a {
+            color: #d24a43; }
+      .header .menu-right .lang-switcher span {
+        color: #000;
+        font-weight: 600;
+        font-size: 14px; }
+    .header .menu-right .search-btn {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .header .menu-right .search-btn .search-input {
+        width: 0;
+        border: none;
+        border-bottom: 1px solid #333333;
+        font-family: "Exo 2.0", sans-serif;
+        transition: all 0.3s ease-in-out; }
+        .header .menu-right .search-btn .search-input.active {
+          margin-right: 10px;
+          width: 200px; }
+        .header .menu-right .search-btn .search-input:focus {
+          background: none;
+          outline: none; }
+      .header .menu-right .search-btn .icon {
+        cursor: pointer;
+        display: block;
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA0lBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUrlraAAAARXRSTlMAPJ+sqq1sBHe3SwwpkLAWZAhjrgYYvROSZYEqqwFHBacXmD2hHYBeEQo/plWTAqgNHsFaIsjEpGhGVqKZOnWLC3yagtmudYCVAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAJVJREFUGNNjYGBgYGRiZmFhZWNngAIOTi5uBgYeXj5+CF+AWRDCEBIWAVGiYuIwpRICIFJSCsZnkJaRBZK8cnABeQVFIKmkDBeQVVEFkmrqcAENGU0gqaUNF9DRBZF6+jpQvgEfD5g2NDIG0yamZlAZQ21zC0srXlZrVxuYZls7ezUrBwZHVyUGVODo6oQhwoQm4uwCACdADFbWhHWZAAAAAElFTkSuQmCC") no-repeat center;
+        width: 16px;
+        height: 16px;
+        background-size: contain; }
+    .header .menu-right .switch {
+      margin: 0 30px;
+      position: relative;
+      display: inline-block;
+      width: 32px;
+      height: 20px;
+      outline: none; }
+    .header .menu-right .switch input {
+      outline: none;
+      opacity: 0;
+      width: 0;
+      height: 0; }
+    .header .menu-right .slider {
+      outline: none;
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    .header .menu-right .slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    .header .menu-right input:checked + .slider {
+      background-color: black; }
+    .header .menu-right input:checked + .slider:before {
+      -webkit-transform: translateX(12px);
+      -ms-transform: translateX(12px);
+      transform: translateX(12px); }
+    .header .menu-right .slider.round {
+      border-radius: 34px; }
+    .header .menu-right .slider.round:before {
+      border-radius: 50%; }
 
 .content {
   margin-top: 40px;
