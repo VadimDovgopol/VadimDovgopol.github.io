@@ -104,7 +104,7 @@ a {
   .left-column .logo {
     display: flex;
     justify-content: center;
-    margin-top: 18px; }
+    margin-top: 27px; }
     .left-column .logo svg {
       width: 100%;
       height: auto; }
@@ -923,7 +923,7 @@ a {
   padding: 0 10px;
   overflow: hidden; }
   .currency .slider-currency {
-    animation: scroll-left 10s linear infinite;
+    animation: scroll-left 20s linear infinite;
     animation-play-state: running;
     transition: opacity .2s ease;
     opacity: 1;
