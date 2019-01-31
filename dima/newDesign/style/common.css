@@ -217,6 +217,7 @@ a {
   .header .menu-right {
     display: flex;
     flex-direction: row;
+    align-items: center;
     /* Rounded sliders */ }
     .header .menu-right .lang-switcher {
       cursor: pointer;
@@ -401,7 +402,8 @@ a {
     .interview-block .interview-item .interview-text {
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      padding-bottom: 15px; }
       .interview-block .interview-item .interview-text p:nth-child(1) {
         margin-bottom: 20px; }
       .interview-block .interview-item .interview-text p.h2-title {
@@ -805,7 +807,7 @@ a {
 .last-news .h1-title {
   font-weight: 600;
   font-size: 18px;
-  margin-bottom: 25px; }
+  margin-bottom: 13px; }
 .last-news .last-news_item {
   position: relative;
   width: 100%;

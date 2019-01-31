@@ -38,6 +38,7 @@
   .menu-right {
     display: flex;
     flex-direction: row;
+    align-items: center;
 
     .lang-switcher {
       cursor: pointer;
@@ -101,7 +102,7 @@
 
         transition: all 0.3s ease-in-out;
 
-        &.active{
+        &.active {
           margin-right: 10px;
           width: 200px;
         }
