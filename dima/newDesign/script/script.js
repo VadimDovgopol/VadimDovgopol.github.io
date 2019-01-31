@@ -42,11 +42,11 @@ $(document).ready(function () {
         cssEase: 'linear'
     });
 
-    $('.slider-currency').slick({
-        arrows: false,
-        speed: 3000,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        slidesToShow: 5,
-    });
+    // $('.slider-currency').slick({
+    //     arrows: false,
+    //     speed: 3000,
+    //     autoplay: true,
+    //     autoplaySpeed: 0,
+    //     slidesToShow: 5,
+    // });
 });
