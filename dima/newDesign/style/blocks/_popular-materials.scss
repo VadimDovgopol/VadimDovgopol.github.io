@@ -15,11 +15,23 @@
     .line {
       display: flex;
       justify-content: space-between;
+      @media screen and (max-width: 425px) {
+        flex-direction: column;
+      }
+
+
+      a {
+        &:nth-child(1) {
+          margin-right: 15px;
+          @media screen and (max-width: 425px) {
+            margin-right: 0;
+          }
+        }
+      }
     }
 
     .popular-materials_item {
       margin: 5px 0 25px 0;
-      max-width: 305px;
       width: 100%;
 
       .img-wrapper {

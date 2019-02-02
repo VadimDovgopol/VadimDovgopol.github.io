@@ -11,14 +11,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media screen and (max-width: 425px) {
+      flex-direction: column;
+    }
 
     .img-wrapper {
       max-width: 211px;
+      min-width: 190px;
       width: 100%;
       height: max-content;
-      margin-right: 20px;
+      margin-right: 15px;
       position: relative;
 
+      @media screen and (max-width: 425px) {
+        max-width: 425px;
+      }
       img {
         width: 100%;
         height: auto;
@@ -29,6 +36,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding-bottom: 15px;
 
       p {
         &:nth-child(1) {

@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+span {
+  font-weight: $fontR;
+  font-family: 'Exo 2.0', sans-serif;
 
 }
 
@@ -14,7 +19,7 @@ p {
 
 }
 
-.h1-title ,.h2-title {
+.h1-title, .h2-title {
   a {
     font-weight: $fontSB;
   }
@@ -27,8 +32,10 @@ a {
   text-decoration: none;
   outline: none;
   cursor: pointer;
-
   transition: color 0.2s ease-in;
+  @media screen and(max-width: 1024px) {
+    cursor: none;
+  }
 
   * p {
     transition: all 0.2s ease-in;
@@ -56,5 +63,25 @@ a {
 .main-content {
   width: 100%;
   padding: 0 20px;
+  max-width: 1005px;
+  min-width: 1px;
+  @media screen and (max-width: 425px) {
+    padding: 0 10px;
 
+  }
+}
+
+.currency {
+  display: none !important;
+}
+
+//1024 max-width decks
+//905 max-width tablet
+//800 max-width mob
+//540 max-width mob 2
+
+body {
+  &.active {
+    overflow: hidden;
+  }
 }

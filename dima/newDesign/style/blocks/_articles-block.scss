@@ -11,8 +11,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media screen and (max-width: 425px) {
+      flex-direction: column;
+    }
 
     a {
+      &:first-child {
+        margin-right: 15px;
+        @media screen and (max-width: 425px) {
+          margin-right: 0;
+          margin-bottom: 30px;
+        }
+
+      }
 
 
       &:hover {
@@ -22,14 +33,13 @@
       }
     }
 
+
     .articles-block_item {
-      max-width: 305px;
       width: 100%;
 
 
       .img-wrapper {
         position: relative;
-        max-width: 305px;
         width: 100%;
         margin-bottom: 20px;
 

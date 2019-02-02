@@ -1,7 +1,7 @@
 @import "basic/reset";
 @import "basic/vars";
 @import "basic/main";
-@import "basic/slick.css";
+@import "basic/slick";
 @import "basic/fonts";
 //
 @import "blocks/left-column";
@@ -23,4 +23,6 @@
 @import "blocks/developments-block";
 @import "blocks/survey-results";
 @import "blocks/currency";
+@import "basic/owl.carousel.min.css";
+@import "basic/owl.theme.default.min.css";
 

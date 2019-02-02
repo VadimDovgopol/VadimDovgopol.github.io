@@ -3,22 +3,38 @@
   padding-bottom: 90px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   max-width: 977px;
   width: 100%;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    display: block;
+  }
 
 
   .left-content {
-    margin-right: 30px;
-    max-width: 640px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    margin-right: 20px;
+    max-width: 650px;
+    min-width: 300px;
+
+
+    @media screen and (max-width: 1024px) {
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 800px) {
+      max-width: 800px;
+    }
+    @media screen and (max-width: 800px) {
+      max-width: 800px;
+    }
 
     .them {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
+
 
       .them-links, .drop-list {
         margin: 0 10px;

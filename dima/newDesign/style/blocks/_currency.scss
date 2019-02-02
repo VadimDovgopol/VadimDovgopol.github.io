@@ -11,6 +11,17 @@
 
   .slider-currency {
 
+    animation: scroll-left 20s linear infinite;
+    animation-play-state: running;
+
+    transition: opacity .2s ease;
+    opacity: 1;
+
+    &:hover {
+      animation-play-state: paused;
+
+    }
+
     width: 100%;
     height: 100%;
 
@@ -18,6 +29,8 @@
     align-items: center;
 
     .slider-currency_item {
+      
+      margin-right: 50px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -32,7 +45,7 @@
       }
 
       p {
-        font-size: 11px;
+        font-size: 13px;
       }
 
       .value-up {
@@ -43,5 +56,18 @@
         color: #d24a43;
       }
     }
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(0%); /* Browser bug fix */
+    -webkit-transform: translateX(0%); /* Browser bug fix */
+    transform: translateX(0%);
+  }
+  100% {
+    -moz-transform: translateX(-100%); /* Browser bug fix */
+    -webkit-transform: translateX(-100%); /* Browser bug fix */
+    transform: translateX(-100%);
   }
 }
