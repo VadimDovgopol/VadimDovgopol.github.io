@@ -940,7 +940,13 @@
 
                     <a href="#">
                         <div class="overflow-style last-news_item last-news_item-img ">
-                            <img src="img/img4.png" alt="">
+
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="img/img4.png">
+                                <source media="(max-width: 1023px)" srcset="img/main-article.png">
+                                <img src="img/main-article.png">
+                            </picture>
+
                             <div class="red-block">
                                 <p>Binance перезапустит
                                     краундфандинговую платформу

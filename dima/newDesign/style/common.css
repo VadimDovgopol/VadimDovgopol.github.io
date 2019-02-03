@@ -1345,7 +1345,7 @@ body.active {
     .last-news.last-news-tablet {
       display: block; }
       .last-news.last-news-tablet .last-news_item-img {
-        max-width: 317px; }
+        max-width: 1023px; }
       .last-news.last-news-tablet .h1-title {
         margin-bottom: 30px; } }
 .last-news .h1-title {
