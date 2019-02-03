@@ -497,7 +497,6 @@ body.active {
       opacity: 0; }
     @media screen and (max-width: 800px) {
       .header .logo-mob {
-        background-color: #00a048;
         visibility: visible;
         opacity: 1;
         height: 100%;
