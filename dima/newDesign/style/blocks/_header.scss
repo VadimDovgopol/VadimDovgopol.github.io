@@ -6,7 +6,14 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-items: center;
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  @media screen and (max-width: 800px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   .mobile-open-btn {
     background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjYxMnB4IiBoZWlnaHQ9IjYxMnB4IiB2aWV3Qm94PSIwIDAgNjEyIDYxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjEyIDYxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik02MDQuMjY3LDE5NC43MjdjNC4yNTcsMCw3LjczMy0zLjY0NCw3LjczMy03LjczM3YtNDAuMTY5YzAtNC4yNTYtMy4yODMtNy43MzMtNy43MzMtNy43MzNINy43MzMNCgkJCWMtNC4yNTYsMC03LjczMywzLjY0NC03LjczMyw3LjczM3Y0MC4xNjljMCw0LjI1NiwzLjI4Myw3LjczMyw3LjczMyw3LjczM0g2MDQuMjY3eiIvPg0KCQk8cGF0aCBkPSJNMCwzMjYuMDg0YzAsNC4yNTYsMy4yODMsNy43MzMsNy43MzMsNy43MzNoNTk2LjUzM2M0LjI1NiwwLDcuNzMzLTMuNjQ1LDcuNzMzLTcuNzMzdi00MC4xNjkNCgkJCWMwLTQuMjg0LTMuMjgzLTcuNzMzLTcuNzMzLTcuNzMzSDcuNzMzYy00LjI1NiwwLTcuNzMzLDMuNjQ1LTcuNzMzLDcuNzMzVjMyNi4wODR6Ii8+DQoJCTxwYXRoIGQ9Ik0wLDQ2NS4xNzVjMCw0LjI1NiwzLjI4Myw3LjczMyw3LjczMyw3LjczM2g1OTYuNTMzYzQuMjU2LDAsNy43MzMtMy42NDUsNy43MzMtNy43MzN2LTQwLjE2OQ0KCQkJYzAtNC4yNTYtMy4yODMtNy43MzItNy43MzMtNy43MzJINy43MzNjLTQuMjU2LDAtNy43MzMsMy42NDQtNy43MzMsNy43MzJWNDY1LjE3NXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==') no-repeat center;
@@ -27,7 +34,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    @media screen and (max-width: 1023px) {
+      max-width: 1024px;
+    }
     @media screen and (max-width: 800px) {
       display: none;
     }
@@ -55,6 +64,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    @media screen and (max-width: 1023px) {
+      margin-top: 15px;
+      justify-content: flex-end;
+
+    }
+    @media screen and (max-width: 800px) {
+      margin-top: 0;
+
+    }
 
     .lang-switcher {
       cursor: pointer;

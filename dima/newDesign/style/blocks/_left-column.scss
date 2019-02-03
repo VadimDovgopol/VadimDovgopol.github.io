@@ -13,6 +13,25 @@
 
   }
 
+  .col-1-mob {
+    display: none;
+    margin-top: 60px;
+
+    p {
+      a {
+        font-weight: $fontSB;
+      }
+
+      font-weight: $fontSB;
+      margin-bottom: 13px;
+    }
+
+    @media screen and (max-width: 800px) {
+      display: block;
+
+    }
+  }
+
 
   @media screen and (max-width: 800px) {
     z-index: 6;
@@ -120,8 +139,13 @@
     }
 
     .column-menu_first {
-      padding-top: 39px;
       border: none;
+      padding-top: 39px;
+      @media screen and (max-width: 800px) {
+        border-top: 1px solid #383838;
+        padding-top: 22px;
+
+      }
     }
 
     .column-menu_four {

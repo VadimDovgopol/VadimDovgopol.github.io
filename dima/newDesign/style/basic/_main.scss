@@ -33,7 +33,7 @@ a {
   outline: none;
   cursor: pointer;
   transition: color 0.2s ease-in;
-  @media screen and(max-width: 1024px) {
+  @media screen and(max-width: 1023px) {
     cursor: none;
   }
 
@@ -69,10 +69,6 @@ a {
     padding: 0 10px;
 
   }
-}
-
-.currency {
-  display: none !important;
 }
 
 //1024 max-width decks
