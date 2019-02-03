@@ -42,13 +42,31 @@
       .drop-list {
         text-align: center;
 
+        &:hover {
+          p {
+            color: #d24a43;
+          }
+
+          svg {
+            transform: rotate(180deg);
+
+            path {
+              fill: #d24a43 !important;
+            }
+          }
+        }
+
         &.active {
           p {
             color: #d24a43;
           }
 
-          .arrow {
+          svg {
             transform: rotate(180deg);
+
+            path {
+              fill: #d24a43 !important;
+            }
           }
 
           .drop-item {
@@ -84,10 +102,9 @@
         font-family: 'Exo 2.0', sans-serif;
         font-weight: $fontM;
 
-        .arrow {
+        svg {
           transition: all 0.3s ease-in-out;
           display: inline-block;
-          background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAYAAADam2dgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAcUlEQVQY033OMQqCAACF4S8VJEQxKsQrNLomtHSLhlb3hi7S2kW6hi5exNaGFESif3jD4+fx+JL5TTBFhgu2CyHFCWmAGCUaFKOwRoU7ihADOtQ4oh2FBg/0q9n8HlfscMATL7yXRze44YzEH3JE8+IDV3MLWD/vtrAAAAAASUVORK5CYII=') no-repeat center;
           width: 9px;
           height: 7px;
         }

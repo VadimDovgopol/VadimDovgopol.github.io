@@ -41,8 +41,10 @@ $(document).ready(function () {
         if ($(".search-input").hasClass("active")) {
 
             $(".search-input").removeClass("active");
+            $(".logo-mob").removeClass("hide");
 
         } else {
+            $(".logo-mob").addClass("hide");
             $(".search-input").addClass("active");
         }
 

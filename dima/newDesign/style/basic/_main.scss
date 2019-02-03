@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
+.overflow-style {
+  overflow: hidden;
+
+}
+
 span {
+
   font-weight: $fontR;
   font-family: 'Exo 2.0', sans-serif;
 
@@ -25,6 +31,18 @@ p {
   }
 }
 
+img, picture {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.arrow-svg-right {
+  transition: all 0.2s ease-in-out;
+}
+
 a {
   font-family: 'Exo 2.0', sans-serif;
   font-weight: $fontR;
@@ -33,8 +51,13 @@ a {
   outline: none;
   cursor: pointer;
   transition: color 0.2s ease-in;
-  @media screen and(max-width: 1023px) {
+  @media screen and(max-width: 768px) {
     cursor: none;
+  }
+
+
+  path {
+    transition: all 0.2s ease-in-out;
   }
 
   * p {
@@ -42,7 +65,17 @@ a {
   }
 
   &:hover {
+
+    .arrow-svg-right {
+      transform: translateX(5px);
+      path {
+        fill: #d24a43 !important;
+      }
+    }
+
     color: #d24a43 !important;
+
+
 
     * p {
       color: #d24a43 !important;
