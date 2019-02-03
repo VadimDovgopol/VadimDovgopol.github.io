@@ -19,7 +19,7 @@
     padding: 10px 10px;
   }
 
-    display: flex;
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
   position: relative;
@@ -45,12 +45,15 @@
     }
 
     @media screen and (max-width: 800px) {
+      background-color: #00a048;
       visibility: visible;
       opacity: 1;
       height: 100%;
       width: 100%;
       position: absolute;
       left: 0;
+      right: 0;
+      bottom: 0;
       top: 0;
       display: flex;
       justify-content: center;
