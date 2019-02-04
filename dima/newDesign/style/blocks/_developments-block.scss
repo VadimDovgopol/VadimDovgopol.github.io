@@ -1,6 +1,15 @@
 .developments-block {
   margin-top: 50px;
+  max-width: 300px;
+  min-width: 1px;
+  width: 100%;
 
+  @media screen and (max-width: 1023px) {
+    order: 3;
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 425px;
+  }
 
   .h2-title {
     font-weight: $fontSB;
@@ -28,7 +37,6 @@
       left: 0;
       bottom: 2px;
       width: 100%;
-      height: 40%;
       padding: 15px 20px;
       background-color: rgba(210, 74, 67, 0.7);
       transition: all 0.2s ease-in-out;

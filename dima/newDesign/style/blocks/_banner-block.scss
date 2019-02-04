@@ -1,6 +1,14 @@
 .banner-block {
   margin-top: 50px;
   width: 100%;
+  max-width: 300px;
+  min-width: 1px;
+  @media screen and (max-width: 1023px) {
+    order: 5;
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 425px;
+  }
 
   .banner-item {
     width: 100%;

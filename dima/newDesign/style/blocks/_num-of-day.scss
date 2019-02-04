@@ -1,4 +1,6 @@
+//v1
 .num-of-day {
+  display: none;
   margin-top: 30px;
   width: 100%;
   padding: 20px;
@@ -41,12 +43,65 @@
       align-items: center;
     }
 
-    span {
+    svg {
       display: block;
       margin-left: 5px;
-      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAHCAYAAADXhRcnAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAY0lEQVQY053OsQ3CMAAF0YfsIpKbCDEAfTp6lmGIpKDKChkAsVcWSQGYBqclzvX37wfbSZiQMVd4KwFPXOGAC5rf4j/eaDGij+hwxGeDnLHghPOe63fcIFZIEQNeeNQWUykWvuhCDWaRLQTpAAAAAElFTkSuQmCC') no-repeat center;
-      width: 15px;
-      height: 7px;
+      margin-top: 1px;
+      width: 10px;
+      height: 10px;
+
     }
+  }
+}
+
+//v2
+
+.num-of-day_img {
+  max-width: 300px;
+  min-width: 1px;
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  @media screen and (max-width: 1023px) {
+    order: 1;
+
+  }
+
+  @media screen and (max-width: 425px) {
+    max-width: 425px;
+  }
+  .h2-title {
+    font-weight: $fontSB;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .link-more {
+    margin-top: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    svg {
+      display: block;
+      margin-left: 5px;
+      margin-top: 1px;
+      width: 10px;
+      height: 10px;
+
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 }

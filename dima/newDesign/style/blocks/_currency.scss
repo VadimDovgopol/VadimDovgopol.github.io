@@ -8,18 +8,26 @@
   align-items: center;
   padding: 0 10px;
   overflow: hidden;
+  @media screen and (max-width: 800px) {
+    margin-top: 80px;
+
+  }
 
   .slider-currency {
 
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 40s linear infinite;
     animation-play-state: running;
-
 
     transition: opacity .2s ease;
     opacity: 1;
 
-    &:hover{
+    &:hover {
       animation-play-state: paused;
+
+    }
+
+    @media screen and (max-width: 768px) {
+      animation: scroll-left 20s linear infinite;
 
     }
 
@@ -31,16 +39,21 @@
 
     .slider-currency_item {
 
-
       margin-right: 50px;
       display: flex;
       flex-direction: row;
       align-items: center;
 
-
-      img {
+      .icon-wrapper {
+        display: flex;
+        align-items: center;
         margin-right: 10px;
+
+        svg {
+
+        }
       }
+
 
       .value {
         margin-right: 10px;
@@ -60,6 +73,7 @@
     }
   }
 }
+
 @keyframes scroll-left {
   0% {
     -moz-transform: translateX(0%); /* Browser bug fix */
@@ -67,8 +81,8 @@
     transform: translateX(0%);
   }
   100% {
-    -moz-transform: translateX(-100%); /* Browser bug fix */
-    -webkit-transform: translateX(-100%); /* Browser bug fix */
-    transform: translateX(-100%);
+    -moz-transform: translateX(-250%); /* Browser bug fix */
+    -webkit-transform: translateX(-250%); /* Browser bug fix */
+    transform: translateX(-250%);
   }
 }

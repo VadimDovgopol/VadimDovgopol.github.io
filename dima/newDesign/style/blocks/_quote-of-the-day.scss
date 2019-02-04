@@ -1,4 +1,8 @@
+//v1
 .quote-of-the-day {
+  display: none;
+  max-width: 300px;
+  min-width: 1px;
   margin-top: 50px;
   width: 100%;
   padding: 20px;
@@ -50,15 +54,25 @@
       &:hover {
         color: black !important;
 
+
+        svg {
+          path {
+            fill: black !important;
+          }
+        }
       }
     }
 
-    span {
+    svg {
       display: block;
       margin-left: 5px;
-      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAHCAMAAADgW+cVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAASFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////8AAADnxl6iAAAAF3RSTlMAC5dKA6A9Mjo5NkbHXW9tbGTbe2IEd+Tq1goAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAANklEQVQI12NggANGJmYGFMDCysbAwM7BCQNc3DxsDLx8/DAgICjEi6JBWASZJyoshiLLCJIFAGkxAfk9mEgnAAAAAElFTkSuQmCC') no-repeat center;
-      width: 15px;
-      height: 7px;
+      margin-top: 1px;
+      width: 10px;
+      height: 10px;
+
+      path {
+        fill: white !important;
+      }
     }
   }
 
@@ -66,4 +80,56 @@
     color: white;
   }
 
+}
+
+//v2
+.quote-of-the-img {
+  max-width: 300px;
+  min-width: 1px;
+  margin-top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1023px) {
+    order: 2;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 425px;
+  }
+
+  .h2-title {
+    font-weight: $fontSB;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .link-more {
+    margin-top: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    svg {
+      display: block;
+      margin-left: 5px;
+      margin-top: 1px;
+      width: 10px;
+      height: 10px;
+
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }

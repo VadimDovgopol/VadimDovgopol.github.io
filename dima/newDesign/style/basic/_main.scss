@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+.overflow-style {
+  overflow: hidden;
 
 }
 
 span {
+
   font-weight: $fontR;
   font-family: 'Exo 2.0', sans-serif;
 
@@ -27,6 +31,18 @@ p {
   }
 }
 
+img, picture {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.arrow-svg-right {
+  transition: all 0.2s ease-in-out;
+}
+
 a {
   font-family: 'Exo 2.0', sans-serif;
   font-weight: $fontR;
@@ -34,15 +50,32 @@ a {
   text-decoration: none;
   outline: none;
   cursor: pointer;
-
   transition: color 0.2s ease-in;
+  @media screen and(max-width: 768px) {
+    cursor: none;
+  }
+
+
+  path {
+    transition: all 0.2s ease-in-out;
+  }
 
   * p {
     transition: all 0.2s ease-in;
   }
 
   &:hover {
+
+    .arrow-svg-right {
+      transform: translateX(5px);
+      path {
+        fill: #d24a43 !important;
+      }
+    }
+
     color: #d24a43 !important;
+
+
 
     * p {
       color: #d24a43 !important;
@@ -63,5 +96,21 @@ a {
 .main-content {
   width: 100%;
   padding: 0 20px;
+  max-width: 1005px;
+  min-width: 1px;
+  @media screen and (max-width: 425px) {
+    padding: 0 10px;
 
+  }
+}
+
+//1024 max-width decks
+//905 max-width tablet
+//800 max-width mob
+//540 max-width mob 2
+
+body {
+  &.active {
+    overflow: hidden;
+  }
 }

@@ -41,39 +41,111 @@ $(document).ready(function () {
         if ($(".search-input").hasClass("active")) {
 
             $(".search-input").removeClass("active");
+            $(".logo-mob").removeClass("hide");
 
         } else {
+            $(".logo-mob").addClass("hide");
             $(".search-input").addClass("active");
+        }
+
+    });
+
+    $(".mobile-open-btn").on("click", function () {
+
+        if ($(".left-column").hasClass("active")) {
+
+            $(".left-column").removeClass("active");
+            $("body").removeClass("active");
+
+        } else {
+            $("body").addClass("active");
+            $(".left-column").addClass("active");
+
+        }
+
+    });
+
+    $(".close-btn").on("click", function () {
+
+        if ($(".left-column").hasClass("active")) {
+
+            $(".left-column").removeClass("active");
+            $("body").removeClass("active");
+
+        } else {
+            $("body").addClass("active");
+            $(".left-column").addClass("active");
+
+        }
+
+    });
+
+    $(".visible-item").on("click", function () {
+
+        if ($(".them-mobile").hasClass("active")) {
+
+            $(".them-mobile").removeClass("active");
+
+        } else {
+            $(".them-mobile").addClass("active");
+
+        }
+
+    });
+
+    $(".drop-list").on("click", function () {
+
+        if ($(".drop-list").hasClass("active")) {
+
+            $(".drop-list").removeClass("active");
+
+        } else {
+            $(".drop-list").addClass("active");
+
         }
 
     });
 
 
     $('.slider-exchange_in').slick({
-        arrows: true,
         prevArrow: ".prev",
         nextArrow: ".next",
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
         speed: 200,
         fade: true,
-        cssEase: 'linear'
+        cssEase: 'linear',
     });
 
     $('.slider-purse_in').slick({
-        arrows: true,
+
         prevArrow: ".prev2",
         nextArrow: ".next2",
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
         speed: 200,
         fade: true,
-        cssEase: 'linear'
+        cssEase: 'linear',
+
+
     });
 
     $('.slider-changer_in').slick({
-        arrows: true,
         prevArrow: ".prev3",
         nextArrow: ".next3",
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
         speed: 200,
         fade: true,
-        cssEase: 'linear'
+        cssEase: 'linear',
+
     });
+
 
 });
