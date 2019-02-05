@@ -2047,9 +2047,12 @@ body.active {
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
         background-color: #d24a43;
         border: none;
         border-radius: 30px; }
+        .article .start-article .subscribe-block .form-wrapper #subscribe-form .submit-btn:hover p {
+          color: black; }
         @media screen and (max-width: 600px) {
           .article .start-article .subscribe-block .form-wrapper #subscribe-form .submit-btn {
             margin-top: 20px; } }
@@ -2082,7 +2085,10 @@ body.active {
         display: flex;
         flex-direction: row; }
         .article .start-article .subscribe-block .social-wrapper .left-side .social-wrapper a {
+          transition: all 0.2s ease-in-out;
           margin-right: 10px; }
+          .article .start-article .subscribe-block .social-wrapper .left-side .social-wrapper a:hover {
+            transform: scale(0.95); }
     .article .start-article .subscribe-block .social-wrapper .right-side {
       display: flex;
       flex-direction: row;

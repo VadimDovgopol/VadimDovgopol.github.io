@@ -361,10 +361,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
 
             background-color: #d24a43;
             border: none;
             border-radius: 30px;
+
+            &:hover {
+              p {
+                color: black;
+              }
+            }
+
             @media screen and (max-width: 600px) {
               margin-top: 20px;
             }
@@ -411,6 +419,11 @@
             flex-direction: row;
 
             a {
+              &:hover {
+                transform: scale(0.95);
+              }
+
+              transition: all 0.2s ease-in-out;
               margin-right: 10px;
             }
           }
@@ -425,6 +438,7 @@
           @media screen and (max-width: 600px) {
             margin-top: 30px;
           }
+
           p {
             a {
               display: flex;
