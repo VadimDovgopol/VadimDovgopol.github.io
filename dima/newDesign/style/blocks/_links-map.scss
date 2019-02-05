@@ -1,0 +1,24 @@
+.article {
+  .links-map {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .arrow{
+      margin: 0 10px;
+
+    }
+    p {
+      display: flex;
+      align-items: center;
+      a {
+        font-weight: $fontM;
+        font-size: 11px;
+        text-transform: uppercase;
+
+        &.active {
+          color: #d24a43;
+        }
+      }
+    }
+  }
+}
