@@ -118,6 +118,43 @@ a {
 body.active {
   overflow: hidden; }
 
+.br-theme-css-stars .br-widget {
+  height: 24px;
+  white-space: nowrap; }
+
+.br-theme-css-stars .br-widget a {
+  text-decoration: none;
+  height: 18px;
+  width: 18px;
+  float: left;
+  font-size: 20px;
+  margin-right: 5px; }
+
+.br-theme-css-stars .br-widget a:after {
+  content: "\2605";
+  color: #d2d2d2; }
+
+.br-theme-css-stars .br-widget a.br-active:after {
+  color: #EDB867; }
+
+.br-theme-css-stars .br-widget a.br-selected:after {
+  color: #EDB867; }
+
+.br-theme-css-stars .br-widget .br-current-rating {
+  display: none; }
+
+.br-theme-css-stars .br-readonly a {
+  cursor: default; }
+
+@media print {
+  .br-theme-css-stars .br-widget a:after {
+    content: "\2606";
+    color: black; }
+
+  .br-theme-css-stars .br-widget a.br-active:after,
+  .br-theme-css-stars .br-widget a.br-selected:after {
+    content: "\2605";
+    color: black; } }
 /* Slider */
 .slick-slider {
   position: relative;
@@ -1959,10 +1996,18 @@ body.active {
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
+  @media screen and (max-width: 500px) {
+    .article .start-article .article-more-info {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start; } }
   .article .start-article .article-more-info .source {
     display: flex;
     flex-direction: row;
     align-items: center; }
+    @media screen and (max-width: 500px) {
+      .article .start-article .article-more-info .source {
+        margin-bottom: 10px; } }
     .article .start-article .article-more-info .source .source-item {
       text-transform: uppercase;
       color: #7c7c7c;
@@ -1979,11 +2024,16 @@ body.active {
       font-size: 11px;
       font-weight: 500;
       color: #000; }
-  .article .start-article .article-more-info .score .static {
-    color: #000000;
-    font-size: 11px;
-    font-weight: 500;
-    text-transform: uppercase; }
+  .article .start-article .article-more-info .score {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .article .start-article .article-more-info .score .static {
+      margin-right: 10px;
+      color: #000000;
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: uppercase; }
 .article .start-article .tags-block {
   margin-top: 30px;
   display: flex;

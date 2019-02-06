@@ -187,4 +187,9 @@ $(document).ready(function () {
         ]
     });
 
+
+    $('#example').barrating({
+        theme: 'css-stars'
+    });
+
 });
