@@ -444,6 +444,7 @@ body.active {
     color: white !important; }
   .night-mode .search-btn .search-input {
     background: none;
+    color: white !important;
     border-color: white !important; }
   .night-mode .search-btn .icon svg path {
     fill: white; }
