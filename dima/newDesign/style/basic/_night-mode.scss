@@ -1,6 +1,20 @@
 .night-mode {
   background-color: #282828;
 
+
+  .them-mobile{
+    .open-drop-list{
+      color: white !important;
+    }
+    .arrow{
+      svg{
+        path{
+          fill: white !important;
+        }
+      }
+    }
+
+  }
   .links-map {
     svg {
       path {
