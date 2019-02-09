@@ -1,0 +1,244 @@
+.night-mode {
+  background-color: #282828;
+
+  .links-map {
+    svg {
+      path {
+        fill: white;
+      }
+    }
+  }
+
+  .big-img {
+
+    .small-text {
+      color: white !important;
+    }
+  }
+
+  .article-more-info {
+    .source {
+      p {
+        color: white !important;
+      }
+    }
+  }
+
+  .tags-block {
+
+
+    .tags-item {
+      background-color: #1f1f1f !important;
+      border-color: #1c1c1c !important;
+    }
+
+    .tags-item {
+      &.active, &:hover {
+
+        background-color: #d24a43 !important;
+
+        p {
+          color: white !important;
+        }
+
+
+      }
+    }
+  }
+
+  .score {
+    .static {
+      color: white !important;
+    }
+  }
+
+  .left-column {
+
+    background-color: #1f1f1f;
+
+    .close-btn {
+      svg {
+        path {
+          fill: white !important;
+        }
+      }
+    }
+  }
+
+  p {
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+
+
+  .header {
+
+    background-color: #282828 !important;
+
+    .mobile-open-btn {
+      svg {
+        path {
+          fill: white;
+        }
+      }
+    }
+
+    .logo-mob-item {
+      .text-svg {
+        path {
+          fill: white !important;
+        }
+      }
+    }
+
+    .menu-left {
+      .header-link {
+        border-color: #282828;
+      }
+    }
+  }
+
+  .left-column_menu {
+    div {
+      border-color: white !important;
+    }
+  }
+
+  .currency {
+    background-color: #1f1f1f !important;
+    border: 1px solid #1c1c1c !important;
+  }
+
+  .logo-text {
+    fill: white !important;
+  }
+
+  .lang-switcher {
+    .open-drop_block {
+      color: white !important;
+    }
+  }
+
+  .search-btn {
+    .search-input {
+      background: none;
+      border-color: white !important;
+    }
+
+    .icon {
+      svg {
+        path {
+          fill: white;
+        }
+
+      }
+    }
+  }
+
+  .them {
+
+    .drop-list {
+      svg {
+        path {
+          fill: white !important;
+        }
+      }
+    }
+  }
+
+  .slider-block {
+
+    .slider-exchange, .slider-purse, .slider-changer {
+      background-color: #1f1f1f !important;
+      border-color: #1c1c1c !important;
+
+      svg {
+        path {
+          fill: white !important;
+        }
+      }
+    }
+
+    a {
+      &:hover {
+        svg {
+          path {
+            fill: #d24a43 !important;
+          }
+        }
+      }
+    }
+  }
+
+
+  .crypto-expert {
+    svg {
+      path {
+        fill: white !important;
+      }
+    }
+
+    a {
+      &:hover {
+        svg {
+          path {
+            fill: #d24a43 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .last-news, .num-of-day, .num-of-day_img, .quote-of-the-day, .quote-of-the-img {
+    svg {
+      path {
+        fill: white !important;
+      }
+    }
+
+    a {
+      &:hover {
+        svg {
+          path {
+            fill: #d24a43 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .survey-results {
+    .question-text {
+      color: white !important;
+    }
+
+    .progress-bar {
+      background-color: #1f1f1f !important;
+      border-color: #1c1c1c !important;
+    }
+  }
+
+  .subscribe-block {
+    background-color: #1f1f1f !important;
+    border-color: #1c1c1c !important;
+
+    .subscribe-text {
+      color: white !important;
+    }
+
+    .field-text {
+      background-color: #282828 !important;
+      color: white !important;
+      border: 1px solid #1c1c1c !important;
+    }
+
+    svg {
+      path {
+        fill: white !important;
+      }
+    }
+  }
+}

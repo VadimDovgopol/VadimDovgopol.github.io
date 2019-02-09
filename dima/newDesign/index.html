@@ -13,18 +13,35 @@
     <script src="script/jquery.js"></script>
 
 </head>
-<body>
+<body class="">
+<script>
+    var nightMode = localStorage.getItem('nightMode');
+
+    if (nightMode === "true") {
+        $("body").addClass("night-mode");
+        setTimeout(function () {
+            $("#night-ctrl").prop("checked", true);
+        });
+    } else {
+        $("body").removeClass("night-mode");
+        setTimeout(function () {
+            $("#night-ctrl").prop("checked", false);
+        });
+
+
+    }
+</script>
 <div class="main-wrapper">
 
     <div class="left-column">
         <div class="logo">
             <a href="#">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     x="0px" y="0px"
                      viewBox="0 0 270.2 62.1" style="enable-background:new 0 0 270.2 62.1;" xml:space="preserve">
 <g>
 	<g>
-		<path style="fill:#282828;" d="M147,58c-0.1,0.2-0.2,0.5-0.3,0.8h-0.1c-0.1-0.4-0.2-0.6-0.3-0.8l-1.4-2.9h-0.9l2.3,4.5V62h0.9
+		<path class="logo-text" style="fill:#282828;" d="M147,58c-0.1,0.2-0.2,0.5-0.3,0.8h-0.1c-0.1-0.4-0.2-0.6-0.3-0.8l-1.4-2.9h-0.9l2.3,4.5V62h0.9
 			v-2.4l2.3-4.5h-0.9L147,58z M140.9,59.2c-0.2-0.2-0.3-0.3-0.5-0.3v0c0.5-0.1,0.8-0.2,1-0.5c0.2-0.3,0.3-0.7,0.3-1.3
 			c0-0.8-0.2-1.3-0.5-1.6c-0.3-0.3-0.9-0.4-1.7-0.4c-1,0-1.8,0-2.4,0.1V62h0.9v-2.9c0.1,0,0.3,0,0.7,0c0.3,0,0.6,0,0.9,0
 			c0.2,0,0.4,0.1,0.6,0.2s0.3,0.3,0.4,0.6L141,62h0.9l-0.7-2.2C141.2,59.5,141.1,59.3,140.9,59.2z M139.5,58.4H138v-2.6
@@ -88,7 +105,20 @@
 </svg>
             </a>
 
-            <div class="close-btn"></div>
+            <div class="close-btn">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                        <path d="M11.7688 10.0008L19.6335 2.13605C20.1222 1.64784 20.1222 0.85569 19.6335 0.367479C19.1449 -0.12115 18.3536 -0.12115 17.865 0.367479L10.0002 8.23223L2.13504 0.367479C1.64641 -0.12115 0.8551 -0.12115 0.366471 0.367479C-0.122157 0.85569 -0.122157 1.64784 0.366471 2.13605L8.23164 10.0008L0.366471 17.8655C-0.122157 18.3538 -0.122157 19.1459 0.366471 19.6341C0.610786 19.878 0.930979 20.0002 1.25076 20.0002C1.57053 20.0002 1.89073 19.878 2.13504 19.6337L10.0002 11.7689L17.865 19.6337C18.1093 19.878 18.4295 20.0002 18.7492 20.0002C19.069 20.0002 19.3892 19.878 19.6335 19.6337C20.1222 19.1455 20.1222 18.3533 19.6335 17.8651L11.7688 10.0008Z"
+                              fill="black"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <rect width="20" height="20" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+
+            </div>
         </div>
         <div class="left-column_menu">
             <div class="col-1-mob">
@@ -197,7 +227,7 @@
                             <path fill="#ECECEC" d="M197.912,188.885L82.408,147.6l33.665,58.309l82.539-16.716
 			C198.389,189.22,198.147,189.131,197.912,188.885"/>
                         </g>
-                        <g>
+                        <g class="text-svg">
                             <path fill="#282828" d="M380.006,251.226l0.324,2.376c-1.993,0.553-4.417,0.828-7.272,0.828c-3.577,0-6.097-0.959-7.56-2.88
 			c-1.464-1.92-2.196-5.243-2.196-9.972c0-4.728,0.732-8.052,2.196-9.972c1.463-1.92,3.983-2.881,7.56-2.881
 			c2.568,0,4.824,0.24,6.768,0.721l-0.324,2.412c-2.16-0.217-4.308-0.324-6.444-0.324c-2.424,0-4.099,0.726-5.022,2.178
@@ -282,17 +312,17 @@
 			c1.967,0,3.294-0.252,3.978-0.756c0.685-0.504,1.026-1.584,1.026-3.24c0-1.368-0.234-2.322-0.702-2.861
 			C795.065,244.189,794.254,243.774,793.103,243.486z"/>
                         </g>
-                        <g>
+                        <g class="text-svg">
                             <path fill="#282828"
                                   d="M477.856,203.783h-88.75c-14.336,0-26-11.663-26-26V55.251h32v116.532h82.75V203.783z"/>
                         </g>
-                        <g>
+                        <g class="text-svg">
                             <path fill="#282828" d="M540.106,113.521h-12.771V55.255h-32v148.532h32v-58.266h12.771c1.404,0.06,4.723,1.435,5.785,2.412
 			l51.866,51.867c5.834,5.834,15.379,5.834,21.213,0l12.02-12.021l-62.5-62.5C561.567,118.355,549.895,113.521,540.106,113.521z"/>
                             <path fill="#282828" d="M594.496,107.758l36.499-36.499l-12.02-12.02c-5.834-5.834-15.38-5.834-21.213,0l-36.499,36.499
 			l12.02,12.021C579.116,113.592,588.662,113.592,594.496,107.758z"/>
                         </g>
-                        <g>
+                        <g class="text-svg">
                             <path fill="#282828" d="M781.915,204.364c-5.497,0-11.003-2.502-15.567-7.253l-87.513-91.1v97.773h-32V76.259
 			c0-9.35,4.509-16.747,12.061-19.787c7.55-3.04,15.927-0.83,22.405,5.913l87.514,91.101V55.259h32v127.979
 			c0,9.351-4.509,16.747-12.061,19.787C786.522,203.923,784.219,204.364,781.915,204.364z"/>
@@ -302,7 +332,17 @@
             </a>
 
 
-            <div class="mobile-open-btn"></div>
+            <div class="mobile-open-btn">
+                <svg width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.9901 8.09911H1.00986C0.452148 8.09911 0 8.55121 0 9.10897C0 9.66673 0.452148 10.1188 1.00986 10.1188H23.9901C24.5479 10.1188 25 9.66673 25 9.10897C25 8.55125 24.5479 8.09911 23.9901 8.09911Z"
+                          fill="black"/>
+                    <path d="M23.9901 0.438995H1.00986C0.452148 0.438995 0 0.891144 0 1.44886C0 2.00657 0.452148 2.45872 1.00986 2.45872H23.9901C24.5479 2.45872 25 2.00657 25 1.44886C25 0.891144 24.5479 0.438995 23.9901 0.438995Z"
+                          fill="black"/>
+                    <path d="M23.9901 15.7592H1.00986C0.452148 15.7592 0 16.2113 0 16.7691C0 17.3268 0.452148 17.7789 1.00986 17.7789H23.9901C24.5479 17.7789 25 17.3268 25 16.7691C25 16.2113 24.5479 15.7592 23.9901 15.7592Z"
+                          fill="black"/>
+                </svg>
+
+            </div>
             <div class="menu-left">
                 <a class="header-link" href="#">
                     НОВОСТИ
@@ -332,12 +372,14 @@
                 </div>
 
                 <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
+                    <input type="checkbox" id="night-ctrl">
+                    <span id="night-mode_ctrl" class="slider round"></span>
                 </label>
 
                 <div class="search-btn">
-                    <input class="search-input" type="text">
+                    <form action="#">
+                        <input class="search-input" type="text">
+                    </form>
                     <span class="icon">
                         <svg width="16px" height="16px" x="0px" y="0px" viewBox="0 0 56.966 56.966">
 <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
@@ -755,7 +797,7 @@
                 <div class="slider-currency_item">
 
                     <div class="icon-wrapper">
-                        <svg x="0px" y="0px" viewBox="2185.3 388 17.3 16" width="17px" height="16pxрищел ">
+                        <svg x="0px" y="0px" viewBox="2185.3 388 17.3 16" width="17px" height="16px">
                             <g>
                                 <path style="fill:#3CC8C8;" d="M2193.8,388c0.4-0.2,0.8,0.3,0.6,0.6c-0.1,0.3-0.6,0.4-0.8,0.2
 		C2193.4,388.6,2193.5,388.2,2193.8,388 M2189.7,388.5c0.2-0.1,0.5,0.1,0.5,0.4c0,0.3-0.3,0.5-0.5,0.3
@@ -1950,7 +1992,7 @@
                 </div>
 
                 <div class="num-of-day_img">
-                    <p class="h2-title">ЦИФРА ДНЯ</p>
+                    <p class="h2-title"><a href="#">ЦИФРА ДНЯ</a></p>
 
                     <div class="img-wrapper overflow-style">
 
@@ -1999,7 +2041,7 @@
                 </div>
 
                 <div class="quote-of-the-img">
-                    <p class="h2-title">ЦИТАТА ДНЯ</p>
+                    <p class="h2-title"><a href="#">ЦИТАТА ДНЯ</a></p>
 
                     <div class="img-wrapper overflow-style">
                         <img src="img/quote.png" alt="">
@@ -2202,6 +2244,7 @@
 </div>
 
 <script src="script/slick.min.js"></script>
+<script src="script/jquery.barrating.min.js"></script>
 
 <script src="script/TweenMax.min.js"></script>
 <script src="script/script.js"></script>

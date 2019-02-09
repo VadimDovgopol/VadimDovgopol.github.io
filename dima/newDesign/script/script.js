@@ -3,10 +3,33 @@ $(document).ready(function () {
     var ua = navigator.userAgent.toLowerCase();
     var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
     var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+    var trigger = false;
+    var nightMode = localStorage.getItem('nightMode');
+
 
     if (isAndroid || iOS === true) {
         $("body").addClass("mobile")
     }
+
+    if (nightMode === "true") {
+        trigger = true;
+
+    } else {
+        trigger = false;
+    }
+
+    $('#night-mode_ctrl').on('click', function () {
+        console.log("a")
+        if (trigger === false) {
+            trigger = true;
+            localStorage.setItem('nightMode', "true");
+            $("body").addClass("night-mode");
+        } else {
+            trigger = false;
+            $("body").removeClass("night-mode");
+            localStorage.setItem('nightMode', "false");
+        }
+    });
 
     $(".more-info").on("click", function () {
 
@@ -185,6 +208,11 @@ $(document).ready(function () {
                 }
             }
         ]
+    });
+
+
+    $('#example').barrating({
+        theme: 'css-stars'
     });
 
 });

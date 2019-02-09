@@ -25,6 +25,28 @@
         height: auto;
       }
 
+      .gallery-for {
+        .item {
+          position: relative;
+
+          .red-block {
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: rgba(210, 74, 67, 0.78);
+            padding: 10px;
+
+            p {
+              color: white;
+              text-transform: uppercase;
+              font-size: 11px;
+            }
+
+          }
+        }
+      }
+
 
       &-nav {
         width: 93%;
@@ -67,6 +89,10 @@
         a {
           transition: all 0.2s ease-in-out;
           margin-right: 5px;
+          svg{
+            background-color: white;
+            border-radius: 5px;
+          }
 
           &:hover {
             transform: scale(0.95);
@@ -239,10 +265,21 @@
       justify-content: space-between;
       align-items: center;
 
+      @media screen and (max-width: 500px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+      }
+
       .source {
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        @media screen and (max-width: 500px) {
+          margin-bottom: 10px;
+        }
 
         .source-item {
           text-transform: uppercase;
@@ -269,7 +306,12 @@
       }
 
       .score {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
         .static {
+          margin-right: 10px;
           color: #000000;
           font-size: 11px;
           font-weight: $fontM;
