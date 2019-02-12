@@ -1,0 +1,91 @@
+.survey-question {
+  margin-top: 50px;
+  max-width: 300px;
+  min-width: 1px;
+  @media screen and (max-width: 1023px) {
+    order: 4;
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 425px;
+  }
+
+  .h2-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: $fontSB;
+    margin-bottom: 25px;
+  }
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 11px;
+    user-select: none;
+    font-family: "Exo 2.0", sans-serif;
+    font-weight: $fontR;
+  }
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #d24a43;
+    border-radius: 50%;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container .checkmark:after {
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMyAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuODA5NiAwLjE5MDM5MUMxMi41NTU4IC0wLjA2MzQ2MzggMTIuMTQ0MyAtMC4wNjM0NjM4IDExLjg5MDQgMC4xOTAzOTFMNC4xMDI5OCA3Ljk3Nzg2TDEuMTA5NjMgNC45ODQ1MkMwLjg1NTgwMyA0LjczMDY2IDAuNDQ0MjcyIDQuNzMwNjkgMC4xOTAzOTEgNC45ODQ1MkMtMC4wNjM0NjM4IDUuMjM4MzUgLTAuMDYzNDYzOCA1LjY0OTg4IDAuMTkwMzkxIDUuOTAzNzNMMy42NDMzNiA5LjM1NjY1QzMuODk3MTEgOS42MTA0OCA0LjMwODk1IDkuNjEwMyA0LjU2MjYgOS4zNTY2NUwxMi44MDk2IDEuMTA5NjNDMTMuMDYzNSAwLjg1NTgwMyAxMy4wNjM0IDAuNDQ0MjQ3IDEyLjgwOTYgMC4xOTAzOTFaIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==") no-repeat center;
+    background-size: contain;
+    width: 10px;
+    height: 7px;
+  }
+
+  .submit-btn {
+    margin: 0 auto;
+    display: flex;
+    width: 158px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    background: #d24a43;
+    cursor: pointer;
+
+    &:hover {
+      p{
+        color: black;
+      }
+    }
+
+    p {
+      text-transform: uppercase;
+      color: white;
+      font-size: 15px;
+    }
+  }
+}

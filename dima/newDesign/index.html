@@ -10,26 +10,26 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Lkn</title>
     <link rel="stylesheet" href="style/common.css">
-    <script src="script/jquery.js"></script>
 
 </head>
-<body class="">
+<body class="" id="body">
 <script>
+    var body = document.getElementById('body');
     var nightMode = localStorage.getItem('nightMode');
 
     if (nightMode === "true") {
-        $("body").addClass("night-mode");
+        body.classList.add("night-mode");
         setTimeout(function () {
-            $("#night-ctrl").prop("checked", true);
+            document.getElementById("night-ctrl").checked = true;
         });
     } else {
-        $("body").removeClass("night-mode");
+        body.classList.remove("night-mode");
         setTimeout(function () {
-            $("#night-ctrl").prop("checked", false);
+            document.getElementById("night-ctrl").checked = false;
         });
 
-
     }
+
 </script>
 <div class="main-wrapper">
 
@@ -1018,9 +1018,7 @@
                                 </div>
 
                                 <p class="desk">
-                                    Катерина Олейник: SEC
-                                    ослабит хватку, если в
-                                    США...
+                                    Почему
                                 </p>
 
                             </div>
@@ -1326,6 +1324,7 @@
                             <p class="h2-title"><a href="#">КОШЕЛЬКИ</a></p>
 
                             <div class="slider-purse_in">
+
 
                                 <div class="item">
                                     <div class="prev2">
@@ -1816,8 +1815,7 @@
                                         <img src="img/img3-1.jpg" alt="">
                                     </div>
                                     <p class="reg-text">
-                                        Cardano возглавил рейтинг
-                                        «активных» криптовалют...
+                                        Почему
                                     </p>
                                 </div>
                             </a>
@@ -1854,8 +1852,7 @@
                                         <img src="img/img3-1.jpg" alt="">
                                     </div>
                                     <p class="reg-text">
-                                        Cardano возглавил рейтинг
-                                        «активных» криптовалют...
+                                        Почему криптовалюта El
                                     </p>
                                 </div>
                             </a>
@@ -1867,20 +1864,40 @@
 
                 </div>
 
-                <div class="about-project">
-                    <p class="h1-title"><a href="#">НОВОСТИ КРИПТОВАЛЮТ ОТ ЭКСПЕРТОВ LETKNOW NEWS</a></p>
-                    <p class="reg-text">Диего является генеральным директором RSK Labs, использующей блокчейн для
-                        решения социальных проблем. Он считается одним из самых авторитетных экспертов
-                        в... области криптовалют и блокчейна во всей Латинской Америке. Гутьерез живет в
-                        Буэнос-Айресе, Аргентина, где часто выступает на конференциях.
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur cum doloremque
-                        illo iste laboriosam molestias, nemo nihil officiis quasi quidem reiciendis, ullam velit.
-                        Excepturi praesentium quisquam tempore. Assumenda, fugit?
-                    </p>
-                    <div class="more-info">
-                        <p class="show close active">показать все</p>
-                        <p class="show open">скрыть все</p>
+                <div class="specification">
+                    <div class="specification_text specification_text_show">
+                        <h1>Новости криптовалют от экспертов LetKnow News</h1>
+                        <p>LetKnow News - это не только актуальные новости криптовалют за сегодня, но и уникальные
+                            мнения экспертов, и эксклюзивные интервью. С нами получать криптовалютные новости не только
+                            просто, но и быстро. Подпишитесь на наш телеграмм канал или вступите в группу в социальных
+                            сетях и ежедневно будете получать обзоры наиболее резонансных событий криптомира.</p>
+                    </div>
+                    <div class="specification_text specification_text_animation active">
+                        <p>Позитивные и негативные новости о блокчейн всегда играли большую роль в успехе монет. Именно
+                            поэтому наша редакция уделяет блокчейн новостям так много внимания и каждый день готовит
+                            авторские материалы по этой теме.</p>
+                        <p>Наш ресурс удобно разбит на рубрики, с помощью которых вы легко можете отслеживать свежие
+                            новости ICO и криптовалютного рынка в Украине, России и мире. Раздел “Новости” посвящён
+                            самым горячим новостям биткоина, эфириума и других монет, в то время как в других разделах
+                            мы публикуем новости легализации криптовалют из разных стран, прогнозы рынка и рейтинги
+                            лучших крипто бирж и крипто кошельков.</p>
+                        <p>Проект LetKnow News зародился как криптоновостной портал, где вот уже несколько лет мы
+                            собираем аналитику и прогнозы по всей индустрии, а также собираем непредвзятые, хотя иногда
+                            и противоречащие друг другу мнения криптоэнтузиастов.</p>
+                        <h2>Новости криптовалюты в 2018-2019 году – чего ожидать?</h2>
+                        <p>Криптоиндустрию сопровождают как периоды ошеломительного роста, так и стремительные падения.
+                            Чего ждать от криптовалют в 2019 году, стоит ли вкладывать в криптовалюты и когда их лучше
+                            продавать – вот только некоторые из вопросов, которыми задаются наши посетители. Несмотря на
+                            падение капитализации рынка, тенденции к росту всё же сохраняются. Но вовремя уловить ту
+                            новость, которая станет для криптовалют поворотным моментом и спровоцирует рост цены
+                            основных монет, можно только если вы каждый день будете следить за новостями про
+                            криптовалюты и успешные ICO на нашем портале.</p>
+                        <p>Посещая наш проект, будьте уверены, что увидите обзоры самых интересных событий,
+                            технологических прорывов и внедрения блокчейна в самые разнообразные сферы жизни. Следите за
+                            новостями криптовалют и тенденциями индустрии вместе с LetKnow News!</p>
+                    </div>
+                    <div class="specification_btn active">
+                        <p class="show" show_text="Показать все" hide_text="Cпрятать">Показать все</p>
                     </div>
                 </div>
 
@@ -2086,6 +2103,45 @@
 
                 </div>
 
+                <div class="survey-question">
+
+                    <p class="h2-title">НУЖНЫ ЛИ КРИПТОРЫНКУ СТЕЙБЛКОИНЫ?</p>
+
+                    <form action="#">
+                        <label class="container">ЛУЧШЕ БЕЗ НИХ. ИСТОРИЯ С TETHER ГОВОРИТ ОБ
+                            ИХ НЕПРОЗРАЧНОСТИ
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">ЛУЧШЕ БЕЗ НИХ. ИСТОРИЯ С TETHER ГОВОРИТ ОБ
+                            ИХ НЕПРОЗРАЧНОСТИ
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">ЛУЧШЕ БЕЗ НИХ. ИСТОРИЯ С TETHER ГОВОРИТ ОБ
+                            ИХ НЕПРОЗРАЧНОСТИ
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">ЛУЧШЕ БЕЗ НИХ. ИСТОРИЯ С TETHER ГОВОРИТ ОБ
+                            ИХ НЕПРОЗРАЧНОСТИ
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">ЛУЧШЕ БЕЗ НИХ. ИСТОРИЯ С TETHER ГОВОРИТ ОБ
+                            ИХ НЕПРОЗРАЧНОСТИ
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <button class="submit-btn" type="submit">
+                            <p>проголосовать</p>
+                        </button>
+
+                    </form>
+
+                </div>
+
                 <div class="survey-results">
 
                     <p class="h2-title">НУЖНЫ ЛИ КРИПТОРЫНКУ СТЕЙБЛКОИНЫ?</p>
@@ -2248,6 +2304,8 @@
         </div>
     </div>
 </div>
+
+<script src="script/jquery.js"></script>
 
 <script src="script/slick.min.js"></script>
 <script src="script/jquery.barrating.min.js"></script>

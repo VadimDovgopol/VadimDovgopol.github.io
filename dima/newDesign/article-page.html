@@ -10,26 +10,26 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Lkn</title>
     <link rel="stylesheet" href="style/common.css">
-    <script src="script/jquery.js"></script>
 
 </head>
-<body class="">
+<body class="" id="body">
 <script>
+    var body = document.getElementById('body');
     var nightMode = localStorage.getItem('nightMode');
 
     if (nightMode === "true") {
-        $("body").addClass("night-mode");
+        body.classList.add("night-mode");
         setTimeout(function () {
-            $("#night-ctrl").prop("checked", true);
+            document.getElementById("night-ctrl").checked = true;
         });
     } else {
-        $("body").removeClass("night-mode");
+        body.classList.remove("night-mode");
         setTimeout(function () {
-            $("#night-ctrl").prop("checked", false);
+            document.getElementById("night-ctrl").checked = false;
         });
 
-
     }
+
 </script>
 <div class="main-wrapper article">
 
@@ -1166,7 +1166,7 @@
 
                         <div class="form-wrapper">
                             <form id="subscribe-form" action="#">
-                                <input class="field-text" type="text" placeholder="E-mail">
+                                <input class="field-text" type="email" placeholder="E-mail">
                                 <button class="submit-btn" type="submit"><p>ПОДПИСАТЬСЯ</p></button>
                             </form>
                         </div>
@@ -1620,6 +1620,8 @@
         </div>
     </div>
 </div>
+
+<script src="script/jquery.js"></script>
 
 <script src="script/slick.min.js"></script>
 <script src="script/jquery.barrating.min.js"></script>

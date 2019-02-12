@@ -30,9 +30,27 @@
       }
     }
 
+    a{
+      width: 100%;
+      max-width: 315px;
+      @media screen and (max-width: 800px) {
+        max-width: 364px;
+      }
+      @media screen and (max-width: 425px) {
+        max-width: 425px;
+      }
+    }
     .popular-materials_item {
       margin: 5px 0 25px 0;
       width: 100%;
+      max-width: 315px;
+
+      @media screen and (max-width: 800px) {
+        max-width: 364px;
+      }
+      @media screen and (max-width: 425px) {
+        max-width: 425px;
+      }
 
       .img-wrapper {
         img {

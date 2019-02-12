@@ -2,19 +2,27 @@
   background-color: #282828;
 
 
-  .them-mobile{
-    .open-drop-list{
+  .specification_text {
+    h1, h2 {
       color: white !important;
     }
-    .arrow{
-      svg{
-        path{
+  }
+
+  .them-mobile {
+    .open-drop-list {
+      color: white !important;
+    }
+
+    .arrow {
+      svg {
+        path {
           fill: white !important;
         }
       }
     }
 
   }
+
   .links-map {
     svg {
       path {
@@ -86,7 +94,6 @@
   a {
     color: white;
   }
-
 
   .header {
 
@@ -188,7 +195,6 @@
     }
   }
 
-
   .crypto-expert {
     svg {
       path {
@@ -256,4 +262,44 @@
       }
     }
   }
+
+  .event-page {
+    .event-block_item {
+      border-color: #1c1c1c !important;
+
+      .event-info {
+        .place {
+          .static {
+            color: #B9B9B9 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .about {
+
+    .list-wrapper {
+      li {
+        color: white;
+      }
+    }
+  }
+
+  .news-list-page {
+    .news-block_item {
+      border-color: #1c1c1c !important;
+
+      .theme {
+        p {
+          color: #B9B9B9 !important;
+        }
+      }
+    }
+  }
+
+  .container {
+    color: white !important;
+  }
+
 }

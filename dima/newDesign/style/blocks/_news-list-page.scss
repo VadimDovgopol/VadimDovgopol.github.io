@@ -1,0 +1,266 @@
+.news-list-page {
+
+  .links-map {
+    margin-bottom: 15px;
+  }
+
+  .news-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .links-type {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-start;
+      max-width: 500px;
+      width: 100%;
+      @media screen and (max-width: 600px) {
+        max-width: 600px;
+        justify-content: space-between;
+      }
+
+
+      p {
+        &.active {
+          a {
+            color: #D24A43;
+          }
+        }
+
+        a {
+          margin-right: 18px;
+          font-size: 11px;
+          font-weight: $fontM;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .show-hide-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      @media screen and (max-width: 600px) {
+        margin-top: 20px;
+        align-self: flex-end;
+      }
+
+      .hide-img {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &.active, &:hover {
+          svg {
+            path {
+              fill: #D24A43 !important;
+            }
+          }
+        }
+
+      }
+
+      .show-img {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &.active, &:hover {
+          svg {
+            path {
+              fill: #D24A43 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .news-block_link {
+    &:hover {
+
+      img {
+        transform: scale(1.1);
+      }
+
+      .exclusive-block {
+        p {
+          color: white !important;
+        }
+      }
+
+
+      .theme {
+        p {
+          color: #7c7c7c !important;
+        }
+      }
+
+      .bottom-info_exclusive {
+        p {
+          color: white !important;
+        }
+      }
+    }
+  }
+
+  .news-block_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+
+    &.show-img {
+      .video-in {
+        display: none;
+      }
+
+      .gallery-in {
+        display: none;
+      }
+
+      .img-wrapper {
+        display: block;
+      }
+
+      .bottom-info_exclusive {
+        display: none;
+      }
+    }
+
+    @media screen and(max-width: 650px) {
+      flex-direction: column;
+    }
+
+    .img-wrapper {
+      display: none;
+      height: min-content;
+      max-width: 211px;
+      margin-right: 20px;
+      width: 100%;
+      position: relative;
+
+      .exclusive-block {
+        p {
+          color: white;
+        }
+      }
+
+      .position-icons_img {
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+          margin: 5px;
+        }
+      }
+
+      @media screen and(max-width: 650px) {
+        margin: 15px auto;
+      }
+      @media screen and(max-width: 475px) {
+        max-width: 475px;
+        margin: 15px auto;
+      }
+
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .event-info {
+      width: 100%;
+      min-width: 280px;
+
+      .h2-title {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: $fontSB;
+        margin-bottom: 15px;
+      }
+
+      .reg-text {
+        font-size: 15px;
+      }
+
+      .bottom-info {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        p {
+          font-size: 11px;
+          text-transform: uppercase;
+        }
+
+
+        .data {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          p {
+            color: #d24a43;
+          }
+
+          .bottom-info_exclusive {
+            padding: 10px;
+            margin: 0 10px;
+            background-color: #d24a43;
+
+            p {
+              text-transform: uppercase;
+              color: white;
+              font-size: 11px;
+              font-weight: $fontM;
+            }
+          }
+        }
+
+        .theme {
+          display: flex;
+          flex-direction: row;
+
+          p {
+            color: #7c7c7c;
+          }
+        }
+      }
+    }
+  }
+
+  .video-in {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+
+  .gallery-in {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+}

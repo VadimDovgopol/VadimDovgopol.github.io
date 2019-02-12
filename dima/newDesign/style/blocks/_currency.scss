@@ -15,10 +15,11 @@
 
   .slider-currency {
 
-    animation: scroll-left 40s linear infinite;
+    animation: scroll-left 80s linear infinite;
+    animation-delay: 2s;
     animation-play-state: running;
 
-    transition: opacity .2s ease;
+    transition: opacity .2s ease !important;
     opacity: 1;
 
     &:hover {
@@ -27,7 +28,7 @@
     }
 
     @media screen and (max-width: 768px) {
-      animation: scroll-left 20s linear infinite;
+      animation: scroll-left 60s linear infinite;
 
     }
 
@@ -81,8 +82,8 @@
     transform: translateX(0%);
   }
   100% {
-    -moz-transform: translateX(-250%); /* Browser bug fix */
-    -webkit-transform: translateX(-250%); /* Browser bug fix */
-    transform: translateX(-250%);
+    -moz-transform: translateX(-200%); /* Browser bug fix */
+    -webkit-transform: translateX(-200%); /* Browser bug fix */
+    transform: translateX(-200%);
   }
 }

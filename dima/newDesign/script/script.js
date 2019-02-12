@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
-    var ua = navigator.userAgent.toLowerCase();
-    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-    var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-    var trigger = false;
-    var nightMode = localStorage.getItem('nightMode');
-
+    let ua = navigator.userAgent.toLowerCase();
+    let isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+    let iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+    let trigger = false;
+    let nightMode = localStorage.getItem('nightMode');
+    let triggerForspecificationBtn = false;
 
     if (isAndroid || iOS === true) {
         $("body").addClass("mobile")
@@ -17,6 +17,39 @@ $(document).ready(function () {
     } else {
         trigger = false;
     }
+
+    setTimeout(function () {
+        $(".specification_text_animation").removeClass("active")
+    }, 3000);
+
+    setTimeout(function () {
+        $(".specification_btn").addClass("active")
+    }, 3300);
+
+    $(".hide-img").on("click", function () {
+        $(this).addClass("active");
+        $(".show-img").removeClass("active");
+        $(".news-block_item").removeClass("show-img");
+    });
+    $(".show-img").on("click", function () {
+        $(this).addClass("active");
+        $(".hide-img").removeClass("active");
+        $(".news-block_item").addClass("show-img");
+    });
+
+    $(".specification_btn").on("click", function () {
+        if (triggerForspecificationBtn === false) {
+            $(".specification_text_animation").addClass("active");
+            $(".specification_btn .show").text("Cпрятать");
+            triggerForspecificationBtn = true;
+        } else {
+            $(".specification_text_animation").removeClass("active");
+            setTimeout(function () {
+                $(".specification_btn .show").text("показать все");
+            }, 300)
+            triggerForspecificationBtn = false;
+        }
+    });
 
     $('#night-mode_ctrl').on('click', function () {
         console.log("a")
