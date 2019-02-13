@@ -3,6 +3,7 @@
 @import "basic/main";
 @import "basic/slick";
 @import "basic/fonts";
+@import "basic/night-mode";
 //
 @import "blocks/left-column";
 @import "blocks/header";
@@ -25,4 +26,9 @@
 @import "blocks/currency";
 @import "blocks/links-map";
 @import "blocks/start-article";
+@import "blocks/event-page";
+@import "blocks/about-page";
+@import "blocks/news-list-page";
+@import "blocks/exclusive-page";
+@import "blocks/survey-block";
 

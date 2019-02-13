@@ -1,33 +1,47 @@
-.about-project {
+
+.specification {
   margin-top: 40px;
 
-  .h1-title {
+  .specification_text {
+    p {
+      font-size: 15px;
+      margin: 0 0;
+      padding: 10px 0;
+    }
 
-    margin-bottom: 30px;
-    font-weight: $fontSB;
-    font-size: 18px;
-  }
+    h1 {
+      text-transform: uppercase;
+      font-family: "Exo 2.0";
+      font-size: 18px;
+      font-weight: $fontSB;
+      margin-bottom: 20px;
+    }
 
-  .reg-text {
-    font-size: 15px;
-    line-height: 1.2em;
-    max-height: 56px;
-    overflow: hidden;
-
-    transition: all 0.3s ease-in-out;
-
-    &.active {
-      max-height: 600px;
+    h2 {
+      margin: 20px 0;
+      font-family: "Exo 2.0";
+      font-size: 16px;
+      font-weight: $fontSB;
     }
   }
 
-  .more-info {
+  .specification_text_animation {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+
+    &.active {
+      max-height: 1500px;
+    }
+  }
+
+  .specification_btn {
+    display: none;
     margin: 30px auto 0 auto;
 
     width: 158px;
     height: 37px;
 
-    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -36,18 +50,14 @@
 
     cursor: pointer;
 
+    &.active {
+      display: flex;
+    }
+
     p {
       transition: all 0.2s ease-in-out;
       color: #fefdfd;
       text-transform: uppercase;
-    }
-
-    .show {
-      display: none;
-
-      &.active {
-        display: block;
-      }
     }
 
     &:hover {
@@ -57,3 +67,5 @@
     }
   }
 }
+
+
