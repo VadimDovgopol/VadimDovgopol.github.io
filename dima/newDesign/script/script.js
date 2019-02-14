@@ -6,11 +6,11 @@ $(document).ready(function () {
     let trigger = false;
     let nightMode = localStorage.getItem('nightMode');
     let triggerForspecificationBtn = false;
+    
 
     if (isAndroid || iOS === true) {
         $("body").addClass("mobile")
     }
-
     if (nightMode === "true") {
         trigger = true;
 
@@ -21,16 +21,17 @@ $(document).ready(function () {
     setTimeout(function () {
         $(".specification_text_animation").removeClass("active")
     }, 3000);
-
     setTimeout(function () {
         $(".specification_btn").addClass("active")
     }, 3300);
+
 
     $(".hide-img").on("click", function () {
         $(this).addClass("active");
         $(".show-img").removeClass("active");
         $(".news-block_item").removeClass("show-img");
     });
+
     $(".show-img").on("click", function () {
         $(this).addClass("active");
         $(".hide-img").removeClass("active");
@@ -52,7 +53,6 @@ $(document).ready(function () {
     });
 
     $('#night-mode_ctrl').on('click', function () {
-        console.log("a")
         if (trigger === false) {
             trigger = true;
             localStorage.setItem('nightMode', "true");
@@ -211,24 +211,24 @@ $(document).ready(function () {
 
     });
 
-
     $('.gallery-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         fade: true,
         adaptiveHeight: true,
-        variableWidth: false,
+        letiableWidth: false,
 
         asNavFor: '.gallery-nav'
 
     });
+
     $('.gallery-nav').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         asNavFor: '.gallery-for',
         focusOnSelect: true,
-        variableWidth: true,
+        letiableWidth: true,
         centerPadding: 0,
         responsive: [
             {
@@ -243,8 +243,7 @@ $(document).ready(function () {
         ]
     });
 
-
-    $('#example').barrating({
+    $('.rating').barrating({
         theme: 'css-stars'
     });
 

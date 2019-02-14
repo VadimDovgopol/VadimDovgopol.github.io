@@ -302,4 +302,15 @@
     color: white !important;
   }
 
+  .start-headline {
+
+    &.h1-title {
+      color: white;
+    }
+
+    &.h2-title {
+      color: white;
+    }
+  }
+
 }
