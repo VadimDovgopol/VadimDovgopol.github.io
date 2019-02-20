@@ -25,17 +25,23 @@
 
   .event-block_item {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #d7d7d7;
 
-    @media screen and(max-width: 650px) {
-      flex-direction: column;
+    .row-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      @media screen and(max-width: 650px) {
+        flex-direction: column;
+      }
     }
 
+
     .img-wrapper {
+      display: none;
       height: min-content;
       min-width: 200px;
       max-width: 275px;
@@ -44,8 +50,8 @@
       @media screen and(max-width: 650px) {
         margin: 15px auto;
       }
-      @media screen and(max-width: 475px) {
-        max-width: 475px;
+      @media screen and(max-width: 425px) {
+        max-width: 425px;
         margin: 15px auto;
       }
 
@@ -70,41 +76,51 @@
         font-size: 15px;
       }
 
-      .bottom-info {
-        margin-top: 15px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+    }
+
+    .bottom-info {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      align-self: flex-end;
+      @media screen and(max-width: 450px) {
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+
+      p {
+        font-size: 11px;
+        text-transform: uppercase;
+
+      }
+
+      .data {
+        margin: 10px 10px 10px 0;
+        background-color: #d24a43;
+        padding: 10px;
+
 
         p {
-          font-size: 11px;
-          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+
+      .place {
+        display: flex;
+        flex-direction: row;
+
+        .static {
+          color: #7c7c7c;
+          margin-right: 30px;
         }
 
-        .data {
-          background-color: #d24a43;
-          padding: 10px;
-
-          p {
-            color: #ffffff;
-          }
-        }
-
-        .place {
-          display: flex;
-          flex-direction: row;
-
-          .static {
-            color: #7c7c7c;
-            margin-right: 30px;
-          }
-
-          .country {
-            color: #d24a43;
-          }
+        .country {
+          color: #d24a43;
         }
       }
     }
+
   }
 }

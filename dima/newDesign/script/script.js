@@ -6,7 +6,7 @@ $(document).ready(function () {
     let trigger = false;
     let nightMode = localStorage.getItem('nightMode');
     let triggerForspecificationBtn = false;
-    
+
 
     if (isAndroid || iOS === true) {
         $("body").addClass("mobile")
@@ -29,13 +29,13 @@ $(document).ready(function () {
     $(".hide-img").on("click", function () {
         $(this).addClass("active");
         $(".show-img").removeClass("active");
-        $(".news-block_item").removeClass("show-img");
+        $(".show-hide-block").removeClass("show-img");
     });
 
     $(".show-img").on("click", function () {
         $(this).addClass("active");
         $(".hide-img").removeClass("active");
-        $(".news-block_item").addClass("show-img");
+        $(".show-hide-block").addClass("show-img");
     });
 
     $(".specification_btn").on("click", function () {
@@ -247,4 +247,7 @@ $(document).ready(function () {
         theme: 'css-stars'
     });
 
+    $('.gallery').css("opacity", "1");
+
 });
+

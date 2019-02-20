@@ -1,7 +1,17 @@
 .last-news {
 
+
   @media screen and (max-width: 1023px) {
     display: none;
+  }
+
+  &.interview-announcement {
+    margin-top: 30px;
+
+    @media screen and (max-width: 1023px) {
+      max-width: 300px;
+      display: block;
+    }
   }
 
   &.last-news-tablet {

@@ -76,6 +76,14 @@
   }
 
   .left-column_menu {
+    p {
+      &.active {
+        a {
+          color: #D24A43 !important;
+        }
+      }
+    }
+
     .column-menu_icon {
 
       display: flex;

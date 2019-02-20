@@ -83,11 +83,12 @@ window.onscroll = function (ev) {
                     }
                 ]
             });
-            $('.gallery').addClass('initialized');
             $('.gallery-block').css("opacity", "1");
             $('.rating').barrating({
                 theme: 'css-stars'
             });
+
+            $('.gallery').css("opacity", "1");
         }, 0)
     }
 };
