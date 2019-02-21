@@ -1,6 +1,26 @@
 .night-mode {
   background-color: #282828;
 
+  .start-article {
+
+  }
+
+  .h1-title {
+    color: white !important;
+  }
+
+  .h2-title {
+    color: white !important;
+  }
+
+  span {
+    color: white;
+
+  }
+
+  blockquote {
+    color: white !important;
+  }
 
   .specification_text {
     h1, h2 {
@@ -288,14 +308,17 @@
   .ac-container label {
     background: #1f1f1f;
     color: white;
+
     &:active, &:hover {
       background: #d24a43;
       //border: none;
     }
   }
+
   .ac-container article .ac-container__h2 {
     color: white;
   }
+
   .ac-container article {
     background: #1f1f1f;
   }

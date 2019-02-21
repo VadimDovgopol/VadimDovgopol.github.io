@@ -250,32 +250,4 @@
     margin: 0 5px;
   }
 
-  .pagination {
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-
-    .pagination-item {
-      margin: 0 5px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 30px;
-      height: 30px;
-      border-radius: 5px;
-
-      p {
-        font-size: 14px;
-        font-weight: $fontSB;
-      }
-
-      &.active, &:hover {
-        background-color: #D24A43;
-
-        p {
-          color: white;
-        }
-      }
-    }
-  }
 }

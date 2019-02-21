@@ -55,37 +55,6 @@
       }
 
     }
-
-    .quote {
-      margin-top: 20px;
-      padding: 15px 0;
-      text-align: center;
-      font-size: 15px;
-      position: relative;
-
-      &:before {
-        content: '';
-        background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzYiIGhlaWdodD0iNjciIHZpZXdCb3g9IjAgMCA3NiA2NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNjEuNDIwMSA2Ni45OTlDNjkuNDcyMSA2Ni45OTkgNzUuOTk5MSA2MC4yODMgNzUuOTk5MSA1MS45OTlDNzUuOTk5MSA0My43MTQgNjkuNDcyMSAzNi45OTkgNjEuNDIwMSAzNi45OTlDNDYuODQyMSAzNi45OTkgNTYuNTYxIDcuOTk4OTggNzUuOTk5IDcuOTk4OThMNzUuOTk5IDAuOTk4OThDNDEuMzA5IDAuOTk4OTgzIDI3LjcxMzEgNjYuOTk5IDYxLjQyMDEgNjYuOTk5Wk0xOS40MjAxIDY2Ljk5OUMyNy40NzIxIDY2Ljk5OSAzMy45OTkxIDYwLjI4MyAzMy45OTkxIDUxLjk5OUMzMy45OTkxIDQzLjcxNCAyNy40NzIxIDM2Ljk5OSAxOS40MjAxIDM2Ljk5OUM0Ljg0MjA1IDM2Ljk5OSAxNC41NjEgNy45OTg5OSAzMy45OTkgNy45OTg5OEwzMy45OTkgMC45OTg5ODNDLTAuNjkwOTUxIDAuOTk4OTg2IC0xNC4yODY5IDY2Ljk5OSAxOS40MjAxIDY2Ljk5OVoiIGZpbGw9IiNEMjRBNDMiLz48L3N2Zz4=') no-repeat center;
-        width: 19px;
-        height: 16px;
-        background-size: contain;
-        position: absolute;
-        left: 0;
-        top: 0;
-      }
-
-      &:after {
-        content: '';
-        background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzYiIGhlaWdodD0iNjciIHZpZXdCb3g9IjAgMCA3NiA2NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNjEuNDIwMSA2Ni45OTlDNjkuNDcyMSA2Ni45OTkgNzUuOTk5MSA2MC4yODMgNzUuOTk5MSA1MS45OTlDNzUuOTk5MSA0My43MTQgNjkuNDcyMSAzNi45OTkgNjEuNDIwMSAzNi45OTlDNDYuODQyMSAzNi45OTkgNTYuNTYxIDcuOTk4OTggNzUuOTk5IDcuOTk4OThMNzUuOTk5IDAuOTk4OThDNDEuMzA5IDAuOTk4OTgzIDI3LjcxMzEgNjYuOTk5IDYxLjQyMDEgNjYuOTk5Wk0xOS40MjAxIDY2Ljk5OUMyNy40NzIxIDY2Ljk5OSAzMy45OTkxIDYwLjI4MyAzMy45OTkxIDUxLjk5OUMzMy45OTkxIDQzLjcxNCAyNy40NzIxIDM2Ljk5OSAxOS40MjAxIDM2Ljk5OUM0Ljg0MjA1IDM2Ljk5OSAxNC41NjEgNy45OTg5OSAzMy45OTkgNy45OTg5OEwzMy45OTkgMC45OTg5ODNDLTAuNjkwOTUxIDAuOTk4OTg2IC0xNC4yODY5IDY2Ljk5OSAxOS40MjAxIDY2Ljk5OVoiIGZpbGw9IiNEMjRBNDMiLz48L3N2Zz4=') no-repeat center;
-        width: 19px;
-        height: 16px;
-        background-size: contain;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-      }
-    }
-
   }
 
   .people-wrapper {
