@@ -217,7 +217,7 @@ $(document).ready(function () {
         arrows: false,
         fade: true,
         adaptiveHeight: true,
-        letiableWidth: false,
+        variableWidth: false,
 
         asNavFor: '.gallery-nav'
 
@@ -228,7 +228,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         asNavFor: '.gallery-for',
         focusOnSelect: true,
-        letiableWidth: true,
+        variableWidth: true,
         centerPadding: 0,
         responsive: [
             {

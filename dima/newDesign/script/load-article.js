@@ -1,14 +1,22 @@
 let ajaxLoading = false;
 let arrayUrl = [];
 
+
 function yHandler() {
-    let url = "./tsconfig.json";
-    $.getJSON(url, function (data) {
+    $.getJSON(next_article_url, function (data) {
+        let url = data.url;
         let item = data.item;
         $(".article-wrapper").append(item);
         ajaxLoading = false;
+
+        ga("set", "page", url);
+        ga("send", "pageview");
+
+
+        $('.social-likes').socialLikes();
     })
 }
+
 
 $(function () {
 
