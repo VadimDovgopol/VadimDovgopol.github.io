@@ -86,8 +86,7 @@ body {
 blockquote {
   font-family: "Exo 2.0";
   margin: 20px 0;
-  padding: 15px 0;
-  text-align: center;
+  padding: 20px 30px;
   font-size: 15px;
   position: relative;
 
@@ -140,10 +139,19 @@ p {
 
 img, picture {
   display: block;
-  transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: auto;
+}
 
-  &:hover {
-    transform: scale(1.1);
+.overflow-style {
+
+  img, picture {
+    display: block;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 

@@ -16,6 +16,8 @@
 <script>
     var body = document.getElementById('body');
     var nightMode = localStorage.getItem('nightMode');
+    var next_article_url = './tsconfig.json';
+
 
     if (nightMode === "true") {
         body.classList.add("night-mode");
@@ -990,23 +992,12 @@
                             намерена
                             вести бизнес во всем регионе Восточной Азии. </p>
 
-                        <a href="#">
-                            <aside class="more-info">
+                        <aside class="note">
+                            <p class="note__name">По теме:</p>
+                            <p class="note__title"><a href="/news/issledovanie-millenialy-vse-chashche-interesuyutsya-kriptovalyutami-13482.html" target="_blank">Исследование: миллениалы все чаще интересуются криптовалютами</a></p>
+                            <img src="img/double-img.png" alt="">
 
-                                <p class="h3-title">по теме</p>
-
-                                <div class="img-wrapper overflow-style">
-                                    <img src="img/double-img.png" alt="">
-                                    <div class="red-block">
-                                        <p class="reg-text">Binance перезапустит
-                                            краундфандинговую
-                                            платформу Launchpad</p>
-                                        <p class="date">29 ЯНВАРЯ 2019 </p>
-                                    </div>
-                                </div>
-
-                            </aside>
-                        </a>
+                        </aside>
 
                         <p>Компании SBI Holdings и R3 Holdo LLC создают
                             совместное предприятие для предоставления и
@@ -1030,11 +1021,13 @@
                             того, совместное предприятие будет содействовать сотрудничеству
                         </blockquote>
 
-                        <div class="big-img">
-                            <div class="img-wrapper overflow-style">
-                                <img src="img/main-article.png" alt="">
+                        <img src="img/main-article.png" alt="">
+
+                        <div class="block3">
+                            <div class="text-center">
+                                В начале года &ndash; ниже $1000, сейчас &ndash; выше $11&nbsp;000
+                                ($18 000 на момент подготовки публикации)
                             </div>
-                            <p class="small-text">БИТКОИН (BTC)</p>
                         </div>
 
                         <a href="#">
@@ -1763,7 +1756,7 @@
 
 <script src="script/TweenMax.min.js"></script>
 <script src="script/script.js"></script>
-<!--<script src="script/load-article.js"></script>-->
+<script src="script/load-article.js"></script>
 
 </body>
 </html>

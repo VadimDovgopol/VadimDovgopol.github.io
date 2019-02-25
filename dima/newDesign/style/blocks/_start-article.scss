@@ -1,10 +1,20 @@
 .article {
 
+  .article-wrapper {
+    max-width: 645px;
+
+    .start-article {
+      max-width: 645px;
+
+    }
+  }
+
   .links-map {
     margin-bottom: 15px;
   }
 
   .start-article {
+    margin-bottom: 100px;
 
 
     .main-article-img {
@@ -42,7 +52,7 @@
     .h1-title {
       font-family: "Exo 2.0";
       font-weight: $fontSB;
-      font-size: 16px;
+      font-size: 18px;
       margin-top: 10px;
     }
 
@@ -60,7 +70,14 @@
       margin-bottom: 15px;
       transition: all 0.1s ease-in-out;
 
+      img {
+        &:hover {
+          transform: none !important;
+        }
+      }
+
       .gallery-for img {
+
         @media screen and (max-width: 768px) {
           width: 100% !important;
         }
@@ -80,6 +97,7 @@
             padding: 10px;
 
             p {
+              margin: 0;
               color: white;
               text-transform: uppercase;
               font-size: 11px;
@@ -146,7 +164,7 @@
     }
 
 
-    .more-info {
+    .note {
       margin-left: 20px;
       float: right;
       max-width: 230px;
@@ -158,31 +176,22 @@
 
       }
 
-      &:hover {
-        .red-block {
-          background-color: rgba(255, 255, 255, 0.7);
-        }
-      }
-
-      .h3-title {
+      .note__name {
         text-transform: uppercase;
         font-size: 18px;
         font-weight: $fontSB;
         margin-bottom: 20px;
       }
 
-      .img-wrapper {
-        overflow: hidden;
+
+      img {
+        max-width: 230px;
         width: 100%;
         height: auto;
-
-        img {
-          width: 100%;
-          height: auto;
-        }
       }
 
-      .red-block {
+      .note__title {
+        margin: 0;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -194,18 +203,17 @@
         background-color: rgba(210, 74, 67, 0.8);
         transition: all 0.2s ease-in-out;
 
-        .reg-text {
-          color: white;
-          font-size: 15px;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.7);
         }
 
-        .date {
-          margin-top: 20px;
-          text-transform: uppercase;
-          font-weight: $fontM;
-          font-size: 15px;
+        a {
           color: white;
+          font-size: 15px;
+
         }
+
+
       }
 
       &::after {
@@ -341,6 +349,7 @@
         transition: all 0.2s ease-in-out;
 
         p {
+          margin: 0;
           transition: all 0.2s ease-in-out;
           font-weight: $fontM;
           font-size: 11px;
@@ -365,11 +374,23 @@
       }
     }
 
-    .block3{
-      span{
+    .block3 {
+
+      div {
+        margin-top: 5px;
+        font-family: "Exo 2.0";
+        font-weight: $fontR;
         font-size: 12px;
+
+        * {
+          margin-top: 5px;
+          font-family: "Exo 2.0";
+          font-weight: $fontR;
+          font-size: 12px;
+        }
       }
-      .text-center{
+
+      .text-center {
         text-align: center;
       }
     }
