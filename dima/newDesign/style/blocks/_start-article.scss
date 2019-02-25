@@ -20,6 +20,8 @@
     max-width: 645px;
 
     .start-article {
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgb(240, 240, 240);
       max-width: 645px;
 
     }
@@ -30,7 +32,7 @@
   }
 
   .start-article {
-    margin-bottom: 100px;
+    margin-bottom: 15px;
 
 
     .main-article-img {
@@ -274,13 +276,14 @@
       position: relative;
 
       &:hover {
+        background: #f8f8f8;
         p {
-          color: black !important;
+          color: #d24a43 !important;
         }
 
         .arrow {
           path {
-            fill: black !important;
+            fill: #d24a43 !important;
           }
         }
       }
@@ -561,6 +564,7 @@
         p {
           display: flex;
           align-items: center;
+
           a {
             display: flex;
             align-items: center;
@@ -604,7 +608,7 @@
     .icon {
       display: block;
       cursor: pointer;
-      margin: 10px auto;
+      margin: 10px auto 0 auto;
       background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAJCAYAAADtj3ZXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAkElEQVQoz5WPKw4CQRAFi59AIAhIwq7gcAiuQ0KyGQ3cAclHYjcgOUhhBjJZyDK07E5Vv4ewFLr8McJQWCHUQhA6meBA2AtHhLlwF0IG2Bd2wkmYvJZlFFQZ4EWYNo+FcBOqZoUYdSuc3x+/2GdREJJdL4k6/tWriBU2wih+/IzaIiiFq/AQDtlgIlgI6zbwCRbnTIeYCJrDAAAAAElFTkSuQmCC') no-repeat center;
       width: 11px;
       height: 9px;

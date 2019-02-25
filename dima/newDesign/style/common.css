@@ -102,7 +102,7 @@ body.mobile * {
 
 blockquote {
   font-family: "Exo 2.0";
-  margin: 20px 0;
+  margin-bottom: 20px;
   padding: 20px 30px;
   font-size: 15px;
   position: relative; }
@@ -2051,11 +2051,13 @@ body.active {
 .article .article-wrapper {
   max-width: 645px; }
   .article .article-wrapper .start-article {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
     max-width: 645px; }
 .article .links-map {
   margin-bottom: 15px; }
 .article .start-article {
-  margin-bottom: 100px; }
+  margin-bottom: 15px; }
   .article .start-article .main-article-img {
     position: relative;
     width: 100%; }
@@ -2204,10 +2206,12 @@ body.active {
     background-color: #d24a43;
     width: 100%;
     position: relative; }
-    .article .start-article .red-block-recall:hover p {
-      color: black !important; }
-    .article .start-article .red-block-recall:hover .arrow path {
-      fill: black !important; }
+    .article .start-article .red-block-recall:hover {
+      background: #f8f8f8; }
+      .article .start-article .red-block-recall:hover p {
+        color: #d24a43 !important; }
+      .article .start-article .red-block-recall:hover .arrow path {
+        fill: #d24a43 !important; }
     .article .start-article .red-block-recall .arrow {
       position: absolute;
       right: 10px;
@@ -2420,7 +2424,7 @@ body.active {
   .article .scroll-down .icon {
     display: block;
     cursor: pointer;
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAJCAYAAADtj3ZXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAkElEQVQoz5WPKw4CQRAFi59AIAhIwq7gcAiuQ0KyGQ3cAclHYjcgOUhhBjJZyDK07E5Vv4ewFLr8McJQWCHUQhA6meBA2AtHhLlwF0IG2Bd2wkmYvJZlFFQZ4EWYNo+FcBOqZoUYdSuc3x+/2GdREJJdL4k6/tWriBU2wih+/IzaIiiFq/AQDtlgIlgI6zbwCRbnTIeYCJrDAAAAAElFTkSuQmCC") no-repeat center;
     width: 11px;
     height: 9px; }
@@ -2697,29 +2701,6 @@ body.active {
           fill: #d24a43; }
         .about .subscribe-block .social-wrapper .right-side p a svg {
           margin-left: 5px; }
-
-.show-hide-wrapper {
-  margin: 10px 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-  @media screen and (max-width: 600px) {
-    .show-hide-wrapper {
-      margin-top: 20px;
-      align-self: flex-end; } }
-  .show-hide-wrapper .hide-img {
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
-    cursor: pointer; }
-    .show-hide-wrapper .hide-img.active svg path, .show-hide-wrapper .hide-img:hover svg path {
-      fill: #D24A43 !important; }
-  .show-hide-wrapper .show-img {
-    display: flex;
-    align-items: center;
-    cursor: pointer; }
-    .show-hide-wrapper .show-img.active svg path, .show-hide-wrapper .show-img:hover svg path {
-      fill: #D24A43 !important; }
 
 .news-list-page .links-map {
   margin-bottom: 15px; }
@@ -3115,6 +3096,28 @@ body.active {
 .ac-container input:checked ~ article.ac-large {
   max-height: 1000px; }
 
+.show-hide-wrapper .show-img {
+  display: flex;
+  align-items: center;
+  cursor: pointer; }
+  .show-hide-wrapper .show-img .video-in {
+    display: none; }
+  .show-hide-wrapper .show-img .gallery-in {
+    display: none; }
+  .show-hide-wrapper .show-img .img-wrapper {
+    display: block !important; }
+  .show-hide-wrapper .show-img .bottom-info_exclusive {
+    display: none; }
+
+.headline-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px; }
+  .headline-wrapper .h1-title {
+    margin: 0; }
+
 .show-hide-wrapper {
   margin: 10px 0;
   display: flex;
@@ -3135,17 +3138,11 @@ body.active {
     display: flex;
     align-items: center;
     cursor: pointer; }
-    .show-hide-wrapper .show-img .video-in {
-      display: none; }
-    .show-hide-wrapper .show-img .gallery-in {
-      display: none; }
-    .show-hide-wrapper .show-img .img-wrapper {
-      display: block !important; }
-    .show-hide-wrapper .show-img .bottom-info_exclusive {
-      display: none; }
-  .show-hide-wrapper.active svg path, .show-hide-wrapper:hover svg path {
-    fill: #D24A43 !important; }
+    .show-hide-wrapper .show-img.active svg path, .show-hide-wrapper .show-img:hover svg path {
+      fill: #D24A43 !important; }
 
+.show-hide-block .img-wrapper {
+  display: none !important; }
 .show-hide-block.show-img .video-in {
   display: none !important; }
 .show-hide-block.show-img .gallery-in {
