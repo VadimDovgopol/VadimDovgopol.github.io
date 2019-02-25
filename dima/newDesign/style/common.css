@@ -2063,10 +2063,11 @@ body.active {
       background-color: rgba(210, 74, 67, 0.8);
       width: 90%;
       min-height: 73px; }
-      .article .start-article .main-article-img .article-text p {
+      .article .start-article .main-article-img .article-text h1 {
+        margin: 0;
         color: white !important;
         font-weight: 600;
-        font-size: 15px; }
+        font-size: 18px; }
   .article .start-article .h1-title {
     font-family: "Exo 2.0";
     font-weight: 600;

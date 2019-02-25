@@ -41,10 +41,11 @@
         width: 90%;
         min-height: 73px;
 
-        p {
+        h1 {
+          margin: 0;
           color: white !important;
           font-weight: $fontSB;
-          font-size: 15px;
+          font-size: 18px;
         }
       }
     }
