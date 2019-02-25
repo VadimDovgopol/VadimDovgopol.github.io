@@ -105,7 +105,7 @@
       <workItem from="1549396453732" duration="34000" />
       <workItem from="1551095071500" duration="87000" />
       <workItem from="1551096474267" duration="36000" />
-      <workItem from="1551098435854" duration="706000" />
+      <workItem from="1551098435854" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -170,15 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551098463259</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="text v10">
+      <created>1551100819302</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551100819302</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3694000" />
+    <option name="totallyTimeSpent" value="3726000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33350897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -213,7 +219,8 @@
     <MESSAGE value="text v7" />
     <MESSAGE value="text v8" />
     <MESSAGE value="text v9" />
-    <option name="LAST_COMMIT_MESSAGE" value="text v9" />
+    <MESSAGE value="text v10" />
+    <option name="LAST_COMMIT_MESSAGE" value="text v10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">

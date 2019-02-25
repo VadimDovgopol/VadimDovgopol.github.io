@@ -1988,7 +1988,7 @@ body.active {
       margin-top: 80px; } }
   .currency .slider-currency {
     animation: scroll-left 60s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 5s;
     animation-play-state: running;
     transition: opacity .2s ease !important;
     opacity: 1;
