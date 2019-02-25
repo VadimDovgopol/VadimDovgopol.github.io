@@ -4,6 +4,8 @@
 
   .start-article {
 
+
+
     .block3 {
       div {
         color: white !important;
@@ -73,9 +75,14 @@
     .source {
       p {
         color: white !important;
+        &.source-item{
+          color: #d6d6d6 !important;
+        }
       }
     }
   }
+
+
 
   .tags-block {
 

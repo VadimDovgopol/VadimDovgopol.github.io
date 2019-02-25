@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -50,10 +46,22 @@
               <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,6 +105,7 @@
       <workItem from="1549396453732" duration="34000" />
       <workItem from="1551095071500" duration="87000" />
       <workItem from="1551096474267" duration="36000" />
+      <workItem from="1551098435854" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -154,14 +163,22 @@
       <option name="project" value="LOCAL" />
       <updated>1551096495109</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="text v9">
+      <created>1551098463259</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551098463259</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2988000" />
+    <option name="totallyTimeSpent" value="3694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2552" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33350897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -195,7 +212,8 @@
     <MESSAGE value="text v6" />
     <MESSAGE value="text v7" />
     <MESSAGE value="text v8" />
-    <option name="LAST_COMMIT_MESSAGE" value="text v8" />
+    <MESSAGE value="text v9" />
+    <option name="LAST_COMMIT_MESSAGE" value="text v9" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">

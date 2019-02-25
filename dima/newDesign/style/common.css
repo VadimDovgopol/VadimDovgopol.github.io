@@ -498,6 +498,8 @@ body.active {
     color: white !important; }
   .night-mode .article-more-info .source p {
     color: white !important; }
+    .night-mode .article-more-info .source p.source-item {
+      color: #d6d6d6 !important; }
   .night-mode .tags-block .tags-item {
     background-color: #1f1f1f !important;
     border-color: #1c1c1c !important; }
@@ -2034,6 +2036,18 @@ body.active {
       .links-map p a.active {
         color: #d24a43; }
 
+.article .h1-title {
+  font-family: "Exo 2.0";
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 15px; }
+.article .h2-title {
+  font-family: "Exo 2.0";
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 30px; }
 .article .article-wrapper {
   max-width: 645px; }
   .article .article-wrapper .start-article {
@@ -2077,18 +2091,6 @@ body.active {
         color: white !important;
         font-weight: 600;
         font-size: 18px; }
-  .article .start-article .h1-title {
-    font-family: "Exo 2.0";
-    font-weight: 600;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 15px; }
-  .article .start-article .h2-title {
-    font-family: "Exo 2.0";
-    font-weight: 600;
-    font-size: 15px;
-    margin-top: 25px;
-    margin-bottom: 30px; }
   .article .start-article .gallery {
     opacity: 0;
     margin-top: 20px;
@@ -2130,7 +2132,7 @@ body.active {
     margin: 10px 0;
     font-size: 15px; }
   .article .start-article .share-block {
-    margin-top: 25px; }
+    margin-top: 30px; }
     .article .start-article .share-block .h4-title {
       font-size: 14px;
       font-weight: 500;
@@ -2301,6 +2303,8 @@ body.active {
   margin-top: 30px;
   background-color: #f8f8f8;
   padding: 20px; }
+  .article .subscribe-block p {
+    margin: 0 !important; }
   .article .subscribe-block .h3-title {
     font-weight: 600;
     font-size: 15px; }
@@ -2361,11 +2365,11 @@ body.active {
     .article .subscribe-block .social-wrapper .left-side {
       display: flex;
       flex-direction: row;
-      align-items: flex-end;
+      align-items: center;
       max-width: 240px;
       width: 100%; }
       .article .subscribe-block .social-wrapper .left-side .subscribe-text {
-        margin-right: 15px;
+        margin-right: 15px !important;
         color: #000000;
         font-size: 11px;
         font-weight: 500; }
@@ -2387,16 +2391,19 @@ body.active {
       @media screen and (max-width: 600px) {
         .article .subscribe-block .social-wrapper .right-side {
           margin-top: 30px; } }
-      .article .subscribe-block .social-wrapper .right-side p a {
+      .article .subscribe-block .social-wrapper .right-side p {
         display: flex;
-        align-items: center;
-        font-size: 11px;
-        text-transform: uppercase;
-        font-weight: 500; }
-        .article .subscribe-block .social-wrapper .right-side p a:hover svg path {
-          fill: #d24a43; }
-        .article .subscribe-block .social-wrapper .right-side p a svg {
-          margin-left: 5px; }
+        align-items: center; }
+        .article .subscribe-block .social-wrapper .right-side p a {
+          display: flex;
+          align-items: center;
+          font-size: 11px;
+          text-transform: uppercase;
+          font-weight: 500; }
+          .article .subscribe-block .social-wrapper .right-side p a:hover svg path {
+            fill: #d24a43; }
+          .article .subscribe-block .social-wrapper .right-side p a svg {
+            margin-left: 5px; }
 .article .scroll-down {
   width: 100%;
   display: flex;
