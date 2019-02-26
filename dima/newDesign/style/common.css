@@ -493,6 +493,8 @@ body.active {
   font-style: normal; }
 .night-mode {
   background-color: #282828; }
+  .night-mode .stock-exchange-item {
+    background: #1f1f1f !important; }
   .night-mode b, .night-mode strong {
     color: white; }
   .night-mode .start-article .block3 div {
