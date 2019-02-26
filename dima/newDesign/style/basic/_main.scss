@@ -3,6 +3,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Exo 2.0", sans-serif;
+  font-weight: $fontR;
+}
+
+b, strong {
+  font-weight: $fontSB;
+}
+
+.h1-title, h1 {
+  font-family: "Exo 2.0";
+  font-weight: $fontSB;
+  font-size: 18px;
+}
+
+.h2-title, h2 {
+  font-family: "Exo 2.0";
+  font-weight: $fontSB;
+  font-size: 15px;
 }
 
 body {
@@ -89,6 +107,8 @@ blockquote {
   padding: 20px 30px;
   font-size: 15px;
   position: relative;
+  display: flex;
+  align-items: center;
 
   &:before {
     content: '';
@@ -111,6 +131,10 @@ blockquote {
     right: 0;
     bottom: 0;
   }
+  p{
+    font-size: 15px;
+  }
+
 
 }
 

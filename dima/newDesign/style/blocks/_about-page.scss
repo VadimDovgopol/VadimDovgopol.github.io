@@ -59,9 +59,11 @@
 
   .people-wrapper {
     margin-top: 15px;
+    margin-bottom: 30px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
+
 
     @media screen and (max-width: 800px) {
       justify-content: center;
@@ -69,7 +71,7 @@
     }
 
     .people-item {
-      margin: 15px 0;
+      margin: 15px 20px;
       max-width: 167px;
       width: 100%;
       flex-direction: column;
