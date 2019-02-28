@@ -26,9 +26,11 @@
     }
   }
 }
+
 .links-map {
   margin-bottom: 15px;
 }
+
 .scroll-down {
   width: 100%;
   display: flex;
@@ -83,7 +85,6 @@
 
     }
   }
-
 
 
   .start-article {
@@ -407,6 +408,9 @@
           font-weight: $fontM;
           text-transform: uppercase;
         }
+        .average{
+          margin-left: 5px;
+        }
       }
     }
 
@@ -480,6 +484,7 @@
     border-width: 1px;
     border-color: rgb(240, 240, 240);
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #f8f8f8;
     padding: 20px;
 
