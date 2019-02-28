@@ -1,0 +1,132 @@
+.crypto-people {
+
+  .head-img {
+    margin-bottom: 30px;
+  }
+
+  .top-people_wrapper {
+
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    background-color: #f8f8f8;
+    flex-direction: row;
+    @media screen and (max-width: 600px) {
+      height: auto;
+      align-items: center;
+      flex-direction: column;
+    }
+    @media screen and (max-width: 900px) {
+      height: auto;
+    }
+
+    .btn-wrapper {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and (max-width: 420px) {
+        justify-content: center;
+      }
+
+      .goToAllList {
+        margin-top: 10px;
+      }
+    }
+
+    .left-side {
+      position: relative;
+      display: flex;
+      align-self: center;
+      min-width: 200px;
+
+      @media screen and (max-width: 600px) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+
+    .right-side_wrapper {
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 20px;
+
+      .right-side_content {
+        @media screen and (max-width: 600px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .top-people__name {
+          margin-bottom: 15px;
+
+          @media screen and (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .top-people__name-item {
+            text-align: center;
+            color: #282828;
+            font-weight: $fontB;
+            font-size: 24px;
+
+          }
+
+        }
+
+        .top-people__desc {
+          margin-bottom: 15px;
+          color: #282828;
+          font-weight: $fontR;
+          font-size: 16px;
+        }
+
+        .top-people_link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 180px;
+          height: 29px;
+          border-radius: 5px;
+          background-color: #1b95e0;
+
+          a {
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 14px;
+            font-weight: $fontR;
+
+            &:hover {
+              color: #d24a43;
+            }
+
+            span {
+              display: inline-block;
+              background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDYxMiA2MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik02MTIsMTE2LjI1OGMtMjIuNTI1LDkuOTgxLTQ2LjY5NCwxNi43NS03Mi4wODgsMTkuNzcyYzI1LjkyOS0xNS41MjcsNDUuNzc3LTQwLjE1NSw1NS4xODQtNjkuNDExICAgIGMtMjQuMzIyLDE0LjM3OS01MS4xNjksMjQuODItNzkuNzc1LDMwLjQ4Yy0yMi45MDctMjQuNDM3LTU1LjQ5LTM5LjY1OC05MS42My0zOS42NThjLTY5LjMzNCwwLTEyNS41NTEsNTYuMjE3LTEyNS41NTEsMTI1LjUxMyAgICBjMCw5LjgyOCwxLjEwOSwxOS40MjcsMy4yNTEsMjguNjA2QzE5Ny4wNjUsMjA2LjMyLDEwNC41NTYsMTU2LjMzNyw0Mi42NDEsODAuMzg2Yy0xMC44MjMsMTguNTEtMTYuOTgsNDAuMDc4LTE2Ljk4LDYzLjEwMSAgICBjMCw0My41NTksMjIuMTgxLDgxLjk5Myw1NS44MzUsMTA0LjQ3OWMtMjAuNTc1LTAuNjg4LTM5LjkyNi02LjM0OC01Ni44NjctMTUuNzU2djEuNTY4YzAsNjAuODA2LDQzLjI5MSwxMTEuNTU0LDEwMC42OTMsMTIzLjEwNCAgICBjLTEwLjUxNywyLjgzLTIxLjYwNyw0LjM5OC0zMy4wOCw0LjM5OGMtOC4xMDcsMC0xNS45NDctMC44MDMtMjMuNjM0LTIuMzMzYzE1Ljk4NSw0OS45MDcsNjIuMzM2LDg2LjE5OSwxMTcuMjUzLDg3LjE5NCAgICBjLTQyLjk0NywzMy42NTQtOTcuMDk5LDUzLjY1NS0xNTUuOTE2LDUzLjY1NWMtMTAuMTM0LDAtMjAuMTE2LTAuNjEyLTI5Ljk0NC0xLjcyMWM1NS41NjcsMzUuNjgxLDEyMS41MzYsNTYuNDg1LDE5Mi40MzgsNTYuNDg1ICAgIGMyMzAuOTQ4LDAsMzU3LjE4OC0xOTEuMjkxLDM1Ny4xODgtMzU3LjE4OGwtMC40MjEtMTYuMjUzQzU3My44NzIsMTYzLjUyNiw1OTUuMjExLDE0MS40MjIsNjEyLDExNi4yNTh6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==') no-repeat center;
+              background-size: contain;
+              width: 22px;
+              height: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

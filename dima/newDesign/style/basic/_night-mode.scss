@@ -1,15 +1,48 @@
 .night-mode {
   background-color: #282828;
 
+  .stock-exchange-item {
+    background: #1f1f1f !important;
+  }
+
+  .top-people_wrapper {
+    background-color: #1f1f1f !important;
+
+    p {
+      color: white !important;
+
+      span {
+        color: white !important;
+      }
+    }
+  }
+
+  b, strong {
+    color: white;
+  }
+
+
   .start-article {
+
+
+    .block3 {
+      div {
+        color: white !important;
+
+        * {
+          color: white !important;
+        }
+      }
+    }
+
 
   }
 
-  .h1-title {
+  .h1-title, h1 {
     color: white !important;
   }
 
-  .h2-title {
+  .h2-title, h2 {
     color: white !important;
   }
 
@@ -62,9 +95,14 @@
     .source {
       p {
         color: white !important;
+
+        &.source-item {
+          color: #d6d6d6 !important;
+        }
       }
     }
   }
+
 
   .tags-block {
 
@@ -75,7 +113,7 @@
     }
 
     .tags-item {
-      &.active, &:hover {
+      &:hover {
 
         background-color: #d24a43 !important;
 
