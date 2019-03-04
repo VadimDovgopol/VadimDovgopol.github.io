@@ -1,6 +1,58 @@
 .night-mode {
   background-color: #282828;
 
+  .search__control {
+    color: white !important;
+    border-color: white !important;
+  }
+
+  .search__form {
+
+    .icon {
+      svg {
+        path {
+          fill: white;
+        }
+      }
+    }
+
+  }
+
+  .last-news__list {
+    li {
+
+      border-color: #1c1c1c !important;
+    }
+  }
+
+
+  .event-page {
+    a {
+      &:hover {
+        .event-info {
+          .h2-title {
+            color: #D24A43 !important;
+          }
+        }
+      }
+    }
+
+  }
+
+
+  .exclusive-page {
+    .exclusive-item_link, .exclusive-item-big_link {
+      &:hover {
+        .bottom-info {
+          .h2-title {
+            color: #D24A43 !important;
+
+          }
+        }
+      }
+    }
+  }
+
   .stock-exchange-item {
     background: #1f1f1f !important;
   }
@@ -242,6 +294,7 @@
       }
     }
 
+
     a {
       &:hover {
         svg {
@@ -402,4 +455,39 @@
     }
   }
 
+  .calendar {
+
+    .ui-widget-content {
+      background: #1f1f1f;
+      .ui-state-default {
+        color: white;
+      }
+      .ui-priority-secondary {
+        color: #888888;
+      }
+      th {
+        span {
+          color: white;
+        }
+      }
+      .ui-widget-header {
+        color: white;
+
+      }
+    }
+
+    .ui-datepicker .ui-datepicker-prev span, .pagination__arrow-icon--left:before {
+      transform: rotate(180deg);
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjgiPgogICAgPHBhdGggZmlsbD0iIzg4OCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSA0LjE1MmwtLjc1MS43MzQtLjE1Ni0uMTUyTC43NTEgOCAwIDcuMjY1IDMuMzQyIDQgMCAuNzM0bC43NTEtLjczNSAzLjM0MiAzLjI2Ny4xNTYtLjE1My43NTEuNzM1TDQuODQ0IDQgNSA0LjE1MnoiLz4KPC9zdmc+Cg==");
+    }
+
+    .pagination__arrow-icon--right:before, .ui-datepicker .ui-datepicker-next span {
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjgiPgogICAgPHBhdGggZmlsbD0iIzg4OCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSA0LjE1MmwtLjc1MS43MzQtLjE1Ni0uMTUyTC43NTEgOCAwIDcuMjY1IDMuMzQyIDQgMCAuNzM0bC43NTEtLjczNSAzLjM0MiAzLjI2Ny4xNTYtLjE1My43NTEuNzM1TDQuODQ0IDQgNSA0LjE1MnoiLz4KPC9zdmc+Cg==");
+    }
+
+    .ui-widget.ui-widget-content {
+
+      background-color: #1f1f1f !important;
+    }
+  }
 }

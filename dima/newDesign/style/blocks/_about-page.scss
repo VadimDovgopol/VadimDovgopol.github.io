@@ -1,15 +1,231 @@
 .about {
+
+  .news-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .links-type {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-start;
+      max-width: 500px;
+      width: 100%;
+      @media screen and (max-width: 600px) {
+        max-width: 600px;
+        justify-content: space-between;
+      }
+
+
+      p {
+        &.active {
+          a {
+            color: #D24A43;
+          }
+        }
+
+        a {
+          margin-right: 18px;
+          font-size: 11px;
+          font-weight: $fontM;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+  }
+
+  .news-block_link {
+    &:hover {
+
+      .h2-title {
+        color: #D24A43 !important;
+
+      }
+
+      img {
+        transform: scale(1.1);
+      }
+
+      .exclusive-block {
+        p {
+          color: white !important;
+        }
+      }
+
+      .theme {
+        p {
+          color: #7c7c7c !important;
+        }
+      }
+
+
+      .bottom-info_exclusive {
+        color: white !important;
+
+        p {
+          color: white !important;
+        }
+      }
+    }
+  }
+
+  .news-block_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+
+
+    @media screen and(max-width: 650px) {
+      flex-direction: column;
+    }
+
+    .img-wrapper {
+      display: none;
+      height: min-content;
+      max-width: 211px;
+      margin-right: 20px;
+      width: 100%;
+      position: relative;
+
+      .exclusive-block {
+        p {
+          color: white;
+        }
+      }
+
+      .position-icons_img {
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+          margin: 5px;
+        }
+      }
+
+      @media screen and(max-width: 650px) {
+        margin: 15px auto;
+      }
+      @media screen and(max-width: 475px) {
+        max-width: 475px;
+        margin: 15px auto;
+      }
+
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .event-info {
+      width: 100%;
+      min-width: 280px;
+
+      .h2-title {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: $fontSB;
+        margin-bottom: 15px;
+      }
+
+      .reg-text {
+        font-size: 15px;
+      }
+
+      .bottom-info {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        p {
+          font-size: 11px;
+          text-transform: uppercase;
+        }
+
+
+        .data {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          p {
+            color: #d24a43;
+          }
+
+          .bottom-info_exclusive {
+            padding: 10px;
+            margin: 0 10px;
+            background-color: #d24a43;
+            text-transform: uppercase;
+            color: white;
+            font-size: 11px;
+            font-weight: $fontM;
+
+            p {
+              text-transform: uppercase;
+              color: white;
+              font-size: 11px;
+              font-weight: $fontM;
+            }
+          }
+        }
+
+        .theme {
+          display: flex;
+          flex-direction: row;
+
+          p {
+            color: #7c7c7c;
+          }
+        }
+      }
+    }
+  }
+
+  .video-in {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+
+  .gallery-in {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+
   .links-map {
+    margin-bottom: 15px;
+  }
+  .h1-title {
+    font-size: 16px;
+    font-weight: $fontSB;
     margin-bottom: 15px;
   }
 
   .about-content-wrapper {
 
-    .h1-title {
-      font-size: 16px;
-      font-weight: $fontSB;
-      margin-bottom: 15px;
-    }
 
     .img-wrapper {
       margin-bottom: 15px;
@@ -192,7 +408,7 @@
           max-width: 445px;
           width: 100%;
           margin-right: 15px;
-          color: #7c7c7c;
+          color: black;
           font-size: 11px;
           padding: 0 10px;
           @media screen and (max-width: 600px) {

@@ -1,0 +1,228 @@
+
+.calendar {
+  .h1-title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+}
+
+.calendar {
+  margin-top: 30px;
+  padding-bottom: 12px;
+  overflow: hidden;
+  @media screen and (max-width: 1220px) {
+    width: 300px;
+    text-align: left;
+  }
+
+  &__icon {
+    float: left;
+    width: 62px;
+    margin-right: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  &__header {
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #d24a43;
+    padding: 5px 0;
+  }
+
+  &__bottom {
+    border: 1px solid #d5d5d5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 0;
+    background-color: #f5f5f5;
+    padding: 4px 0;
+  }
+
+  p {
+    &.calendar__date {
+      font-size: 20px;
+
+      font-weight: $fontB;
+    }
+  }
+
+  &__txt {
+    font-size: 20px;
+    font-weight: $fontB;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &--float-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: auto;
+
+    .calendar__icon {
+      margin-right: 0;
+    }
+  }
+}
+
+#datepicker {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ui-widget {
+  font-weight: $fontR;
+}
+
+.ui-widget.ui-widget-content {
+  width: 100%;
+  border-radius: 0;
+  padding: 0 15px 10px;
+  border: none;
+  background: #f8f8f8;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  @media screen and (max-width: 479px) {
+    padding: 0 5px 10px;
+  }
+}
+
+.ui-widget-header {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.ui-datepicker .ui-datepicker-header {
+  padding: 0;
+}
+
+.ui-datepicker-title {
+  border-radius: 0;
+  font-size: 16px;
+  padding: 12px 0;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  margin: 0;
+  line-height: normal;
+  font-weight: normal;
+}
+
+.ui-widget-header .ui-icon {
+  background-image: none;
+}
+
+.ui-widget-header .ui-icon {
+  width: 5px;
+  height: 8px;
+  cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev {
+  width: 5px;
+  height: 100%;
+  top: 0;
+}
+
+
+.ui-datepicker .ui-datepicker-prev {
+  left: 40px
+}
+
+.ui-datepicker .ui-datepicker-prev span {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjgiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSA3LjI2NWwtLjc1MS43MzRMLjkwNyA0LjczM2wtLjE1Ni4xNTJMMCA0LjE1MWwuMTU2LS4xNTJMMCAzLjg0N2wuNzUxLS43MzQuMTU2LjE1Mkw0LjI0OS0uMDAxIDUgLjczNCAxLjY1OCAzLjk5OSA1IDcuMjY1eiIvPgo8L3N2Zz4K');
+}
+
+.ui-datepicker .ui-datepicker-next {
+  right: 40px;
+}
+
+.ui-datepicker .ui-datepicker-next span {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjgiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSA0LjE1MWwtLjc1MS43MzQtLjE1Ni0uMTUyTC43NTEgNy45OTkgMCA3LjI2NWwzLjM0Mi0zLjI2NkwwIC43MzRsLjc1MS0uNzM1IDMuMzQyIDMuMjY2LjE1Ni0uMTUyLjc1MS43MzQtLjE1Ni4xNTIuMTU2LjE1MnoiLz4KPC9zdmc+Cg==');
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+  top: 50%;
+  left: 0;
+  margin: -4px 0 0;
+}
+
+.ui-icon-circle-triangle-w,
+.ui-icon-circle-triangle-e {
+  background-position: 0 0;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+  background-color: transparent;
+  border: 0;
+
+}
+
+.ui-datepicker table {
+  margin: 0;
+}
+
+.ui-datepicker th {
+  font-weight: normal;
+}
+
+.ui-datepicker td {
+  padding: 0;
+  vertical-align: middle;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+  text-align: center;
+  font-size: 16px;
+  color: #282828;
+  padding: 0;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  background-color: transparent;
+  border: 0;
+  width: 37px;
+  height: 33px;
+  line-height: 33px;
+  margin: 1px;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+  background-color: #d24a43;
+  color: #fff;
+}
+
+.ui-datepicker-current-day .ui-state-active {
+  background-color: #d24a43;
+}
+
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary {
+  opacity: 1;
+  color: #888888;
+}
+
+.ui-state-default.ui-state-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.ui-state-default.ui-state-hover:hover {
+  background-color: #d24a43;
+  color: #ffffff !important;
+}
+
+.special-date a.ui-state-default {
+  background-color: #d24a43;
+  color: #ffffff;
+  margin: 1px;
+}

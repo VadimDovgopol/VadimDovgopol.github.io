@@ -25,6 +25,57 @@ $(document).ready(function () {
         $(".specification_btn").addClass("active")
     }, 3300);
 
+    function removeClass() {
+        $(".fz").removeClass("active");
+        $(".main-wrapper.article").removeClass("fz15");
+        $(".main-wrapper.article").removeClass("fz18");
+        $(".main-wrapper.article").removeClass("fz21");
+    }
+
+
+    var eventDates = {};
+    eventDates[new Date('12/15/2017')] = new Date('12/15/2017');
+    eventDates[new Date('12/20/2017')] = new Date('12/20/2017');
+
+    if ($("#datepicker").length > 0) {
+        $("#datepicker").datepicker({
+            dateFormat: 'dd MM',
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+            monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+            beforeShowDay: function (date) {
+                let highlight = eventDates[date];
+                if (highlight) {
+                    return [true, "special-date"];
+                } else {
+                    return [true, '', ''];
+                }
+            }
+        });
+    }
+
+
+    $(".fz1").on("click", function () {
+        removeClass();
+        $(".main-wrapper.article").addClass("fz15");
+        $(this).addClass("active");
+    });
+
+    $(".fz2").on("click", function () {
+        removeClass();
+        $(".main-wrapper.article").addClass("fz18");
+        $(this).addClass("active");
+
+    });
+
+    $(".fz3").on("click", function () {
+        removeClass();
+        $(".main-wrapper.article").addClass("fz21");
+        $(this).addClass("active");
+
+    });
+
 
     $(".hide-img").on("click", function () {
         $(this).addClass("active");

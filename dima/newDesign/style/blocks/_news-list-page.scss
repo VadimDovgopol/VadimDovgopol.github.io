@@ -1,5 +1,21 @@
 .news-list-page {
 
+  .h2-title {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .headline-wrapper {
+    .h1-title {
+      margin-top: 10px;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: $fontSB;
+      margin-bottom: 15px;
+    }
+  }
+
   .links-map {
     margin-bottom: 15px;
   }
@@ -47,6 +63,12 @@
 
   .news-block_link {
     &:hover {
+
+      .h2-title {
+        color: #D24A43 !important;
+
+      }
+
       img {
         transform: scale(1.1);
       }
@@ -66,6 +88,7 @@
 
       .bottom-info_exclusive {
         color: white !important;
+
         p {
           color: white !important;
         }
@@ -136,12 +159,6 @@
       width: 100%;
       min-width: 280px;
 
-      .h2-title {
-        margin-top: 10px;
-        font-size: 16px;
-        font-weight: $fontSB;
-        margin-bottom: 15px;
-      }
 
       .reg-text {
         font-size: 15px;
@@ -210,6 +227,40 @@
     display: flex;
     align-items: center;
     margin: 0 5px;
+  }
+
+  .search__control {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #333333;
+
+    &:focus {
+      outline-offset: 0;
+      outline: none;
+    }
+
+  }
+
+  .search__form {
+    position: relative;
+
+    .icon {
+      position: absolute;
+      right: 0;
+      top: 5px;
+
+    }
+
+  }
+
+  .last-news__list {
+    li {
+      padding: 10px 0;
+      border-bottom: 1px solid #d7d7d7;
+    }
   }
 
 }

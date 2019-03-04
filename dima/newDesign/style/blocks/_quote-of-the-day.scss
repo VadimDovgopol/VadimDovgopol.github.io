@@ -8,9 +8,11 @@
   padding: 20px;
   background: #d24a43;
 
-  .h1-title {
-    font-size: 18px;
+  .h1-title,
+  .h2-title {
     font-weight: $fontSB;
+    font-size: 15px;
+    margin-bottom: 15px;
   }
 
   .say-name {
@@ -98,9 +100,10 @@
     max-width: 425px;
   }
 
+  .h1-title,
   .h2-title {
     font-weight: $fontSB;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 15px;
   }
 

@@ -42,8 +42,8 @@
         max-width: 445px;
         width: 100%;
         margin-right: 15px;
-        color: #7c7c7c;
-        font-size: 11px;
+        color: black;
+        font-size: 14px !important;
         padding: 0 10px;
         @media screen and (max-width: 600px) {
           max-width: 600px;
@@ -201,7 +201,6 @@ body {
     font-size: 18px;
     font-family: "Exo 2.0", sans-serif;
     font-weight: $fontSB;
-    text-transform: uppercase;
     margin-bottom: 15px;
   }
 
@@ -259,12 +258,13 @@ body {
 
 blockquote {
   font-family: "Exo 2.0";
-  margin-bottom: 20px;
-  padding: 20px 30px;
+  margin-bottom: 10px;
+  padding: 0 30px;
   font-size: 15px;
   position: relative;
   display: flex;
   align-items: center;
+  flex-direction: column;
 
   &:before {
     content: '';
@@ -274,7 +274,7 @@ blockquote {
     background-size: contain;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 10px;
   }
 
   &:after {
@@ -285,7 +285,7 @@ blockquote {
     background-size: contain;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 10px;
   }
 
   p {
