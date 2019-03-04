@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
+    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="add date piker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +14,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dima/newDesign/style/common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -27,11 +40,12 @@
         <option value="$PROJECT_DIR$/dima/lkn/css/common.css" />
         <option value="$PROJECT_DIR$/dima/lkn/scss/fonts/_fonts.scss" />
         <option value="$PROJECT_DIR$/dima/lkn/js/common.js" />
+        <option value="$PROJECT_DIR$/dima/newDesign/style/common.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2552" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -62,6 +76,29 @@
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="dima" type="462c0819:PsiDirectoryNode" />
               <item name="newDesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="common.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -114,6 +151,8 @@
       <workItem from="1551101167463" duration="1246000" />
       <workItem from="1551169513807" duration="620000" />
       <workItem from="1551176088593" duration="624000" />
+      <workItem from="1551734972154" duration="87000" />
+      <workItem from="1551735168379" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -206,17 +245,31 @@
       <option name="project" value="LOCAL" />
       <updated>1551176112960</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new item">
+      <created>1551380585775</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1551380585775</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add date piker">
+      <created>1551735049031</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551735049031</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6216000" />
+    <option name="totallyTimeSpent" value="6671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33350897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -229,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -253,7 +306,9 @@
     <MESSAGE value="text v11" />
     <MESSAGE value="text v12" />
     <MESSAGE value="add new page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new page" />
+    <MESSAGE value="new item" />
+    <MESSAGE value="add date piker" />
+    <option name="LAST_COMMIT_MESSAGE" value="add date piker" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
@@ -285,6 +340,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dima/newDesign/style/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
