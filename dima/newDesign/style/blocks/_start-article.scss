@@ -59,6 +59,45 @@
 
 .article {
 
+  &.fz15 {
+    .start-article {
+
+      p, .h2-title, label, blockquote {
+        font-size: 15px !important;
+      }
+
+      .h1-title {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+
+  &.fz18 {
+    .start-article {
+      p, .h2-title, label, blockquote {
+        font-size: 17px !important;
+      }
+
+      .h1-title {
+        font-size: 20px !important;
+      }
+    }
+  }
+
+
+  &.fz21 {
+    .start-article {
+      p, .h2-title, label, blockquote {
+        font-size: 19px !important;
+      }
+
+      .h1-title {
+        font-size: 22px !important;
+      }
+    }
+  }
+
   .h1-title {
     font-family: "Exo 2.0";
     font-weight: $fontSB;
@@ -108,15 +147,15 @@
         margin-right: 5px;
 
         &.fz1 {
-          font-size: 15px;
+          font-size: 15px !important;
         }
 
         &.fz2 {
-          font-size: 18px;
+          font-size: 18px !important;
         }
 
         &.fz3 {
-          font-size: 21px;
+          font-size: 21px !important;
         }
 
         &.active, &:hover {
@@ -146,7 +185,7 @@
           margin: 0;
           color: white;
           text-transform: uppercase;
-          font-size: 11px;
+          font-size: 11px !important;
         }
 
       }
@@ -416,7 +455,7 @@
         .source-item {
           text-transform: uppercase;
           color: #7c7c7c;
-          font-size: 11px;
+          font-size: 11px !important;
           font-weight: $fontM;
         }
 
@@ -424,13 +463,13 @@
           display: block;
           margin: 0 5px;
           color: #7c7c7c;
-          font-size: 11px;
+          font-size: 11px !important;
           font-weight: $fontM;
         }
 
         .static {
           text-transform: uppercase;
-          font-size: 11px;
+          font-size: 11px !important;
           font-weight: $fontM;
           color: #000;
         }
@@ -445,7 +484,7 @@
         .static {
           margin: 0 10px 0 0;
           color: #000000;
-          font-size: 11px;
+          font-size: 11px !important;
           font-weight: $fontM;
           text-transform: uppercase;
         }
@@ -475,7 +514,7 @@
           margin: 0;
           transition: all 0.2s ease-in-out;
           font-weight: $fontM;
-          font-size: 11px;
+          font-size: 11px !important;
         }
 
         &:hover {
@@ -531,12 +570,14 @@
     padding: 20px;
 
     p {
+      font-size: 15px !important;
       margin: 0 !important;
     }
 
     .h3-title {
       font-weight: $fontSB;
-      font-size: 15px;
+      font-size: 15px !important;
+
     }
 
     .form-wrapper {
@@ -560,7 +601,7 @@
           width: 100%;
           margin-right: 15px;
           color: black;
-          font-size: 11px;
+          font-size: 11px !important;
           padding: 0 10px;
           @media screen and (max-width: 600px) {
             max-width: 600px;
@@ -596,7 +637,7 @@
           p {
             color: white;
             text-transform: uppercase;
-            font-size: 12px;
+            font-size: 12px !important;
           }
         }
       }
@@ -625,7 +666,7 @@
         .subscribe-text {
           margin-right: 15px !important;
           color: #000000;
-          font-size: 11px;
+          font-size: 11px !important;
           font-weight: $fontM;
         }
 
@@ -682,45 +723,6 @@
       }
     }
   }
-
-  //&.fz15 {
-  //  .start-article {
-  //
-  //    p, .h2-title {
-  //      font-size: 15px !important;
-  //    }
-  //
-  //    .h1-title {
-  //      font-size: 18px !important;
-  //    }
-  //  }
-  //}
-  //
-  //
-  //&.fz18 {
-  //  .start-article {
-  //    p, .h2-title {
-  //      font-size: 18px !important;
-  //    }
-  //
-  //    .h1-title {
-  //      font-size: 21px !important;
-  //    }
-  //  }
-  //}
-  //
-  //
-  //&.fz21 {
-  //  .start-article {
-  //    p, .h2-title {
-  //      font-size: 21px !important;
-  //    }
-  //
-  //    .h1-title {
-  //      font-size: 24px !important;
-  //    }
-  //  }
-  //}
 
 
 }

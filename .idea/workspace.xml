@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="add date piker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dima/newDesign/style/common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -45,7 +32,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="2552" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -76,29 +63,6 @@
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="dima" type="462c0819:PsiDirectoryNode" />
               <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="common.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -263,13 +227,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6671000" />
+    <option name="totallyTimeSpent" value="6821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2552" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33350897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

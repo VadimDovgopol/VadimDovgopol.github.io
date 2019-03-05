@@ -2250,6 +2250,18 @@ body.active {
     width: 11px;
     height: 9px; }
 
+.article.fz15 .start-article p, .article.fz15 .start-article .h2-title, .article.fz15 .start-article label, .article.fz15 .start-article blockquote {
+  font-size: 15px !important; }
+.article.fz15 .start-article .h1-title {
+  font-size: 18px !important; }
+.article.fz18 .start-article p, .article.fz18 .start-article .h2-title, .article.fz18 .start-article label, .article.fz18 .start-article blockquote {
+  font-size: 17px !important; }
+.article.fz18 .start-article .h1-title {
+  font-size: 20px !important; }
+.article.fz21 .start-article p, .article.fz21 .start-article .h2-title, .article.fz21 .start-article label, .article.fz21 .start-article blockquote {
+  font-size: 19px !important; }
+.article.fz21 .start-article .h1-title {
+  font-size: 22px !important; }
 .article .h1-title {
   font-family: "Exo 2.0";
   font-weight: 600;
@@ -2283,11 +2295,11 @@ body.active {
       font-weight: 700;
       margin-right: 5px; }
       .article .headline-wrapper .font-switch p.fz1 {
-        font-size: 15px; }
+        font-size: 15px !important; }
       .article .headline-wrapper .font-switch p.fz2 {
-        font-size: 18px; }
+        font-size: 18px !important; }
       .article .headline-wrapper .font-switch p.fz3 {
-        font-size: 21px; }
+        font-size: 21px !important; }
       .article .headline-wrapper .font-switch p.active, .article .headline-wrapper .font-switch p:hover {
         color: #D24A43 !important; }
 .article .start-article {
@@ -2306,7 +2318,7 @@ body.active {
         margin: 0;
         color: white;
         text-transform: uppercase;
-        font-size: 11px; }
+        font-size: 11px !important; }
     .article .start-article .main-article-img img {
       width: 100%;
       height: auto; }
@@ -2466,17 +2478,17 @@ body.active {
       .article .start-article .article-more-info .source .source-item {
         text-transform: uppercase;
         color: #7c7c7c;
-        font-size: 11px;
+        font-size: 11px !important;
         font-weight: 500; }
       .article .start-article .article-more-info .source span {
         display: block;
         margin: 0 5px;
         color: #7c7c7c;
-        font-size: 11px;
+        font-size: 11px !important;
         font-weight: 500; }
       .article .start-article .article-more-info .source .static {
         text-transform: uppercase;
-        font-size: 11px;
+        font-size: 11px !important;
         font-weight: 500;
         color: #000; }
     .article .start-article .article-more-info .score {
@@ -2486,7 +2498,7 @@ body.active {
       .article .start-article .article-more-info .score .static {
         margin: 0 10px 0 0;
         color: #000000;
-        font-size: 11px;
+        font-size: 11px !important;
         font-weight: 500;
         text-transform: uppercase; }
       .article .start-article .article-more-info .score .average {
@@ -2508,7 +2520,7 @@ body.active {
         margin: 0;
         transition: all 0.2s ease-in-out;
         font-weight: 500;
-        font-size: 11px; }
+        font-size: 11px !important; }
       .article .start-article .tags-block .tags-item:hover {
         background-color: #d24a43; }
         .article .start-article .tags-block .tags-item:hover p {
@@ -2537,10 +2549,11 @@ body.active {
   background-color: #f8f8f8;
   padding: 20px; }
   .article .subscribe-block p {
+    font-size: 15px !important;
     margin: 0 !important; }
   .article .subscribe-block .h3-title {
     font-weight: 600;
-    font-size: 15px; }
+    font-size: 15px !important; }
   .article .subscribe-block .form-wrapper {
     display: flex;
     flex-direction: row;
@@ -2559,7 +2572,7 @@ body.active {
         width: 100%;
         margin-right: 15px;
         color: black;
-        font-size: 11px;
+        font-size: 11px !important;
         padding: 0 10px; }
         @media screen and (max-width: 600px) {
           .article .subscribe-block .form-wrapper #subscribe-form .field-text {
@@ -2585,7 +2598,7 @@ body.active {
         .article .subscribe-block .form-wrapper #subscribe-form .submit-btn p {
           color: white;
           text-transform: uppercase;
-          font-size: 12px; }
+          font-size: 12px !important; }
   .article .subscribe-block .social-wrapper {
     display: flex;
     flex-direction: row;
@@ -2604,7 +2617,7 @@ body.active {
       .article .subscribe-block .social-wrapper .left-side .subscribe-text {
         margin-right: 15px !important;
         color: #000000;
-        font-size: 11px;
+        font-size: 11px !important;
         font-weight: 500; }
       .article .subscribe-block .social-wrapper .left-side .social-wrapper {
         margin-top: 0;
