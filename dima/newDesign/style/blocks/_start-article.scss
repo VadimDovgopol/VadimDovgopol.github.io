@@ -135,16 +135,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    @media screen and (max-width: 425px){
+      flex-direction: column;
+    }
 
     .font-switch {
       display: flex;
       flex-direction: row;
       align-items: flex-end;
+      @media screen and (max-width: 425px){
+        align-self: flex-end;
+      }
 
       p {
         cursor: pointer;
         font-weight: $fontB;
-        margin-right: 5px;
+        margin: 0 5px 0 0 !important;
 
         &.fz1 {
           font-size: 15px !important;

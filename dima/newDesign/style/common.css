@@ -2286,14 +2286,20 @@ body.active {
   display: flex;
   flex-direction: row;
   align-items: center; }
+  @media screen and (max-width: 425px) {
+    .article .headline-wrapper {
+      flex-direction: column; } }
   .article .headline-wrapper .font-switch {
     display: flex;
     flex-direction: row;
     align-items: flex-end; }
+    @media screen and (max-width: 425px) {
+      .article .headline-wrapper .font-switch {
+        align-self: flex-end; } }
     .article .headline-wrapper .font-switch p {
       cursor: pointer;
       font-weight: 700;
-      margin-right: 5px; }
+      margin: 0 5px 0 0 !important; }
       .article .headline-wrapper .font-switch p.fz1 {
         font-size: 15px !important; }
       .article .headline-wrapper .font-switch p.fz2 {
