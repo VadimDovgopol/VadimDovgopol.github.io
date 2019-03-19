@@ -16,7 +16,7 @@
     {
       "info": [
         {
-          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
+          "text": "<img src='img/btc.png' alt=''><span>ss Core<span>",
           "class": ""
         },
         {
@@ -73,19 +73,65 @@
       }
     },
     {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
+      "info": [
+        {
+          "text": "<img src='img/btc.png' alt=''><span>dd Core<span>",
+          "class": ""
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "true"
+        }
       ],
+      "moreInfo": {
+        "icon": "<img src='img/btc.png' alt=''>",
+        "name": "ledger Nano S",
+        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
+        "twitterLink": "#",
+        "webLink": "#",
+        "lastLink": {
+          "text": "новости ledger nano S",
+          "link": "#"
+        }
+      }
+    },
+    {
       "info": [
         {
           "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
@@ -145,19 +191,65 @@
       }
     },
     {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
+      "info": [
+        {
+          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
+          "class": ""
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "false"
+        }
       ],
+      "moreInfo": {
+        "icon": "<img src='img/btc.png' alt=''>",
+        "name": "ledger Nano S",
+        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
+        "twitterLink": "#",
+        "webLink": "#",
+        "lastLink": {
+          "text": "новости ledger nano S",
+          "link": "#"
+        }
+      }
+    },
+    {
       "info": [
         {
           "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
@@ -217,19 +309,6 @@
       }
     },
     {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
-      ],
       "info": [
         {
           "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
@@ -289,19 +368,124 @@
       }
     },
     {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
+      "info": [
+        {
+          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
+          "class": ""
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "true"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "true"
+        }
       ],
+      "moreInfo": {
+        "icon": "<img src='img/btc.png' alt=''>",
+        "name": "ledger Nano S",
+        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
+        "twitterLink": "#",
+        "webLink": "#",
+        "lastLink": {
+          "text": "новости ledger nano S",
+          "link": "#"
+        }
+      }
+    },
+    {
+      "info": [
+        {
+          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
+          "class": ""
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "false"
+        },
+        {
+          "text": "",
+          "class": "true"
+        }
+      ],
+      "moreInfo": {
+        "icon": "<img src='img/btc.png' alt=''>",
+        "name": "ledger Nano S",
+        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
+        "twitterLink": "#",
+        "webLink": "#",
+        "lastLink": {
+          "text": "новости ledger nano S",
+          "link": "#"
+        }
+      }
+    },
+    {
       "info": [
         {
           "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
@@ -361,19 +545,6 @@
       }
     },
     {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
-      ],
       "info": [
         {
           "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
@@ -433,307 +604,6 @@
       }
     },
     {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
-      ],
-      "info": [
-        {
-          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
-          "class": ""
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        }
-      ],
-      "moreInfo": {
-        "icon": "<img src='img/btc.png' alt=''>",
-        "name": "ledger Nano S",
-        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-        "twitterLink": "#",
-        "webLink": "#",
-        "lastLink": {
-          "text": "новости ledger nano S",
-          "link": "#"
-        }
-      }
-    },
-    {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
-      ],
-      "info": [
-        {
-          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
-          "class": ""
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        }
-      ],
-      "moreInfo": {
-        "icon": "<img src='img/btc.png' alt=''>",
-        "name": "ledger Nano S",
-        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-        "twitterLink": "#",
-        "webLink": "#",
-        "lastLink": {
-          "text": "новости ledger nano S",
-          "link": "#"
-        }
-      }
-    },
-    {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
-      ],
-      "info": [
-        {
-          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
-          "class": ""
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        }
-      ],
-      "moreInfo": {
-        "icon": "<img src='img/btc.png' alt=''>",
-        "name": "ledger Nano S",
-        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-        "twitterLink": "#",
-        "webLink": "#",
-        "lastLink": {
-          "text": "новости ledger nano S",
-          "link": "#"
-        }
-      }
-    },
-    {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
-      ],
-      "info": [
-        {
-          "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
-          "class": ""
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "false"
-        },
-        {
-          "text": "",
-          "class": "true"
-        }
-      ],
-      "moreInfo": {
-        "icon": "<img src='img/btc.png' alt=''>",
-        "name": "ledger Nano S",
-        "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-        "twitterLink": "#",
-        "webLink": "#",
-        "lastLink": {
-          "text": "новости ledger nano S",
-          "link": "#"
-        }
-      }
-    },
-    {
-      "table": [
-        "LetKnow.news wallet review",
-        "Мобильное приложение",
-        "WEB интерфейс",
-        "Десктоп клиент",
-        "Хранение приватных  ключей у третьей стороны",
-        "Мульти- подпись",
-        "Двухфакторная аутентификация",
-        "User friendly",
-        "Мультивалютный кошелек",
-        "Повышенная анонимность",
-        "Открытый код"
-      ],
       "info": [
         {
           "text": "<img src='img/btc.png' alt=''><span>Bitcoin Core<span>",
