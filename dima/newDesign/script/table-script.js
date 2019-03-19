@@ -10,5 +10,5 @@ let app = new Vue({
             this.tableHeader = data.table;
         });
     },
-    metod
+    
 });
