@@ -7,6 +7,14 @@
   font-weight: $fontR;
 }
 
+#body{
+  &.tai{
+    *{
+      line-height: 1.5em;
+    }
+  }
+}
+
 
 .subscribe-block {
   border-style: solid;

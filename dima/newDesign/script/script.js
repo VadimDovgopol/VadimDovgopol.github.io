@@ -7,6 +7,7 @@ $(document).ready(function () {
     let nightMode = localStorage.getItem('nightMode');
     let triggerForspecificationBtn = false;
 
+    var fontSize = localStorage.getItem('font-size');
 
     if (isAndroid || iOS === true) {
         $("body").addClass("mobile")
@@ -32,6 +33,36 @@ $(document).ready(function () {
         $(".main-wrapper.article").removeClass("fz21");
     }
 
+    var fontBlock = document.querySelector("div.font-switch");
+
+
+    function removeClassFirst() {
+        document.querySelector('p.fz1').classList.remove("active");
+        document.querySelector('p.fz2').classList.remove("active");
+        document.querySelector('p.fz3').classList.remove("active");
+    }
+
+    if (fontSize === '1' && fontBlock !== null) {
+        document.querySelector("div.main-wrapper.article").classList.add("fz15");
+        removeClassFirst();
+        document.querySelector('p.fz1').classList.add("active");
+
+    } else if (fontSize === '2' && fontBlock !== null) {
+
+        document.querySelector("div.main-wrapper.article").classList.add("fz18");
+        removeClassFirst();
+        document.querySelector('p.fz2').classList.add("active");
+
+    } else if (fontSize === '3' && fontBlock !== null) {
+        document.querySelector("div.main-wrapper.article").classList.add("fz21");
+        removeClassFirst();
+        document.querySelector('p.fz3').classList.add("active");
+
+    } else if (fontSize === null && fontBlock !== null) {
+        document.querySelector("div.main-wrapper.article").classList.add("fz15");
+        removeClassFirst();
+        document.querySelector('p.fz1').classList.add("active");
+    }
 
     var eventDates = {};
     eventDates[new Date('12/15/2017')] = new Date('12/15/2017');
@@ -58,12 +89,15 @@ $(document).ready(function () {
 
     $(".fz1").on("click", function () {
         removeClass();
+        localStorage.setItem('font-size', "1");
+
         $(".main-wrapper.article").addClass("fz15");
         $(this).addClass("active");
     });
 
     $(".fz2").on("click", function () {
         removeClass();
+        localStorage.setItem('font-size', "2");
         $(".main-wrapper.article").addClass("fz18");
         $(this).addClass("active");
 
@@ -71,6 +105,7 @@ $(document).ready(function () {
 
     $(".fz3").on("click", function () {
         removeClass();
+        localStorage.setItem('font-size', "3");
         $(".main-wrapper.article").addClass("fz21");
         $(this).addClass("active");
 

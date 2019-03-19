@@ -59,6 +59,7 @@
 
 .article {
 
+
   &.fz15 {
     .start-article {
 
@@ -128,6 +129,11 @@
         }
       }
 
+      .scroll-down {
+        p {
+          font-size: 11px !important;
+        }
+      }
     }
   }
 
@@ -135,7 +141,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       flex-direction: column;
     }
 
@@ -143,7 +149,7 @@
       display: flex;
       flex-direction: row;
       align-items: flex-end;
-      @media screen and (max-width: 425px){
+      @media screen and (max-width: 425px) {
         align-self: flex-end;
       }
 
