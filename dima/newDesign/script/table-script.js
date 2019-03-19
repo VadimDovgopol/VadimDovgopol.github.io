@@ -7,10 +7,8 @@ let app = new Vue({
         activeColl: null
     },
     mounted() {
-        $.getJSON("./table.json", data => {
-            this.tableContent = data.item;
-            this.tableHeader = data.table;
-        });
+        this.tableContent = data.item;
+        this.tableHeader = data.table;
     },
     computed: {
         sortedArray: function () {
