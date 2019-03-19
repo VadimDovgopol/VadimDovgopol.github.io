@@ -781,24 +781,24 @@ body.active {
   .night-mode .table .item {
     background-color: #1f1f1f !important;
     border-color: #1c1c1c !important; }
-    .night-mode .table .item th:first-child {
+    .night-mode .table .item th:first-child, .night-mode .table .item td:first-child {
       border-color: #1c1c1c !important; }
-      .night-mode .table .item th:first-child .more-info {
+      .night-mode .table .item th:first-child .more-info, .night-mode .table .item td:first-child .more-info {
         background-color: #1f1f1f !important; }
-        .night-mode .table .item th:first-child .more-info .name {
+        .night-mode .table .item th:first-child .more-info .name, .night-mode .table .item td:first-child .more-info .name {
           color: white !important; }
-        .night-mode .table .item th:first-child .more-info .description {
+        .night-mode .table .item th:first-child .more-info .description, .night-mode .table .item td:first-child .more-info .description {
           color: white !important; }
-        .night-mode .table .item th:first-child .more-info .links-block .arrow-svg-right path {
+        .night-mode .table .item th:first-child .more-info .links-block .arrow-svg-right path, .night-mode .table .item td:first-child .more-info .links-block .arrow-svg-right path {
           fill: white !important; }
-        .night-mode .table .item th:first-child .more-info .links-block .left-side {
+        .night-mode .table .item th:first-child .more-info .links-block .left-side, .night-mode .table .item td:first-child .more-info .links-block .left-side {
           display: flex;
           flex-direction: row; }
-          .night-mode .table .item th:first-child .more-info .links-block .left-side .web svg path {
+          .night-mode .table .item th:first-child .more-info .links-block .left-side .web svg path, .night-mode .table .item td:first-child .more-info .links-block .left-side .web svg path {
             fill: white !important; }
-        .night-mode .table .item th:first-child .more-info .links-block .right-side a:hover span {
+        .night-mode .table .item th:first-child .more-info .links-block .right-side a:hover span, .night-mode .table .item td:first-child .more-info .links-block .right-side a:hover span {
           color: #D24A43 !important; }
-        .night-mode .table .item th:first-child .more-info .links-block .right-side a:hover .arrow-svg-right path {
+        .night-mode .table .item th:first-child .more-info .links-block .right-side a:hover .arrow-svg-right path, .night-mode .table .item td:first-child .more-info .links-block .right-side a:hover .arrow-svg-right path {
           fill: #D24A43 !important; }
 
 .left-column {
@@ -3966,54 +3966,57 @@ body.active {
     text-align: center;
     padding: 0 0 40px 0; }
 .table .table-wrapper {
-  overflow-x: auto;
-  overflow-y: auto; }
-  .table .table-wrapper table {
+  position: relative; }
+  .table .table-wrapper * {
+    font-family: "Exo 2.0"; }
+  .table .table-wrapper .reg-table-wrapper {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: auto; }
+  .table .table-wrapper .reg-table {
     width: 1150px; }
-    .table .table-wrapper table * {
-      font-family: "Exo 2.0"; }
-    .table .table-wrapper table .table-header {
+    .table .table-wrapper .reg-table .table-header {
       background-color: #f8f8f8;
       border-bottom: 1px solid #cccccc; }
-      .table .table-wrapper table .table-header th {
+      .table .table-wrapper .reg-table .table-header th {
         cursor: pointer;
         color: #000000;
         font-size: 12px;
         font-weight: 400;
         padding: 20px 10px 30px 10px; }
-        .table .table-wrapper table .table-header th.active {
+        .table .table-wrapper .reg-table .table-header th.active {
           color: #D24A43 !important; }
-        .table .table-wrapper table .table-header th:nth-child(1) {
+        .table .table-wrapper .reg-table .table-header th:nth-child(1) {
           width: 200px;
           text-align: left;
           border-right: 2px solid #eeeeee;
           padding: 20px 40px 30px 20px; }
-    .table .table-wrapper table .item {
+    .table .table-wrapper .reg-table .item {
       border-bottom: 1px solid #cccccc; }
-      .table .table-wrapper table .item th {
+      .table .table-wrapper .reg-table .item th {
         padding: 20px 0; }
-        .table .table-wrapper table .item th:nth-child(1) {
+        .table .table-wrapper .reg-table .item th:nth-child(1) {
           z-index: 1;
           position: relative;
           width: 200px;
           text-align: left;
           border-right: 2px solid #eeeeee; }
-          .table .table-wrapper table .item th:nth-child(1):hover .more-info {
+          .table .table-wrapper .reg-table .item th:nth-child(1):hover .more-info {
             visibility: visible;
             opacity: 1; }
-          .table .table-wrapper table .item th:nth-child(1) p {
+          .table .table-wrapper .reg-table .item th:nth-child(1) p {
             position: relative;
             z-index: 1;
             padding: 0 20px;
             flex-direction: row;
             display: flex;
             align-items: center; }
-            .table .table-wrapper table .item th:nth-child(1) p img {
+            .table .table-wrapper .reg-table .item th:nth-child(1) p img {
               z-index: 1;
               margin-right: 10px;
               width: 18px;
               height: auto; }
-          .table .table-wrapper table .item th:nth-child(1) .more-info {
+          .table .table-wrapper .reg-table .item th:nth-child(1) .more-info {
             z-index: 500;
             visibility: hidden;
             opacity: 0;
@@ -4026,60 +4029,108 @@ body.active {
             padding: 20px;
             min-width: 350px;
             transition: all 0.3s ease; }
-            .table .table-wrapper table .item th:nth-child(1) .more-info .icon {
+            @media screen and (max-width: 425px) {
+              .table .table-wrapper .reg-table .item th:nth-child(1) .more-info {
+                display: none; } }
+            .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .icon {
               width: 34px;
               height: 34px; }
-            .table .table-wrapper table .item th:nth-child(1) .more-info .name {
+            .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .name {
               text-transform: uppercase;
               color: #000000;
               font-size: 18px;
               font-weight: 600;
               margin-top: 30px;
               margin-bottom: 25px; }
-            .table .table-wrapper table .item th:nth-child(1) .more-info .description {
+            .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .description {
               color: #000000;
               font-size: 12px;
               font-weight: 400;
               line-height: 1.4em; }
-              .table .table-wrapper table .item th:nth-child(1) .more-info .description /deep/ span {
+              .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .description /deep/ span {
                 display: inline-block;
                 margin-top: 15px; }
-            .table .table-wrapper table .item th:nth-child(1) .more-info .links-block {
+            .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block {
               margin-top: 35px;
               display: flex;
               flex-direction: row;
               justify-content: space-between; }
-              .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .left-side {
+              .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .left-side {
                 display: flex;
                 flex-direction: row; }
-                .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .left-side .web, .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .left-side .twitter {
+                .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .left-side .web, .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .left-side .twitter {
                   margin-right: 20px;
                   display: flex;
                   align-items: center; }
-                  .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .left-side .web a, .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .left-side .twitter a {
+                  .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .left-side .web a, .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .left-side .twitter a {
                     align-items: center;
                     display: flex; }
-              .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .right-side p {
+              .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .right-side p {
                 padding: 0; }
-                .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .right-side p a {
+                .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .right-side p a {
                   display: flex;
                   align-items: center;
                   font-size: 11px;
                   font-weight: 400;
                   text-transform: uppercase; }
-                  .table .table-wrapper table .item th:nth-child(1) .more-info .links-block .right-side p a span {
+                  .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .links-block .right-side p a span {
                     margin-right: 5px;
                     display: inline-block; }
-        .table .table-wrapper table .item th.true .icon {
+        .table .table-wrapper .reg-table .item th.true .icon {
           margin: 0 auto;
           background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iT2JqZWN0cyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA1MS4zIDM5LjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjMgMzkuNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9IlhNTElEXzExXyI+DQoJCTxwYXRoIGlkPSJYTUxJRF8xNV8iIHN0eWxlPSJmaWxsOiMwMEEwNDg7IiBkPSJNMC45LDIzLjFjNCw1LjIsOCwxMC4zLDEyLDE1LjVjMSwxLjMsMy40LDAuNyw0LjMtMC4zDQoJCQlDMjguNCwyNi40LDM5LjYsMTQuNSw1MC44LDIuNmMxLjgtMi0zLTMtNC40LTEuNUMzNS4yLDEzLDI0LDI0LjksMTIuOCwzNi44YzEuNC0wLjEsMi45LTAuMiw0LjMtMC4zYy00LTUuMi04LTEwLjMtMTItMTUuNQ0KCQkJQzMuOCwxOS40LTAuOCwyMC45LDAuOSwyMy4xTDAuOSwyMy4xeiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K") no-repeat center;
           width: 17px;
           height: 13px; }
-        .table .table-wrapper table .item th.false .icon {
+        .table .table-wrapper .reg-table .item th.false .icon {
           margin: 0 auto;
           background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iT2JqZWN0cyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNiAyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNiAyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bGluZSBpZD0iWE1MSURfNl8iIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiNGMUM4QzY7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLW1pdGVybGltaXQ6MTA7IiB4MT0iMCIgeTE9IjEiIHgyPSIxNiIgeTI9IjEiLz4NCjwvc3ZnPg0K") no-repeat center;
           width: 17px;
           height: 13px; }
+.table .fly-table {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 1px; }
+  @media screen and (max-width: 425px) {
+    .table .fly-table {
+      display: block; } }
+.table .fix-col {
+  overflow: hidden; }
+  .table .fix-col .first-element td {
+    border-bottom: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    width: 200px;
+    text-align: left;
+    border-right: 2px solid #eeeeee;
+    padding: 20px 40px 42px 20px; }
+  .table .fix-col td {
+    z-index: 1;
+    background: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+    box-sizing: border-box;
+    position: relative;
+    width: 200px;
+    text-align: left;
+    border-right: 2px solid #eeeeee; }
+    .table .fix-col td p {
+      position: relative;
+      z-index: 1;
+      padding: 0 20px;
+      flex-direction: row;
+      display: flex;
+      align-items: center; }
+      .table .fix-col td p img {
+        z-index: 1;
+        margin-right: 10px;
+        width: 18px;
+        height: auto; }
 .table .carousel-wrapper {
   margin-top: 40px;
   position: relative; }

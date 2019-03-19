@@ -29,9 +29,6 @@
     max-width: 1240px;
   }
 
-  .currency {
-
-  }
 
   .content {
     overflow: hidden;
@@ -45,17 +42,22 @@
   }
 
   .table-wrapper {
-    overflow-x: auto;
-    overflow-y: auto;
+    position: relative;
+
+    * {
+      font-family: "Exo 2.0";
+    }
 
 
-    table {
+    .reg-table-wrapper {
+      position: relative;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+
+    .reg-table {
+
       width: 1150px;
-
-
-      * {
-        font-family: "Exo 2.0";
-      }
 
       .table-header {
         background-color: #f8f8f8;
@@ -132,6 +134,9 @@
               padding: 20px;
               min-width: 350px;
               transition: all 0.3s ease;
+              @media screen and (max-width: 425px) {
+                display: none;
+              }
 
               .icon {
                 width: 34px;
@@ -226,6 +231,71 @@
         }
       }
     }
+  }
+
+  .fly-table {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 1px;
+    @media screen and (max-width: 425px) {
+      display: block;
+
+    }
+  }
+
+  .fix-col {
+    overflow: hidden;
+
+    .first-element {
+      td {
+        border-bottom: 1px solid #cccccc;
+        background-color: #f8f8f8;
+        cursor: pointer;
+        color: #000000;
+        font-size: 12px;
+        font-weight: $fontR;
+
+        width: 200px;
+
+        text-align: left;
+        border-right: 2px solid #eeeeee;
+        padding: 20px 40px 42px 20px;
+      }
+    }
+
+    td {
+      z-index: 1;
+      background: white;
+      padding: 20px 0;
+      border-bottom: 1px solid #eeeeee;
+      box-sizing: border-box;
+
+      position: relative;
+      width: 200px;
+      text-align: left;
+      border-right: 2px solid #eeeeee;
+
+      p {
+        position: relative;
+        z-index: 1;
+        padding: 0 20px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+
+        img {
+          z-index: 1;
+          margin-right: 10px;
+          width: 18px;
+          height: auto;
+        }
+      }
+
+    }
+
   }
 
   .carousel-wrapper {
@@ -333,4 +403,5 @@
     }
 
   }
+
 }
