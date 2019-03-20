@@ -4029,7 +4029,7 @@ body.active {
             padding: 20px;
             min-width: 350px;
             transition: all 0.3s ease; }
-            @media screen and (max-width: 425px) {
+            @media screen and (max-width: 768px) {
               .table .table-wrapper .reg-table .item th:nth-child(1) .more-info {
                 display: none; } }
             .table .table-wrapper .reg-table .item th:nth-child(1) .more-info .icon {
@@ -4093,7 +4093,7 @@ body.active {
   left: 0px;
   width: 200px;
   height: 1px; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
     .table .fly-table {
       display: block; } }
 .table .fix-col {

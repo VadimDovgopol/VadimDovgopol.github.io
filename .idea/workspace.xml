@@ -31,10 +31,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="943" />
-    <option name="width" value="1624" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2552" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +45,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -51,11 +53,21 @@
               <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -63,12 +75,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
       <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,6 +127,7 @@
       <workItem from="1552999456426" duration="29000" />
       <workItem from="1553002332240" duration="693000" />
       <workItem from="1553003604066" duration="6000" />
+      <workItem from="1553005531820" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -270,16 +283,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553002393065</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new fix">
+      <created>1553005558888</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1553005558888</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9322000" />
+    <option name="totallyTimeSpent" value="9365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="943" y="0" width="1624" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25535938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,7 +344,8 @@
     <MESSAGE value="add fix" />
     <MESSAGE value="complete work" />
     <MESSAGE value="add adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="add adaptive" />
+    <MESSAGE value="new fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="new fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">

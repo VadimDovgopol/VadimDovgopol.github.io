@@ -301,24 +301,31 @@ $(document).ready(function () {
     $('.slider-bottom').slick({
         prevArrow: ".prev4",
         nextArrow: ".next4",
-        slidesToShow: 3,
+        slidesToShow: 4,
         arrows: true,
 
         responsive: [
             {
-                breakpoint: 850,
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 800,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 570,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 }
-            }
+            },
         ]
 
     });

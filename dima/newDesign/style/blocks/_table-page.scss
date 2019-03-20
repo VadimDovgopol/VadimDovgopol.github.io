@@ -134,7 +134,7 @@
               padding: 20px;
               min-width: 350px;
               transition: all 0.3s ease;
-              @media screen and (max-width: 425px) {
+              @media screen and (max-width: 768px) {
                 display: none;
               }
 
@@ -240,7 +240,7 @@
     left: 0px;
     width: 200px;
     height: 1px;
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 768px) {
       display: block;
 
     }
