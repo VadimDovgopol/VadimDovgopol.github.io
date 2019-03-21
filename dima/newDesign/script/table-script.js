@@ -7,6 +7,8 @@ let app = new Vue({
         activeColl: null
     },
     mounted() {
+
+
         this.tableContent = data.item;
         this.tableHeader = data.table;
     },

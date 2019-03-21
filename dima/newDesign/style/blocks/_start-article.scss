@@ -63,11 +63,11 @@
   &.fz15 {
     .start-article {
 
-      p, .h2-title, label, blockquote {
+      p, .h2-title, label, blockquote, h2 {
         font-size: 15px !important;
       }
 
-      .h1-title {
+      .h1-title, h1 {
         font-size: 18px !important;
       }
     }
@@ -76,11 +76,11 @@
 
   &.fz18 {
     .start-article {
-      p, .h2-title, label, blockquote {
+      p, .h2-title, label, blockquote, h2 {
         font-size: 17px !important;
       }
 
-      .h1-title {
+      .h1-title, h1 {
         font-size: 20px !important;
       }
     }
@@ -89,11 +89,11 @@
 
   &.fz21 {
     .start-article {
-      p, .h2-title, label, blockquote {
+      p, .h2-title, label, blockquote, h2 {
         font-size: 19px !important;
       }
 
-      .h1-title {
+      .h1-title, h1 {
         font-size: 22px !important;
       }
     }

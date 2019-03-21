@@ -75,12 +75,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
       <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,6 +128,7 @@
       <workItem from="1553002332240" duration="693000" />
       <workItem from="1553003604066" duration="6000" />
       <workItem from="1553005531820" duration="43000" />
+      <workItem from="1553071927938" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -290,16 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553005558888</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add new fix">
+      <created>1553071952974</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1553071952974</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9365000" />
+    <option name="totallyTimeSpent" value="9400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="943" y="0" width="1624" height="1047" extended-state="0" />
+    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25535938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21285564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,7 +353,8 @@
     <MESSAGE value="complete work" />
     <MESSAGE value="add adaptive" />
     <MESSAGE value="new fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="new fix" />
+    <MESSAGE value="add new fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
