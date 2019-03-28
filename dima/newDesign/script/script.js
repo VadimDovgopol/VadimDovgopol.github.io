@@ -88,7 +88,7 @@ $(document).ready(function () {
 
 
     $(".to-top-arrow").on("click", function () {
-        scrollTo(0, 0)
+        window.scrollTo(0, 0)
     });
 
     $(".fz1").on("click", function () {
