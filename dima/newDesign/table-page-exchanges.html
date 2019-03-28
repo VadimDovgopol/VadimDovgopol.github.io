@@ -685,6 +685,118 @@
         ]
     };
 
+    let filterData = [
+        {
+            filterType: "checkBox",
+            filterName: "Тип биржи",
+            objName: "type",
+            all: "Все",
+            defaultValue: [
+                "Все",
+            ],
+            checkBox: [
+                "Все",
+                "CEX",
+                "DEX"
+            ]
+
+        },
+        {
+            filterType: "checkBox",
+            filterName: "Регион",
+            objName: "region",
+            all: "Все",
+            defaultValue: [
+                "Все",
+
+            ],
+            checkBox: [
+                "Все",
+                "Азия",
+                "Европа",
+                "Северная Америка",
+                "Южная Америка",
+            ]
+
+        },
+        {
+            filterType: "radioBtn",
+            filterName: "Маржинальная торговля",
+            objName: "marginTrading",
+            all: "",
+            defaultValue: "Да",
+            checkBox: [
+                "Да",
+                "Нет",
+            ]
+
+        },
+        {
+            filterType: "radioBtn",
+            filterName: "Внутренний токен биржи, тикер",
+            objName: "internalToken",
+            all: "",
+            defaultValue: "Да",
+            checkBox: [
+                "Да",
+                "Нет",
+            ]
+
+        },
+        {
+            filterType: "radioBtn",
+            filterName: "Мотивация трейдеров",
+            objName: "MotivationOfTraders",
+            all: "",
+            defaultValue: "Да",
+            checkBox: [
+                "Да",
+                "Нет",
+            ]
+
+        },
+        {
+            filterType: "radioBtn",
+            filterName: "KYC",
+            objName: "kys",
+            all: "",
+            defaultValue: "Да",
+            checkBox: [
+                "Да",
+                "Нет",
+            ]
+
+        },
+        {
+            filterType: "radioBtn",
+            filterName: "Stable coin`s",
+            objName: "stableCoin",
+            all: "",
+            defaultValue: "Да",
+            checkBox: [
+                "Да",
+                "Нет",
+            ]
+
+        },
+        {
+            filterType: "checkBox",
+            filterName: "Способы пополнения депозита",
+            objName: "waysTo",
+            all: "Все",
+            defaultValue: [
+                "Все"
+            ],
+            checkBox: [
+                "Все",
+                "Криповалюта",
+                "Банковский перевод",
+                "Пополнение банковской картой",
+            ],
+
+        },
+    ];
+
     if (nightMode === "true") {
         body.classList.add("night-mode");
         setTimeout(function () {
@@ -1427,6 +1539,91 @@
 
             <h1 class="h1-title">LetKnow.news wallet review</h1>
 
+            <div class="filter-block">
+
+                <div v-for="(key, value) in filterDataVue" class="filter-item">
+
+                    <div v-if="key.filterType === 'checkBox'"
+                         class="filter_visible-item" @click="openDropList(value)">
+
+                        <div class="top" v-html="key.filterName"></div>
+                        <div class="bottom">
+                            <p class="all">
+                                <span v-if="key.all === 'Все'">Все</span>
+
+                                <span v-if="key.all !== 'Все'" v-for="thirdKey in key.defaultValue"
+                                      v-html="thirdKey"></span>
+                            </p>
+                            <svg class="arrow" width="9" height="5" viewBox="0 0 9 5" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.67647 4.93032L8.96229 0.252903C9.0075 0.203387 9.01222 0.139194 8.97557 0.0862903C8.9385 0.0332258 8.86564 -5.8729e-09 8.78593 -9.35741e-09L0.214291 -3.84036e-07C0.134574 -3.8752e-07 0.0615017 0.0332254 0.0244294 0.0862899C0.00814328 0.109838 -2.56079e-07 0.135645 -2.572e-07 0.16129C-2.58603e-07 0.193387 0.0128576 0.225322 0.0379296 0.252903L4.32375 4.93032C4.36382 4.97403 4.42961 5 4.50011 5C4.57061 5 4.6364 4.97387 4.67647 4.93032Z"
+                                      fill="black"/>
+                            </svg>
+                        </div>
+
+
+                    </div>
+
+                    <div v-if="key.filterType === 'checkBox'"
+                         style="display: none" v-show="showDropList === value"
+                         class="drop-list">
+                        <div class="item" v-for="secondKey in key.checkBox">
+                            <label class="container">{{secondKey}}
+                                <input @change="selectAll(secondKey, value)" v-model="key.defaultValue" type="checkbox"
+                                       :value="secondKey">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <!---->
+
+                    <div v-if="key.filterType === 'radioBtn'"
+                         class="filter_visible-item" @click="openDropList(value)">
+
+                        <div class="top" v-html="key.filterName"></div>
+                        <div class="bottom">
+                            <p class="all">
+
+                                <span v-html="key.defaultValue"></span>
+                            </p>
+                            <svg class="arrow" width="9" height="5" viewBox="0 0 9 5" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.67647 4.93032L8.96229 0.252903C9.0075 0.203387 9.01222 0.139194 8.97557 0.0862903C8.9385 0.0332258 8.86564 -5.8729e-09 8.78593 -9.35741e-09L0.214291 -3.84036e-07C0.134574 -3.8752e-07 0.0615017 0.0332254 0.0244294 0.0862899C0.00814328 0.109838 -2.56079e-07 0.135645 -2.572e-07 0.16129C-2.58603e-07 0.193387 0.0128576 0.225322 0.0379296 0.252903L4.32375 4.93032C4.36382 4.97403 4.42961 5 4.50011 5C4.57061 5 4.6364 4.97387 4.67647 4.93032Z"
+                                      fill="black"/>
+                            </svg>
+                        </div>
+
+
+                    </div>
+
+                    <div v-if="key.filterType === 'radioBtn'"
+                         style="display: none" v-show="showDropList === value"
+                         class="drop-list">
+                        <div class="item" v-for="secondKey in key.checkBox">
+                            <label class="container">{{secondKey}}
+                                <input @change="selectAll(secondKey, value)" v-model="key.defaultValue" type="radio"
+                                       :value="secondKey">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div @click="collectData()" class="showResult">
+                    <p>применить</p>
+                </div>
+
+                <p @click="resetFilter" class="resetFilter">
+                    Очистить фильтры
+                </p>
+
+            </div>
+
             <div class="table-wrapper">
 
                 <div class="reg-table-wrapper">
@@ -2013,7 +2210,7 @@
 
 <script src="script/TweenMax.min.js"></script>
 <script src="script/script.js"></script>
-<script src="script/table-script.js"></script>
+<script src="script/filter.js"></script>
 
 </body>
 </html>

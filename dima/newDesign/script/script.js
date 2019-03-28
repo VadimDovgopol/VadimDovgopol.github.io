@@ -87,6 +87,10 @@ $(document).ready(function () {
     }
 
 
+    $(".to-top-arrow").on("click", function () {
+        scrollTo(0, 0)
+    });
+
     $(".fz1").on("click", function () {
         removeClass();
         localStorage.setItem('font-size', "1");
@@ -110,7 +114,6 @@ $(document).ready(function () {
         $(this).addClass("active");
 
     });
-
 
     $(".hide-img").on("click", function () {
         $(this).addClass("active");

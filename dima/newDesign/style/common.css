@@ -361,6 +361,20 @@ body.active {
   .br-theme-css-stars .br-widget a.br-selected:after {
     content: "\2605";
     color: black; } }
+.to-top-arrow {
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  right: 20px;
+  bottom: 20px; }
+  .to-top-arrow p {
+    color: #D24A43;
+    font-size: 12px; }
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -775,6 +789,7 @@ body.active {
     background-color: #1f1f1f !important;
     border-color: #1c1c1c !important; }
     .night-mode .table .table-header th {
+      background-color: #1f1f1f !important;
       color: white !important; }
       .night-mode .table .table-header th:first-child {
         border-color: #1c1c1c !important; }
@@ -2283,16 +2298,22 @@ body.active {
     width: 11px;
     height: 9px; }
 
-.article.fz15 .start-article p, .article.fz15 .start-article .h2-title, .article.fz15 .start-article label, .article.fz15 .start-article blockquote, .article.fz15 .start-article h2 {
+.article.fz15 .start-article p, .article.fz15 .start-article label, .article.fz15 .start-article blockquote {
   font-size: 15px !important; }
+.article.fz15 .start-article .h2-title, .article.fz15 .start-article h2 {
+  font-size: 16px; }
 .article.fz15 .start-article .h1-title, .article.fz15 .start-article h1 {
   font-size: 18px !important; }
-.article.fz18 .start-article p, .article.fz18 .start-article .h2-title, .article.fz18 .start-article label, .article.fz18 .start-article blockquote, .article.fz18 .start-article h2 {
+.article.fz18 .start-article p, .article.fz18 .start-article label, .article.fz18 .start-article blockquote {
   font-size: 17px !important; }
+.article.fz18 .start-article .h2-title, .article.fz18 .start-article h2 {
+  font-size: 18px; }
 .article.fz18 .start-article .h1-title, .article.fz18 .start-article h1 {
   font-size: 20px !important; }
-.article.fz21 .start-article p, .article.fz21 .start-article .h2-title, .article.fz21 .start-article label, .article.fz21 .start-article blockquote, .article.fz21 .start-article h2 {
+.article.fz21 .start-article p, .article.fz21 .start-article label, .article.fz21 .start-article blockquote {
   font-size: 19px !important; }
+.article.fz21 .start-article .h2-title, .article.fz21 .start-article h2 {
+  font-size: 20px; }
 .article.fz21 .start-article .h1-title, .article.fz21 .start-article h1 {
   font-size: 22px !important; }
 .article .h1-title {
@@ -4242,6 +4263,125 @@ body.active {
             margin-top: 1px;
             width: 10px;
             height: 10px; }
+
+.filter-block {
+  display: flex;
+  flex-flow: row wrap; }
+  .filter-block * {
+    font-family: "Exo 2.0";
+    font-weight: 400;
+    user-select: none; }
+  .filter-block .filter-item {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    max-width: 193px;
+    width: 100%; }
+    .filter-block .filter-item .filter_visible-item {
+      position: relative;
+      width: 100%;
+      max-width: 193px; }
+      .filter-block .filter-item .filter_visible-item .top {
+        font-weight: 500;
+        font-size: 14px; }
+      .filter-block .filter-item .filter_visible-item .bottom {
+        min-height: 29px;
+        border-bottom: 1px solid #cccccc;
+        display: flex;
+        align-items: center;
+        padding: 7px 3px;
+        cursor: pointer; }
+        .filter-block .filter-item .filter_visible-item .bottom .all {
+          font-size: 12px; }
+          .filter-block .filter-item .filter_visible-item .bottom .all span {
+            padding-right: 7px; }
+        .filter-block .filter-item .filter_visible-item .bottom svg {
+          display: flex;
+          align-self: flex-end;
+          margin: auto 0 auto auto; }
+    .filter-block .filter-item .drop-list {
+      z-index: 4;
+      position: absolute;
+      top: 98%;
+      left: 0;
+      width: 100%;
+      background: #f8f8f8;
+      border: 1px solid #cfcfcf;
+      border-bottom: 3px solid #d24a43;
+      padding: 15px; }
+      .filter-block .filter-item .drop-list .item {
+        cursor: pointer; }
+        .filter-block .filter-item .drop-list .item .container {
+          display: block;
+          position: relative;
+          padding-left: 25px;
+          margin-bottom: 12px;
+          font-size: 14px;
+          font-weight: 500;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          cursor: pointer; }
+          .filter-block .filter-item .drop-list .item .container:hover {
+            color: #d24a43; }
+        .filter-block .filter-item .drop-list .item .container input {
+          position: absolute;
+          opacity: 0;
+          height: 0;
+          width: 0; }
+        .filter-block .filter-item .drop-list .item .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 12px;
+          width: 12px;
+          background-color: white; }
+        .filter-block .filter-item .drop-list .item .container input:checked ~ .checkmark {
+          background-color: #d24a43; }
+        .filter-block .filter-item .drop-list .item .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none; }
+        .filter-block .filter-item .drop-list .item .container input:checked ~ .checkmark:after {
+          display: block; }
+        .filter-block .filter-item .drop-list .item .container .checkmark:after {
+          left: 4px;
+          top: 1px;
+          width: 3px;
+          height: 7px;
+          border: solid white;
+          border-width: 0 2px 2px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+  .filter-block .showResult {
+    width: 149px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #d24a43;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    cursor: pointer; }
+    .filter-block .showResult:hover p {
+      color: black; }
+    .filter-block .showResult p {
+      text-transform: uppercase;
+      color: white;
+      font-size: 15px; }
+  .filter-block .resetFilter {
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-self: flex-end;
+    font-size: 14px; }
 
 .show-hide-wrapper .show-img {
   display: flex;

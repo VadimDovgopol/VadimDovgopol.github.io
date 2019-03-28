@@ -70,18 +70,6 @@
         background-color: #f8f8f8;
         border-bottom: 1px solid #cccccc;
 
-        //@media screen and (max-width: 768px) {
-        //  position: fixed;
-        //  top: 60px;
-        //  left: 15px;
-        //  width: 100%;
-        //  overflow: hidden;
-        //
-        //  height: 76px !important;
-        //  z-index: 4;
-        //}
-
-
         th {
           position: sticky;
           top: 0;
@@ -338,9 +326,7 @@
           height: auto;
         }
       }
-
     }
-
   }
 
   .carousel-wrapper {

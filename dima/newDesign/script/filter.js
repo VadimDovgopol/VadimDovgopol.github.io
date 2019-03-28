@@ -3,8 +3,13 @@ let app = new Vue({
     data: {
         tableContent: [],
         tableHeader: [],
+        filterDataVue: [],
         active: "active",
         activeColl: null,
+        showDropList: '',
+        filterDataComplete: {},
+
+        allNameArray: [],
     },
     mounted() {
         this.tableContent = data.item;
@@ -47,6 +52,37 @@ let app = new Vue({
 
         },
 
+        openDropList(id) {
+            if (this.showDropList !== id) {
+                this.showDropList = id;
+            } else {
+                this.showDropList = '';
+            }
+        },
+
+        selectAll(value, id) {
+
+            if (this.filterDataVue[id].defaultValue.includes("Все")) {
+                this.filterDataVue[id].all = 'Все';
+
+            } else {
+                this.filterDataVue[id].all = "";
+            }
+
+
+        },
+
+        collectData() {
+            this.filterDataVue.forEach((el) => {
+
+                this.filterDataComplete[el.objName] = el.defaultValue;
+
+            });
+        },
+
+        resetFilter() {
+            location.reload();
+        },
     }
 
 });

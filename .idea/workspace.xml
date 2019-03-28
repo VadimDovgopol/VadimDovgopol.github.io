@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
+    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="add new style for table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,16 +71,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newDesign" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
       <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,6 +130,8 @@
       <workItem from="1553003604066" duration="6000" />
       <workItem from="1553005531820" duration="43000" />
       <workItem from="1553071927938" duration="35000" />
+      <workItem from="1553180324436" duration="43000" />
+      <workItem from="1553180410553" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -298,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553071952974</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add new style for table">
+      <created>1553180354812</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1553180354812</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9400000" />
+    <option name="totallyTimeSpent" value="10057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -354,7 +364,8 @@
     <MESSAGE value="add adaptive" />
     <MESSAGE value="new fix" />
     <MESSAGE value="add new fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new fix" />
+    <MESSAGE value="add new style for table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style for table" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
