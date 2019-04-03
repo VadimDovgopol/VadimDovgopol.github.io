@@ -28,11 +28,9 @@
     }
   }
 
-
   .main-content {
     max-width: 1240px;
   }
-
 
   .content {
     max-width: 1240px;
@@ -41,6 +39,22 @@
     .h1-title {
       text-align: center;
       padding: 0 0 40px 0;
+    }
+  }
+
+  .note-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    @media screen and (max-width: 768px) {
+      padding-left: 0;
+
+    }
+
+    p {
+      font-size: 12px;
+      padding-bottom: 5px;
     }
   }
 
@@ -61,7 +75,7 @@
     }
 
     .reg-table {
-      width: 1150px;
+      width: 1210px;
       position: relative;
 
 
@@ -102,6 +116,12 @@
             border-right: 2px solid #eeeeee;
             padding: 0 40px 0 20px;
 
+            @media screen and (max-width: 768px) {
+              width: 150px;
+              padding: 0 40px 0 10px;
+
+            }
+
 
           }
         }
@@ -121,6 +141,10 @@
           vertical-align: middle;
           padding: 20px 0;
           font-size: 12px;
+          @media screen and (max-width: 768px) {
+            height: 60px;
+
+          }
 
           &:nth-child(1) {
             font-size: 14px;
@@ -129,6 +153,12 @@
             width: 200px;
             text-align: left;
             border-right: 2px solid #eeeeee;
+            @media screen and (max-width: 768px) {
+              width: 150px;
+              p {
+                display: none !important;
+              }
+            }
 
             &:hover {
               .more-info {
@@ -144,6 +174,11 @@
               flex-direction: row;
               display: flex;
               align-items: center;
+
+              @media screen and (max-width: 768px) {
+                padding: 0 10px;
+
+              }
 
               img {
                 z-index: 1;
@@ -271,7 +306,7 @@
     z-index: 2;
     top: 0px;
     left: 0px;
-    width: 200px;
+    width: 150px;
     height: 1px;
     @media screen and (max-width: 768px) {
       display: block;
@@ -299,6 +334,12 @@
         text-align: left;
         border-right: 2px solid #eeeeee;
         padding: 0 40px 0 20px;
+
+        @media screen and (max-width: 768px) {
+          width: 150px;
+          padding: 0 40px 0 10px;
+
+        }
       }
     }
 
@@ -322,11 +363,24 @@
         display: flex;
         align-items: center;
 
+        @media screen and (max-width: 768px) {
+          padding: 0 10px;
+
+        }
+
         img {
           z-index: 1;
           margin-right: 10px;
           width: 18px;
           height: auto;
+        }
+      }
+    }
+
+    .item {
+      img {
+        @media screen and (max-width: 768px) {
+          display: none;
         }
       }
     }
@@ -443,4 +497,15 @@
 
   }
 
+}
+
+.table-exchanges {
+  .fly-table {
+    .fix-col {
+      .item {
+        height: 69px !important;
+
+      }
+    }
+  }
 }

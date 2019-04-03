@@ -10,7 +10,6 @@ let app = new Vue({
         this.tableContent = data.item;
         this.tableHeader = data.table;
         this.tableHeader = data.table;
-        this.filterDataVue = filterData;
     },
     computed: {
         sortedArray: function () {
@@ -26,6 +25,9 @@ let app = new Vue({
         }
     },
     methods: {
+        reset() {
+            window.location.reload()
+        },
         filter(id) {
             if (id !== 0 && id !== this.activeColl) {
                 this.activeColl = id;
