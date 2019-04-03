@@ -1,6 +1,13 @@
 .filter-block {
   display: flex;
   flex-flow: row wrap;
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+  }
 
   * {
     font-family: "Exo 2.0";
@@ -16,11 +23,15 @@
     align-self: flex-end;
     max-width: 193px;
     width: 100%;
+    @media screen and (max-width: 425px) {
+      max-width: 425px;
+      align-self: center;
+      margin-right: 0;
+    }
 
     .filter_visible-item {
       position: relative;
       width: 100%;
-      max-width: 193px;
 
 
       .top {
@@ -73,7 +84,7 @@
           position: relative;
           padding-left: 25px;
           margin-bottom: 12px;
-          font-size: 14px;
+          font-size: 16px;
           font-weight: $fontM;
           -webkit-user-select: none;
           -moz-user-select: none;
@@ -97,8 +108,8 @@
           position: absolute;
           top: 0;
           left: 0;
-          height: 12px;
-          width: 12px;
+          height: 16px;
+          width: 16px;
           background-color: white;
         }
 
@@ -118,8 +129,8 @@
         }
 
         .container .checkmark:after {
-          left: 4px;
-          top: 1px;
+          left: 6px;
+          top: 3px;
           width: 3px;
           height: 7px;
           border: solid white;
@@ -153,6 +164,10 @@
       }
     }
 
+    @media screen and (max-width: 425px) {
+      align-self: center;
+    }
+
 
     p {
       text-transform: uppercase;
@@ -169,5 +184,9 @@
     display: flex;
     align-self: flex-end;
     font-size: 14px;
+    @media screen and (max-width: 425px) {
+      margin-left: 0;
+      align-self: center;
+    }
   }
 }

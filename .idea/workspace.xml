@@ -45,7 +45,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -53,35 +52,26 @@
               <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newDesign/script" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newDesign" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
-      <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign\script" />
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+      <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,6 +123,8 @@
       <workItem from="1553180324436" duration="43000" />
       <workItem from="1553180410553" duration="614000" />
       <workItem from="1553779048026" duration="42000" />
+      <workItem from="1553779769168" duration="618000" />
+      <workItem from="1553856545695" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -316,16 +308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553779077909</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix scroll function">
+      <created>1553779786600</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1553779786600</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10099000" />
+    <option name="totallyTimeSpent" value="10744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="513" y="0" width="2054" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21285564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20039682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,7 +373,8 @@
     <MESSAGE value="add new fix" />
     <MESSAGE value="add new style for table" />
     <MESSAGE value="add block" />
-    <option name="LAST_COMMIT_MESSAGE" value="add block" />
+    <MESSAGE value="fix scroll function" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix scroll function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">

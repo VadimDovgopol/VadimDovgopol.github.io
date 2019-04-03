@@ -1,6 +1,24 @@
 .night-mode {
   background-color: #282828;
 
+  .filter-block {
+    .drop-list {
+      background: #1f1f1f !important;
+      border-color: #1c1c1c !important;
+      border-bottom-color: #d24a43 !important;
+    }
+
+    .container {
+      background: #1f1f1f !important;
+    }
+
+    .arrow {
+      path {
+        fill: white !important;
+      }
+    }
+  }
+
   .search__control {
     color: white !important;
     border-color: white !important;
@@ -502,7 +520,7 @@
 
       th {
         background-color: #1f1f1f !important;
-        
+
         color: white !important;
 
         &:first-child {
