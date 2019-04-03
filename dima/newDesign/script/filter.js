@@ -64,7 +64,6 @@ let app = new Vue({
         },
 
         selectAll(value, id) {
-            this.showDropList = '';
 
             if (value === "Все"
                 && this.filterDataVue[id].allTrigger === true) {
@@ -110,6 +109,7 @@ let app = new Vue({
         },
 
         collectData() {
+            this.showDropList = '';
 
             this.filterDataVue.forEach((el) => {
 
