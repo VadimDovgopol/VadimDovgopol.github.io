@@ -64,7 +64,7 @@ let app = new Vue({
         },
 
         selectAll(value, id) {
-
+            this.showDropList = '';
 
             if (value === "Все"
                 && this.filterDataVue[id].allTrigger === true) {
