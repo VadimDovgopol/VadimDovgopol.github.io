@@ -65,25 +65,31 @@ let app = new Vue({
 
         selectAll(value, id) {
 
-            if (value === "Все"
+            if (value === wordAll
                 && this.filterDataVue[id].allTrigger === true) {
+
                 this.filterDataVue[id].allValue = "";
                 this.filterDataVue[id].defaultValue = [];
                 this.filterDataVue[id].allTrigger = false;
 
             }
 
-            if (this.filterDataVue[id].defaultValue.includes("Все")
+            if (this.filterDataVue[id].defaultValue.includes(wordAll)
                 && this.filterDataVue[id].allTrigger !== true &&
-                this.filterDataVue[id].allValue !== "Все") {
+                this.filterDataVue[id].allValue !== wordAll) {
+                if (id === 0 || id === 1 || id === 7) {
 
-                this.filterDataVue[id].allTrigger = true;
-                this.filterDataVue[id].allValue = "Все";
-                this.filterDataVue[id].defaultValue = this.filterDataVue[id].checkBox;
+                    this.filterDataVue[id].allTrigger = true;
+                    this.filterDataVue[id].allValue = wordAll;
+                    this.filterDataVue[id].defaultValue = this.filterDataVue[id].checkBox;
+                }
 
-            } else if (value !== "Все" && !this.filterDataVue[id].defaultValue.includes("Все")) {
-                this.filterDataVue[id].allValue = "";
-                this.filterDataVue[id].allTrigger = false;
+            } else if (value !== wordAll && !this.filterDataVue[id].defaultValue.includes(wordAll)) {
+                if (id === 0 || id === 1 || id === 7) {
+
+                    this.filterDataVue[id].allValue = "";
+                    this.filterDataVue[id].allTrigger = false;
+                }
             }
 
 
@@ -91,18 +97,13 @@ let app = new Vue({
         deepEqual(arr) {
             let cache;
 
-            let ln1 = arr.length;
             let ln2 = this.filterDataComplete.waysTo.length;
 
-            //теперь делаем цикл
-            for (let i = 0; i < ln1; ++i) {
+            for (let i = 0; i < ln2; ++i) {
                 cache = this.filterDataComplete.waysTo[i];
 
-                for (let j = 0; j < ln2; ++j) {
-                    if (cache === arr[j]) {
-                        console.log('найдено совпадение: ' + cache);
-                        return true
-                    }
+                if (arr.includes(cache)) {
+                    return true;
                 }
             }
 
@@ -122,36 +123,50 @@ let app = new Vue({
                 el.show = true;
 
 
-                if (el.itemFilter.marginTrading !== this.filterDataComplete.marginTrading) {
+                if (el.itemFilter.marginTrading !== this.filterDataComplete.marginTrading
+                    && this.filterDataComplete.marginTrading !== wordAll
+                    && this.filterDataComplete.marginTrading !== "") {
                     el.show = false;
 
-                } else if (el.itemFilter.internalToken !== this.filterDataComplete.internalToken) {
+                } else if (el.itemFilter.internalToken !== this.filterDataComplete.internalToken
+                    && this.filterDataComplete.internalToken !== wordAll
+                    && this.filterDataComplete.internalToken !== "") {
                     el.show = false;
 
-                } else if (el.itemFilter.MotivationOfTraders !== this.filterDataComplete.MotivationOfTraders) {
+                } else if (el.itemFilter.MotivationOfTraders !== this.filterDataComplete.MotivationOfTraders
+                    && this.filterDataComplete.MotivationOfTraders !== wordAll
+                    && this.filterDataComplete.MotivationOfTraders !== "") {
                     el.show = false;
 
-                } else if (el.itemFilter.kys !== this.filterDataComplete.kys) {
+                } else if (el.itemFilter.kys !== this.filterDataComplete.kys
+                    && this.filterDataComplete.kys !== wordAll
+                    && this.filterDataComplete.kys !== "") {
                     el.show = false;
 
-                } else if (el.itemFilter.stableCoin !== this.filterDataComplete.stableCoin) {
+
+                } else if (el.itemFilter.stableCoin !== this.filterDataComplete.stableCoin
+                    && this.filterDataComplete.stableCoin !== wordAll
+                    && this.filterDataComplete.stableCoin !== "") {
                     el.show = false;
 
-                } else if (!this.filterDataComplete.type.includes("Все")
+
+                } else if (!this.filterDataComplete.type.includes(wordAll)
                     && !this.filterDataComplete.type.includes(el.itemFilter.type)) {
                     el.show = false;
 
 
-                } else if (!this.filterDataComplete.region.includes("Все")
+                } else if (!this.filterDataComplete.region.includes(wordAll)
                     && !this.filterDataComplete.region.includes(el.itemFilter.region)) {
                     el.show = false;
 
-                } else if (!this.filterDataComplete.waysTo.includes("Все")
+
+                } else if (!this.filterDataComplete.waysTo.includes(wordAll)
                     && this.deepEqual(el.itemFilter.waysTo) !== true) {
 
                     el.show = false;
 
                 } else {
+
                 }
             });
 

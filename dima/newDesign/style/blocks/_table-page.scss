@@ -55,6 +55,13 @@
     p {
       font-size: 12px;
       padding-bottom: 5px;
+
+      &:nth-child(2) {
+        cursor: pointer;
+        &:hover {
+          color: #d24a43;
+        }
+      }
     }
   }
 
@@ -141,12 +148,10 @@
           vertical-align: middle;
           padding: 20px 0;
           font-size: 12px;
-          @media screen and (max-width: 768px) {
-            height: 60px;
-
-          }
+          height: 60px;
 
           &:nth-child(1) {
+            cursor: pointer;
             font-size: 14px;
             z-index: 1;
             position: relative;
@@ -503,9 +508,35 @@
   .fly-table {
     .fix-col {
       .item {
-        height: 69px !important;
+        //height: 69px !important;
 
       }
+    }
+  }
+}
+
+.table-exchanges {
+
+  .reg-table {
+    .item {
+      th {
+        //height: 180px;
+      }
+    }
+
+    .empty {
+      //height: 180px;
+    }
+  }
+
+  .fly-table {
+    .item {
+      .full {
+        //vertical-align: middle;
+        //height: 180px;
+
+      }
+
     }
   }
 }

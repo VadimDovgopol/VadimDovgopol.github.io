@@ -4071,6 +4071,10 @@ body.active {
   .table .note-block p {
     font-size: 12px;
     padding-bottom: 5px; }
+    .table .note-block p:nth-child(2) {
+      cursor: pointer; }
+      .table .note-block p:nth-child(2):hover {
+        color: #d24a43; }
 .table .table-wrapper {
   position: relative; }
   .table .table-wrapper * {
@@ -4122,11 +4126,10 @@ body.active {
       .table .table-wrapper .reg-table .item th {
         vertical-align: middle;
         padding: 20px 0;
-        font-size: 12px; }
-        @media screen and (max-width: 768px) {
-          .table .table-wrapper .reg-table .item th {
-            height: 60px; } }
+        font-size: 12px;
+        height: 60px; }
         .table .table-wrapper .reg-table .item th:nth-child(1) {
+          cursor: pointer;
           font-size: 14px;
           z-index: 1;
           position: relative;
@@ -4356,9 +4359,6 @@ body.active {
             margin-top: 1px;
             width: 10px;
             height: 10px; }
-
-.table-exchanges .fly-table .fix-col .item {
-  height: 69px !important; }
 
 .filter-block {
   display: flex;

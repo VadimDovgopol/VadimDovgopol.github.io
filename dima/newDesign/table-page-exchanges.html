@@ -18,371 +18,130 @@
     var body = document.getElementById('body');
     var nightMode = localStorage.getItem('nightMode');
 
+
+    let wordAll = "Все";
+
     let data = {
-        "table": [
-            "LetKnow.news exchange review",
+        table: [
+            "Биржи",
             "Регион",
             "Год основания / запуска",
             "Вид площадки",
             "Количество торговых пар / валют",
             "Количество монет",
-            "Коммисия торговли, %",
+            "Комиссия торговли, %",
             "Мобильное приложение",
             "Маржинальная торговля",
-            "Внутрений токен биржи, тикер ",
+            "Внутрений токен биржи, Тикер",
             "Мотивация трейдеров",
             "KYC",
-            "Stable coin`s",
+            "Stable coins",
             "Способы пополнения депозита",
         ],
-        "item": [
+        item: [
             {
-                "show": true,
-                "itemFilter": {
-                    "type": "CEX",
-                    "region": "Азия",
-                    "marginTrading": "Да",
-                    "internalToken": "Да",
-                    "MotivationOfTraders": "Да",
-                    "kys": "Да",
-                    "stableCoin": "Да",
-                    "waysTo": ["Криповалюта"]
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Азия",
+                    marginTrading: "Да",
+                    internalToken: "Да",
+                    MotivationOfTraders: "",
+                    kys: "Нет",
+                    stableCoin: "Да",
+                    waysTo: ["Криповалюта"] // deposit_refill
                 },
-                "info": [
+                info: [
                     {
-                        "text": "<img src='img/btc.png' alt=''><span>CY Азия1<span>",
-                        "class": "full"
+                        text: "<span>BiBox<span>",
+                        class: "full"
                     },
                     {
-                        "text": "South Korea",
-                        "class": "empty"
+                        text: "Китай",
+                        class: "empty"
                     },
                     {
-                        "text": "2013",
-                        "class": "empty"
+                        text: "2017",
+                        class: "empty"
                     },
                     {
-                        "text": "CEX",
-                        "class": "empty"
+                        text: "CEX",
+                        class: "empty"
                     },
                     {
-                        "text": "77 / 77",
-                        "class": "empty"
+                        text: "208 / 85",
+                        class: "empty"
                     },
                     {
-                        "text": "77",
-                        "class": "empty"
+                        text: "85",
+                        class: "empty"
                     },
                     {
-                        "text": "0 - 0.15",
-                        "class": "empty"
+                        text: "0.1%",
+                        class: "empty"
                     },
                     {
-                        "text": "iOS/Android",
-                        "class": "empty"
+                        text: "",
+                        class: "true"
                     },
                     {
-                        "text": "Нет",
-                        "class": "empty"
+                        text: "",
+                        class: "true"
                     },
                     {
-                        "text": "Нет",
-                        "class": "empty"
+                        text: "",
+                        class: "true"
                     },
                     {
-                        "text": "Нет",
-                        "class": "empty"
+                        text: "",
+                        class: "false"
                     },
                     {
-                        "text": "Да",
-                        "class": "empty"
+                        text: "",
+                        class: "false"
                     },
                     {
-                        "text": "Нет",
-                        "class": "empty"
+                        text: "",
+                        class: "true"
                     },
                     {
-                        "text": "Bank Transfer (KRW)",
-                        "class": "empty"
+                        text: "Cryptocurrency",
+                        class: "empty"
                     },
                 ],
-                "moreInfo": {
-                    "icon": "<img src='img/btc.png' alt=''>",
-                    "name": "ledger Nano S",
-                    "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-                    "twitterLink": "#",
-                    "webLink": "#",
-                    "lastLink": {
-                        "text": "новости ledger nano S",
-                        "link": "#"
+
+                moreInfo: {
+                    icon: "<img src='/img/article/200/13_main.jpg' alt=''>",
+                    name: "BiBox",
+                    description: "Молодая, но активно набирающая популярность крипто-на-крипто биржа. По своей структуре и интерфейсу очень похожа на Binance. Как и свой &laquo;старший собрат&raquo; у Bibox есть свой токен &mdash; Bibox Token (BIX), служащий для снижения торговых комиссий в 2 раза.<br /><br />",
+                    twitterLink: "https://twitter.com/Bibox365",
+                    webLink: "https://www.bibox.com/",
+                    lastLink: {
+                        text: "Новости BiBox",
+                        link: "/Crypto-Exchange/bibox.html"
                     }
                 }
             },
-            {
-                "show": true,
-                "itemFilter": {
-                    "type": "CEX",
-                    "region": "Азия",
-                    "marginTrading": "Да",
-                    "internalToken": "Да",
-                    "MotivationOfTraders": "Да",
-                    "kys": "Да",
-                    "stableCoin": "Да",
-                    "waysTo": ["Банковский перевод"]
-                },
-                "info": [
-                    {
-                        "text": "<img src='img/btc.png' alt=''><span>Coinbase PRO<span>",
-                        "class": "full"
-                    },
-                    {
-                        "text": "South Korea",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "2013",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "CEX",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "77 / 77",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "77",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "0 - 0.15",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "iOS/Android",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Да",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Bank Transfer (KRW)",
-                        "class": "empty"
-                    },
-                ],
-                "moreInfo": {
-                    "icon": "<img src='img/btc.png' alt=''>",
-                    "name": "ledger Nano S",
-                    "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-                    "twitterLink": "#",
-                    "webLink": "#",
-                    "lastLink": {
-                        "text": "новости ledger nano S",
-                        "link": "#"
-                    }
-                }
-            },
-            {
-                "show": true,
-                "itemFilter": {
-                    "type": "DEX",
-                    "region": "Европа",
-                    "marginTrading": "Да",
-                    "internalToken": "Да",
-                    "MotivationOfTraders": "Да",
-                    "kys": "Да",
-                    "stableCoin": "Да",
-                    "waysTo": ["Пополнение банковской картой"]
-                },
-                "info": [
-                    {
-                        "text": "<img src='img/btc.png' alt=''><span>PBA Европа1<span>",
-                        "class": "full"
-                    },
-                    {
-                        "text": "South Korea",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "2013",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "CEX",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "77 / 77",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "77",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "0 - 0.15",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "iOS/Android",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Да",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Bank Transfer (KRW)",
-                        "class": "empty"
-                    },
-                ],
-                "moreInfo": {
-                    "icon": "<img src='img/btc.png' alt=''>",
-                    "name": "ledger Nano S",
-                    "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-                    "twitterLink": "#",
-                    "webLink": "#",
-                    "lastLink": {
-                        "text": "новости ledger nano S",
-                        "link": "#"
-                    }
-                }
-            },
-            {
-                "show": true,
-                "itemFilter": {
-                    "type": "DEX",
-                    "region": "Европа",
-                    "marginTrading": "Да",
-                    "internalToken": "Да",
-                    "MotivationOfTraders": "Да",
-                    "kys": "Да",
-                    "stableCoin": "Да",
-                    "waysTo": ["Банковский перевод", "Криповалюта"]
-                },
-                "info": [
-                    {
-                        "text": "<img src='img/btc.png' alt=''><span>Huobi (Global)<span>",
-                        "class": "full"
-                    },
-                    {
-                        "text": "South Korea",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "2013",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "CEX",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "77 / 77",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "77",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "0 - 0.15",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "iOS/Android",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Да",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Нет",
-                        "class": "empty"
-                    },
-                    {
-                        "text": "Bank Transfer (KRW)",
-                        "class": "empty"
-                    },
-                ],
-                "moreInfo": {
-                    "icon": "<img src='img/btc.png' alt=''>",
-                    "name": "ledger Nano S",
-                    "description": "Диего является генеральным директором\nRSK Labs, использующей блокчейн для\nрешения социальных проблем. Он считается\nодним из самых авторитетных экспертов\nв области криптовалют и блокчейна во всей \nЛатинской Америке. Гутьерез живет в Буэнос-\nАйресе, Аргентина, где часто выступает на\nконференциях.<br>Тип кошелька: аппаратный<br><span>Цена, в долларах США: 69</span>",
-                    "twitterLink": "#",
-                    "webLink": "#",
-                    "lastLink": {
-                        "text": "новости ledger nano S",
-                        "link": "#"
-                    }
-                }
-            },
+
         ]
-    };
+    }
 
     let filterData = [
         {
             filterType: "checkBox",
-            filterName: "Тип биржи",
+            filterName: "Вид площадки",
             objName: "type",
             allTrigger: true,
             allValue: "Все",
             defaultValue: [
                 "Все",
                 "CEX",
-                "DEX"
+                "DEX",
             ],
             checkBox: [
                 "Все",
                 "CEX",
-                "DEX"
+                "DEX",
             ]
 
         },
@@ -396,18 +155,14 @@
                 "Все",
                 "Азия",
                 "Европа",
-                "Северная Америка",
-                "Южная Америка",
-
+                "США",
             ],
             checkBox: [
                 "Все",
                 "Азия",
                 "Европа",
-                "Северная Америка",
-                "Южная Америка",
+                "США",
             ]
-
         },
         {
             filterType: "radioBtn",
@@ -415,8 +170,9 @@
             objName: "marginTrading",
             allTrigger: false,
             allValue: "",
-            defaultValue: "Да",
+            defaultValue: "Все",
             checkBox: [
+                "Все",
                 "Да",
                 "Нет",
             ]
@@ -424,12 +180,13 @@
         },
         {
             filterType: "radioBtn",
-            filterName: "Внутренний токен биржи, тикер",
+            filterName: "Внутрений токен биржи, Тикер",
             objName: "internalToken",
             allTrigger: false,
             allValue: "",
-            defaultValue: "Да",
+            defaultValue: "Все",
             checkBox: [
+                "Все",
                 "Да",
                 "Нет",
             ]
@@ -441,8 +198,9 @@
             objName: "MotivationOfTraders",
             allTrigger: false,
             allValue: "",
-            defaultValue: "Да",
+            defaultValue: "Все",
             checkBox: [
+                "Все",
                 "Да",
                 "Нет",
             ]
@@ -454,8 +212,9 @@
             objName: "kys",
             allTrigger: false,
             allValue: "",
-            defaultValue: "Да",
+            defaultValue: "Все",
             checkBox: [
+                "Все",
                 "Да",
                 "Нет",
             ]
@@ -463,12 +222,13 @@
         },
         {
             filterType: "radioBtn",
-            filterName: "Stable coin`s",
+            filterName: "Stable coins",
             objName: "stableCoin",
             allTrigger: false,
             allValue: "",
-            defaultValue: "Да",
+            defaultValue: "Все",
             checkBox: [
+                "Все",
                 "Да",
                 "Нет",
             ]
@@ -484,17 +244,18 @@
                 "Все",
                 "Криповалюта",
                 "Банковский перевод",
-                "Пополнение банковской картой",
+                "Банковская карта",
             ],
             checkBox: [
                 "Все",
                 "Криповалюта",
                 "Банковский перевод",
-                "Пополнение банковской картой",
+                "Банковская карта",
             ],
 
         },
     ];
+
 
     if (nightMode === "true") {
         body.classList.add("night-mode");
@@ -510,9 +271,10 @@
     }
 
 </script>
-<div class="main-wrapper table table-exchanges" id="app">
+<div class="main-wrapper table table-exchanges">
 
     <div class="main-content">
+
 
         <div class="top-header-wrapper">
 
@@ -1232,7 +994,8 @@
             </div>
         </div>
 
-        <div class="content">
+
+        <div class="content" id="app">
 
             <h1 class="h1-title">LetKnow.news wallet review</h1>
 
@@ -1328,16 +1091,15 @@
                     <table class="reg-table">
                         <thead>
                         <tr class="table-header">
-                            <th v-bind:class="[activeColl === value && activeColl !== 0 ? active : '', ]"
-                                v-for="(key, value) in tableHeader"
-                                v-html="key"
-                                @click="filter(value)"></th>
+                            <th
+                                    v-for="(key, value) in tableHeader"
+                                    v-html="key"></th>
                         </tr>
                         </thead>
 
                         <tbody>
 
-                        <tr class="item" v-for="key in tableContent">
+                        <tr v-if="key.show === true" class="item" v-for="key in tableContent">
                             <th :class="`${secondKey.class}`" v-for="(secondKey, value) in key.info">
 
                                 <p v-html="secondKey.text"></p>

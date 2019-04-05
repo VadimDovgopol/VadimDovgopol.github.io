@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/article-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/article-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/script/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/_left-column.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/_left-column.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/_start-article.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/_start-article.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/_table-page.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/_table-page.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/68fcf60a5d29a656034ba79a8af14320e89871e7/_night-mode.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/.sass-cache/68fcf60a5d29a656034ba79a8af14320e89871e7/_night-mode.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/basic/_night-mode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/basic/_night-mode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/blocks/_left-column.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/blocks/_left-column.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/blocks/_start-article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/blocks/_start-article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/blocks/_table-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/blocks/_table-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/table-page-exchanges.html" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/table-page-exchanges.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/table-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/table-page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +139,8 @@
       <workItem from="1554291693699" duration="641000" />
       <workItem from="1554294151179" duration="39000" />
       <workItem from="1554294240404" duration="25000" />
-      <workItem from="1554298269995" duration="611000" />
+      <workItem from="1554298269995" duration="738000" />
+      <workItem from="1554303771055" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -365,17 +352,23 @@
       <option name="project" value="LOCAL" />
       <updated>1554294254251</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add new blocks">
+      <created>1554303555744</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1554303555744</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12060000" />
+    <option name="totallyTimeSpent" value="12248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21285564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15918046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,7 +393,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="text v5" />
     <MESSAGE value="text v6" />
     <MESSAGE value="text v7" />
     <MESSAGE value="text v8" />
@@ -425,7 +417,8 @@
     <MESSAGE value="add filter" />
     <MESSAGE value="fix v1" />
     <MESSAGE value="fix v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix v2" />
+    <MESSAGE value="add new blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new blocks" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
