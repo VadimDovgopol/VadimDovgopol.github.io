@@ -32,7 +32,7 @@
             "Комиссия торговли, %",
             "Мобильное приложение",
             "Маржинальная торговля",
-            "Внутрений токен биржи, Тикер",
+            "Внутрений токен биржи, тикер",
             "Мотивация трейдеров",
             "KYC",
             "Stable coins",
@@ -46,14 +46,14 @@
                     region: "Азия",
                     marginTrading: "Да",
                     internalToken: "Да",
-                    MotivationOfTraders: "",
+                    MotivationOfTraders: "Нет",
                     kys: "Нет",
                     stableCoin: "Да",
-                    waysTo: ["Криповалюта"] // deposit_refill
+                    waysTo: ["empty:data/deposit_refill/",] // deposit_refill
                 },
                 info: [
                     {
-                        text: "<span>BiBox<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>BiBox<span>",
                         class: "full"
                     },
                     {
@@ -89,8 +89,8 @@
                         class: "true"
                     },
                     {
-                        text: "",
-                        class: "true"
+                        text: "BIX",
+                        class: "empty"
                     },
                     {
                         text: "",
@@ -101,8 +101,8 @@
                         class: "false"
                     },
                     {
-                        text: "",
-                        class: "true"
+                        text: "USDT, GUSD, DAI",
+                        class: "empty"
                     },
                     {
                         text: "Cryptocurrency",
@@ -113,7 +113,7 @@
                 moreInfo: {
                     icon: "<img src='/img/article/200/13_main.jpg' alt=''>",
                     name: "BiBox",
-                    description: "Молодая, но активно набирающая популярность крипто-на-крипто биржа. По своей структуре и интерфейсу очень похожа на Binance. Как и свой &laquo;старший собрат&raquo; у Bibox есть свой токен &mdash; Bibox Token (BIX), служащий для снижения торговых комиссий в 2 раза.<br /><br />",
+                    description: "Молодая, но активно набирающая популярность криптобиржа. По своей структуре и интерфейсу очень похожа на Binance. Как и свой &laquo;старший собрат&raquo;, Bibox имеет свой токен &mdash; Bibox Token (BIX), служащий для снижения торговых комиссий в два раза.<br /><br />",
                     twitterLink: "https://twitter.com/Bibox365",
                     webLink: "https://www.bibox.com/",
                     lastLink: {
@@ -122,7 +122,836 @@
                     }
                 }
             },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Европа",
+                    marginTrading: "Нет",
+                    internalToken: "Да",
+                    MotivationOfTraders: "Нет",
+                    kys: "Нет",
+                    stableCoin: "Да",
+                    waysTo: ["криптовалюта",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/98/56_icon.png' alt=''><span>Binance<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Мальта",
+                        class: "empty"
+                    },
+                    {
+                        text: "2017",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "437 / 152",
+                        class: "empty"
+                    },
+                    {
+                        text: "152",
+                        class: "empty"
+                    },
+                    {
+                        text: "0.05 - 0.1",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "BNB",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "USDT, TUSD, PAX, USDC, USDS",
+                        class: "empty"
+                    },
+                    {
+                        text: "Cryptocurrency",
+                        class: "empty"
+                    },
+                ],
 
+                moreInfo: {
+                    icon: "<img src='/img/article/98/56_main.png' alt=''>",
+                    name: "Binance",
+                    description: "По праву является одной из самых крупных, высоколиквидных, безопасных и надежных бирж на сегодняшний день. Не смотря на то, что история биржи начинается не так давно, а именно в 2017 году, это не мешает ей быть самой востребованной на рынке. ",
+                    twitterLink: "https://twitter.com/binance",
+                    webLink: "https://www.binance.com",
+                    lastLink: {
+                        text: "Новости Binance",
+                        link: "/Crypto-Exchange/Binance.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Европа",
+                    marginTrading: "Да",
+                    internalToken: "Нет",
+                    MotivationOfTraders: "Нет",
+                    kys: "Да",
+                    stableCoin: "Да",
+                    waysTo: ["банковский перевод",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/98/62_icon.png' alt=''><span>Bitfinex<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Виргинские острова",
+                        class: "empty"
+                    },
+                    {
+                        text: "2012",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "102/31",
+                        class: "empty"
+                    },
+                    {
+                        text: "31",
+                        class: "empty"
+                    },
+                    {
+                        text: "до 0,2%",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "USDT, EURT",
+                        class: "empty"
+                    },
+                    {
+                        text: "Debit/ Credit Card, SEPA, International Wire Transfer",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/98/62_main.png' alt=''>",
+                    name: "Bitfinex",
+                    description: "Биржа существует более шести лет, является одной из крупнейших на рынке. Bitfinex - одна из самых ликвидных криптовалютных бирж в мире. Имеет маржинальное плечо 3,3х. Предусмотрен настраиваемый интерфейс, инструменты Trading View, система сложных ордеров. Имеет мобильные платформы для Android и iOS. Для полноценной работы требуется верификация.",
+                    twitterLink: "https://twitter.com/bitfinex",
+                    webLink: "https://www.bitfinex.com/",
+                    lastLink: {
+                        text: "Новости Bitfinex",
+                        link: "/Crypto-Exchange/Bitfinex.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Азия",
+                    marginTrading: "Нет",
+                    internalToken: "Нет",
+                    MotivationOfTraders: "Нет",
+                    kys: "Да",
+                    stableCoin: "Нет",
+                    waysTo: ["банковский перевод",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/200/28_icon.png' alt=''><span>Bithumb<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Южная Корея",
+                        class: "empty"
+                    },
+                    {
+                        text: "2013",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "77/77",
+                        class: "empty"
+                    },
+                    {
+                        text: "77",
+                        class: "empty"
+                    },
+                    {
+                        text: "0 - 0.15 %",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "Bank Transfer (KRW)",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/200/28_main.png' alt=''>",
+                    name: "Bithumb",
+                    description: "Bithumb является одной из крупнейших бирж в мире, она принадлежит компании BTC Korea.Com Co., Ltd., которая базируется в Сеуле. ",
+                    twitterLink: "https://twitter.com/bithumbofficial",
+                    webLink: "https://www.bithumb.com/",
+                    lastLink: {
+                        text: "Новости Bithumb",
+                        link: "/Crypto-Exchange/bithumb.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Европа",
+                    marginTrading: "Нет",
+                    internalToken: "Нет",
+                    MotivationOfTraders: "Нет",
+                    kys: "Нет",
+                    stableCoin: "Нет",
+                    waysTo: ["банковская карта",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/98/78_icon.png' alt=''><span>Bitstamp<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Великобритания",
+                        class: "empty"
+                    },
+                    {
+                        text: "2011",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "14/5",
+                        class: "empty"
+                    },
+                    {
+                        text: "5",
+                        class: "empty"
+                    },
+                    {
+                        text: "0,1-0,25%",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "Debit/ Credit Card, SEPA, International Wire Transfer",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/98/78_main.png' alt=''>",
+                    name: "Bitstamp",
+                    description: "Bitstamp действует в правовом поле Великобритании и имеет три офиса: в Лондоне, в Люксембурге и в Нью-Йорке. Важно отметить, что криптобиржа Bitstamp &mdash; первая европейская торговая площадка, которая получила лицензию на предоставление своих услуг в 28 странах Европейского Союза. ",
+                    twitterLink: "https://twitter.com/Bitstamp",
+                    webLink: "https://www.bitstamp.net/",
+                    lastLink: {
+                        text: "Новости Bitstamp",
+                        link: "/Crypto-Exchange/Bitstamp.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "США",
+                    marginTrading: "Нет",
+                    internalToken: "Нет",
+                    MotivationOfTraders: "Нет",
+                    kys: "Нет",
+                    stableCoin: "Да",
+                    waysTo: ["криптовалюта",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/98/75_icon.png' alt=''><span>Bittrex<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "США",
+                        class: "empty"
+                    },
+                    {
+                        text: "2014",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "326 / 230",
+                        class: "empty"
+                    },
+                    {
+                        text: "230",
+                        class: "empty"
+                    },
+                    {
+                        text: "0,25%",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "USDT",
+                        class: "empty"
+                    },
+                    {
+                        text: "Cryptocurrency",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/98/75_main.png' alt=''>",
+                    name: "Bittrex",
+                    description: "Bittrex начала свою работу в 2015 году. Изначально ресурс работал как обычный обменник, но создатели решили выйти за рамки и создать настоящую торговую площадку, которая станет известна всему миру. И, нужно отметить, у них это получилось. Bittrex находится среди лидеров рынка. Большое количество торговых пар открывает трейдеру широкое поле торговли низколиквидными монетами. Биржа имеет хороший функционал, что позволяет комфортно работать. Среди преимуществ пользователи единогласно отмечают ее безопасность. ",
+                    twitterLink: "https://twitter.com/BittrexExchange",
+                    webLink: "https://bittrex.com/",
+                    lastLink: {
+                        text: "Новости Bittrex",
+                        link: "/Crypto-Exchange/Bittrex.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "США",
+                    marginTrading: "Нет",
+                    internalToken: "Нет",
+                    MotivationOfTraders: "Нет",
+                    kys: "Да",
+                    stableCoin: "Да",
+                    waysTo: ["банковский перевод", "банковская карта",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/98/72_icon.png' alt=''><span>Coinbase PRO<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "США",
+                        class: "empty"
+                    },
+                    {
+                        text: "2012",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "32/14",
+                        class: "empty"
+                    },
+                    {
+                        text: "14",
+                        class: "empty"
+                    },
+                    {
+                        text: "0,1-0,3%",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "USDC",
+                        class: "empty"
+                    },
+                    {
+                        text: "PayPal (US only) Bank Account (US only) Credit/Debit Card",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/98/72_main.png' alt=''>",
+                    name: "Coinbase PRO",
+                    description: "Coinbase является весомым игроком на криптовалютном рынке, находится под юрисдикцией США и базируется в штате Сан-Франциско. Для понимания масштабности биржи стоит отметить то, что пользователей у площадки более 20 миллионов, а криптовалютных кошельков открыто более 30 миллионов.",
+                    twitterLink: "https://twitter.com/coinbase",
+                    webLink: "https://coinbase.com/",
+                    lastLink: {
+                        text: "Новости Coinbase PRO",
+                        link: "/Crypto-Exchange/Coinbase.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Азия",
+                    marginTrading: "Нет",
+                    internalToken: "Да",
+                    MotivationOfTraders: "Да",
+                    kys: "Нет",
+                    stableCoin: "Да",
+                    waysTo: ["криптовалюта",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/200/34_icon.png' alt=''><span>Coinbene<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Сингапур",
+                        class: "empty"
+                    },
+                    {
+                        text: "2017",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "197 / 162",
+                        class: "empty"
+                    },
+                    {
+                        text: "162",
+                        class: "empty"
+                    },
+                    {
+                        text: "0.1 %",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "CONI",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "USDT",
+                        class: "empty"
+                    },
+                    {
+                        text: "Cryptocurrency",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/200/34_main.png' alt=''>",
+                    name: "Coinbene",
+                    description: "Биржа запущена в 2017 году, что относительно не давно, но успела завоевать популярность среди сообщества. На площадке доступен мультиязычный интерфейc, но полноценно переведен только на китайский и английский. ",
+                    twitterLink: "https://twitter.com/coinbene",
+                    webLink: "https://www.coinbene.com/#/",
+                    lastLink: {
+                        text: "Новости Coinbene",
+                        link: "/Crypto-Exchange/coinbene.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Европа",
+                    marginTrading: "Нет",
+                    internalToken: "Нет",
+                    MotivationOfTraders: "Нет",
+                    kys: "Нет",
+                    stableCoin: "Да",
+                    waysTo: ["банковский перевод",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/98/82_icon.png' alt=''><span>Exmo<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Великобритания",
+                        class: "empty"
+                    },
+                    {
+                        text: "2013",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "132/37",
+                        class: "empty"
+                    },
+                    {
+                        text: "37",
+                        class: "empty"
+                    },
+                    {
+                        text: "0,2%",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "USDT",
+                        class: "empty"
+                    },
+                    {
+                        text: "Wire Transfer CryptoCapital Money Polo Perfect Money Epay AdvCash OKPAY Neteller Payeer Payza PayPal Visa/MasterCard SEPA Qiwi",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/98/82_main.png' alt=''>",
+                    name: "Exmo",
+                    description: "На этапе своего запуска биржа EXMO являлась больше обменником, нежели площадкой для трейдеров.",
+                    twitterLink: "https://twitter.com/Exmo_com",
+                    webLink: "https://exmo.com",
+                    lastLink: {
+                        text: "Новости Exmo",
+                        link: "/Crypto-Exchange/Exmo.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Азия",
+                    marginTrading: "Да",
+                    internalToken: "Да",
+                    MotivationOfTraders: "trans-fee-mining",
+                    kys: "Нет",
+                    stableCoin: "Да",
+                    waysTo: ["криптовалюта",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/200/35_icon.png' alt=''><span>Fcoin<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Китай",
+                        class: "empty"
+                    },
+                    {
+                        text: "2018",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "175 / 99",
+                        class: "empty"
+                    },
+                    {
+                        text: "99",
+                        class: "empty"
+                    },
+                    {
+                        text: "0.1 %",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "FT",
+                        class: "empty"
+                    },
+                    {
+                        text: "trans-fee-mining",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "USDT",
+                        class: "empty"
+                    },
+                    {
+                        text: "Cryptocurrency",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/200/35_main.png' alt=''>",
+                    name: "Fcoin",
+                    description: "Биржа основана в мае 2018 года. Построена на алгоритме fee-майнинг &mdash; методе, который состоит из раздачи токенов в качестве вознаграждения за торговлю.",
+                    twitterLink: "https://twitter.com/FCoinOfficial",
+                    webLink: "https://www.fcoin.com/",
+                    lastLink: {
+                        text: "Новости Fcoin",
+                        link: "/Crypto-Exchange/fcoin.html"
+                    }
+                }
+            },
+            {
+                show: true,
+                itemFilter: {
+                    type: "CEX",
+                    region: "Азия",
+                    marginTrading: "Нет",
+                    internalToken: "Нет",
+                    MotivationOfTraders: "Нет",
+                    kys: "Нет",
+                    stableCoin: "Нет",
+                    waysTo: ["криптовалюта",] // deposit_refill
+                },
+                info: [
+                    {
+                        text: "<img src='/img/article/200/22_icon.jpg' alt=''><span>HitBTC<span>",
+                        class: "full"
+                    },
+                    {
+                        text: "Гонг Конг",
+                        class: "empty"
+                    },
+                    {
+                        text: "2013",
+                        class: "empty"
+                    },
+                    {
+                        text: "CEX",
+                        class: "empty"
+                    },
+                    {
+                        text: "870/373",
+                        class: "empty"
+                    },
+                    {
+                        text: "373",
+                        class: "empty"
+                    },
+                    {
+                        text: "0.01 - 0.1 %",
+                        class: "empty"
+                    },
+                    {
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "false"
+                    },
+                    {
+                        text: "",
+                        class: "empty"
+                    },
+                    {
+                        text: "Cryptocurrency",
+                        class: "empty"
+                    },
+                ],
+
+                moreInfo: {
+                    icon: "<img src='/img/article/200/22_main.jpg' alt=''>",
+                    name: "HitBTC",
+                    description: "HitBTC &ndash; была запущена в 2013 году. Ее разрабатывали эстонские и израильские специалисты. На первом этапе создания в проект было вложено 6 миллионов долларов.",
+                    twitterLink: "https://twitter.com/hitbtc",
+                    webLink: "https://hitbtc.com/",
+                    lastLink: {
+                        text: "Новости HitBTC",
+                        link: "/Crypto-Exchange/hitbtc.html"
+                    }
+                }
+            }
         ]
     }
 
@@ -242,15 +1071,15 @@
             allValue: "Все",
             defaultValue: [
                 "Все",
-                "Криповалюта",
-                "Банковский перевод",
-                "Банковская карта",
+                "криптовалюта",
+                "банковский перевод",
+                "банковская карта",
             ],
             checkBox: [
                 "Все",
-                "Криповалюта",
-                "Банковский перевод",
-                "Банковская карта",
+                "криптовалюта",
+                "банковский перевод",
+                "банковская карта",
             ],
 
         },

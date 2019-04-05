@@ -86,9 +86,27 @@ $(document).ready(function () {
         });
     }
 
-
     $(".to-top-arrow").on("click", function () {
         window.scrollTo(0, 0)
+    });
+
+    $(".info-links_item").on("click", function () {
+        let name = $(this).data("value");
+
+
+        $('html, body').animate(
+            {
+                scrollTop: $("#" + name).offset().top - 140,
+            },
+            500,
+            'linear'
+        )
+
+        window.scrollTo(0, top);
+
+
+        // $(document.body).scrollTop($(this).data("value").offset().top);
+        // window.scrollTo(0, 0)
     });
 
     $(".fz1").on("click", function () {
