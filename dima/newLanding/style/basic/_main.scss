@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2.0", sans-serif;
+  font-weight: $fontR;
+}
+
+body {
+  &.mobile {
+    * {
+      cursor: none !important;
+      outline: none !important;
+
+    }
+  }
+}
