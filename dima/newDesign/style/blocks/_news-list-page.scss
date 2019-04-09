@@ -263,4 +263,31 @@
     }
   }
 
+  .show-more_article-btn {
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  .show-more_article-btn {
+    display: flex;
+    margin: 30px auto 0 auto;
+    width: 158px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    background: #d24a43;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .show-more_article-btn p {
+    transition: all 0.2s ease-in-out;
+    color: #fefdfd;
+    text-transform: uppercase;
+  }
+
+  .show-more_article-btn:hover p {
+    color: #010101;
+  }
 }

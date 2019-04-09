@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="add date piker">
+    <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/style/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dima/newDesign/style/common.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dima/newDesign/style/common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -45,7 +32,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -66,40 +53,6 @@
               <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="common.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -107,8 +60,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newDesign" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -152,7 +106,7 @@
       <workItem from="1551169513807" duration="620000" />
       <workItem from="1551176088593" duration="624000" />
       <workItem from="1551734972154" duration="87000" />
-      <workItem from="1551735168379" duration="317000" />
+      <workItem from="1551735168379" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -259,15 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551735049031</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add date piker v2">
+      <created>1551735519715</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551735519715</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6671000" />
+    <option name="totallyTimeSpent" value="6717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -308,7 +268,8 @@
     <MESSAGE value="add new page" />
     <MESSAGE value="new item" />
     <MESSAGE value="add date piker" />
-    <option name="LAST_COMMIT_MESSAGE" value="add date piker" />
+    <MESSAGE value="add date piker v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add date piker v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">

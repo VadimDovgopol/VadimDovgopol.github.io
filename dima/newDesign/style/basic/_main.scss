@@ -7,6 +7,14 @@
   font-weight: $fontR;
 }
 
+#body {
+  &.tai {
+    * {
+      line-height: 1.5em;
+    }
+  }
+}
+
 
 .subscribe-block {
   border-style: solid;
@@ -407,11 +415,6 @@ a {
   }
 }
 
-//1024 max-width decks
-//905 max-width tablet
-//800 max-width mob
-//540 max-width mob 2
-
 body {
   &.active {
     overflow: hidden;
@@ -462,5 +465,22 @@ body {
   .br-theme-css-stars .br-widget a.br-selected:after {
     content: "\2605";
     color: black;
+  }
+}
+
+.to-top-arrow {
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  right: 20px;
+  bottom: 55px;
+
+  p {
+    color: #D24A43;
+    font-size: 12px;
   }
 }

@@ -44,14 +44,21 @@
   &.active {
     height: 100%;
     transform: translateX(0px);
-    overflow-y: scroll;
+    overflow-y: auto;
+    -webkit-overflow-scrolling:touch;
 
   }
 
   .logo {
     display: flex;
     justify-content: center;
-    margin-top: 27px;
+    padding-top: 27px;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #f8f8f8;
+    z-index: 5;
     @media screen and (max-width: 800px) {
       align-items: center;
     }
@@ -145,6 +152,7 @@
 
     .column-menu_five {
       margin-bottom: 30px;
+
       .favorites {
         text-transform: uppercase;
         font-weight: $fontSB;
