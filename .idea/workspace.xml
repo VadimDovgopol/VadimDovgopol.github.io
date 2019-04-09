@@ -32,7 +32,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="2552" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -45,7 +45,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -57,6 +56,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -67,7 +67,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign\script" />
       <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,7 +110,28 @@
       <workItem from="1551169513807" duration="620000" />
       <workItem from="1551176088593" duration="624000" />
       <workItem from="1551734972154" duration="87000" />
-      <workItem from="1551735168379" duration="363000" />
+      <workItem from="1551735168379" duration="317000" />
+      <workItem from="1551797628775" duration="69000" />
+      <workItem from="1551798120578" duration="11000" />
+      <workItem from="1552983791670" duration="682000" />
+      <workItem from="1552992346385" duration="781000" />
+      <workItem from="1552999456426" duration="29000" />
+      <workItem from="1553002332240" duration="693000" />
+      <workItem from="1553003604066" duration="6000" />
+      <workItem from="1553005531820" duration="43000" />
+      <workItem from="1553071927938" duration="35000" />
+      <workItem from="1553180324436" duration="43000" />
+      <workItem from="1553180410553" duration="614000" />
+      <workItem from="1553779048026" duration="42000" />
+      <workItem from="1553779769168" duration="618000" />
+      <workItem from="1553856545695" duration="27000" />
+      <workItem from="1554291693699" duration="641000" />
+      <workItem from="1554294151179" duration="39000" />
+      <workItem from="1554294240404" duration="25000" />
+      <workItem from="1554298269995" duration="738000" />
+      <workItem from="1554303771055" duration="61000" />
+      <workItem from="1554461174829" duration="627000" />
+      <workItem from="1554463040134" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -213,23 +238,135 @@
       <option name="project" value="LOCAL" />
       <updated>1551735049031</updated>
     </task>
-    <task id="LOCAL-00016" summary="add date piker v2">
-      <created>1551735519715</created>
+    <task id="LOCAL-00016" summary="add font resize">
+      <created>1551793865812</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1551735519715</updated>
+      <updated>1551793865812</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add font resize v2">
+      <created>1551797653279</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551797653279</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add new page">
+      <created>1552983872823</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552983872823</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add new style">
+      <created>1552992371355</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1552992371355</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add fix">
+      <created>1552992527368</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1552992527368</updated>
+    </task>
+    <task id="LOCAL-00021" summary="complete work">
+      <created>1552999475623</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1552999475623</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add adaptive">
+      <created>1553002393065</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553002393065</updated>
+    </task>
+    <task id="LOCAL-00023" summary="new fix">
+      <created>1553005558888</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1553005558888</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add new fix">
+      <created>1553071952974</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1553071952974</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add new style for table">
+      <created>1553180354812</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1553180354812</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add block">
+      <created>1553779077909</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553779077909</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix scroll function">
+      <created>1553779786600</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1553779786600</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add filter">
+      <created>1554291734155</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1554291734155</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix v1">
+      <created>1554294178101</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294178101</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix v2">
+      <created>1554294254251</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294254251</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add new blocks">
+      <created>1554303555744</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1554303555744</updated>
+    </task>
+    <task id="LOCAL-00032" summary="new fix">
+      <created>1554461201247</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1554461201247</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6717000" />
+    <option name="totallyTimeSpent" value="12876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21285564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -254,10 +391,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="text v2" />
-    <MESSAGE value="text v3" />
-    <MESSAGE value="text v4" />
-    <MESSAGE value="text v5" />
     <MESSAGE value="text v6" />
     <MESSAGE value="text v7" />
     <MESSAGE value="text v8" />
@@ -265,11 +398,25 @@
     <MESSAGE value="text v10" />
     <MESSAGE value="text v11" />
     <MESSAGE value="text v12" />
-    <MESSAGE value="add new page" />
     <MESSAGE value="new item" />
     <MESSAGE value="add date piker" />
-    <MESSAGE value="add date piker v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add date piker v2" />
+    <MESSAGE value="add font resize" />
+    <MESSAGE value="add font resize v2" />
+    <MESSAGE value="add new page" />
+    <MESSAGE value="add new style" />
+    <MESSAGE value="add fix" />
+    <MESSAGE value="complete work" />
+    <MESSAGE value="add adaptive" />
+    <MESSAGE value="add new fix" />
+    <MESSAGE value="add new style for table" />
+    <MESSAGE value="add block" />
+    <MESSAGE value="fix scroll function" />
+    <MESSAGE value="add filter" />
+    <MESSAGE value="fix v1" />
+    <MESSAGE value="fix v2" />
+    <MESSAGE value="add new blocks" />
+    <MESSAGE value="new fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="new fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
@@ -304,9 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dima/newDesign/style/blocks/_jquery-ui.scss" />
     <entry file="file://$PROJECT_DIR$/dima/newDesign/style/common.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">

@@ -58,7 +58,6 @@
 
       &:nth-child(2) {
         cursor: pointer;
-
         &:hover {
           color: #d24a43;
         }
@@ -503,90 +502,41 @@
 
   }
 
-  .carousel-wrapper_articles {
-    margin-top: 40px;
+}
 
-    position: relative;
+.table-exchanges {
+  .fly-table {
+    .fix-col {
+      .item {
+        //height: 69px !important;
 
-    .prev5 {
-      cursor: pointer;
-      width: 12px !important;
-      height: 24px !important;
-      position: absolute;
-      left: 0;
-      top: 50%;
+      }
     }
+  }
+}
 
-    .next5 {
-      cursor: pointer;
-      width: 12px !important;
-      height: 24px !important;
-      position: absolute;
-      right: 0;
-      top: 50%;
-    }
+.table-exchanges {
 
-    .slider-bottom2 {
-      display: flex;
-      position: relative;
-
-
-      .last-news_item {
-        margin: 0 15px;
-        position: relative;
-
-        &:hover {
-          .red-block {
-            background-color: rgba(255, 255, 255, 0.7);
-          }
-        }
-
-        img {
-          width: 100%;
-          height: auto;
-          display: block;
-        }
-
-        .red-block {
-          box-sizing: border-box;
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          padding: 10px 10px;
-          background-color: rgba(210, 74, 67, 0.8);
-          transition: all 0.2s ease-in-out;
-
-          p {
-            color: white;
-          }
-        }
-
-        .reg-text {
-          font-size: 15px;
-        }
+  .reg-table {
+    .item {
+      th {
+        //height: 180px;
       }
     }
 
-  }
-
-  .nav-block {
-    display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 20px;
-
-    p {
-      margin: 5px 0;
-
-      a {
-        text-transform: uppercase;
-        color: #d24a43;
-      }
-
-      font-size: 16px;
-      font-weight: $fontB;
-      margin-right: 20px;
+    .empty {
+      //height: 180px;
     }
   }
 
+  .fly-table {
+    .item {
+      .full {
+        //vertical-align: middle;
+        //height: 180px;
+
+      }
+
+    }
+  }
 }

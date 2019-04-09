@@ -10,7 +10,6 @@ let app = new Vue({
         this.tableContent = data.item;
         this.tableHeader = data.table;
         this.tableHeader = data.table;
-
     },
     computed: {
         sortedArray: function () {
