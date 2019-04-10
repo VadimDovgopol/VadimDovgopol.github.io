@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/PlayfairDisplay-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/PlayfairDisplay-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/PlayfairDisplay-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/PlayfairDisplay-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/Poppins-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/Poppins-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/Poppins-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/Poppins-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/Poppins-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/fonts/Poppins-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/script/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/script/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/script/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/basic/.sass-cache/ef75e5778e3beb3d6689794354c5fd6eaf124b1d/main.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/basic/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/basic/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/basic/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/basic/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/event-page.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/quote-of-the-day.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/common.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/newLanding/style/jquery-ui.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/HidLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/ScpControl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/ScpControl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/ScpServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/DIFxAPI/amd64/DIFxAPI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/DIFxAPI/x86/DIFxAPI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/ScpDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/ScpDriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/System/ScpVBus.cat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/System/ScpVBus.inf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/System/amd64/ScpVBus.sys" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dima/newDesign/img/DS4Tool 1.2.2/Virtual Bus Driver/System/x86/ScpVBus.sys" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,43 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dima/newLanding/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/dima/newLanding/style/basic/_fonts.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/dima/newLanding/style/basic/_vars.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -116,7 +41,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -137,39 +62,6 @@
               <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newLanding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +72,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newLanding/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newDesign" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -189,15 +81,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newLanding\fonts" />
       <recent name="C:\VadimDovgopol.github.io\dima\newLanding" />
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign\script" />
       <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,6 +150,7 @@
       <workItem from="1554303771055" duration="61000" />
       <workItem from="1554461174829" duration="627000" />
       <workItem from="1554463040134" duration="1000" />
+      <workItem from="1554915359660" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -497,15 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554834094683</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add new project">
+      <created>1554836140283</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1554836140283</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15021000" />
+    <option name="totallyTimeSpent" value="15090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -532,7 +431,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="text v7" />
     <MESSAGE value="text v8" />
     <MESSAGE value="text v9" />
     <MESSAGE value="text v10" />
@@ -557,7 +455,8 @@
     <MESSAGE value="add new blocks" />
     <MESSAGE value="new fix" />
     <MESSAGE value="fix table style" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix table style" />
+    <MESSAGE value="add new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
@@ -620,13 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dima/newLanding/fonts/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" lean-forward="true" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dima/newLanding/fonts/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/dima/newLanding/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -634,17 +527,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dima/newLanding/style/basic/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dima/newLanding/style/basic/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dima/newLanding/style/basic/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
