@@ -365,6 +365,39 @@ $(document).ready(function () {
 
     });
 
+    $('.slider-bottom2').slick({
+        prevArrow: ".prev5",
+        nextArrow: ".next5",
+        slidesToShow: 4,
+        arrows: true,
+        slidesToScroll: 4,
+
+        responsive: [
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
+
+    });
+
     $('.gallery-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,

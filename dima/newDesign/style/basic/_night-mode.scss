@@ -1,6 +1,56 @@
 .night-mode {
   background-color: #282828;
 
+  .fly-table {
+
+    .first-element {
+
+      td {
+        background: #1f1f1f !important;
+        color: white !important;
+        border-color: #1c1c1c !important;
+      }
+    }
+
+    .item {
+      td {
+        background: #1f1f1f !important;
+      }
+    }
+  }
+
+  .table-iso {
+    .sub-header {
+      background: #1f1f1f !important;
+      border-color: #1c1c1c !important;
+      color: white !important;
+
+      th {
+        background: #1f1f1f !important;
+        border-color: #1c1c1c !important;
+        color: white !important;
+
+      }
+    }
+
+    .item {
+      th {
+        border-color: #1c1c1c !important;
+      }
+    }
+
+    .table-header {
+      td {
+
+        &:nth-child(1) {
+          color: white !important;
+          border-color: #1c1c1c !important;
+          background: #1f1f1f !important;
+        }
+      }
+    }
+  }
+
   .filter-block {
     .drop-list {
       background: #1f1f1f !important;

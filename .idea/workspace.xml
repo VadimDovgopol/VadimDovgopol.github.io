@@ -52,6 +52,17 @@
               <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dima" type="462c0819:PsiDirectoryNode" />
+              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -65,13 +76,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newDesign" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign\script" />
-      <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+      <recent name="C:\VadimDovgopol.github.io\dima" />
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign\script" />
+      <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,6 +144,7 @@
       <workItem from="1554303771055" duration="61000" />
       <workItem from="1554461174829" duration="627000" />
       <workItem from="1554463040134" duration="1000" />
+      <workItem from="1554463558685" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -357,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554461201247</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="hot fix v11">
+      <created>1554463644779</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1554463644779</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12876000" />
+    <option name="totallyTimeSpent" value="12972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -391,7 +411,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="text v6" />
     <MESSAGE value="text v7" />
     <MESSAGE value="text v8" />
     <MESSAGE value="text v9" />
@@ -416,7 +435,8 @@
     <MESSAGE value="fix v2" />
     <MESSAGE value="add new blocks" />
     <MESSAGE value="new fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="new fix" />
+    <MESSAGE value="hot fix v11" />
+    <option name="LAST_COMMIT_MESSAGE" value="hot fix v11" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">

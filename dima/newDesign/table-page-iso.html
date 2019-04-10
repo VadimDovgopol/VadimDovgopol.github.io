@@ -13,71 +13,89 @@
     <link rel="stylesheet" href="style/common.css">
 
 </head>
+
 <body class="" id="body">
+
 <script>
     var body = document.getElementById('body');
     var nightMode = localStorage.getItem('nightMode');
 
-
-    let wordAll = "Все";
-
     let data = {
-        table: [
-            "Биржи",
-            "Регион",
-            "Год основания / запуска",
-            "Вид площадки",
-            "Количество торговых пар / валют",
-            "Количество монет",
-            "Комиссия торговли, %",
-            "Мобильное приложение",
-            "Маржинальная торговля",
-            "Внутрений токен биржи, тикер",
-            "Мотивация трейдеров",
-            "KYC",
-            "Stable coins",
-            "Способы пополнения депозита",
+        firstElement: {
+            name: "ICO",
+        },
+        headerLine: [
+            {
+                name: "Period",
+                num: "2",
+            },
+            {
+                name: "Price ico",
+                num: "1",
+            },
+            {
+                name: "Token distribution",
+                num: "2",
+            },
+            {
+                name: "Cap raiced",
+                num: "1",
+            },
+            {
+                name: "Token emission",
+                num: "1",
+            },
+            {
+                name: "Mainnet",
+                num: "1",
+            },
+            {
+                name: "Performanse",
+                num: "2",
+            }
+        ],
+        subHeader: [
+            "Start",
+            "End",
+            "Middle",
+            "Crowdsale",
+            "Team",
+            "Fact",
+            "",
+            "",
+            "From ico end",
+            "1y",
+
         ],
         item: [
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Азия",
-                    marginTrading: "Да",
-                    internalToken: "Да",
-                    MotivationOfTraders: "Нет",
-                    kys: "Нет",
-                    stableCoin: "Да",
-                    waysTo: ["empty:data/deposit_refill/",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>BiBox<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "Китай",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2017",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "208 / 85",
+                        text: "25 927 070 538",
                         class: "empty"
                     },
                     {
-                        text: "85",
+                        text: "5 185 414 107",
                         class: "empty"
                     },
                     {
-                        text: "0.1%",
+                        text: "14009 BTC / 80742 XCR",
                         class: "empty"
                     },
                     {
@@ -89,78 +107,45 @@
                         class: "true"
                     },
                     {
-                        text: "BIX",
+                        text: "8371%",
                         class: "empty"
                     },
                     {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "USDT, GUSD, DAI",
+                        text: "-40%",
                         class: "empty"
                     },
-                    {
-                        text: "Cryptocurrency",
-                        class: "empty"
-                    },
+
                 ],
 
-                moreInfo: {
-                    icon: "<img src='/img/article/200/13_main.jpg' alt=''>",
-                    name: "BiBox",
-                    description: "Молодая, но активно набирающая популярность криптобиржа. По своей структуре и интерфейсу очень похожа на Binance. Как и свой &laquo;старший собрат&raquo;, Bibox имеет свой токен &mdash; Bibox Token (BIX), служащий для снижения торговых комиссий в два раза.<br /><br />",
-                    twitterLink: "https://twitter.com/Bibox365",
-                    webLink: "https://www.bibox.com/",
-                    lastLink: {
-                        text: "Новости BiBox",
-                        link: "/Crypto-Exchange/bibox.html"
-                    }
-                }
             },
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Европа",
-                    marginTrading: "Нет",
-                    internalToken: "Да",
-                    MotivationOfTraders: "Нет",
-                    kys: "Нет",
-                    stableCoin: "Да",
-                    waysTo: ["криптовалюта",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/98/56_icon.png' alt=''><span>Binance<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "Мальта",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2017",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "437 / 152",
+                        text: "60 000 000",
                         class: "empty"
                     },
                     {
-                        text: "152",
+                        text: "12 000 000",
                         class: "empty"
                     },
                     {
-                        text: "0.05 - 0.1",
+                        text: "31 529 BTC",
                         class: "empty"
                     },
                     {
@@ -169,81 +154,48 @@
                     },
                     {
                         text: "",
-                        class: "false"
+                        class: "true"
                     },
                     {
-                        text: "BNB",
+                        text: "8371%",
                         class: "empty"
                     },
                     {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "USDT, TUSD, PAX, USDC, USDS",
+                        text: "-40%",
                         class: "empty"
                     },
-                    {
-                        text: "Cryptocurrency",
-                        class: "empty"
-                    },
+
                 ],
 
-                moreInfo: {
-                    icon: "<img src='/img/article/98/56_main.png' alt=''>",
-                    name: "Binance",
-                    description: "По праву является одной из самых крупных, высоколиквидных, безопасных и надежных бирж на сегодняшний день. Не смотря на то, что история биржи начинается не так давно, а именно в 2017 году, это не мешает ей быть самой востребованной на рынке. ",
-                    twitterLink: "https://twitter.com/binance",
-                    webLink: "https://www.binance.com",
-                    lastLink: {
-                        text: "Новости Binance",
-                        link: "/Crypto-Exchange/Binance.html"
-                    }
-                }
             },
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Европа",
-                    marginTrading: "Да",
-                    internalToken: "Нет",
-                    MotivationOfTraders: "Нет",
-                    kys: "Да",
-                    stableCoin: "Да",
-                    waysTo: ["банковский перевод",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/98/62_icon.png' alt=''><span>Bitfinex<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "Виргинские острова",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2012",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "102/31",
+                        text: "60 000 000",
                         class: "empty"
                     },
                     {
-                        text: "31",
+                        text: "12 000 000",
                         class: "empty"
                     },
                     {
-                        text: "до 0,2%",
+                        text: "31 529 BTC",
                         class: "empty"
                     },
                     {
@@ -255,78 +207,45 @@
                         class: "true"
                     },
                     {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "true"
-                    },
-                    {
-                        text: "USDT, EURT",
+                        text: "8371%",
                         class: "empty"
                     },
                     {
-                        text: "Debit/ Credit Card, SEPA, International Wire Transfer",
+                        text: "-40%",
                         class: "empty"
                     },
+
                 ],
 
-                moreInfo: {
-                    icon: "<img src='/img/article/98/62_main.png' alt=''>",
-                    name: "Bitfinex",
-                    description: "Биржа существует более шести лет, является одной из крупнейших на рынке. Bitfinex - одна из самых ликвидных криптовалютных бирж в мире. Имеет маржинальное плечо 3,3х. Предусмотрен настраиваемый интерфейс, инструменты Trading View, система сложных ордеров. Имеет мобильные платформы для Android и iOS. Для полноценной работы требуется верификация.",
-                    twitterLink: "https://twitter.com/bitfinex",
-                    webLink: "https://www.bitfinex.com/",
-                    lastLink: {
-                        text: "Новости Bitfinex",
-                        link: "/Crypto-Exchange/Bitfinex.html"
-                    }
-                }
             },
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Азия",
-                    marginTrading: "Нет",
-                    internalToken: "Нет",
-                    MotivationOfTraders: "Нет",
-                    kys: "Да",
-                    stableCoin: "Нет",
-                    waysTo: ["банковский перевод",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/200/28_icon.png' alt=''><span>Bithumb<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "Южная Корея",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2013",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "77/77",
+                        text: "60 000 000",
                         class: "empty"
                     },
                     {
-                        text: "77",
+                        text: "12 000 000",
                         class: "empty"
                     },
                     {
-                        text: "0 - 0.15 %",
+                        text: "31 529 BTC",
                         class: "empty"
                     },
                     {
@@ -335,81 +254,47 @@
                     },
                     {
                         text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
                         class: "true"
                     },
                     {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "Bank Transfer (KRW)",
+                        text: "8371%",
                         class: "empty"
                     },
-                ],
+                    {
+                        text: "-40%",
+                        class: "empty"
+                    },
 
-                moreInfo: {
-                    icon: "<img src='/img/article/200/28_main.png' alt=''>",
-                    name: "Bithumb",
-                    description: "Bithumb является одной из крупнейших бирж в мире, она принадлежит компании BTC Korea.Com Co., Ltd., которая базируется в Сеуле. ",
-                    twitterLink: "https://twitter.com/bithumbofficial",
-                    webLink: "https://www.bithumb.com/",
-                    lastLink: {
-                        text: "Новости Bithumb",
-                        link: "/Crypto-Exchange/bithumb.html"
-                    }
-                }
+                ],
             },
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Европа",
-                    marginTrading: "Нет",
-                    internalToken: "Нет",
-                    MotivationOfTraders: "Нет",
-                    kys: "Нет",
-                    stableCoin: "Нет",
-                    waysTo: ["банковская карта",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/98/78_icon.png' alt=''><span>Bitstamp<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "Великобритания",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2011",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "14/5",
+                        text: "60 000 000",
                         class: "empty"
                     },
                     {
-                        text: "5",
+                        text: "12 000 000",
                         class: "empty"
                     },
                     {
-                        text: "0,1-0,25%",
+                        text: "31 529 BTC",
                         class: "empty"
                     },
                     {
@@ -418,259 +303,145 @@
                     },
                     {
                         text: "",
-                        class: "false"
+                        class: "true"
                     },
                     {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "Debit/ Credit Card, SEPA, International Wire Transfer",
+                        text: "8371%",
                         class: "empty"
                     },
-                ],
+                    {
+                        text: "-40%",
+                        class: "empty"
+                    },
 
-                moreInfo: {
-                    icon: "<img src='/img/article/98/78_main.png' alt=''>",
-                    name: "Bitstamp",
-                    description: "Bitstamp действует в правовом поле Великобритании и имеет три офиса: в Лондоне, в Люксембурге и в Нью-Йорке. Важно отметить, что криптобиржа Bitstamp &mdash; первая европейская торговая площадка, которая получила лицензию на предоставление своих услуг в 28 странах Европейского Союза. ",
-                    twitterLink: "https://twitter.com/Bitstamp",
-                    webLink: "https://www.bitstamp.net/",
-                    lastLink: {
-                        text: "Новости Bitstamp",
-                        link: "/Crypto-Exchange/Bitstamp.html"
-                    }
-                }
+                ],
             },
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "США",
-                    marginTrading: "Нет",
-                    internalToken: "Нет",
-                    MotivationOfTraders: "Нет",
-                    kys: "Нет",
-                    stableCoin: "Да",
-                    waysTo: ["криптовалюта",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/98/75_icon.png' alt=''><span>Bittrex<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "США",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2014",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "326 / 230",
+                        text: "60 000 000",
                         class: "empty"
                     },
                     {
-                        text: "230",
+                        text: "12 000 000",
                         class: "empty"
                     },
                     {
-                        text: "0,25%",
+                        text: "31 529 BTC",
                         class: "empty"
                     },
                     {
                         text: "",
-                        class: "false"
+                        class: "true"
                     },
                     {
                         text: "",
-                        class: "false"
+                        class: "true"
                     },
                     {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "USDT",
+                        text: "8371%",
                         class: "empty"
                     },
                     {
-                        text: "Cryptocurrency",
+                        text: "-40%",
                         class: "empty"
                     },
-                ],
 
-                moreInfo: {
-                    icon: "<img src='/img/article/98/75_main.png' alt=''>",
-                    name: "Bittrex",
-                    description: "Bittrex начала свою работу в 2015 году. Изначально ресурс работал как обычный обменник, но создатели решили выйти за рамки и создать настоящую торговую площадку, которая станет известна всему миру. И, нужно отметить, у них это получилось. Bittrex находится среди лидеров рынка. Большое количество торговых пар открывает трейдеру широкое поле торговли низколиквидными монетами. Биржа имеет хороший функционал, что позволяет комфортно работать. Среди преимуществ пользователи единогласно отмечают ее безопасность. ",
-                    twitterLink: "https://twitter.com/BittrexExchange",
-                    webLink: "https://bittrex.com/",
-                    lastLink: {
-                        text: "Новости Bittrex",
-                        link: "/Crypto-Exchange/Bittrex.html"
-                    }
-                }
+                ],
             },
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "США",
-                    marginTrading: "Нет",
-                    internalToken: "Нет",
-                    MotivationOfTraders: "Нет",
-                    kys: "Да",
-                    stableCoin: "Да",
-                    waysTo: ["банковский перевод", "банковская карта",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/98/72_icon.png' alt=''><span>Coinbase PRO<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "США",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2012",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "32/14",
+                        text: "60 000 000",
                         class: "empty"
                     },
                     {
-                        text: "14",
+                        text: "12 000 000",
                         class: "empty"
                     },
                     {
-                        text: "0,1-0,3%",
+                        text: "31 529 BTC",
                         class: "empty"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
                     },
                     {
                         text: "",
                         class: "true"
                     },
                     {
-                        text: "USDC",
+                        text: "",
+                        class: "true"
+                    },
+                    {
+                        text: "8371%",
                         class: "empty"
                     },
                     {
-                        text: "PayPal (US only) Bank Account (US only) Credit/Debit Card",
+                        text: "-40%",
                         class: "empty"
                     },
-                ],
 
-                moreInfo: {
-                    icon: "<img src='/img/article/98/72_main.png' alt=''>",
-                    name: "Coinbase PRO",
-                    description: "Coinbase является весомым игроком на криптовалютном рынке, находится под юрисдикцией США и базируется в штате Сан-Франциско. Для понимания масштабности биржи стоит отметить то, что пользователей у площадки более 20 миллионов, а криптовалютных кошельков открыто более 30 миллионов.",
-                    twitterLink: "https://twitter.com/coinbase",
-                    webLink: "https://coinbase.com/",
-                    lastLink: {
-                        text: "Новости Coinbase PRO",
-                        link: "/Crypto-Exchange/Coinbase.html"
-                    }
-                }
+                ],
             },
             {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Азия",
-                    marginTrading: "Нет",
-                    internalToken: "Да",
-                    MotivationOfTraders: "Да",
-                    kys: "Нет",
-                    stableCoin: "Да",
-                    waysTo: ["криптовалюта",] // deposit_refill
-                },
                 info: [
                     {
-                        text: "<img src='/img/article/200/34_icon.png' alt=''><span>Coinbene<span>",
+                        text: "<img src='/img/article/200/13_icon.jpg' alt=''><span>Ethereum (ETH)<span>",
                         class: "full"
                     },
                     {
-                        text: "Сингапур",
+                        text: "22.07.2014",
                         class: "empty"
                     },
                     {
-                        text: "2017",
+                        text: "02.09.2014",
                         class: "empty"
                     },
                     {
-                        text: "CEX",
+                        text: "0,0005255 BTC",
                         class: "empty"
                     },
                     {
-                        text: "197 / 162",
+                        text: "60 000 000",
                         class: "empty"
                     },
                     {
-                        text: "162",
+                        text: "12 000 000",
                         class: "empty"
                     },
                     {
-                        text: "0.1 %",
-                        class: "empty"
-                    },
-                    {
-                        text: "",
-                        class: "true"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "CONI",
+                        text: "31 529 BTC",
                         class: "empty"
                     },
                     {
@@ -679,412 +450,21 @@
                     },
                     {
                         text: "",
-                        class: "false"
+                        class: "true"
                     },
                     {
-                        text: "USDT",
+                        text: "8371%",
                         class: "empty"
                     },
                     {
-                        text: "Cryptocurrency",
+                        text: "-40%",
                         class: "empty"
                     },
-                ],
 
-                moreInfo: {
-                    icon: "<img src='/img/article/200/34_main.png' alt=''>",
-                    name: "Coinbene",
-                    description: "Биржа запущена в 2017 году, что относительно не давно, но успела завоевать популярность среди сообщества. На площадке доступен мультиязычный интерфейc, но полноценно переведен только на китайский и английский. ",
-                    twitterLink: "https://twitter.com/coinbene",
-                    webLink: "https://www.coinbene.com/#/",
-                    lastLink: {
-                        text: "Новости Coinbene",
-                        link: "/Crypto-Exchange/coinbene.html"
-                    }
-                }
+                ],
             },
-            {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Европа",
-                    marginTrading: "Нет",
-                    internalToken: "Нет",
-                    MotivationOfTraders: "Нет",
-                    kys: "Нет",
-                    stableCoin: "Да",
-                    waysTo: ["банковский перевод",] // deposit_refill
-                },
-                info: [
-                    {
-                        text: "<img src='/img/article/98/82_icon.png' alt=''><span>Exmo<span>",
-                        class: "full"
-                    },
-                    {
-                        text: "Великобритания",
-                        class: "empty"
-                    },
-                    {
-                        text: "2013",
-                        class: "empty"
-                    },
-                    {
-                        text: "CEX",
-                        class: "empty"
-                    },
-                    {
-                        text: "132/37",
-                        class: "empty"
-                    },
-                    {
-                        text: "37",
-                        class: "empty"
-                    },
-                    {
-                        text: "0,2%",
-                        class: "empty"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "USDT",
-                        class: "empty"
-                    },
-                    {
-                        text: "Wire Transfer CryptoCapital Money Polo Perfect Money Epay AdvCash OKPAY Neteller Payeer Payza PayPal Visa/MasterCard SEPA Qiwi",
-                        class: "empty"
-                    },
-                ],
-
-                moreInfo: {
-                    icon: "<img src='/img/article/98/82_main.png' alt=''>",
-                    name: "Exmo",
-                    description: "На этапе своего запуска биржа EXMO являлась больше обменником, нежели площадкой для трейдеров.",
-                    twitterLink: "https://twitter.com/Exmo_com",
-                    webLink: "https://exmo.com",
-                    lastLink: {
-                        text: "Новости Exmo",
-                        link: "/Crypto-Exchange/Exmo.html"
-                    }
-                }
-            },
-            {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Азия",
-                    marginTrading: "Да",
-                    internalToken: "Да",
-                    MotivationOfTraders: "trans-fee-mining",
-                    kys: "Нет",
-                    stableCoin: "Да",
-                    waysTo: ["криптовалюта",] // deposit_refill
-                },
-                info: [
-                    {
-                        text: "<img src='/img/article/200/35_icon.png' alt=''><span>Fcoin<span>",
-                        class: "full"
-                    },
-                    {
-                        text: "Китай",
-                        class: "empty"
-                    },
-                    {
-                        text: "2018",
-                        class: "empty"
-                    },
-                    {
-                        text: "CEX",
-                        class: "empty"
-                    },
-                    {
-                        text: "175 / 99",
-                        class: "empty"
-                    },
-                    {
-                        text: "99",
-                        class: "empty"
-                    },
-                    {
-                        text: "0.1 %",
-                        class: "empty"
-                    },
-                    {
-                        text: "",
-                        class: "true"
-                    },
-                    {
-                        text: "",
-                        class: "true"
-                    },
-                    {
-                        text: "FT",
-                        class: "empty"
-                    },
-                    {
-                        text: "trans-fee-mining",
-                        class: "empty"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "USDT",
-                        class: "empty"
-                    },
-                    {
-                        text: "Cryptocurrency",
-                        class: "empty"
-                    },
-                ],
-
-                moreInfo: {
-                    icon: "<img src='/img/article/200/35_main.png' alt=''>",
-                    name: "Fcoin",
-                    description: "Биржа основана в мае 2018 года. Построена на алгоритме fee-майнинг &mdash; методе, который состоит из раздачи токенов в качестве вознаграждения за торговлю.",
-                    twitterLink: "https://twitter.com/FCoinOfficial",
-                    webLink: "https://www.fcoin.com/",
-                    lastLink: {
-                        text: "Новости Fcoin",
-                        link: "/Crypto-Exchange/fcoin.html"
-                    }
-                }
-            },
-            {
-                show: true,
-                itemFilter: {
-                    type: "CEX",
-                    region: "Азия",
-                    marginTrading: "Нет",
-                    internalToken: "Нет",
-                    MotivationOfTraders: "Нет",
-                    kys: "Нет",
-                    stableCoin: "Нет",
-                    waysTo: ["криптовалюта",] // deposit_refill
-                },
-                info: [
-                    {
-                        text: "<img src='/img/article/200/22_icon.jpg' alt=''><span>HitBTC<span>",
-                        class: "full"
-                    },
-                    {
-                        text: "Гонг Конг",
-                        class: "empty"
-                    },
-                    {
-                        text: "2013",
-                        class: "empty"
-                    },
-                    {
-                        text: "CEX",
-                        class: "empty"
-                    },
-                    {
-                        text: "870/373",
-                        class: "empty"
-                    },
-                    {
-                        text: "373",
-                        class: "empty"
-                    },
-                    {
-                        text: "0.01 - 0.1 %",
-                        class: "empty"
-                    },
-                    {
-                        text: "",
-                        class: "true"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "false"
-                    },
-                    {
-                        text: "",
-                        class: "empty"
-                    },
-                    {
-                        text: "Cryptocurrency",
-                        class: "empty"
-                    },
-                ],
-
-                moreInfo: {
-                    icon: "<img src='/img/article/200/22_main.jpg' alt=''>",
-                    name: "HitBTC",
-                    description: "HitBTC &ndash; была запущена в 2013 году. Ее разрабатывали эстонские и израильские специалисты. На первом этапе создания в проект было вложено 6 миллионов долларов.",
-                    twitterLink: "https://twitter.com/hitbtc",
-                    webLink: "https://hitbtc.com/",
-                    lastLink: {
-                        text: "Новости HitBTC",
-                        link: "/Crypto-Exchange/hitbtc.html"
-                    }
-                }
-            }
         ]
     }
-
-    let filterData = [
-        {
-            filterType: "checkBox",
-            filterName: "Вид площадки",
-            objName: "type",
-            allTrigger: true,
-            allValue: "Все",
-            defaultValue: [
-                "Все",
-                "CEX",
-                "DEX",
-            ],
-            checkBox: [
-                "Все",
-                "CEX",
-                "DEX",
-            ]
-
-        },
-        {
-            filterType: "checkBox",
-            filterName: "Регион",
-            objName: "region",
-            allTrigger: true,
-            allValue: "Все",
-            defaultValue: [
-                "Все",
-                "Азия",
-                "Европа",
-                "США",
-            ],
-            checkBox: [
-                "Все",
-                "Азия",
-                "Европа",
-                "США",
-            ]
-        },
-        {
-            filterType: "radioBtn",
-            filterName: "Маржинальная торговля",
-            objName: "marginTrading",
-            allTrigger: false,
-            allValue: "",
-            defaultValue: "Все",
-            checkBox: [
-                "Все",
-                "Да",
-                "Нет",
-            ]
-
-        },
-        {
-            filterType: "radioBtn",
-            filterName: "Внутрений токен биржи, Тикер",
-            objName: "internalToken",
-            allTrigger: false,
-            allValue: "",
-            defaultValue: "Все",
-            checkBox: [
-                "Все",
-                "Да",
-                "Нет",
-            ]
-
-        },
-        {
-            filterType: "radioBtn",
-            filterName: "Мотивация трейдеров",
-            objName: "MotivationOfTraders",
-            allTrigger: false,
-            allValue: "",
-            defaultValue: "Все",
-            checkBox: [
-                "Все",
-                "Да",
-                "Нет",
-            ]
-
-        },
-        {
-            filterType: "radioBtn",
-            filterName: "KYC",
-            objName: "kys",
-            allTrigger: false,
-            allValue: "",
-            defaultValue: "Все",
-            checkBox: [
-                "Все",
-                "Да",
-                "Нет",
-            ]
-
-        },
-        {
-            filterType: "radioBtn",
-            filterName: "Stable coins",
-            objName: "stableCoin",
-            allTrigger: false,
-            allValue: "",
-            defaultValue: "Все",
-            checkBox: [
-                "Все",
-                "Да",
-                "Нет",
-            ]
-
-        },
-        {
-            filterType: "checkBox",
-            filterName: "Способы пополнения депозита",
-            objName: "waysTo",
-            allTrigger: true,
-            allValue: "Все",
-            defaultValue: [
-                "Все",
-                "криптовалюта",
-                "банковский перевод",
-                "банковская карта",
-            ],
-            checkBox: [
-                "Все",
-                "криптовалюта",
-                "банковский перевод",
-                "банковская карта",
-            ],
-
-        },
-    ];
-
 
     if (nightMode === "true") {
         body.classList.add("night-mode");
@@ -1101,7 +481,7 @@
 
 </script>
 
-<div class="main-wrapper table table-exchanges">
+<div class="main-wrapper table table-iso">
 
     <div class="main-content">
 
@@ -1827,163 +1207,71 @@
 
         <div class="content" id="app">
 
-            <h1 class="h1-title">LetKnow.news wallet review</h1>
-
-            <div class="filter-block">
-
-                <div v-for="(key, value) in filterDataVue" class="filter-item">
-
-                    <div v-if="key.filterType === 'checkBox'"
-                         class="filter_visible-item" @click="openDropList(value)">
-
-                        <div class="top"><p v-html="key.filterName"></p></div>
-                        <div class="bottom">
-                            <p class="all">
-                                <span v-if="key.allTrigger === true">Все</span>
-
-                                <span v-if="key.allTrigger !== true" v-for="thirdKey in key.defaultValue"
-                                      v-html="thirdKey"></span>
-                            </p>
-                            <svg class="arrow" width="9" height="5" viewBox="0 0 9 5" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.67647 4.93032L8.96229 0.252903C9.0075 0.203387 9.01222 0.139194 8.97557 0.0862903C8.9385 0.0332258 8.86564 -5.8729e-09 8.78593 -9.35741e-09L0.214291 -3.84036e-07C0.134574 -3.8752e-07 0.0615017 0.0332254 0.0244294 0.0862899C0.00814328 0.109838 -2.56079e-07 0.135645 -2.572e-07 0.16129C-2.58603e-07 0.193387 0.0128576 0.225322 0.0379296 0.252903L4.32375 4.93032C4.36382 4.97403 4.42961 5 4.50011 5C4.57061 5 4.6364 4.97387 4.67647 4.93032Z"
-                                      fill="black"/>
-                            </svg>
-                        </div>
-
-
-                    </div>
-
-                    <div v-if="key.filterType === 'checkBox'"
-                         style="display: none" v-show="showDropList === value"
-                         class="drop-list">
-                        <div class="item" v-for="secondKey in key.checkBox">
-                            <label class="container">{{secondKey}}
-                                <input @change="selectAll(secondKey, value)" v-model="key.defaultValue" type="checkbox"
-                                       :value="secondKey">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-
-                    </div>
-
-                    <!---->
-
-                    <div v-if="key.filterType === 'radioBtn'"
-                         class="filter_visible-item" @click="openDropList(value)">
-
-                        <div class="top"><p v-html="key.filterName"></p></div>
-                        <div class="bottom">
-                            <p class="all">
-
-                                <span v-html="key.defaultValue"></span>
-                            </p>
-                            <svg class="arrow" width="9" height="5" viewBox="0 0 9 5" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.67647 4.93032L8.96229 0.252903C9.0075 0.203387 9.01222 0.139194 8.97557 0.0862903C8.9385 0.0332258 8.86564 -5.8729e-09 8.78593 -9.35741e-09L0.214291 -3.84036e-07C0.134574 -3.8752e-07 0.0615017 0.0332254 0.0244294 0.0862899C0.00814328 0.109838 -2.56079e-07 0.135645 -2.572e-07 0.16129C-2.58603e-07 0.193387 0.0128576 0.225322 0.0379296 0.252903L4.32375 4.93032C4.36382 4.97403 4.42961 5 4.50011 5C4.57061 5 4.6364 4.97387 4.67647 4.93032Z"
-                                      fill="black"/>
-                            </svg>
-                        </div>
-
-
-                    </div>
-
-                    <div v-if="key.filterType === 'radioBtn'"
-                         style="display: none" v-show="showDropList === value"
-                         class="drop-list">
-                        <div class="item" v-for="secondKey in key.checkBox">
-                            <label class="container">{{secondKey}}
-                                <input @change="selectAll(secondKey, value)" v-model="key.defaultValue" type="radio"
-                                       :value="secondKey">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-                <div @click="collectData()" class="showResult">
-                    <p>применить</p>
-                </div>
-
-                <p @click="resetFilter" class="resetFilter">
-                    Очистить фильтры
+            <div class="nav-block">
+                <p class="nav-title">
+                    Другие таблицы:
                 </p>
 
+                <p class="active">
+                    <a href="#">
+                        Кошельки
+                    </a>
+                </p>
+
+                <p>
+                    <a href="#">
+                        Биржи
+                    </a>
+                </p>
+
+                <p>
+                    <a href="#">
+                        ISO
+                    </a>
+                </p>
+
+                <p>
+                    <a href="#">
+                        IEO
+                    </a>
+                </p>
             </div>
+
+            <h1 class="h1-title">LetKnow.news wallet review</h1>
 
             <div class="table-wrapper">
 
                 <div class="reg-table-wrapper">
 
                     <table class="reg-table">
+
                         <thead>
                         <tr class="table-header">
-                            <th
-                                    v-for="(key, value) in tableHeader"
-                                    v-html="key"></th>
+
+                            <td rowspan="2" v-html="firstElement.name"></td>
+
+                            <th v-for="(key, value) in tableHeader" :colspan="`${key.num}`" v-html="key.name"></th>
+
+                        </tr>
+                        <tr class="sub-header">
+
+                            <th v-for="(key, value) in subHeaderText" v-html="key"></th>
+
                         </tr>
                         </thead>
 
                         <tbody>
 
-                        <tr v-if="key.show === true" class="item" v-for="key in tableContent">
+                        <tr class="item" v-for="key in tableContent">
                             <th :class="`${secondKey.class}`" v-for="(secondKey, value) in key.info">
 
                                 <p v-html="secondKey.text"></p>
-
-                                <div class="more-info" v-if="value === 0">
-
-                                    <div class="icon" v-html="key.moreInfo.icon"></div>
-
-                                    <div class="name" v-html="key.moreInfo.name"></div>
-
-                                    <div class="description" v-html="key.moreInfo.description"></div>
-
-                                    <div class="links-block">
-                                        <div class="left-side">
-                                            <div class="web"><a :href="`${key.moreInfo.webLink}`">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M18.9772 8.86667C18.6656 4.12427 14.8757 0.333133 10.1333 0.0215333V0H9.5H8.86667V0.0215333C4.12427 0.333133 0.333133 4.12427 0.0215333 8.86667H0V9.5V10.1333H0.0215333C0.333133 14.8757 4.12427 18.6656 8.86667 18.9772V19H9.5H10.1333V18.9772C14.8757 18.6656 18.6656 14.8757 18.9772 10.1333H19V9.5V8.86667H18.9772ZM5.947 2.071C5.3352 2.8842 4.82727 3.90387 4.4574 5.06667H2.55993C3.3858 3.77847 4.55873 2.736 5.947 2.071ZM1.89747 6.33333H4.12427C3.95453 7.13387 3.84687 7.9838 3.81267 8.86667H1.29073C1.35787 7.97493 1.56813 7.12247 1.89747 6.33333ZM1.29073 10.1333H3.81267C3.84687 11.0162 3.95453 11.8661 4.12427 12.6667H1.89747C1.56813 11.8775 1.35787 11.0251 1.29073 10.1333ZM2.55993 13.9333H4.45613C4.826 15.0961 5.33393 16.1158 5.947 16.929C4.55873 16.264 3.3858 15.2228 2.55993 13.9333ZM8.86667 17.6523C7.56453 17.3039 6.44353 15.9055 5.76333 13.9333H8.86667V17.6523ZM8.86667 12.6667H5.4074C5.2288 11.8775 5.11607 11.0251 5.07933 10.1333H8.86667V12.6667ZM8.86667 8.86667H5.07933C5.11607 7.97493 5.2288 7.12247 5.4074 6.33333H8.86667V8.86667ZM8.86667 5.06667H5.76333C6.44353 3.09447 7.56453 1.69607 8.86667 1.349V5.06667ZM16.4401 5.06667H14.5451C14.174 3.90387 13.6673 2.8842 13.053 2.071C14.44 2.736 15.6142 3.77847 16.4401 5.06667ZM10.1333 1.349C11.4342 1.69607 12.5565 3.09447 13.2367 5.06667H10.1333V1.349ZM10.1333 6.33333H13.5913C13.7712 7.12247 13.8814 7.97493 13.9207 8.86667H10.1333V6.33333ZM10.1333 10.1333H13.9207C13.8839 11.0251 13.7712 11.8775 13.5913 12.6667H10.1333V10.1333ZM10.1333 17.6523V13.9333H13.2367C12.5565 15.9055 11.4342 17.3039 10.1333 17.6523ZM13.053 16.929C13.6648 16.1145 14.174 15.0961 14.5451 13.9333H16.4401C15.6142 15.2228 14.44 16.264 13.053 16.929ZM17.1025 12.6667H14.8757C15.0455 11.8661 15.1531 11.0162 15.1873 10.1333H17.708C17.6421 11.0251 17.4319 11.8775 17.1025 12.6667ZM15.1873 8.86667C15.1531 7.9838 15.0455 7.13387 14.8757 6.33333H17.1025C17.4319 7.12247 17.6421 7.97493 17.7093 8.86667H15.1873Z"
-                                                          fill="#030104"/>
-                                                </svg>
-
-                                            </a></div>
-                                            <div class="twitter"><a :href="`${key.moreInfo.twitterLink}`">
-                                                <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M20 1.92375C19.2562 2.25 18.4637 2.46625 17.6375 2.57125C18.4875 2.06375 19.1363 1.26625 19.4413 0.305C18.6488 0.7775 17.7737 1.11125 16.8412 1.2975C16.0887 0.49625 15.0162 0 13.8462 0C11.5762 0 9.74875 1.8425 9.74875 4.10125C9.74875 4.42625 9.77625 4.73875 9.84375 5.03625C6.435 4.87 3.41875 3.23625 1.3925 0.7475C1.03875 1.36125 0.83125 2.06375 0.83125 2.82C0.83125 4.24 1.5625 5.49875 2.6525 6.2275C1.99375 6.215 1.3475 6.02375 0.8 5.7225C0.8 5.735 0.8 5.75125 0.8 5.7675C0.8 7.76 2.22125 9.415 4.085 9.79625C3.75125 9.8875 3.3875 9.93125 3.01 9.93125C2.7475 9.93125 2.4825 9.91625 2.23375 9.86125C2.765 11.485 4.2725 12.6787 6.065 12.7175C4.67 13.8087 2.89875 14.4662 0.98125 14.4662C0.645 14.4662 0.3225 14.4512 0 14.41C1.81625 15.5812 3.96875 16.25 6.29 16.25C13.835 16.25 17.96 10 17.96 4.5825C17.96 4.40125 17.9537 4.22625 17.945 4.0525C18.7587 3.475 19.4425 2.75375 20 1.92375Z"
-                                                          fill="#03A9F4"/>
-                                                </svg>
-                                            </a></div>
-                                        </div>
-                                        <div class="right-side">
-
-                                            <p>
-                                                <a :href="`${key.moreInfo.lastLink.link}`">
-                                                    <span v-html="key.moreInfo.lastLink.text"></span>
-                                                    <svg height="15" width="15" class="arrow-svg-right" x="0px" y="0px"
-                                                         viewBox="0 0 31.49 31.49">
-                                                        <path style="fill:#1E201D;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111
-	C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587
-	c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
-
-                                                    </svg>
-                                                </a>
-
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
 
                                 <div class="icon" v-if="secondKey.text === ''"></div>
 
                             </th>
                         </tr>
+
                         </tbody>
 
                     </table>
@@ -1995,11 +1283,11 @@
 
                     <table class="fix-col">
                         <tr class="first-element">
-                            <td v-html="tableHeader[0]"></td>
+                            <td v-html="firstElement.name"></td>
                         </tr>
                         <tr class="item" v-for="key in tableContent">
-                            <td v-if="secondKey.class ==='full'" :class="`${secondKey.class}`"
-                                v-for="(secondKey, value) in key.info">
+                            <td v-for="(secondKey, value) in key.info" v-if="secondKey.class === 'full'"
+                                :class="`${secondKey.class}`">
 
                                 <p v-html="secondKey.text"></p>
 
@@ -2327,96 +1615,6 @@
 
             </div>
 
-            <div class="carousel-wrapper_articles">
-
-                <div class="slider-bottom2">
-
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-                    <div class="overflow-style last-news_item">
-                        <img src="img/img4.png" alt="">
-                        <div class="red-block">
-                            <p>Binance перезапустит
-                                краундфандинговую платформу
-                                Launchpad</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="prev5">
-                    <svg width="12px" height="24px" viewBox="0 0 477.175 477.175">
-                        <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-		c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
-
-                    </svg>
-                </div>
-
-                <div class="next5">
-                    <svg width="12px" height="24px" viewBox="0 0 129 129">
-                        <g>
-                            <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                        </g>
-                    </svg>
-                </div>
-
-            </div>
-
 
         </div>
 
@@ -2583,13 +1781,15 @@
 <script src="script/vue.js"></script>
 <script src="script/jquery.js"></script>
 
+<script src="script/table-iso.js"></script>
+
 <script src="script/slick.min.js"></script>
 <script src="script/jquery.barrating.min.js"></script>
 <script src="script/jquery-ui.min.js"></script>
 
 <script src="script/TweenMax.min.js"></script>
 <script src="script/script.js"></script>
-<script src="script/filter.js"></script>
 
 </body>
+
 </html>
