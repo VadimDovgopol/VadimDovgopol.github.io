@@ -4432,10 +4432,9 @@ body.active {
     font-size: 16px;
     font-weight: 700;
     margin-right: 20px; }
-    .table .nav-block p.active a {
-      color: #d24a43; }
     .table .nav-block p a {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #d24a43; }
 
 .filter-block {
   display: flex;
