@@ -16,11 +16,11 @@
 
   a {
     &:hover {
-     .type-red{
-       p{
-         color: white !important;
-       }
-     }
+      .type-red {
+        p {
+          color: white !important;
+        }
+      }
     }
   }
 
@@ -29,7 +29,7 @@
     margin: 0 10px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 
     .img-wrapper {
       min-width: 120px;

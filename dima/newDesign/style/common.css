@@ -4727,7 +4727,7 @@ body.active {
     margin: 0 10px;
     display: flex;
     flex-direction: row;
-    align-items: center; }
+    align-items: flex-start; }
     .global-announcement .item .img-wrapper {
       min-width: 120px;
       margin-right: 10px;

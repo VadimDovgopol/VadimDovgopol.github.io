@@ -170,7 +170,7 @@
       <workItem from="1554463040134" duration="1000" />
       <workItem from="1554915359660" duration="37000" />
       <workItem from="1554917618072" duration="76000" />
-      <workItem from="1555349406335" duration="648000" />
+      <workItem from="1555349406335" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -431,11 +431,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555349446398</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add new style">
+      <created>1555350706399</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1555350706399</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15814000" />
+    <option name="totallyTimeSpent" value="15995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
@@ -474,7 +481,6 @@
     <MESSAGE value="add font resize" />
     <MESSAGE value="add font resize v2" />
     <MESSAGE value="add new page" />
-    <MESSAGE value="add new style" />
     <MESSAGE value="add fix" />
     <MESSAGE value="complete work" />
     <MESSAGE value="add adaptive" />
@@ -491,7 +497,8 @@
     <MESSAGE value="add new project" />
     <MESSAGE value="add new block in main page" />
     <MESSAGE value="add new block" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new block" />
+    <MESSAGE value="add new style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
