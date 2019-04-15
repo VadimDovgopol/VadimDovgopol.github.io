@@ -6,6 +6,12 @@
     z-index: 2;
   }
 
+  .reg-table-wrapper {
+    * {
+      cursor: auto !important;
+    }
+  }
+
   .table-header {
     height: 60px !important;
 
@@ -97,6 +103,14 @@
 
     .item {
       height: 60px;
+    }
+  }
+}
+
+.table-ieo {
+  .reg-table-wrapper {
+    * {
+      cursor: auto !important;
     }
   }
 }

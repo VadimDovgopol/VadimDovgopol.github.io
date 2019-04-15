@@ -1,0 +1,34 @@
+.global-announcement {
+  padding: 20px 0;
+  max-width: 977px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: white;
+
+  .item {
+    max-width: 300px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .img-wrapper {
+      min-width: 150px;
+      margin-right: 10px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+}
