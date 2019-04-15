@@ -10,6 +10,19 @@
   top: 0;
   left: 0;
   background: white;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+
+  a {
+    &:hover {
+     .type-red{
+       p{
+         color: white !important;
+       }
+     }
+    }
+  }
 
   .item {
     max-width: 300px;
@@ -19,12 +32,35 @@
     align-items: center;
 
     .img-wrapper {
-      min-width: 150px;
+      min-width: 120px;
       margin-right: 10px;
+      position: relative;
+
+      .type-red {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #D24A43;
+        padding: 5px;
+        z-index: 10;
+
+        p {
+          text-transform: uppercase;
+          line-height: normal;
+          display: block;
+          font-size: 12px;
+          color: white;
+        }
+      }
     }
 
     p {
       font-size: 14px;
+    }
+
+    .date {
+      color: #cccccc;
+      margin-top: 5px;
     }
 
     &:nth-child(1) {
