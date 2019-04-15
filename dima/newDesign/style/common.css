@@ -4734,16 +4734,16 @@ body.active {
       position: relative; }
       .global-announcement .item .img-wrapper .type-red {
         position: absolute;
-        left: 0;
-        top: 0;
-        background: #D24A43;
+        left: 10px;
+        bottom: 10px;
+        background: rgba(210, 74, 67, 0.8);
         padding: 5px;
         z-index: 10; }
         .global-announcement .item .img-wrapper .type-red p {
           text-transform: uppercase;
           line-height: normal;
           display: block;
-          font-size: 12px;
+          font-size: 10px;
           color: white; }
     .global-announcement .item p {
       font-size: 14px; }

@@ -170,7 +170,7 @@
       <workItem from="1554463040134" duration="1000" />
       <workItem from="1554915359660" duration="37000" />
       <workItem from="1554917618072" duration="76000" />
-      <workItem from="1555349406335" duration="829000" />
+      <workItem from="1555349406335" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -438,15 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555350706399</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add new style v2">
+      <created>1555351054316</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1555351054316</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15995000" />
+    <option name="totallyTimeSpent" value="16171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -473,7 +479,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="text v10" />
     <MESSAGE value="text v11" />
     <MESSAGE value="text v12" />
     <MESSAGE value="new item" />
@@ -498,7 +503,8 @@
     <MESSAGE value="add new block in main page" />
     <MESSAGE value="add new block" />
     <MESSAGE value="add new style" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new style" />
+    <MESSAGE value="add new style v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
