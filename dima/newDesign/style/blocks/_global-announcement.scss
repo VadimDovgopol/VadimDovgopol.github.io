@@ -1,5 +1,5 @@
 .global-announcement {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   max-width: 977px;
   width: 100%;
   display: flex;
@@ -33,6 +33,8 @@
 
     .img-wrapper {
       min-width: 120px;
+      max-width: 120px;
+      width: 100%;
       margin-right: 10px;
       position: relative;
 
@@ -54,8 +56,13 @@
       }
     }
 
-    p {
-      font-size: 14px;
+    .text-wrapper {
+      max-width: 150px;
+      min-width: 100px;
+      width: 100%;
+      p {
+        font-size: 14px;
+      }
     }
 
     .date {

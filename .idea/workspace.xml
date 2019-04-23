@@ -99,15 +99,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
       <recent name="C:\VadimDovgopol.github.io\dima\newLanding\fonts" />
       <recent name="C:\VadimDovgopol.github.io\dima\newLanding" />
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign\script" />
       <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,6 +171,7 @@
       <workItem from="1554915359660" duration="37000" />
       <workItem from="1554917618072" duration="76000" />
       <workItem from="1555349406335" duration="1005000" />
+      <workItem from="1555354505895" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -445,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555351054316</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add new style v3">
+      <created>1555354535184</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1555354535184</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16171000" />
+    <option name="totallyTimeSpent" value="16211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -479,7 +487,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="text v11" />
     <MESSAGE value="text v12" />
     <MESSAGE value="new item" />
     <MESSAGE value="add date piker" />
@@ -504,7 +511,8 @@
     <MESSAGE value="add new block" />
     <MESSAGE value="add new style" />
     <MESSAGE value="add new style v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new style v2" />
+    <MESSAGE value="add new style v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style v3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">

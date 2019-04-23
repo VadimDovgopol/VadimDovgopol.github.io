@@ -5,6 +5,10 @@
 
   a {
     &:hover {
+      p{
+        color: #d24a43 !important;
+
+      }
       .bottom-info {
         .data {
           p {
@@ -19,6 +23,7 @@
 
       .country {
         color: #d24a43 !important;
+
       }
     }
   }

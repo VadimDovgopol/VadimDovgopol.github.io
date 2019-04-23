@@ -15,6 +15,17 @@
   }
 }
 
+.link-to-table {
+  .articles-block_item {
+    .red-block {
+      width: 100%;
+
+      p {
+        text-transform: uppercase !important;
+      }
+    }
+  }
+}
 
 .subscribe-block {
   border-style: solid;

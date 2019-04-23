@@ -53,6 +53,11 @@ table {
 #body.tai * {
   line-height: 1.5em; }
 
+.link-to-table .articles-block_item .red-block {
+  width: 100%; }
+  .link-to-table .articles-block_item .red-block p {
+    text-transform: uppercase !important; }
+
 .subscribe-block {
   border-style: solid;
   border-width: 1px;
@@ -2791,6 +2796,8 @@ body.active {
 
 .event-page .links-map {
   margin-bottom: 15px; }
+.event-page a:hover p {
+  color: #d24a43 !important; }
 .event-page a:hover .bottom-info .data p {
   color: white !important; }
 .event-page a:hover .static {
@@ -4706,7 +4713,7 @@ body.active {
         font-weight: 600; }
 
 .global-announcement {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   max-width: 977px;
   width: 100%;
   display: flex;
@@ -4730,6 +4737,8 @@ body.active {
     align-items: flex-start; }
     .global-announcement .item .img-wrapper {
       min-width: 120px;
+      max-width: 120px;
+      width: 100%;
       margin-right: 10px;
       position: relative; }
       .global-announcement .item .img-wrapper .type-red {
@@ -4745,8 +4754,12 @@ body.active {
           display: block;
           font-size: 10px;
           color: white; }
-    .global-announcement .item p {
-      font-size: 14px; }
+    .global-announcement .item .text-wrapper {
+      max-width: 150px;
+      min-width: 100px;
+      width: 100%; }
+      .global-announcement .item .text-wrapper p {
+        font-size: 14px; }
     .global-announcement .item .date {
       color: #cccccc;
       margin-top: 5px; }
