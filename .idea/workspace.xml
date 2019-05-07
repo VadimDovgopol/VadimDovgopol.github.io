@@ -2,6 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/img/first/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/script/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/script/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/144ca730c0add68caf679f9244096bf54f755ca5/common.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_fonts.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_reset.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_vars.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/dca2d1c242c2438e0f7764b2ec5c8a343c672bcb/_page1.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/.sass-cache/ef75e5778e3beb3d6689794354c5fd6eaf124b1d/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/event-page.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/quote-of-the-day.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/blocks/_page1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/common.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/jquery-ui.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +74,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -71,14 +104,7 @@
               <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VadimDovgopol.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VadimDovgopol.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="dima" type="462c0819:PsiDirectoryNode" />
-              <item name="newDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="lknSite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -90,7 +116,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/newDesign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dima/lknSite" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,11 +129,11 @@
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\VadimDovgopol.github.io\dima\lknSite" />
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign" />
       <recent name="C:\VadimDovgopol.github.io\dima\newLanding\fonts" />
       <recent name="C:\VadimDovgopol.github.io\dima\newLanding" />
       <recent name="C:\VadimDovgopol.github.io\dima\newDesign\script" />
-      <recent name="C:\VadimDovgopol.github.io\dima\lkn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,6 +198,8 @@
       <workItem from="1554917618072" duration="76000" />
       <workItem from="1555349406335" duration="1005000" />
       <workItem from="1555354505895" duration="40000" />
+      <workItem from="1556024055261" duration="47000" />
+      <workItem from="1556885366234" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="text v2">
       <created>1542308808960</created>
@@ -453,14 +481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555354535184</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fix links">
+      <created>1556024091884</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1556024091884</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16211000" />
+    <option name="totallyTimeSpent" value="16296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -487,7 +522,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="text v12" />
     <MESSAGE value="new item" />
     <MESSAGE value="add date piker" />
     <MESSAGE value="add font resize" />
@@ -512,7 +546,8 @@
     <MESSAGE value="add new style" />
     <MESSAGE value="add new style v2" />
     <MESSAGE value="add new style v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new style v3" />
+    <MESSAGE value="fix links" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dima/lkn/.gitignore">
@@ -598,6 +633,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dima/newDesign/style/blocks/_table-links.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dima/lknSite/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

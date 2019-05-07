@@ -2,12 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f2659d-3c6d-40ab-8271-24b3f1581a9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/newLanding.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/.idea/lknSite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Montserrat-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/fonts/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/img/card2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/img/card3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/script/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/script/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/.sass-cache/144ca730c0add68caf679f9244096bf54f755ca5/common.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_fonts.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_reset.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_vars.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/.sass-cache/dca2d1c242c2438e0f7764b2ec5c8a343c672bcb/_page1.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/basic/.sass-cache/ef75e5778e3beb3d6689794354c5fd6eaf124b1d/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/basic/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/basic/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/basic/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/basic/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/event-page.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/quote-of-the-day.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/blocks/_page1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/common.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lknSite/style/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +64,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -34,7 +77,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/blocks/_page1.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -68,7 +111,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -79,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,17 +129,29 @@
               <item name="newLanding" type="b2602c69:ProjectViewProjectNode" />
               <item name="newLanding" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="newLanding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newLanding" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newLanding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newLanding" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/dima/newdesignlkn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -126,6 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554917718080</updated>
       <workItem from="1554917719227" duration="1096000" />
+      <workItem from="1557151552222" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="work in process 10.04">
       <created>1554918895097</created>
@@ -138,18 +193,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1096000" />
+    <option name="totallyTimeSpent" value="1115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -157,6 +208,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
