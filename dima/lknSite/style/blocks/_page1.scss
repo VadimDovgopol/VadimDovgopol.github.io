@@ -6,16 +6,28 @@
   margin: 0 auto;
 
   .header-wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
+    z-index: 20;
+    box-shadow: 0 2px 12px 0 rgba(231, 240, 246, 1);
+    background: white;
+    position: fixed;
     width: 100%;
-    height: 92px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    left: 0;
+    top: 0;
 
-    padding: 0 50px;
+    .content-wrapper {
+
+      max-width: 1440px;
+      height: 92px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 50px;
+
+
+    }
 
     .right-links {
       display: flex;
@@ -31,8 +43,7 @@
         transition: color 0.2s ease;
 
         &:hover {
-          color: #0064aa;
-
+          text-decoration: underline;
         }
       }
 
@@ -65,10 +76,255 @@
     }
   }
 
+  .section1 {
+    margin-top: 92px;
+
+    .content-wrapper {
+      position: relative;
+
+      .slide1,
+      .slide2,
+      .slide3,
+      .slide4,
+      .slide5,
+      .slide6 {
+        width: 100%;
+        padding-top: 70px;
+
+        min-height: 630px;
+        height: 100%;
+
+
+        .text-wrapper {
+          max-width: 1100px;
+          width: 100%;
+          margin: 0 auto;
+
+          min-height: 630px;
+          height: 100%;
+
+          .text-item {
+            max-width: 535px;
+            width: 100%;
+
+            min-height: 630px;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+
+            .nav-wrapper {
+
+              display: flex;
+              flex-direction: row;
+              margin-bottom: 70px;
+
+              .current {
+                width: 24px;
+                height: 10px;
+                border-radius: 5px;
+                background-color: rgb(0, 190, 255);
+                margin-right: 10px;
+              }
+
+              .next-stage {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: rgb(179, 189, 195);
+                margin-right: 10px;
+              }
+            }
+
+            .h1-title {
+              line-height: 1.3em;
+              color: #212121;
+              font-family: $fontM_M;
+              font-size: 54px;
+              margin-bottom: 20px;
+            }
+
+            .reg-text {
+              line-height: 1.3em;
+              color: #212121;
+              font-family: $fontM_R;
+              font-size: 20px;
+            }
+
+            .btn-wrapper {
+              margin-top: auto;
+
+              .next-btn {
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 30px;
+
+
+                background-image: linear-gradient(0deg, rgb(0, 100, 170) 0%, rgb(0, 190, 255) 100%);
+                box-shadow: 0 9px 34px 0 rgba(5, 48, 95, 0.32);
+
+                width: 235px;
+                height: 60px;
+
+                p {
+                  font-family: $fontR_R;
+                  font-size: 18px;
+                  color: white;
+                }
+
+
+                &:hover {
+                  background-image: none;
+                  background-color: rgb(0, 100, 170);
+                  box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45);
+
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .slide1 {
+        display: none;
+        opacity: 0;
+        background: url("../../img/stage1.png") no-repeat right top;
+        background-size: contain;
+
+        .btn-wrapper {
+          .next-btn {
+            svg {
+              position: absolute;
+              right: 20px;
+            }
+
+          }
+        }
+      }
+
+      .slide2 {
+        display: none;
+        opacity: 0;
+        background: url("../../img/stage2.png") no-repeat right top;
+        background-size: contain;
+
+        .btn-wrapper {
+          display: flex;
+          flex-direction: row;
+
+
+          .next-btn {
+            width: 155px !important;
+
+            svg {
+              position: absolute;
+              right: 20px;
+            }
+          }
+
+          .prev-btn {
+            background-image: linear-gradient(0deg, rgb(0, 100, 170) 0%, rgb(0, 190, 255) 100%);
+            box-shadow: 0 9px 34px 0 rgba(5, 48, 95, 0.32);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+
+
+            &:hover {
+              background-image: none;
+              background-color: rgb(0, 100, 170);
+              box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45);
+
+            }
+          }
+        }
+      }
+
+      .slide3 {
+        display: none;
+        opacity: 0;
+        background: url("../../img/stage3.png") no-repeat right top;
+        background-size: contain;
+
+        .btn-wrapper {
+          .next-btn {
+            svg {
+              position: absolute;
+              right: 20px;
+            }
+
+          }
+        }
+      }
+
+      .slide4 {
+        display: none;
+        opacity: 0;
+        background: url("../../img/stage4.png") no-repeat right top;
+        background-size: contain;
+
+        .btn-wrapper {
+          .next-btn {
+            svg {
+              position: absolute;
+              right: 20px;
+            }
+
+          }
+        }
+      }
+
+      .slide5 {
+        display: none;
+        opacity: 0;
+        background: url("../../img/stage5.png") no-repeat right top;
+        background-size: contain;
+
+        .btn-wrapper {
+          .next-btn {
+            svg {
+              position: absolute;
+              right: 20px;
+            }
+
+          }
+        }
+      }
+
+      .slide6 {
+        //display: none;
+        //opacity: 0;
+        background: url("../../img/stage6.png") no-repeat right top;
+        background-size: contain;
+
+        .btn-wrapper {
+          .next-btn {
+            svg {
+              position: absolute;
+              left: 20px;
+            }
+
+          }
+        }
+      }
+
+    }
+  }
+
   .section2 {
     max-width: 1100px;
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
 
     .h2-title {
       text-align: center;
@@ -90,16 +346,19 @@
         border-radius: 15px;
         background-color: rgb(255, 255, 255);
         box-shadow: 0 0 20px 0 rgba(179, 189, 195, 0.3);
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: translateY(-20px);
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0 18px 34px 0 rgba(5, 48, 95, 0.32);
+        }
 
         &.left {
         }
 
         &.middle {
-          margin-bottom: 15px;
           border-radius: 15px;
-          background-color: rgb(255, 255, 255);
-          box-shadow: 0px 18px 34px 0px rgba(5, 48, 95, 0.32);
-          margin-top: -20px;
 
           .description {
             .beta-block {
@@ -1012,7 +1271,128 @@
     }
   }
 
+  .section13 {
+    margin-top: 123px;
+    width: 100%;
+    background: url("../../img/bg-section13.svg") rgb(0, 100, 170) no-repeat right center;
+    background-size: 100%;
+    box-shadow: 0 20px 47px 0 rgba(179, 189, 195, 0.6);
+    min-height: 390px;
+
+    .content-wrapper {
+      display: flex;
+      flex-direction: row;
+
+      .left {
+        display: flex;
+        height: 100%;
+        max-width: 700px;
+        width: 100%;
+        position: relative;
+        margin-top: -66px;
+      }
+
+      .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 40px;
+        max-width: 530px;
+        width: 100%;
+
+        .h3-title {
+          color: #ffffff;
+          font-family: $fontM_R;
+          font-size: 40px;
+          margin-bottom: 20px;
+        }
+
+        .reg-text {
+          margin-bottom: 30px;
+          color: #ffffff;
+          font-family: $fontM_R;
+          font-size: 28px;
+        }
+
+        .small-text {
+          margin-top: 15px;
+          color: #ffffff;
+          font-family: $fontR_R;
+          font-size: 12px;
+        }
+
+        .input-wrapper {
+          form {
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+
+            .input-item {
+              width: 70%;
+              position: relative;
+
+              &.active, &:hover, &:focus {
+                .reg-text {
+                  top: 6px;
+                  font-size: 10px;
+                }
+              }
+
+              .reg-text {
+                margin: 0;
+                z-index: 1;
+                position: absolute;
+                left: 20px;
+                top: 18px;
+                color: #8c9aa7;
+                font-size: 14px;
+                font-family: $fontR_R;
+                transition: all 0.2s ease;
+              }
+
+              input {
+                position: relative;
+                padding: 0 20px;
+                border: 1px solid rgb(200, 207, 216);
+                border-radius: 5px 0 0 5px;
+                height: 100%;
+                width: 100%;
+                color: #212b36;
+                font-family: $fontM_R;
+                font-size: 14px;
+              }
+            }
+
+            .submit-btn {
+              cursor: pointer;
+              width: 30%;
+              background-image: linear-gradient(-2deg, rgb(0, 100, 170) 0%, rgb(0, 190, 255) 100%);
+              border: none;
+              border-radius: 0 5px 5px 0;
+
+              p {
+                color: #ffffff;
+                font-family: $fontR_M;
+                font-size: 14px;
+              }
+
+              &:hover {
+                background-image: none;
+                background: #0064aa;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
   .section14 {
+    background: url("../../img/bg-section14.svg") no-repeat left top;
+    background-size: 100%;
+    padding-bottom: 70px;
+
     .content-wrapper {
       max-width: 1100px;
       width: 100%;
@@ -1035,7 +1415,7 @@
         .reg-text {
           line-height: 1.3em;
           color: #595f63;
-          font-family: $fontM_SB;
+          font-family: $fontM_M;
           font-size: 18px;
         }
       }
@@ -1073,9 +1453,9 @@
   }
 
   .footer {
-    margin-top: 70px;
     border-top: 1px solid #d8d8d8;
     padding: 45px 0 30px 0;
+    background: #f7fafc;
 
     .content-wrapper {
       max-width: 1100px;
@@ -1138,5 +1518,5 @@
       }
     }
   }
-}
 
+}
