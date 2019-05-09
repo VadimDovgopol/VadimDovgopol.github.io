@@ -163,7 +163,8 @@ body.mobile * {
         width: 100%;
         padding-top: 70px;
         min-height: 630px;
-        height: 100%; }
+        height: 100%;
+        transition: all 0.5s ease; }
         .main-wrapper .section1 .content-wrapper .slide1 .text-wrapper,
         .main-wrapper .section1 .content-wrapper .slide2 .text-wrapper,
         .main-wrapper .section1 .content-wrapper .slide3 .text-wrapper,
@@ -282,8 +283,8 @@ body.mobile * {
                   background-color: #0064aa;
                   box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45); }
       .main-wrapper .section1 .content-wrapper .slide1 {
-        display: none;
-        opacity: 0;
+        display: block;
+        opacity: 1;
         background: url("../../img/stage1.png") no-repeat right top;
         background-size: contain; }
         .main-wrapper .section1 .content-wrapper .slide1 .btn-wrapper .next-btn svg {
@@ -321,26 +322,85 @@ body.mobile * {
         opacity: 0;
         background: url("../../img/stage3.png") no-repeat right top;
         background-size: contain; }
-        .main-wrapper .section1 .content-wrapper .slide3 .btn-wrapper .next-btn svg {
-          position: absolute;
-          right: 20px; }
+        .main-wrapper .section1 .content-wrapper .slide3 .btn-wrapper {
+          display: flex;
+          flex-direction: row; }
+          .main-wrapper .section1 .content-wrapper .slide3 .btn-wrapper .next-btn {
+            width: 155px !important; }
+            .main-wrapper .section1 .content-wrapper .slide3 .btn-wrapper .next-btn svg {
+              position: absolute;
+              right: 20px; }
+          .main-wrapper .section1 .content-wrapper .slide3 .btn-wrapper .prev-btn {
+            background-image: linear-gradient(0deg, #0064aa 0%, #00beff 100%);
+            box-shadow: 0 9px 34px 0 rgba(5, 48, 95, 0.32);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px; }
+            .main-wrapper .section1 .content-wrapper .slide3 .btn-wrapper .prev-btn:hover {
+              background-image: none;
+              background-color: #0064aa;
+              box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45); }
       .main-wrapper .section1 .content-wrapper .slide4 {
         display: none;
         opacity: 0;
         background: url("../../img/stage4.png") no-repeat right top;
         background-size: contain; }
-        .main-wrapper .section1 .content-wrapper .slide4 .btn-wrapper .next-btn svg {
-          position: absolute;
-          right: 20px; }
+        .main-wrapper .section1 .content-wrapper .slide4 .btn-wrapper {
+          display: flex;
+          flex-direction: row; }
+          .main-wrapper .section1 .content-wrapper .slide4 .btn-wrapper .next-btn {
+            width: 155px !important; }
+            .main-wrapper .section1 .content-wrapper .slide4 .btn-wrapper .next-btn svg {
+              position: absolute;
+              right: 20px; }
+          .main-wrapper .section1 .content-wrapper .slide4 .btn-wrapper .prev-btn {
+            background-image: linear-gradient(0deg, #0064aa 0%, #00beff 100%);
+            box-shadow: 0 9px 34px 0 rgba(5, 48, 95, 0.32);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px; }
+            .main-wrapper .section1 .content-wrapper .slide4 .btn-wrapper .prev-btn:hover {
+              background-image: none;
+              background-color: #0064aa;
+              box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45); }
       .main-wrapper .section1 .content-wrapper .slide5 {
         display: none;
         opacity: 0;
         background: url("../../img/stage5.png") no-repeat right top;
         background-size: contain; }
-        .main-wrapper .section1 .content-wrapper .slide5 .btn-wrapper .next-btn svg {
-          position: absolute;
-          right: 20px; }
+        .main-wrapper .section1 .content-wrapper .slide5 .btn-wrapper {
+          display: flex;
+          flex-direction: row; }
+          .main-wrapper .section1 .content-wrapper .slide5 .btn-wrapper .next-btn {
+            width: 155px !important; }
+            .main-wrapper .section1 .content-wrapper .slide5 .btn-wrapper .next-btn svg {
+              position: absolute;
+              right: 20px; }
+          .main-wrapper .section1 .content-wrapper .slide5 .btn-wrapper .prev-btn {
+            background-image: linear-gradient(0deg, #0064aa 0%, #00beff 100%);
+            box-shadow: 0 9px 34px 0 rgba(5, 48, 95, 0.32);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px; }
+            .main-wrapper .section1 .content-wrapper .slide5 .btn-wrapper .prev-btn:hover {
+              background-image: none;
+              background-color: #0064aa;
+              box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45); }
       .main-wrapper .section1 .content-wrapper .slide6 {
+        display: none;
+        opacity: 0;
         background: url("../../img/stage6.png") no-repeat right top;
         background-size: contain; }
         .main-wrapper .section1 .content-wrapper .slide6 .btn-wrapper .next-btn svg {
