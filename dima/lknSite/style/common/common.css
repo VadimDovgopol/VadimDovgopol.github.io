@@ -1696,6 +1696,10 @@ body.mobile * {
         @media screen and (max-width: 700px) {
           .main-wrapper .section8 .content-wrapper .h3-title {
             margin-bottom: 30px; } }
+        @media screen and (max-width: 500px) {
+          .main-wrapper .section8 .content-wrapper .h3-title {
+            font-size: 18px;
+            text-align: center; } }
       .main-wrapper .section8 .content-wrapper .content {
         display: flex;
         flex-direction: row;
@@ -1994,6 +1998,10 @@ body.mobile * {
         @media screen and (max-width: 700px) {
           .main-wrapper .section10 .content-wrapper .h3-title {
             margin-bottom: 30px; } }
+        @media screen and (max-width: 500px) {
+          .main-wrapper .section10 .content-wrapper .h3-title {
+            font-size: 18px;
+            text-align: center; } }
       .main-wrapper .section10 .content-wrapper .content {
         display: flex;
         flex-direction: row;
