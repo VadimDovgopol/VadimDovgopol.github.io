@@ -31,8 +31,8 @@ $(document).ready(function () {
         prevArrow: ".prev-btn",
         nextArrow: ".next-btn",
 
-        // autoplay: true,
-        // autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 2000,
 
     });
     $('.section6 .content-mob').slick({
