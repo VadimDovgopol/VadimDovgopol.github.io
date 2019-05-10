@@ -24,84 +24,40 @@ $(document).ready(function () {
         $(".input-item").addClass("active")
     })
 
-    $(".slide1 .next-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide1", .20, {autoAlpha: 0})
-            .to(".section1 .slide1", 0, {display: "none"})
-            .to(".section1 .slide2", .20, {display: "block", autoAlpha: 1});
+    $('.section1 .content-wrapper').slick({
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        prevArrow: ".prev-btn",
+        nextArrow: ".next-btn",
+
+        // autoplay: true,
+        // autoplaySpeed: 2000,
+
     });
-
-    $(".slide2 .next-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide2", .20, {autoAlpha: 0})
-            .to(".section1 .slide2", 0, {display: "none"})
-            .to(".section1 .slide3", .20, {display: "block", autoAlpha: 1});
+    $('.section6 .content-mob').slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        speed: 300,
+        centerMode: true,
+        slidesToShow: 1,
     });
-
-    $(".slide2 .prev-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide2", .20, {autoAlpha: 0})
-            .to(".section1 .slide2", 0, {display: "none"})
-            .to(".section1 .slide1", .20, {display: "block", autoAlpha: 1});
-    })
-
-    $(".slide3 .next-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide3", .20, {autoAlpha: 0})
-            .to(".section1 .slide3", 0, {display: "none"})
-            .to(".section1 .slide4", .20, {display: "block", autoAlpha: 1});
+    $('.section8 .content-mob').slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        speed: 300,
+        centerMode: true,
+        slidesToShow: 1,
     });
-
-    $(".slide3 .prev-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide3", .20, {autoAlpha: 0})
-            .to(".section1 .slide3", 0, {display: "none"})
-            .to(".section1 .slide2", .20, {display: "block", autoAlpha: 1});
-    });
-
-    $(".slide4 .next-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide4", .20, {autoAlpha: 0})
-            .to(".section1 .slide4", 0, {display: "none"})
-            .to(".section1 .slide5", .20, {display: "block", autoAlpha: 1});
-    });
-
-    $(".slide4 .prev-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide4", .20, {autoAlpha: 0})
-            .to(".section1 .slide4", 0, {display: "none"})
-            .to(".section1 .slide3", .20, {display: "block", autoAlpha: 1});
-    })
-
-    $(".slide5 .next-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide5", .20, {autoAlpha: 0})
-            .to(".section1 .slide5", 0, {display: "none"})
-            .to(".section1 .slide6", .20, {display: "block", autoAlpha: 1});
-    });
-
-    $(".slide5 .prev-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide5", .20, {autoAlpha: 0})
-            .to(".section1 .slide5", 0, {display: "none"})
-            .to(".section1 .slide4", .20, {display: "block", autoAlpha: 1});
-    })
-
-    $(".slide6 .next-btn").on("click", function () {
-        let myTl = new TimelineMax();
-        myTl
-            .to(".section1 .slide6", .20, {autoAlpha: 0})
-            .to(".section1 .slide6", 0, {display: "none"})
-            .to(".section1 .slide1", .20, {display: "block", autoAlpha: 1});
+    $('.section10 .content-mob').slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        speed: 300,
+        centerMode: true,
+        slidesToShow: 1,
     });
 
 });
