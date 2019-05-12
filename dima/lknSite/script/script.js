@@ -60,5 +60,19 @@ $(document).ready(function () {
         slidesToShow: 1,
     });
 
+    $(".mobile-menu_btn").on("click", function () {
+        TweenMax.to(".menu-mobile", 0.5, {display: "flex", autoAlpha: 1})
+        $("body").addClass("openMenu");
+    });
+
+    $(".close-btn").on("click", function () {
+        TweenMax.to(".menu-mobile", 0.5, {display: "none", autoAlpha: 0})
+        $("body").removeClass("openMenu");
+    });
+
+    $(".to-top-btn").on("click", function () {
+        $('html,body').animate({scrollTop: 0}, 'slow');
+        return false;
+    })
 });
 
