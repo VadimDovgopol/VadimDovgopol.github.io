@@ -896,6 +896,7 @@
       justify-content: center;
       align-self: center;
       cursor: pointer;
+      user-select: none;
 
       @media screen and (max-width: 500px) {
         margin-top: 40px;
