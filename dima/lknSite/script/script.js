@@ -19,6 +19,11 @@ $(document).ready(function () {
         trigger = false;
     }
 
+    $(".bottom-text").on("click", function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".section11").offset().top
+        }, 2000);
+    });
 
     $(".email").on("click", function () {
         $(".input-item").addClass("active")
@@ -35,6 +40,7 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
 
     });
+
     $('.section6 .content-mob').slick({
         dots: true,
         arrows: false,
@@ -42,6 +48,8 @@ $(document).ready(function () {
         speed: 300,
         centerMode: true,
         slidesToShow: 1,
+        centerPadding: '30px',
+        // variableWidth: true
     });
     $('.section8 .content-mob').slick({
         dots: true,
@@ -50,6 +58,8 @@ $(document).ready(function () {
         speed: 300,
         centerMode: true,
         slidesToShow: 1,
+        centerPadding: '30px',
+        // variableWidth: true
     });
     $('.section10 .content-mob').slick({
         dots: true,
@@ -58,7 +68,43 @@ $(document).ready(function () {
         speed: 300,
         centerMode: true,
         slidesToShow: 1,
+        centerPadding: '30px',
+        // variableWidth: true
     });
+
+    $(".slick-arrow").on("click", function () {
+        $('.section1 .content-wrapper').slick('slickPause');
+    });
+
+    $('.section1 .content-wrapper').on('swipe', function (event, slick, direction) {
+        $('.section1 .content-wrapper').slick('slickPause');
+    });
+
+    $(".nav1").on("click", function () {
+        $('.section1 .content-wrapper').slick('slickPause');
+        $('.section1 .content-wrapper')[0].slick.slickGoTo(0);
+    });
+    $(".nav2").on("click", function () {
+        $('.section1 .content-wrapper').slick('slickPause');
+        $('.section1 .content-wrapper')[0].slick.slickGoTo(1);
+    });
+    $(".nav3").on("click", function () {
+        $('.section1 .content-wrapper').slick('slickPause');
+        $('.section1 .content-wrapper')[0].slick.slickGoTo(2);
+    });
+    $(".nav4").on("click", function () {
+        $('.section1 .content-wrapper').slick('slickPause');
+        $('.section1 .content-wrapper')[0].slick.slickGoTo(3);
+    });
+    $(".nav5").on("click", function () {
+        $('.section1 .content-wrapper').slick('slickPause');
+        $('.section1 .content-wrapper')[0].slick.slickGoTo(4);
+    });
+    $(".nav6").on("click", function () {
+        $('.section1 .content-wrapper').slick('slickPause');
+        $('.section1 .content-wrapper')[0].slick.slickGoTo(5);
+    });
+
 
     $(".mobile-menu_btn").on("click", function () {
         TweenMax.to(".menu-mobile", 0.5, {display: "flex", autoAlpha: 1})
@@ -74,5 +120,23 @@ $(document).ready(function () {
         $('html,body').animate({scrollTop: 0}, 'slow');
         return false;
     })
+
+    window.onscroll = function () {
+        let scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrolled >= 200) {
+            $(".header-wrapper").removeClass("static")
+        } else {
+            $(".header-wrapper").addClass("static")
+        }
+
+        if (scrolled >= 500) {
+            $(".section1").addClass("active")
+            $(".header-wrapper").addClass("active")
+        } else {
+            $(".header-wrapper").removeClass("active")
+            $(".section1").removeClass("active")
+        }
+    }
 });
 

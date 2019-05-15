@@ -27,12 +27,23 @@
 
   .header-wrapper {
     z-index: 20;
-    box-shadow: 0 2px 12px 0 rgba(231, 240, 246, 1);
+
     background: white;
-    position: fixed;
     width: 100%;
-    left: 0;
-    top: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    &.static {
+      opacity: 1;
+    }
+
+    &.active {
+      opacity: 0.95;
+      box-shadow: 0 2px 12px 0 rgba(231, 240, 246, 0.85);
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
 
     @media screen and (max-width: 830px) {
       display: none;
@@ -137,7 +148,10 @@
   }
 
   .section1 {
-    margin-top: 92px;
+    &.active {
+      margin-top: 92px;
+    }
+
     @media screen and (max-width: 830px) {
       margin-top: 0;
     }
@@ -159,10 +173,23 @@
 
         transition: all 0.5s ease;
 
+        .tablet {
+          display: none;
+
+          min-height: 350px;
+          max-height: 350px;
+          height: 100%;
+          width: 100%;
+
+          @media screen and (max-width: 830px) {
+            display: flex;
+          }
+        }
+
         @media screen and (max-width: 830px) {
           padding: 0;
           display: flex !important;
-          align-items: flex-end;
+          min-height: 1px;
         }
 
         .text-wrapper {
@@ -183,8 +210,12 @@
             min-height: 500px;
           }
 
+          @media screen and (max-width: 830px) {
+            min-height: 1px;
+          }
+
           @media screen and (max-width: 500px) {
-            padding: 0 10px;
+            padding: 0;
           }
 
           .text-item {
@@ -204,6 +235,7 @@
             }
 
             @media screen and (max-width: 830px) {
+              min-height: 1px;
               max-width: 830px;
               justify-content: flex-end;
             }
@@ -242,11 +274,12 @@
 
             .h1-title {
 
-              line-height: 1.3em;
               color: #212121;
               font-family: $fontM_M;
-              font-size: 54px;
               margin-bottom: 20px;
+              font-size: 36px;
+              letter-spacing: 0;
+              line-height: 48px;
 
               @media screen and (max-width: 1024px) {
                 font-size: 36px;
@@ -259,14 +292,17 @@
 
               @media screen and (max-width: 500px) {
                 font-size: 28px;
+                padding: 0 10px;
               }
             }
 
             .reg-text {
-              line-height: 1.3em;
+              font-size: 18px;
               color: #212121;
+              letter-spacing: 0;
+              line-height: 30px;
+
               font-family: $fontM_R;
-              font-size: 20px;
 
               @media screen and (max-width: 1024px) {
                 font-size: 18px;
@@ -278,6 +314,7 @@
               }
 
               @media screen and (max-width: 500px) {
+                padding: 0 10px;
                 font-size: 14px;
               }
             }
@@ -328,18 +365,25 @@
         background: url("../../img/stage1.png") no-repeat right center;
         background-size: contain;
 
+        @media screen and (max-width: 1620px) {
+          background-size: 50%;
+        }
+
         @media screen and (max-width: 1420px) {
           background-size: 60%;
         }
 
         @media screen and (max-width: 830px) {
-          background: url("../../img/stage1_m.png") no-repeat top center;
-          background-size: 65%;
+          background: none;
         }
 
-        @media screen and (max-width: 500px) {
-          background: url("../../img/stage1.png") no-repeat top right;
-          background-size: 110%;
+        .tablet {
+          background: url("../../img/stage1_m.png") no-repeat center bottom;
+          background-size: contain;
+          @media screen and (max-width: 500px) {
+            background: url("../../img/stage1.png") no-repeat center bottom;
+            background-size: 100%;
+          }
         }
 
         .btn-wrapper {
@@ -357,18 +401,29 @@
         background: url("../../img/stage2.png") no-repeat right center;
         background-size: contain;
 
+        @media screen and (max-width: 1620px) {
+          background-size: 45%;
+        }
+
+
         @media screen and (max-width: 1420px) {
           background-size: 40%;
         }
-
-        @media screen and (max-width: 830px) {
-          background: url("../../img/stage2_m.png") no-repeat top center;
-          background-size: 65%;
+        @media screen and (max-width: 1024px) {
+          background-size: 50%;
         }
 
-        @media screen and (max-width: 500px) {
-          background: url("../../img/stage2.png") no-repeat top right;
-          background-size: 90%;
+        @media screen and (max-width: 830px) {
+          background: none;
+        }
+
+        .tablet {
+          background: url("../../img/stage2_m.png") no-repeat center bottom;
+          background-size: contain;
+          @media screen and (max-width: 500px) {
+            background: url("../../img/stage2.png") no-repeat center bottom;
+            background-size: 100%;
+          }
         }
 
         .btn-wrapper {
@@ -411,19 +466,30 @@
         background: url("../../img/stage3.png") no-repeat right center;
         background-size: contain;
 
+        .tablet {
+          background: url("../../img/stage3_m.png") no-repeat center bottom;
+          background-size: contain;
+          @media screen and (max-width: 500px) {
+            background: url("../../img/stage3.png") no-repeat center bottom;
+            background-size: 100%;
+          }
+        }
+
+
+        @media screen and (max-width: 1620px) {
+          background-size: 50%;
+        }
 
         @media screen and (max-width: 1420px) {
           background-size: 40%;
         }
 
-        @media screen and (max-width: 830px) {
-          background: url("../../img/stage3_m.png") no-repeat top center;
-          background-size: 60%;
+        @media screen and (max-width: 1024px) {
+          background-size: 50%;
         }
 
-        @media screen and (max-width: 500px) {
-          background: url("../../img/stage3.png") no-repeat top right;
-          background-size: 95%;
+        @media screen and (max-width: 830px) {
+          background: none;
         }
 
         .btn-wrapper {
@@ -466,19 +532,32 @@
         background: url("../../img/stage4.png") no-repeat right center;
         background-size: contain;
 
+
+        @media screen and (max-width: 1620px) {
+          background-size: 50%;
+        }
+
         @media screen and (max-width: 1420px) {
           background-size: 40%;
         }
 
-        @media screen and (max-width: 830px) {
-          background: url("../../img/stage4_m.png") no-repeat top center;
-          background-size: 65%;
+        @media screen and (max-width: 1024px) {
+          background-size: 50%;
         }
 
-        @media screen and (max-width: 500px) {
-          background: url("../../img/stage4.png") no-repeat top right;
-          background-size: 90%;
+        @media screen and (max-width: 830px) {
+          background: none;
         }
+
+        .tablet {
+          background: url("../../img/stage4_m.png") no-repeat center bottom;
+          background-size: contain;
+          @media screen and (max-width: 500px) {
+            background: url("../../img/stage4.png") no-repeat center bottom;
+            background-size: 100%;
+          }
+        }
+
 
         .btn-wrapper {
           display: flex;
@@ -520,18 +599,31 @@
         background: url("../../img/stage5.png") no-repeat right center;
         background-size: contain;
 
+
+        @media screen and (max-width: 1620px) {
+          background-size: 50%;
+
+        }
+
         @media screen and (max-width: 1420px) {
           background-size: 44%;
         }
 
-        @media screen and (max-width: 830px) {
-          background: url("../../img/stage5_m.png") no-repeat top center;
-          background-size: 65%;
+        @media screen and (max-width: 1024px) {
+          background-size: 50%;
         }
 
-        @media screen and (max-width: 500px) {
-          background: url("../../img/stage5.png") no-repeat top right;
-          background-size: 85%;
+        @media screen and (max-width: 830px) {
+          background: none;
+        }
+
+        .tablet {
+          background: url("../../img/stage5_m.png") no-repeat center bottom;
+          background-size: contain;
+          @media screen and (max-width: 500px) {
+            background: url("../../img/stage5.png") no-repeat center bottom;
+            background-size: 100%;
+          }
         }
 
         .btn-wrapper {
@@ -573,21 +665,30 @@
         background: url("../../img/stage6.png") no-repeat right center;
         background-size: contain;
 
+        .tablet {
+          background: url("../../img/stage6_m.png") no-repeat center bottom;
+          background-size: contain;
+          @media screen and (max-width: 500px) {
+            background: url("../../img/stage6.png") no-repeat center bottom;
+            background-size: 100%;
+          }
+        }
+
+        @media screen and (max-width: 1620px) {
+          background-size: 50%;
+
+        }
+
         @media screen and (max-width: 1420px) {
           background-size: 40%;
         }
 
-        @media screen and (max-width: 830px) {
-          background: url("../../img/stage6_m.png") no-repeat top center;
-          background-size: 55%;
+        @media screen and (max-width: 1024px) {
+          background-size: 50%;
         }
 
-        @media screen and (max-width: 500px) {
-          background: url("../../img/stage6.png") no-repeat top right;
-          background-size: 80%;
-        }
-        @media screen and (max-width: 330px) {
-          background-size: 95%;
+        @media screen and (max-width: 830px) {
+          background: none;
         }
 
         .btn-wrapper {
@@ -794,6 +895,7 @@
       align-items: center;
       justify-content: center;
       align-self: center;
+      cursor: pointer;
 
       @media screen and (max-width: 500px) {
         margin-top: 40px;
@@ -807,6 +909,17 @@
         padding-left: 15px;
         @media screen and (max-width: 500px) {
           font-size: 15px;
+        }
+      }
+
+      svg {
+        transition: transform 0.2s ease;
+
+      }
+
+      &:hover {
+        svg {
+          transform: scale(1.2);
         }
       }
     }
@@ -1777,7 +1890,7 @@
 
     @media screen and (max-width: 830px) {
       margin-top: -100px;
-      padding-top: 100px;
+      padding-top: 120px;
       min-height: 1px;
     }
 
@@ -2178,7 +2291,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -350px;
+    margin-top: -330px;
 
     @media screen and (max-width: 900px) {
       margin-top: -100px;
@@ -2231,6 +2344,7 @@
           }
 
           .item {
+
             height: 350px;
             display: flex !important;
             flex-direction: column;
