@@ -19,6 +19,25 @@ $(document).ready(function () {
         trigger = false;
     }
 
+    $(window).bind('scroll', function (e) {
+        parallaxScroll();
+    });
+
+    function parallaxScroll() {
+        var scrolled = $(window).scrollTop();
+        $('.section3 .paralax1').css('top', (300 - (scrolled * .6)) + 'px');
+        $('.section3 .paralax2').css('top', (0 - (scrolled * .1)) + 'px');
+
+        $('.section5 .paralax').css('top', (1200 - (scrolled * .4)) + 'px');
+        $('.section6 .paralax').css('top', (500 - (scrolled * .2)) + 'px');
+        $('.section7 .paralax').css('top', (1400 - (scrolled * .4)) + 'px');
+        $('.section8 .paralax').css('top', (900 - (scrolled * .2)) + 'px');
+        $('.section9 .paralax').css('top', (1000 - (scrolled * .2)) + 'px');
+        $('.section10 .paralax').css('top', (1050 - (scrolled * .2)) + 'px');
+        $('.section11 .paralax').css('top', (1200 - (scrolled * .2)) + 'px');
+        $('.section14 .paralax').css('top', (1420 - (scrolled * .2)) + 'px');
+    }
+
     $(".bottom-text").on("click", function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".section11").offset().top
