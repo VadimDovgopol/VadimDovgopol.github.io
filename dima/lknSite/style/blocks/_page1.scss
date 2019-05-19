@@ -720,6 +720,7 @@
     }
 
     .h2-title {
+      text-transform: uppercase;
       text-align: center;
       font-size: 16px;
       font-family: $fontM_SB;
@@ -937,7 +938,7 @@
 
     .paralax1 {
       background: url("../../img/bg-section3.svg") right -700px no-repeat;
-      background-size: 70% 100%;
+      background-size: 50% 130%;
       z-index: -1;
       width: 100%;
       position: absolute;
@@ -949,7 +950,7 @@
 
     .paralax2 {
       background: url("../../img/bg-section3_2.svg") right -550px no-repeat;
-      background-size: 70% 100%;
+      background-size: 50% 130%;
       z-index: -2;
       width: 100%;
       position: absolute;

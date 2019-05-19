@@ -950,6 +950,7 @@ body.mobile * {
         margin: 50px 0 0 0;
         padding: 0 10px; } }
     .main-wrapper .section2 .h2-title {
+      text-transform: uppercase;
       text-align: center;
       font-size: 16px;
       font-family: "Montserrat-SemiBold";
@@ -1107,7 +1108,7 @@ body.mobile * {
     background: #0064aa; }
     .main-wrapper .section3 .paralax1 {
       background: url("../../img/bg-section3.svg") right -700px no-repeat;
-      background-size: 70% 100%;
+      background-size: 50% 130%;
       z-index: -1;
       width: 100%;
       position: absolute;
@@ -1117,7 +1118,7 @@ body.mobile * {
       min-height: 1800px; }
     .main-wrapper .section3 .paralax2 {
       background: url("../../img/bg-section3_2.svg") right -550px no-repeat;
-      background-size: 70% 100%;
+      background-size: 50% 130%;
       z-index: -2;
       width: 100%;
       position: absolute;
@@ -2871,5 +2872,72 @@ body {
       color: white;
       font-size: 14px;
       font-family: "Roboto-Regular"; }
+
+.page2_section1 {
+  padding-left: 20%;
+  margin: 100px 0 90px 0; }
+  .page2_section1 .h1-title {
+    color: #212121;
+    font-size: 54px;
+    font-family: "Montserrat-Medium"; }
+
+.page2_section2 {
+  padding-left: 20%; }
+  .page2_section2 .h2-title {
+    margin-bottom: 40px;
+    color: #0064aa;
+    font-family: "Montserrat-Regular";
+    font-size: 32px; }
+  .page2_section2 .par {
+    color: #212121;
+    font-size: 14px;
+    font-family: "Roboto-Light";
+    max-width: 630px;
+    width: 100%;
+    margin-bottom: 30px;
+    line-height: 1.5em; }
+    .page2_section2 .par a {
+      color: #0064aa;
+      text-decoration: none; }
+
+.page2_section3 {
+  padding-left: 20%;
+  margin-top: 40px; }
+  .page2_section3 .h2-title {
+    color: #0064aa;
+    font-size: 32px;
+    font-family: "Montserrat-Regular";
+    margin-bottom: 40px; }
+  .page2_section3 .par {
+    color: #212121;
+    font-size: 14px;
+    font-family: "Roboto-Light";
+    max-width: 630px;
+    width: 100%;
+    margin-bottom: 30px;
+    line-height: 1.5em; }
+    .page2_section3 .par a {
+      color: #0064aa;
+      text-decoration: none; }
+
+.page2_section4 {
+  padding-left: 20%;
+  margin-top: 40px; }
+  .page2_section4 .h2-title {
+    color: #0064aa;
+    font-size: 32px;
+    font-family: "Montserrat-Regular";
+    margin-bottom: 40px; }
+  .page2_section4 .par {
+    color: #212121;
+    font-size: 14px;
+    font-family: "Roboto-Light";
+    max-width: 630px;
+    width: 100%;
+    margin-bottom: 30px;
+    line-height: 1.5em; }
+    .page2_section4 .par a {
+      color: #0064aa;
+      text-decoration: none; }
 
 /*# sourceMappingURL=common.css.map */

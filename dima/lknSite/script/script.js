@@ -25,8 +25,8 @@ $(document).ready(function () {
 
     function parallaxScroll() {
         var scrolled = $(window).scrollTop();
-        $('.section3 .paralax1').css('top', (300 - (scrolled * .6)) + 'px');
-        $('.section3 .paralax2').css('top', (0 - (scrolled * .1)) + 'px');
+        $('.section3 .paralax1').css('top', (0 - (scrolled * .3)) + 'px');
+        $('.section3 .paralax2').css('top', (0 - (scrolled * .4)) + 'px');
 
         $('.section5 .paralax').css('top', (1200 - (scrolled * .4)) + 'px');
         $('.section6 .paralax').css('top', (500 - (scrolled * .2)) + 'px');
