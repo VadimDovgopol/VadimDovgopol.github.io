@@ -1,23 +1,52 @@
 .page2_section1 {
   padding-left: 20%;
   margin: 100px 0 90px 0;
+  padding-right: 15px;
+  @media screen and (max-width: 1440px) {
+    padding-left: 10%;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 100px 0 45px 0;
+    padding: 0 15px;
+  }
 
   .h1-title {
     color: #212121;
     font-size: 54px;
     font-family: $fontM_M;
-  }
 
+    @media screen and (max-width: 600px) {
+      font-size: 32px;
+    }
+  }
 }
 
 .page2_section2 {
   padding-left: 20%;
+  padding-right: 15px;
+  @media screen and (max-width: 1440px) {
+    padding-left: 10%;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0 15px;
+  }
 
   .h2-title {
+    line-height: 1.3em;
     margin-bottom: 40px;
     color: #0064aa;
     font-family: $fontM_R;
     font-size: 32px;
+
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+      margin-bottom: 20px;
+
+    }
   }
 
   .par {
@@ -39,12 +68,27 @@
 .page2_section3 {
   padding-left: 20%;
   margin-top: 40px;
+  padding-right: 15px;
+  @media screen and (max-width: 1440px) {
+    padding-left: 10%;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0 15px;
+  }
 
   .h2-title {
+    line-height: 1.3em;
     color: #0064aa;
     font-size: 32px;
     font-family: $fontM_R;
     margin-bottom: 40px;
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+      margin-bottom: 20px;
+
+    }
   }
 
   .par {
@@ -65,13 +109,33 @@
 
 .page2_section4 {
   padding-left: 20%;
+  padding-right: 15px;
   margin-top: 40px;
 
+  @media screen and (max-width: 1440px) {
+    padding-left: 10%;
+
+  }
+
+  @media screen and (max-width: 760px) {
+    padding: 0 15px 50px 10%;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0 15px 50px 15px;
+  }
+
   .h2-title {
+    line-height: 1.3em;
     color: #0064aa;
     font-size: 32px;
     font-family: $fontM_R;
     margin-bottom: 40px;
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+      margin-bottom: 20px;
+
+    }
   }
 
   .par {
