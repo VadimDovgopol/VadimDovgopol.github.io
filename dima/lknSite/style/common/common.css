@@ -387,6 +387,7 @@ body.mobile * {
           font-size: 14px;
           color: white; }
         .main-wrapper .header-wrapper .right-links .create-btn:hover {
+          text-decoration: none;
           background-image: none;
           background-color: #00beff;
           box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45); }
@@ -2989,5 +2990,132 @@ body {
     .page2_section4 .par a {
       color: #0064aa;
       text-decoration: none; }
+
+.page3 {
+  padding-bottom: 100px;
+  min-height: 100vh;
+  position: relative; }
+  .page3 .page3-parallax {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../img/us-bg.svg") no-repeat center;
+    background-size: 100%; }
+  .page3 .content-wrapper {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+    padding-left: 20%;
+    padding-right: 15px; }
+    @media screen and (max-width: 1440px) {
+      .page3 .content-wrapper {
+        padding-left: 10%; } }
+    @media screen and (max-width: 950px) {
+      .page3 .content-wrapper {
+        padding: 0 15px 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+    .page3 .content-wrapper .h1-title {
+      color: #212121;
+      font-size: 54px;
+      font-family: "Montserrat-Medium"; }
+      @media screen and (max-width: 500px) {
+        .page3 .content-wrapper .h1-title {
+          font-size: 32px; } }
+    .page3 .content-wrapper .reg-text {
+      margin-top: 20px;
+      color: #212121;
+      font-size: 20px;
+      font-family: "Montserrat-Regular";
+      max-width: 725px;
+      line-height: 1.3em; }
+      .page3 .content-wrapper .reg-text span {
+        color: #0064aa; }
+      @media screen and (max-width: 500px) {
+        .page3 .content-wrapper .reg-text {
+          font-size: 16px; } }
+    .page3 .content-wrapper .form-block {
+      margin-top: 60px;
+      max-width: 725px;
+      width: 100%;
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 18px 34px 0 rgba(5, 48, 95, 0.32);
+      padding: 60px 60px 20px 60px; }
+      @media screen and (max-width: 500px) {
+        .page3 .content-wrapper .form-block {
+          padding: 20px 20px 10px 20px; } }
+      .page3 .content-wrapper .form-block .h2-title {
+        color: #0064aa;
+        font-family: "Montserrat-Regular";
+        font-size: 32px; }
+        @media screen and (max-width: 500px) {
+          .page3 .content-wrapper .form-block .h2-title {
+            font-size: 20px; } }
+      .page3 .content-wrapper .form-block form {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column; }
+        @media screen and (max-width: 500px) {
+          .page3 .content-wrapper .form-block form {
+            margin-top: 25px; } }
+        .page3 .content-wrapper .form-block form .input {
+          margin-bottom: 10px;
+          width: 100%;
+          height: 50px;
+          padding: 10px;
+          border: 1px solid #c8cfd8;
+          border-radius: 5px;
+          color: #8c9aa7;
+          font-size: 16px;
+          font-family: "Roboto-Regular"; }
+          .page3 .content-wrapper .form-block form .input::placeholder {
+            color: #8c9aa7;
+            font-size: 16px;
+            font-family: "Roboto-Regular"; }
+            @media screen and (max-width: 500px) {
+              .page3 .content-wrapper .form-block form .input::placeholder {
+                font-size: 14px; } }
+          @media screen and (max-width: 500px) {
+            .page3 .content-wrapper .form-block form .input {
+              font-size: 14px; } }
+        .page3 .content-wrapper .form-block form textarea {
+          min-height: 211px; }
+        .page3 .content-wrapper .form-block form .bottom-btn {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 10px; }
+          @media screen and (max-width: 500px) {
+            .page3 .content-wrapper .form-block form .bottom-btn {
+              flex-direction: column; } }
+          .page3 .content-wrapper .form-block form .bottom-btn p {
+            order: 2;
+            color: #595f63;
+            font-family: "Roboto-Light";
+            font-size: 14px; }
+            @media screen and (max-width: 500px) {
+              .page3 .content-wrapper .form-block form .bottom-btn p {
+                margin-top: 20px; } }
+          .page3 .content-wrapper .form-block form .bottom-btn .submit-btn {
+            outline: none;
+            cursor: pointer;
+            border: none;
+            border-radius: 22px;
+            background-image: linear-gradient(0deg, #0064aa -50%, #00beff 100%);
+            box-shadow: 0 9px 34px 0 rgba(5, 48, 95, 0.32);
+            width: 230px;
+            height: 44px;
+            color: #ffffff;
+            font-size: 14px;
+            font-family: "Roboto-Medium"; }
+            .page3 .content-wrapper .form-block form .bottom-btn .submit-btn:hover {
+              background-image: none;
+              background-color: #00beff;
+              box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45); }
 
 /*# sourceMappingURL=common.css.map */
