@@ -169,7 +169,7 @@
         width: 100%;
         padding: 70px 0;
 
-        min-height: 630px;
+        min-height: 500px;
         height: 100%;
 
         transition: all 0.5s ease;
@@ -198,7 +198,7 @@
           width: 100%;
           margin: 0 auto;
 
-          min-height: 630px;
+          min-height: 500px;
           height: 100%;
 
           @media screen and (max-width: 1180px) {
@@ -208,7 +208,7 @@
           }
 
           @media screen and (max-width: 1024px) {
-            min-height: 500px;
+            min-height: 570px;
           }
 
           @media screen and (max-width: 830px) {
@@ -223,7 +223,7 @@
             max-width: 535px;
             width: 100%;
 
-            min-height: 630px;
+            min-height: 500px;
             height: 100%;
 
             display: flex;
@@ -231,7 +231,7 @@
             justify-content: flex-start;
 
             @media screen and (max-width: 1024px) {
-              min-height: 500px;
+              min-height: 550px;
               max-width: 400px;
             }
 
@@ -274,7 +274,7 @@
             }
 
             .h1-title {
-
+              max-width: 340px;
               color: #212121;
               font-family: $fontM_M;
               margin-bottom: 20px;
@@ -289,6 +289,7 @@
 
               @media screen and (max-width: 830px) {
                 text-align: center;
+                max-width: 830px;
               }
 
               @media screen and (max-width: 500px) {
@@ -707,9 +708,11 @@
   }
 
   .section2 {
-    max-width: 1100px;
+    position: relative;
     width: 100%;
-    margin: 50px auto 0 auto;
+    margin: -70px auto 0 auto;
+    padding: 100px;
+
 
     @media screen and (max-width: 1180px) {
       margin: 50px 0 0 0;
@@ -718,6 +721,17 @@
     @media screen and (max-width: 500px) {
       margin: 50px 0 0 0;
       padding: 0 10px;
+    }
+
+    .paralax1 {
+      background: url("../../img/bg-section7.svg") right top no-repeat;
+      background-size: 100%;
+      z-index: -1;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
     }
 
     .h2-title {
@@ -732,10 +746,12 @@
     }
 
     .card-wrapper {
+      max-width: 1100px;
+      margin: 50px auto 0 auto;
+
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin-top: 50px;
 
       @media screen and (max-width: 950px) {
         flex-direction: column;
@@ -1336,7 +1352,8 @@
           color: #0064aa;
           font-family: $fontM_SB;
           font-size: 16px;
-          margin-bottom: 30px;
+          margin-bottom: 40px;
+          text-transform: uppercase;
 
           @media screen and (max-width: 500px) {
             font-size: 12px;
@@ -1858,7 +1875,8 @@
           color: #0064aa;
           font-family: $fontM_SB;
           font-size: 16px;
-          margin-bottom: 30px;
+          margin-bottom: 40px;
+          text-transform: uppercase;
 
           @media screen and (max-width: 500px) {
             font-size: 12px;
@@ -2319,7 +2337,8 @@
           color: #0064aa;
           font-family: $fontM_SB;
           font-size: 16px;
-          margin-bottom: 30px;
+          margin-bottom: 40px;
+          text-transform: uppercase;
 
           @media screen and (max-width: 500px) {
             font-size: 12px;
