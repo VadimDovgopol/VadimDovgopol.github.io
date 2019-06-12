@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b46a3f67-6310-43e6-b3c7-583b01b484d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/PlayfairDisplay-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/fonts/Poppins-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/img/first/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/script/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/script/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/script/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/144ca730c0add68caf679f9244096bf54f755ca5/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_fonts.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_main.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_reset.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/d98d21e2a5e4b2fb1eff915f58682fbef6e9e708/_vars.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/.sass-cache/dca2d1c242c2438e0f7764b2ec5c8a343c672bcb/_page1.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/.sass-cache/ef75e5778e3beb3d6689794354c5fd6eaf124b1d/main.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/basic/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/event-page.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/blocks/.sass-cache/45dcc1d867b9eec3b9fe4442c075b914cdc51217/quote-of-the-day.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/blocks/_page1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/common.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dima/lknSite/style/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,10 +41,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="2576" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -88,6 +56,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +79,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,12 +460,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16296000" />
+    <option name="totallyTimeSpent" value="16998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21276596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
