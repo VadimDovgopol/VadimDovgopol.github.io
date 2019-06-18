@@ -1,6 +1,30 @@
 .night-mode {
   background-color: #282828;
 
+  .article-info-links {
+    background: #1f1f1f !important;
+
+    .visible-part {
+      svg {
+        path {
+          fill: white !important;
+        }
+      }
+    }
+
+    .hide-part {
+      li {
+        color: white !important;
+
+        span {
+          a {
+            border-color: rgba(190, 190, 190, 0.5) !important;
+          }
+        }
+      }
+    }
+  }
+
   .global-announcement {
     background: #282828 !important;
   }
@@ -324,6 +348,15 @@
   }
 
   .lang-switcher {
+    .open-drop_block {
+
+      svg {
+        path {
+          fill: white !important;
+        }
+      }
+    }
+
     .open-drop_block {
       color: white !important;
     }
