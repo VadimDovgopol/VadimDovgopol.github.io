@@ -41,7 +41,23 @@ $(document).ready(function () {
     $(".bottom-text").on("click", function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".section11").offset().top
-        }, 2000);
+        }, 1500);
+    });
+
+    $(".card-wrapper .left, .footer .col2 .app").on("click", function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".section5").offset().top
+        }, 1500);
+    });
+    $(".card-wrapper .middle, .footer .col2 .trade").on("click", function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".section7").offset().top
+        }, 1500);
+    });
+    $(".card-wrapper .right, .footer .col2 .exchange").on("click", function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".section9").offset().top
+        }, 1500);
     });
 
     $(".email").on("click", function () {
@@ -56,7 +72,7 @@ $(document).ready(function () {
         nextArrow: ".next-btn",
 
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 6000,
 
     });
 
@@ -149,7 +165,7 @@ $(document).ready(function () {
             $(".header-wrapper").addClass("static")
         }
 
-        if (scrolled >= 500) {
+        if (scrolled >= 200) {
             $(".section1").addClass("active")
             $(".header-wrapper").addClass("active")
         } else {

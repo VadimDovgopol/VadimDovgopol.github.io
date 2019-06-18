@@ -1,0 +1,116 @@
+.page-not-found {
+  min-height: 100vh;
+  height: 100%;
+  background: url("../../img/bg-section14.svg") no-repeat center bottom;
+  background-size: 100%;
+
+  .footer {
+    margin-top: auto;
+    background: white;
+
+    .content-wrapper {
+      .bottom {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .main-content-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto 0 auto 0;
+    padding: 0 45px;
+
+    @media screen and (max-width: 830px) {
+      padding: 0 15px;
+      flex-direction: column;
+      align-items: center;
+      margin: 70px 0 40px 0;
+
+    }
+
+    .right {
+
+      max-width: 462px;
+      width: 100%;
+      margin-right: 100px;
+      display: flex;
+      justify-content: center;
+      @media screen and (max-width: 1024px) {
+        margin-right: 60px;
+      }
+      @media screen and (max-width: 830px) {
+        margin-right: 0;
+      }
+
+      img {
+        display: flex;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .left {
+      max-width: 480px;
+      width: 100%;
+
+      @media screen and (max-width: 830px) {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .h2-title {
+        color: #3864a6;
+        font-family: $fontM_SB;
+        font-size: 16px;
+        @media screen and (max-width: 425px) {
+          font-size: 14px;
+        }
+
+      }
+
+      .h1-title {
+        margin-top: 30px;
+        color: #262626;
+        font-family: $fontM_R;
+        font-size: 40px;
+        @media screen and (max-width: 425px) {
+          font-size: 28px;
+        }
+      }
+
+      .reg-text {
+        margin-top: 20px;
+        color: #262626;
+        font-family: $fontM_M;
+        font-size: 20px;
+        @media screen and (max-width: 830px) {
+          text-align: center;
+        }
+        @media screen and (max-width: 425px) {
+          font-size: 16px;
+        }
+      }
+
+      .home-links {
+        display: block;
+        margin-top: 50px;
+        color: #3864a6;
+        font-family: $fontR_R;
+        font-size: 18px;
+        text-decoration: none;
+        @media screen and (max-width: 425px) {
+          font-size: 14px;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,139 @@
+.about-page {
+  .about-section1 {
+    padding-left: 20%;
+    margin: 100px 0 0 0;
+    padding-right: 15px;
+    @media screen and (max-width: 1440px) {
+      padding-left: 10%;
+
+    }
+
+    @media screen and (max-width: 600px) {
+      margin: 100px 0 45px 0;
+      padding: 0 15px;
+    }
+
+    .h1-title {
+      color: #212121;
+      font-size: 54px;
+      font-family: $fontM_M;
+
+      @media screen and (max-width: 600px) {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .about-section2 {
+    margin-top: 60px;
+    padding-left: 20%;
+    padding-right: 15px;
+
+    @media screen and (max-width: 1440px) {
+      padding-left: 10%;
+    }
+
+    @media screen and (max-width: 600px) {
+      padding: 0 15px;
+    }
+
+
+    .h2-title {
+      font-size: 24px;
+      font-family: $fontR_M;
+      color: #000000;
+    }
+
+    .h3-title {
+      margin-top: 5px;
+      font-size: 24px;
+      font-family: $fontR_L;
+      color: #000000;
+    }
+
+    .reg-text1, .reg-text2 {
+      line-height: 1.3em;
+      color: #212121;
+      font-family: $fontM_R;
+      font-size: 20px;
+      max-width: 725px;
+      width: 100%;
+
+      a {
+        text-decoration: none;
+        color: #0064aa;
+        font-family: $fontM_M;
+      }
+
+      &.reg-text1 {
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+
+      &.reg-text2 {
+        margin-bottom: 50px;
+      }
+    }
+
+    .double-wrapper {
+      max-width: 725px;
+      width: 100%;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      span {
+        line-height: 1.3em;
+        display: flex;
+        color: #0064aa;
+        font-family: $fontM_SB;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
+      p {
+        line-height: 1.3em;
+        max-width: 535px;
+        display: flex;
+        margin-left: 15px;
+        color: #212121;
+        font-family: $fontM_R;
+        font-size: 20px;
+      }
+    }
+
+    .contact-btn {
+      width: 230px;
+      height: 44px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      border-radius: 22px;
+      background-image: linear-gradient(181deg, rgb(0, 100, 170) 0%, rgb(0, 190, 255) 250%);
+
+      box-shadow: 0 9px 34px 0 rgba(5, 48, 95, 0.32);
+      cursor: pointer;
+
+      p {
+        color: #ffffff;
+        font-family: $fontR_M;
+        font-size: 14px;
+      }
+
+      &:hover {
+        background-image: none;
+        background-color: rgb(0, 100, 170);
+        box-shadow: 0px 4px 10px 0px rgba(5, 48, 95, 0.45);
+      }
+    }
+
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+}
